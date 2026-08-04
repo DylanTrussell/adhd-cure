@@ -1,0 +1,15 @@
+{
+  "name": "adhd-cure",
+  "version": "1.0.0",
+  "description": "Action-first output shaping: the recommendation up top, numbered steps with time estimates, one labelled Why block, one small next action.",
+  "author": {
+    "name": "Dylan Trussell"
+  },
+  "license": "MIT",
+  "keywords": [
+    "adhd",
+    "output-style",
+    "productivity",
+    "skills"
+  ]
+}

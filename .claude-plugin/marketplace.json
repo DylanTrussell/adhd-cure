@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "adhd-cure",
+  "description": "Action-first output shaping that keeps the one reason that mattered.",
+  "owner": {
+    "name": "Dylan Trussell"
+  },
+  "plugins": [
+    {
+      "name": "adhd-cure",
+      "description": "Recommendation first, numbered steps with time estimates, one labelled Why block, one small next action.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
