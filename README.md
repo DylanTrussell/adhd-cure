@@ -32,14 +32,14 @@ that needed defending — and puts it after the steps so you can skip it.
 In an interactive Claude Code terminal:
 
 ```
-/plugin marketplace add Dylzon1987/adhd-cure
+/plugin marketplace add dylantrussell/adhd-cure
 /plugin install adhd-cure@adhd-cure
 ```
 
 Or clone it and point at the folder — edit `~/.claude/settings.json`:
 
 ```bash
-git clone https://github.com/Dylzon1987/adhd-cure.git ~/adhd-cure
+git clone https://github.com/dylantrussell/adhd-cure.git ~/adhd-cure
 ```
 
 ```json
