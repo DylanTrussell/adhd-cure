@@ -1,0 +1,17 @@
+{
+  "name": "ai-seo",
+  "version": "0.1.0",
+  "description": "Watch a creator's short-form videos, distill each into a tiered, testable play, and grow one AI SEO playbook you can audit against.",
+  "author": {
+    "name": "Dylan Trussell"
+  },
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "ai-seo",
+    "geo",
+    "aeo",
+    "transcripts",
+    "skills"
+  ]
+}

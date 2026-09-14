@@ -11,6 +11,12 @@
       "description": "Recommendation first, numbered steps with time estimates, one labelled Why block, one small next action.",
       "source": "./",
       "category": "productivity"
+    },
+    {
+      "name": "ai-seo",
+      "description": "Distill a creator's short-form videos into one tiered, testable AI SEO playbook, then audit against it.",
+      "source": "./ai-seo",
+      "category": "seo"
     }
   ]
 }
