@@ -41,9 +41,9 @@ async function buildCtx(request, env, url) {
     ip: clientIp(request),
     voterKey: user ? `u:${user.id}` : `ip:${clientIp(request)}`,
     site: {
-      name: env.SITE_NAME || 'Wittypedia',
+      name: env.SITE_NAME || 'Witipedia',
       tagline: env.SITE_TAGLINE || "It's funny because it's true.",
-      project: env.SITE_NAME || 'Wittypedia',
+      project: env.SITE_NAME || 'Witipedia',
     },
   };
 }

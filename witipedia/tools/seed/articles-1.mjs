@@ -66,7 +66,7 @@ Is this neutral? It reads like a punchline. ~~~
 
 : It reads like a punchline because it is what happened. The operation was withdrawn on 8 November and again on 10 December, and the Minister for Defence was asked in the House whether medals would be issued. I have cited Hansard via Johnson (2006) for both withdrawals. If the neutral phrasing and the funny phrasing are the same sentence, we keep the sentence. [[User:HansardHannah|HansardHannah]] ([[User talk:HansardHannah|talk]]) 09:12, 4 August 2026 (UTC)
 
-:: Agreed, this is exactly the [[Wittypedia:Be funny|"get out of the way of the fact"]] case. Closing. [[User:Ornithopod|Ornithopod]] ([[User talk:Ornithopod|talk]]) 11:40, 4 August 2026 (UTC)
+:: Agreed, this is exactly the [[Witipedia:Be funny|"get out of the way of the fact"]] case. Closing. [[User:Ornithopod|Ornithopod]] ([[User talk:Ornithopod|talk]]) 11:40, 4 August 2026 (UTC)
 
 == Casualty figures ==
 
@@ -196,7 +196,7 @@ The last row is the part of this article that is not funny at all.
 
 Someone tried to remove this line as "editorialising". I think it is the single best line on the site: it is true, it is load-bearing, and it stops the article being a comedy routine about a dying species. Keeping it, but I want it on the record. ~~~
 
-: Agree. [[Wittypedia:Be funny]] point 7 covers exactly this. [[User:CubeWatch|CubeWatch]] ([[User talk:CubeWatch|talk]]) 19:22, 29 August 2026 (UTC)
+: Agree. [[Witipedia:Be funny]] point 7 covers exactly this. [[User:CubeWatch|CubeWatch]] ([[User talk:CubeWatch|talk]]) 19:22, 29 August 2026 (UTC)
 ` },
 },
 ];

@@ -3,7 +3,7 @@
  * Generates seed.sql: users, pages, full revision histories, talk pages and
  * ratings. Run with `npm run seed` (remote) or `npm run seed:local`.
  *
- * SITE_NAME     rename the wiki everywhere (default Wittypedia)
+ * SITE_NAME     rename the wiki everywhere (default Witipedia)
  * ADMIN_PASSWORD  password for the Admin account (random if unset, printed once)
  */
 import { writeFileSync } from 'node:fs';
@@ -13,13 +13,13 @@ import { articles1 } from './seed/articles-1.mjs';
 import { articles2 } from './seed/articles-2.mjs';
 import { projectPages } from './seed/project.mjs';
 
-const SITE = process.env.SITE_NAME || 'Wittypedia';
+const SITE = process.env.SITE_NAME || 'Witipedia';
 const adminPassword = process.env.ADMIN_PASSWORD || randomBytes(9).toString('base64url');
 const NOW = Math.floor(Date.now() / 1000);
 const DAY = 86400;
 
 const q = (s) => `'${String(s).replace(/'/g, "''")}'`;
-const sub = (s) => String(s).replace(/Wittypedia/g, SITE);
+const sub = (s) => String(s).replace(/Witipedia/g, SITE);
 const key = (ns, title) => `${ns}:${title.replace(/ /g, '_')}`;
 
 const EDITORS = [

@@ -17,11 +17,11 @@ const PATHS = [
   '/wiki/Project_Pigeon', '/wiki/Tardigrade', '/wiki/Ig_Nobel_Prize',
   '/wiki/Talk:Great_Emu_War', '/wiki/Talk:Platypus', '/wiki/Talk:Mantis_shrimp',
   '/wiki/Talk:Wombat', '/wiki/Talk:Tardigrade',
-  '/wiki/Wittypedia:About', '/wiki/Wittypedia:Five_pillars', '/wiki/Wittypedia:Be_funny',
-  '/wiki/Wittypedia:Verifiability', '/wiki/Wittypedia:Community_portal',
-  '/wiki/Wittypedia:Requests_for_adminship', '/wiki/Wittypedia:Administrators',
-  '/wiki/Wittypedia:Sandbox', '/wiki/Wittypedia:Talk_pages', '/wiki/Wittypedia:Citing_sources',
-  '/wiki/Wittypedia:Privacy_policy', '/wiki/Wittypedia:General_disclaimer',
+  '/wiki/Witipedia:About', '/wiki/Witipedia:Five_pillars', '/wiki/Witipedia:Be_funny',
+  '/wiki/Witipedia:Verifiability', '/wiki/Witipedia:Community_portal',
+  '/wiki/Witipedia:Requests_for_adminship', '/wiki/Witipedia:Administrators',
+  '/wiki/Witipedia:Sandbox', '/wiki/Witipedia:Talk_pages', '/wiki/Witipedia:Citing_sources',
+  '/wiki/Witipedia:Privacy_policy', '/wiki/Witipedia:General_disclaimer',
   '/wiki/Help:Editing',
   '/wiki/Special:RecentChanges', '/wiki/Special:NewPages', '/wiki/Special:AllPages',
   '/wiki/Special:TopRated', '/wiki/Special:TopRated?axis=helpful', '/wiki/Special:Statistics',
@@ -42,7 +42,7 @@ for (const path of PATHS) {
   const end = html.indexOf('</main>', start);
   if (start === -1 || end === -1) { console.warn('skipped', path, res.status); continue; }
   pages[path] = html.slice(start + '<main class="mw-content-wrap">'.length, end);
-  titles[path] = (/<title>([^<]*)<\/title>/.exec(html) || [, path])[1].replace(/ - Wittypedia$/, '');
+  titles[path] = (/<title>([^<]*)<\/title>/.exec(html) || [, path])[1].replace(/ - Witipedia$/, '');
 }
 console.log(`captured ${Object.keys(pages).length} pages`);
 
@@ -64,7 +64,7 @@ const DEMO_CSS = `
 @keyframes demoIn{from{opacity:0;transform:translate(-50%,6px)}to{opacity:1;transform:translate(-50%,0)}}
 `;
 
-const out = `<title>Wittypedia Preview</title>
+const out = `<title>Witipedia Preview</title>
 <style>${CSS}${DEMO_CSS}</style>
 <div class="demo-bar">
   <span><b>Static preview.</b> Real rendered pages from the wiki engine, with the database frozen.
@@ -110,7 +110,7 @@ ${footer}
 
   function show(path, push){
     main.innerHTML = PAGES[path];
-    document.title = (TITLES[path] || 'Wittypedia') + ' - Wittypedia';
+    document.title = (TITLES[path] || 'Witipedia') + ' - Witipedia';
     window.scrollTo(0, 0);
     bind();
     if (push !== false) history.pushState({ p: path }, '', '#' + path);

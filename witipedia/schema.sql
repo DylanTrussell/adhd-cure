@@ -1,4 +1,4 @@
--- Wittypedia schema. Mirrors the parts of MediaWiki that actually matter:
+-- Witipedia schema. Mirrors the parts of MediaWiki that actually matter:
 -- pages, immutable revisions, users with rights groups, logs, watchlists.
 
 DROP TABLE IF EXISTS ratings;

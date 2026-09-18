@@ -1,4 +1,4 @@
-# Wittypedia
+# Witipedia
 
 A working encyclopedia, built to behave exactly like Wikipedia, with one rule changed:
 **the humour stays, and the facts still have to hold.**
@@ -65,7 +65,7 @@ D1-compatible shim, so what you see locally is what deploys.
 See [DEPLOY.md](DEPLOY.md). Short version:
 
 ```bash
-npx wrangler d1 create wittypedia     # put the returned id in wrangler.toml
+npx wrangler d1 create witipedia     # put the returned id in wrangler.toml
 npm run db:init                       # schema
 npm run seed                          # content + accounts
 npx wrangler deploy
@@ -110,11 +110,10 @@ full-text index (search is `LIKE`-based, which is fine to roughly the 10,000-art
 
 ## On the name
 
-This ships as "Wittypedia" rather than as a Wikipedia lookalike wordmark, because a
-name-and-branding copy on a near-miss domain is trademark infringement against the
-Wikimedia Foundation and would cost you the domain rather than get you readers. The
-software, the layout, the workflow and the culture are the parts worth copying, and they
-are all here. The name is one config value if you decide otherwise.
+Witipedia, at witipedia.co. The name and the logo are its own; everything else about how
+the site works is Wikipedia's, deliberately. That distinction is what keeps the domain:
+copying the workflow is fair game, copying the wordmark on a near-miss domain is trademark
+infringement against the Wikimedia Foundation.
 
 MediaWiki's interface conventions are reimplemented here, not copied: no MediaWiki code or
 assets are included. Text content is CC BY-SA 4.0.

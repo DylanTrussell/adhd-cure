@@ -13,7 +13,7 @@ npx wrangler login
 ## 2. Create the database
 
 ```bash
-npx wrangler d1 create wittypedia
+npx wrangler d1 create witipedia
 ```
 
 Copy the `database_id` it prints into `wrangler.toml`:
@@ -21,7 +21,7 @@ Copy the `database_id` it prints into `wrangler.toml`:
 ```toml
 [[d1_databases]]
 binding = "DB"
-database_name = "wittypedia"
+database_name = "witipedia"
 database_id = "paste-it-here"
 ```
 
@@ -72,7 +72,7 @@ Set in `wrangler.toml` under `[vars]`:
 
 | Variable | Default | Effect |
 |---|---|---|
-| `SITE_NAME` | `Wittypedia` | Wordmark, `Project:` namespace, page titles |
+| `SITE_NAME` | `Witipedia` | Wordmark, `Project:` namespace, page titles |
 | `SITE_TAGLINE` | `It's funny because it's true.` | Under the wordmark |
 | `ANON_EDITING` | `true` | `false` requires an account to edit |
 
@@ -83,7 +83,7 @@ move the pages by hand from `Special:AllPages`.
 ## Backups
 
 ```bash
-npx wrangler d1 export wittypedia --remote --output backup-$(date +%F).sql
+npx wrangler d1 export witipedia --remote --output backup-$(date +%F).sql
 ```
 
 Worth a weekly cron. Deletion is permanent in this build, so the backup is the undelete.

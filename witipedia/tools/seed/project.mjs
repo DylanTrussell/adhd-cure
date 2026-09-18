@@ -1,11 +1,11 @@
-// Project, help and main pages. "Wittypedia" is substituted for SITE_NAME at build time.
+// Project, help and main pages. "Witipedia" is substituted for SITE_NAME at build time.
 
 export const projectPages = [
 { ns: 0, title: 'Main Page', protect: 'sysop', user: 'Admin', daysAgo: 100, comment: 'main page', content: `__NOTOC__
 <div class="mp-box">
-'''Welcome to [[Wittypedia:About|Wittypedia]]''', the free encyclopedia that anyone can edit, in which every joke has to survive a fact-check.
+'''Welcome to [[Witipedia:About|Witipedia]]''', the free encyclopedia that anyone can edit, in which every joke has to survive a fact-check.
 
-Everything here works the way an encyclopedia works: anonymous editing, revision history, talk pages, protection, rollback, elected administrators. The single difference is the [[Wittypedia:Be funny|humour guideline]], which says that wit is welcome and inaccuracy is not. If a joke needs the facts to bend, the joke goes.
+Everything here works the way an encyclopedia works: anonymous editing, revision history, talk pages, protection, rollback, elected administrators. The single difference is the [[Witipedia:Be funny|humour guideline]], which says that wit is welcome and inaccuracy is not. If a joke needs the facts to bend, the joke goes.
 </div>
 
 == Today's featured article ==
@@ -27,31 +27,31 @@ The '''[[Great Emu War]]''' was a wildlife-management operation conducted in Wes
 |-
 | Accounts || Free. After 4 days and 10 edits you are ''autoconfirmed'' and can edit semi-protected pages and use rollback. 30 days and 500 edits makes you ''extended confirmed''.
 |-
-| Administrators || Elected at [[Wittypedia:Requests for adminship]]. They can protect, delete and block. They have no editorial authority over content.
+| Administrators || Elected at [[Witipedia:Requests for adminship]]. They can protect, delete and block. They have no editorial authority over content.
 |-
 | History || Every version of every page is kept forever, with diffs. See [[Special:RecentChanges]].
 |-
-| Disputes || Fought on the [[Wittypedia:Talk pages|talk page]], with sources, not with the revert button.
+| Disputes || Fought on the [[Witipedia:Talk pages|talk page]], with sources, not with the revert button.
 |}
 
 == The one part that is different ==
 Each article carries two separate ratings: '''was this helpful''' and '''was this funny'''. They are counted apart on purpose. An article can teach you nothing and be hilarious, or be immaculately sourced and completely flat, and the editors need to know which of those two problems they have. Thumbs down counts too, and it is shown. See [[Special:TopRated]].
 
 == Get started ==
-* [[Wittypedia:Five pillars]] - the whole ruleset, on one page
-* [[Wittypedia:Be funny]] - the humour guideline, with worked examples
-* [[Wittypedia:Verifiability]] - funny is not a source
+* [[Witipedia:Five pillars]] - the whole ruleset, on one page
+* [[Witipedia:Be funny]] - the humour guideline, with worked examples
+* [[Witipedia:Verifiability]] - funny is not a source
 * [[Help:Editing]] - wikitext in five minutes
-* [[Wittypedia:Sandbox]] - break things here
+* [[Witipedia:Sandbox]] - break things here
 * [[Special:Random]] - read something
 ` },
 
-{ ns: 4, title: 'About', user: 'Admin', daysAgo: 100, comment: 'about page', content: `'''Wittypedia''' is an encyclopedia written and edited by volunteers, built on one observation: the funniest things in the world are true, and most of them are being deleted right now by somebody enforcing a tone.
+{ ns: 4, title: 'About', user: 'Admin', daysAgo: 100, comment: 'about page', content: `'''Witipedia''' is an encyclopedia written and edited by volunteers, built on one observation: the funniest things in the world are true, and most of them are being deleted right now by somebody enforcing a tone.
 
 On the large encyclopedias, a sentence can be perfectly sourced and still be removed for being witty. The policy behind that is real and mostly correct, because an encyclopedia full of jokes is useless. But the enforcement throws away a particular kind of writing that is accurate, memorable and funny at the same time, and there was nowhere for it to go. Now there is.
 
 == What this means in practice ==
-Wittypedia is not a parody encyclopedia. It is not a place for invented facts, fake quotes or satire. Those sites exist and are good at what they do; this is a different thing. Here:
+Witipedia is not a parody encyclopedia. It is not a place for invented facts, fake quotes or satire. Those sites exist and are good at what they do; this is a different thing. Here:
 
 * Every claim must be verifiable and sourced, exactly as on any encyclopedia.
 * The wit has to live in the true part. If you have to change a fact to land a joke, you have lost.
@@ -65,34 +65,34 @@ The software, the namespaces, the talk pages, the revision history, the user rig
 All text is released under [https://creativecommons.org/licenses/by-sa/4.0/ CC BY-SA 4.0]. You keep the credit, anybody can reuse it, nobody can lock it up.
 
 == See also ==
-* [[Wittypedia:Five pillars]]
-* [[Wittypedia:Be funny]]
-* [[Wittypedia:General disclaimer]]
+* [[Witipedia:Five pillars]]
+* [[Witipedia:Be funny]]
+* [[Witipedia:General disclaimer]]
 
-[[Category:Wittypedia]]
+[[Category:Witipedia]]
 ` },
 
-{ ns: 4, title: 'Five pillars', protect: 'autoconfirmed', user: 'Admin', daysAgo: 99, comment: 'the ruleset', content: `The fundamental principles of '''Wittypedia''' are summarised in five pillars.
+{ ns: 4, title: 'Five pillars', protect: 'autoconfirmed', user: 'Admin', daysAgo: 99, comment: 'the ruleset', content: `The fundamental principles of '''Witipedia''' are summarised in five pillars.
 
-== 1. Wittypedia is an encyclopedia ==
+== 1. Witipedia is an encyclopedia ==
 It is not a joke book, a forum, a soapbox or a collection of trivia. Articles have leads, structure, sources and scope. If a page would not be an article on any other encyclopedia, it is not an article here either. The humour is a style, not the subject.
 
 == 2. Every claim is verifiable ==
-Anything challenged needs a source that a stranger can check. This applies with full force to the funny part, which is the part most likely to be wrong and the part readers are most likely to repeat. A joke that rests on an unsourced claim is deleted, not tagged. See [[Wittypedia:Verifiability]].
+Anything challenged needs a source that a stranger can check. This applies with full force to the funny part, which is the part most likely to be wrong and the part readers are most likely to repeat. A joke that rests on an unsourced claim is deleted, not tagged. See [[Witipedia:Verifiability]].
 
-== 3. Wittypedia is funny, and the humour has rules ==
-Wit is expected, not tolerated. It is also constrained: the joke lives inside the accurate sentence, never in place of it. No fabricated quotes, no invented statistics, no "sources say". If the true thing is already funny, write it plainly and get out of the way. See [[Wittypedia:Be funny]].
+== 3. Witipedia is funny, and the humour has rules ==
+Wit is expected, not tolerated. It is also constrained: the joke lives inside the accurate sentence, never in place of it. No fabricated quotes, no invented statistics, no "sources say". If the true thing is already funny, write it plainly and get out of the way. See [[Witipedia:Be funny]].
 
 == 4. Editors treat each other decently ==
 Assume the other person is trying to improve the article. Argue about the sentence, not the person. Revert with a reason. Comedy is subjective and most content disputes here are really two people with different taste, both of them right about the facts.
 
-== 5. Wittypedia has no firm rules, except two ==
+== 5. Witipedia has no firm rules, except two ==
 Every guideline here can be improved, ignored in a specific case, or rewritten by consensus. The two that cannot be waived are: it has to be true, and the reader has to end up better informed. Everything else, including this page, is negotiable.
 
-[[Category:Wittypedia]]
+[[Category:Witipedia]]
 ` },
 
-{ ns: 4, title: 'Be funny', protect: 'autoconfirmed', user: 'Admin', daysAgo: 98, comment: 'the humour guideline, with examples', content: `This guideline describes what counts as good humour on Wittypedia. It is the only substantive difference between this site and any other encyclopedia, so it is worth reading properly.
+{ ns: 4, title: 'Be funny', protect: 'autoconfirmed', user: 'Admin', daysAgo: 98, comment: 'the humour guideline, with examples', content: `This guideline describes what counts as good humour on Witipedia. It is the only substantive difference between this site and any other encyclopedia, so it is worth reading properly.
 
 == The rule ==
 '''The joke must be in the true part.'''
@@ -150,15 +150,15 @@ By editors, on talk pages, with the same tools as any other content dispute. Mai
 |}
 
 == See also ==
-* [[Wittypedia:Five pillars]]
-* [[Wittypedia:Verifiability]]
+* [[Witipedia:Five pillars]]
+* [[Witipedia:Verifiability]]
 
-[[Category:Wittypedia]]
+[[Category:Witipedia]]
 ` },
 
 { ns: 4, title: 'Verifiability', user: 'Admin', daysAgo: 97, comment: 'verifiability policy', content: `'''Funny is not a source.'''
 
-On Wittypedia, material that is challenged or likely to be challenged must be supported by a source a reader can go and check. The threshold is not "I read it somewhere", "everyone knows this" or "it's obviously true".
+On Witipedia, material that is challenged or likely to be challenged must be supported by a source a reader can go and check. The threshold is not "I read it somewhere", "everyone knows this" or "it's obviously true".
 
 == Where this bites hardest ==
 The funny claim is the one that travels. A reader who remembers one sentence from your article will remember the joke, repeat it at dinner, and be wrong in public on your behalf. So the funny claim carries the ''highest'' sourcing burden here, not the lowest.
@@ -179,10 +179,10 @@ That last one is the most common way a good editor goes wrong here.
 Fix it, note it in the edit summary, and move on. Nobody is embarrassed by a corrected article; the alternative is an encyclopedia that cannot be trusted, which is just a comedy site with more footnotes.
 
 == See also ==
-* [[Wittypedia:Be funny]]
-* [[Wittypedia:Citing sources]]
+* [[Witipedia:Be funny]]
+* [[Witipedia:Citing sources]]
 
-[[Category:Wittypedia]]
+[[Category:Witipedia]]
 ` },
 
 { ns: 4, title: 'Citing sources', user: 'HansardHannah', daysAgo: 90, comment: 'how to cite', content: `Use <code><nowiki><ref>...</ref></nowiki></code> inline, and put <code><nowiki>{{reflist}}</nowiki></code> under a <code>== References ==</code> heading.
@@ -199,7 +199,7 @@ Later reuse of the same source.<ref name="patek" />
 
 Named references let you cite the same work twice without repeating it. Do not cite a source you have not read, and do not cite a news article about a study when the study itself is available.
 
-[[Category:Wittypedia]]
+[[Category:Witipedia]]
 ` },
 
 { ns: 4, title: 'Community portal', user: 'Ornithopod', daysAgo: 85, comment: 'portal', content: `== What needs doing ==
@@ -211,12 +211,12 @@ Named references let you cite the same work twice without repeating it. Do not c
 == Current discussions ==
 * [[Talk:Platypus]] - retiring the committee joke
 * [[Talk:Mantis shrimp]] - defending the 2014 colour-vision result
-* [[Wittypedia:Requests for adminship]] - two open nominations
+* [[Witipedia:Requests for adminship]] - two open nominations
 
 == Conventions ==
 Bold the article title in the first sentence. Lead paragraph explains the subject to someone who has never heard of it. Structure with <code>==&nbsp;Headings&nbsp;==</code>. Categories at the bottom. Sign talk page posts with <code>~~~~</code>.
 
-[[Category:Wittypedia]]
+[[Category:Witipedia]]
 ` },
 
 { ns: 4, title: 'Sandbox', user: 'Admin', daysAgo: 95, comment: 'sandbox', content: `<!-- Everything below this line is here to be broken. Edit freely. -->
@@ -255,7 +255,7 @@ That last one is the job.
 '''Neutral.''' Excellent sourcing, but three reverts in one hour on [[Mantis shrimp]] without using the talk page. Ask again in a month. [[User:Ornithopod|Ornithopod]] ([[User talk:Ornithopod|talk]]) 18:40, 2 September 2026 (UTC)
 : That is fair. Withdrawing for now. [[User:Thoenfan|Thoenfan]] ([[User talk:Thoenfan|talk]]) 20:15, 2 September 2026 (UTC)
 
-[[Category:Wittypedia]]
+[[Category:Witipedia]]
 ` },
 
 { ns: 4, title: 'Administrators', user: 'Admin', daysAgo: 83, comment: 'admin list and limits', content: `Administrators hold the technical permissions to protect pages, delete pages and block accounts. Nothing else.
@@ -269,7 +269,7 @@ That last one is the job.
 == Current administrators ==
 * [[User:Admin|Admin]] (bureaucrat)
 
-[[Category:Wittypedia]]
+[[Category:Witipedia]]
 ` },
 
 { ns: 4, title: 'Talk pages', user: 'CiteOrDie', daysAgo: 80, comment: 'talk page guide', content: `Every article has a discussion page, reached by the '''Discussion''' tab. It is for improving the article, not for discussing the subject.
@@ -283,7 +283,7 @@ That last one is the job.
 == What actually gets resolved here ==
 Content disputes on this site are usually one of three things: a fact is wrong (settled by sources), a joke is unsourced (settled by sources), or two editors have different taste in comedy (not settled by sources, and the older, better-sourced version wins by default).
 
-[[Category:Wittypedia]]
+[[Category:Witipedia]]
 ` },
 
 { ns: 4, title: 'Privacy policy', user: 'Admin', daysAgo: 100, comment: 'privacy', content: `== What is stored ==
@@ -298,10 +298,10 @@ No analytics, no advertising identifiers, no third-party scripts, no tracking pi
 == Deletion ==
 Contributions cannot be removed from page history; that is what makes an encyclopedia auditable, and it is a condition of the licence. Account data other than contributions can be deleted on request.
 
-[[Category:Wittypedia]]
+[[Category:Witipedia]]
 ` },
 
-{ ns: 4, title: 'General disclaimer', user: 'Admin', daysAgo: 100, comment: 'disclaimer', content: `'''Wittypedia makes no guarantee of validity.'''
+{ ns: 4, title: 'General disclaimer', user: 'Admin', daysAgo: 100, comment: 'disclaimer', content: `'''Witipedia makes no guarantee of validity.'''
 
 Like any encyclopedia written by volunteers, this one contains errors at any given moment. It is written to be accurate, it is edited by people who care about being accurate, and it is still not a substitute for a primary source, a professional, or a doctor.
 
@@ -309,7 +309,7 @@ The site's humour is not a signal that a passage is not serious. Every factual c
 
 Nothing here is medical, legal or financial advice. If an article about a wombat appears to be giving you legal advice, stop reading it.
 
-[[Category:Wittypedia]]
+[[Category:Witipedia]]
 ` },
 
 { ns: 12, title: 'Editing', user: 'HansardHannah', daysAgo: 88, comment: 'wikitext cheat sheet', content: `Wikitext, in about five minutes.
@@ -380,21 +380,21 @@ and finish the article with:
 <code><nowiki>{{reflist}}</nowiki></code>, <code><nowiki>{{cn}}</nowiki></code>, <code><nowiki>{{jn}}</nowiki></code>, <code><nowiki>{{stub}}</nowiki></code>, <code><nowiki>{{quote|text=|author=}}</nowiki></code>, <code><nowiki>{{unfunny}}</nowiki></code>, <code><nowiki>{{unverified joke|reason=}}</nowiki></code>, <code><nowiki>{{true and funny|source=}}</nowiki></code>.
 
 == Practise ==
-[[Wittypedia:Sandbox]]. Nothing there is permanent.
+[[Witipedia:Sandbox]]. Nothing there is permanent.
 
 [[Category:Help]]
 ` },
 
 { ns: 14, title: 'True but improbable', user: 'Admin', daysAgo: 70, comment: 'category description', content: `Articles whose central fact would be dismissed as invented if it were not documented. Membership requires a source that would survive a hostile reader.
 
-[[Category:Wittypedia]]
+[[Category:Witipedia]]
 ` },
 { ns: 14, title: 'Animals', user: 'Admin', daysAgo: 70, comment: 'category', content: `Articles about animals.` },
 { ns: 14, title: 'Military history', user: 'Admin', daysAgo: 70, comment: 'category', content: `Articles about military history, including the parts nobody involved wanted written down.` },
-{ ns: 14, title: 'Wittypedia', user: 'Admin', daysAgo: 70, comment: 'category', content: `Project pages: policies, guidelines and process.` },
+{ ns: 14, title: 'Witipedia', user: 'Admin', daysAgo: 70, comment: 'category', content: `Project pages: policies, guidelines and process.` },
 { ns: 14, title: 'Help', user: 'Admin', daysAgo: 70, comment: 'category', content: `Help pages for editors.` },
 
-{ ns: 2, title: 'Admin', user: 'Admin', daysAgo: 100, comment: 'user page', content: `Administrator and bureaucrat here. I mostly patrol [[Special:RecentChanges]] and argue on [[Wittypedia talk:Be funny|talk pages]] about whether a sentence is funny or merely pleased with itself.
+{ ns: 2, title: 'Admin', user: 'Admin', daysAgo: 100, comment: 'user page', content: `Administrator and bureaucrat here. I mostly patrol [[Special:RecentChanges]] and argue on [[Witipedia talk:Be funny|talk pages]] about whether a sentence is funny or merely pleased with itself.
 
 If I have reverted you, the reason is in the edit summary, and my talk page is open.
 ` },

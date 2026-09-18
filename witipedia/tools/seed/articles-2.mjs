@@ -58,7 +58,7 @@ It was in the lead for a week. It is unsourced, it is the single most repeated j
 
 : This is the right call. The rule is not "no jokes in the lead", it is "no jokes that are load-bearing lies". [[User:MonotremeMary|MonotremeMary]] ([[User talk:MonotremeMary|talk]]) 07:51, 4 September 2026 (UTC)
 
-:: Adding to [[Wittypedia:Be funny]] as an example of a dead joke, if nobody objects. [[User:Admin|Admin]] ([[User talk:Admin|talk]]) 10:03, 4 September 2026 (UTC)
+:: Adding to [[Witipedia:Be funny]] as an example of a dead joke, if nobody objects. [[User:Admin|Admin]] ([[User talk:Admin|talk]]) 10:03, 4 September 2026 (UTC)
 ` },
 },
 

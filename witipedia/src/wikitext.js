@@ -333,8 +333,8 @@ export function parse(src, opts = {}) {
   const ctx = {
     stash: [], refs: [], refNames: new Map(), headings: [], categories: [], links: new Set(),
     reflistUsed: false, noToc: false, forceToc: false,
-    exists: opts.exists, siteName: opts.siteName || 'Wittypedia',
-    projectName: opts.projectName || opts.siteName || 'Wittypedia',
+    exists: opts.exists, siteName: opts.siteName || 'Witipedia',
+    projectName: opts.projectName || opts.siteName || 'Witipedia',
     title: opts.title || '', sectionEdit: opts.sectionEdit !== false,
     editUrl: opts.editUrl || '',
   };
