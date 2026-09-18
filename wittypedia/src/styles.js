@@ -34,7 +34,7 @@ a.external::after{content:'';display:inline-block;width:.6em;height:.6em;margin-
 
 /* ---------- header ---------- */
 .mw-header{display:flex;align-items:center;gap:12px;padding:8px 16px;background:var(--content-bg);
-  border-bottom:1px solid var(--border-light);position:sticky;top:0;z-index:40}
+  border-bottom:1px solid var(--border-light);position:sticky;top:env(safe-area-inset-top,0px);z-index:40}
 .mw-header .hamburger{display:none;background:none;border:0;font-size:20px;color:var(--text);cursor:pointer;padding:4px 8px;border-radius:2px}
 .mw-header .hamburger:hover{background:var(--accent-bg)}
 .brand{display:flex;align-items:center;gap:10px;flex-shrink:0}
