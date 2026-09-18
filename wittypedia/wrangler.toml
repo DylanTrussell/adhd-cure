@@ -1,0 +1,20 @@
+name = "wittypedia"
+main = "src/index.js"
+compatibility_date = "2026-01-15"
+workers_dev = true
+
+[vars]
+SITE_NAME = "Wittypedia"
+SITE_TAGLINE = "It's funny because it's true."
+# Anyone can edit without an account, exactly like Wikipedia. Set to "false"
+# only if you are under sustained vandalism.
+ANON_EDITING = "true"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "wittypedia"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[[routes]]
+pattern = "wikipedia.co"
+custom_domain = true

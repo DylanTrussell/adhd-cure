@@ -1,0 +1,22 @@
+{
+  "name": "wittypedia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Wikipedia-shaped encyclopedia where the jokes have to be true.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create wittypedia",
+    "db:init": "wrangler d1 execute wittypedia --remote --file=./schema.sql",
+    "db:init:local": "wrangler d1 execute wittypedia --local --file=./schema.sql",
+    "seed:build": "node tools/build-seed.mjs",
+    "seed": "npm run seed:build && wrangler d1 execute wittypedia --remote --file=./seed.sql",
+    "seed:local": "npm run seed:build && wrangler d1 execute wittypedia --local --file=./seed.sql",
+    "test": "node tools/test.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0",
+    "wrangler": "^4.20.0"
+  }
+}
