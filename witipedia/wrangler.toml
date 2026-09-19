@@ -15,11 +15,16 @@ binding = "DB"
 database_name = "witipedia"
 database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
 
-# Image and file uploads live in R2. setup.sh creates this bucket; without it
-# the wiki runs normally and uploads are switched off.
+# Uploaded images. setup.sh enables whichever of these your account supports:
+# R2 first, and a KV namespace as a fallback when R2 is not available. With
+# neither, the wiki runs normally and uploads are switched off.
 # [[r2_buckets]]
 # binding = "MEDIA"
 # bucket_name = "witipedia-media"
+
+# [[kv_namespaces]]
+# binding = "MEDIA_KV"
+# id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
 
 # Your own domain. setup.sh adds this for you, or uncomment it and set the
 # domain yourself. The domain must already be in the same Cloudflare account.

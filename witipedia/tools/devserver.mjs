@@ -101,8 +101,33 @@ const MEDIA = {
   },
 };
 
+/** Same store behind the KV interface, for testing the fallback path. */
+const MEDIA_KV = {
+  async put(key, value, opts = {}) {
+    const dest = join(mediaDir, `kv_${key.replace(/\//g, '_')}`);
+    writeFileSync(dest, Buffer.from(value));
+    writeFileSync(`${dest}.meta`, JSON.stringify(opts.metadata || {}));
+  },
+  async get(key, type) {
+    const src = join(mediaDir, `kv_${key.replace(/\//g, '_')}`);
+    if (!existsSync(src)) return null;
+    const buf = readFileSync(src);
+    if (type === 'arrayBuffer') return buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength);
+    return buf.toString('utf8');
+  },
+  async delete(key) {
+    const src = join(mediaDir, `kv_${key.replace(/\//g, '_')}`);
+    if (existsSync(src)) unlinkSync(src);
+    if (existsSync(`${src}.meta`)) unlinkSync(`${src}.meta`);
+  },
+};
+
+// STORAGE=kv exercises the fallback; the default exercises R2.
+const useKv = process.env.STORAGE === 'kv';
+
 const env = {
-  DB, MEDIA,
+  DB,
+  ...(useKv ? { MEDIA_KV } : { MEDIA }),
   SITE_NAME: process.env.SITE_NAME || 'Witipedia',
   SITE_TAGLINE: process.env.SITE_TAGLINE || "It's funny because it's true.",
   ANON_EDITING: process.env.ANON_EDITING || 'true',
@@ -130,4 +155,5 @@ createServer(async (req, res) => {
 }).listen(port, () => {
   console.log(`${env.SITE_NAME} dev server: http://localhost:${port}/wiki/Main_Page`);
   console.log(`sqlite: ${dbPath}${fresh ? ' (rebuilt from schema.sql + seed.sql)' : ' (reused; FRESH=0)'}`);
+  console.log(`media:  ${useKv ? 'KV shim' : 'R2 shim'} in ${mediaDir}`);
 });

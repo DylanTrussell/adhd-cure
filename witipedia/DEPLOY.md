@@ -102,6 +102,11 @@ npx wrangler deploy
 R2 has to be enabled on the account first, at dash.cloudflare.com under R2. The free tier covers
 10 GB, which is a few thousand photographs.
 
+If R2 is not available on the account, `setup.sh` creates a KV namespace and uses that instead.
+KV holds values up to 25 MB, so every image this wiki accepts fits. R2 is cheaper per gigabyte and
+better suited to media, so switch over later if you turn R2 on: create the bucket, swap the
+commented blocks in `wrangler.toml`, and re-upload.
+
 ## Backups
 
 ```bash

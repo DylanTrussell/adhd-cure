@@ -38,7 +38,7 @@ inaccuracy is not.
 
 | | |
 |---|---|
-| Storage | Cloudflare R2, keyed by content hash, so the same bytes are never stored twice |
+| Storage | Cloudflare R2, keyed by content hash, so the same bytes are never stored twice. Accounts without R2 fall back to a KV namespace automatically |
 | Accepted | JPEG, PNG, GIF, WebP, up to 10 MB. SVG is refused: it is a script-bearing document, not a picture |
 | Validation | Magic-number sniffing, so a renamed `.exe` is rejected whatever the form says |
 | Required | An author and a licence on every file, chosen from a list, shown on the file page |

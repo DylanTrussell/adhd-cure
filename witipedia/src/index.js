@@ -15,6 +15,7 @@ import {
   searchView, ratingBox, uploadView, fileView,
 } from './views.js';
 import { storeUpload, LICENSES, normalizeFileName, ALLOWED, sniffType } from './upload.js';
+import { getObject, hasStorage } from './storage.js';
 
 const MAX_LEN = 1_000_000;
 
@@ -634,10 +635,10 @@ export default {
       const name = decodeURIComponent(path.slice('/images/'.length)).replace(/ /g, '_');
       const file = await env.DB.prepare('SELECT * FROM files WHERE name = ?').bind(name).first();
       if (!file) return new Response('No such file', { status: 404 });
-      if (!env.MEDIA) return new Response('File storage is not configured', { status: 503 });
+      if (!hasStorage(env)) return new Response('File storage is not configured', { status: 503 });
       const etag = `"${file.sha1}"`;
       if (request.headers.get('If-None-Match') === etag) return new Response(null, { status: 304 });
-      const object = await env.MEDIA.get(file.r2_key);
+      const object = await getObject(env, file.r2_key);
       if (!object) return new Response('The stored copy of this file is missing', { status: 404 });
       return new Response(object.body, {
         headers: {

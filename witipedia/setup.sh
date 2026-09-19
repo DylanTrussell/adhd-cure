@@ -97,27 +97,55 @@ for m in migrations/*.sql; do
   npx --no-install wrangler d1 execute "$DB_NAME" --remote -y --file="$m" >/dev/null
 done
 
-step "7/8  Setting up file uploads (R2)"
-if npx --no-install wrangler r2 bucket list 2>/dev/null | grep -q "witipedia-media"; then
-  echo "Bucket witipedia-media already exists."
-  BUCKET_OK=1
-elif npx --no-install wrangler r2 bucket create witipedia-media 2>&1 | tee /tmp/witipedia-r2.log | tail -3; then
-  BUCKET_OK=1
-else
-  BUCKET_OK=0
+step "7/8  Setting up file uploads"
+# R2 is the right store for images. Not every account has it switched on, so KV
+# is tried next: it holds values up to 25 MB, which covers any image this wiki
+# accepts. With neither, the site runs normally and uploads stay off.
+STORAGE_SET=""
+
+if grep -q '^\[\[r2_buckets\]\]' wrangler.toml || grep -q '^\[\[kv_namespaces\]\]' wrangler.toml; then
+  echo "Storage is already configured in wrangler.toml."
+  STORAGE_SET="already"
 fi
 
-if [ "${BUCKET_OK:-0}" = "1" ]; then
-  node -e '
-    const fs=require("fs");const f="wrangler.toml";
-    const s=fs.readFileSync(f,"utf8");
-    fs.writeFileSync(f, s.replace(/# \[\[r2_buckets\]\]\n# binding = "MEDIA"\n# bucket_name = "witipedia-media"/,
-      `[[r2_buckets]]\nbinding = "MEDIA"\nbucket_name = "witipedia-media"`));
-  '
-  echo "Uploads enabled."
-else
-  warn "R2 is not available on this account, so uploads stay switched off."
-  warn "Everything else works. Enable R2 at dash.cloudflare.com -> R2, then run this script again."
+if [ -z "$STORAGE_SET" ]; then
+  echo "Trying R2..."
+  if npx --no-install wrangler r2 bucket list 2>/dev/null | grep -q "witipedia-media" \
+     || npx --no-install wrangler r2 bucket create witipedia-media >/dev/null 2>&1; then
+    node -e '
+      const fs=require("fs");const f="wrangler.toml";
+      fs.writeFileSync(f, fs.readFileSync(f,"utf8").replace(
+        /# \[\[r2_buckets\]\]\n# binding = "MEDIA"\n# bucket_name = "witipedia-media"/,
+        `[[r2_buckets]]\nbinding = "MEDIA"\nbucket_name = "witipedia-media"`));
+    '
+    STORAGE_SET="r2"
+    echo "Uploads will use R2."
+  fi
+fi
+
+if [ -z "$STORAGE_SET" ]; then
+  warn "R2 is not available on this account. Falling back to KV."
+  KV_ID="$(npx --no-install wrangler kv namespace list 2>/dev/null \
+    | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const c=s.replace(/\x1b\[[0-9;]*m/g,"");const i=c.search(/^\s*\[/m);const l=JSON.parse(c.slice(i));const m=l.find(n=>String(n.title||"").includes("witipedia-media"));process.stdout.write(m?m.id:"")}catch(e){}})' || true)"
+  if [ -z "$KV_ID" ]; then
+    npx --no-install wrangler kv namespace create witipedia-media >/dev/null 2>&1 || true
+    sleep 2
+    KV_ID="$(npx --no-install wrangler kv namespace list 2>/dev/null \
+      | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const c=s.replace(/\x1b\[[0-9;]*m/g,"");const i=c.search(/^\s*\[/m);const l=JSON.parse(c.slice(i));const m=l.find(n=>String(n.title||"").includes("witipedia-media"));process.stdout.write(m?m.id:"")}catch(e){}})' || true)"
+  fi
+  if [ -n "$KV_ID" ]; then
+    node -e '
+      const fs=require("fs");const f="wrangler.toml";
+      fs.writeFileSync(f, fs.readFileSync(f,"utf8").replace(
+        /# \[\[kv_namespaces\]\]\n# binding = "MEDIA_KV"\n# id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"/,
+        `[[kv_namespaces]]\nbinding = "MEDIA_KV"\nid = "${process.argv[1]}"`));
+    ' "$KV_ID"
+    STORAGE_SET="kv"
+    echo "Uploads will use KV ($KV_ID)."
+  else
+    warn "Neither R2 nor KV could be set up, so uploads stay switched off."
+    warn "Everything else works. Enable R2 at dash.cloudflare.com -> R2 and run this again."
+  fi
 fi
 
 step "8/8  Deploying"

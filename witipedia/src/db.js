@@ -1,4 +1,5 @@
 import { parseTitle, fullTitle, extract } from './wikitext.js';
+import { deleteObject } from './storage.js';
 
 export const now = () => Math.floor(Date.now() / 1000);
 
@@ -231,7 +232,7 @@ export async function deleteFile(db, env, name) {
   // Only drop the object when no other file row points at the same bytes.
   const others = await db.prepare('SELECT COUNT(*) AS n FROM files WHERE r2_key = ? AND name != ?')
     .bind(f.r2_key, f.name).first();
-  if (env.MEDIA && (!others || others.n === 0)) await env.MEDIA.delete(f.r2_key);
+  if (!others || others.n === 0) await deleteObject(env, f.r2_key);
   await db.prepare('DELETE FROM files WHERE id = ?').bind(f.id).run();
   return true;
 }

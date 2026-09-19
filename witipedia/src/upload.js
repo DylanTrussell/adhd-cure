@@ -5,6 +5,8 @@
  * costs nothing and a file rename never breaks an existing article.
  */
 
+import { hasStorage, putObject } from './storage.js';
+
 export const MAX_BYTES = 10 * 1024 * 1024;
 
 export const ALLOWED = {
@@ -111,7 +113,7 @@ export function humanSize(bytes) {
  * string suitable for showing to the person who tried.
  */
 export async function storeUpload(env, { file, name, uploader, license, source, author }) {
-  if (!env.MEDIA) return { error: 'File storage is not configured on this site yet. An administrator needs to create the R2 bucket.' };
+  if (!hasStorage(env)) return { error: 'File storage is not configured on this site yet. An administrator needs to attach an R2 bucket or a KV namespace.' };
   if (!file || typeof file.arrayBuffer !== 'function') return { error: 'No file was attached.' };
   if (file.size > MAX_BYTES) return { error: `That file is ${humanSize(file.size)}. The limit is ${humanSize(MAX_BYTES)}.` };
   if (file.size === 0) return { error: 'That file is empty.' };
@@ -133,9 +135,7 @@ export async function storeUpload(env, { file, name, uploader, license, source, 
   const { width, height } = imageSize(bytes);
   const key = `${sha1.slice(0, 2)}/${sha1}.${ext}`;
 
-  await env.MEDIA.put(key, buffer, {
-    httpMetadata: { contentType: mime, cacheControl: 'public, max-age=31536000, immutable' },
-  });
+  await putObject(env, key, buffer, mime);
 
   return {
     row: {
