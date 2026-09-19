@@ -169,5 +169,109 @@ check('wrong password rejected', r.status === 401);
 r = await go('/wiki/Special:UserLogin', { method: 'POST', body: form({ username: 'testeditor', password: 'hunter2hunter2' }) });
 check('login works (case-insensitive username)', r.status === 302, `status ${r.status}`);
 
+
+// ---------------------------------------------------------------- file uploads
+console.log('\nUploads');
+{
+  // logged out: the form explains why it will not take the file
+  await go('/logout', { method: 'POST', body: form({ csrf: csrfOf((await go('/wiki/Main_Page')).text) }) });
+  let r = await go('/wiki/Special:Upload');
+  check('anon sees the login requirement', r.text.includes('need an account to upload'));
+
+  r = await go('/wiki/Special:UserLogin', { method: 'POST', body: form({ username: 'TestEditor', password: 'hunter2hunter2' }) });
+  check('logged back in for upload', r.status === 302);
+  r = await go('/wiki/Special:Upload');
+  const upCsrf = csrfOf(r.text);
+  check('upload form renders for a logged-in user', r.text.includes('Destination filename'));
+
+  // A real PNG, built here so the test carries its own fixture.
+  const { deflateSync } = await import('node:zlib');
+  const makePng = (w, h) => {
+    const crcTable = [...Array(256)].map((_, n) => {
+      let c = n;
+      for (let k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1;
+      return c >>> 0;
+    });
+    const crc = (buf) => {
+      let c = 0xffffffff;
+      for (const b of buf) c = crcTable[(c ^ b) & 0xff] ^ (c >>> 8);
+      return (c ^ 0xffffffff) >>> 0;
+    };
+    const chunk = (type, data) => {
+      const len = Buffer.alloc(4); len.writeUInt32BE(data.length);
+      const body = Buffer.concat([Buffer.from(type, 'ascii'), data]);
+      const cr = Buffer.alloc(4); cr.writeUInt32BE(crc(body));
+      return Buffer.concat([len, body, cr]);
+    };
+    const ihdr = Buffer.alloc(13);
+    ihdr.writeUInt32BE(w, 0); ihdr.writeUInt32BE(h, 4);
+    ihdr[8] = 8; ihdr[9] = 2; // 8-bit RGB
+    const raw = Buffer.alloc(h * (1 + w * 3));
+    for (let y = 0; y < h; y++) {
+      const off = y * (1 + w * 3);
+      raw[off] = 0;
+      for (let x = 0; x < w; x++) {
+        raw[off + 1 + x * 3] = (x * 4) % 256;
+        raw[off + 2 + x * 3] = (y * 4) % 256;
+        raw[off + 3 + x * 3] = 128;
+      }
+    }
+    return Buffer.concat([
+      Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]),
+      chunk('IHDR', ihdr), chunk('IDAT', deflateSync(raw)), chunk('IEND', Buffer.alloc(0)),
+    ]);
+  };
+  const png = makePng(320, 240);
+  const send = async (fields, bytes, filename = 'shot.png', type = 'image/png') => {
+    const fd = new FormData();
+    for (const [k, v] of Object.entries(fields)) fd.append(k, v);
+    if (bytes) fd.append('file', new Blob([bytes], { type }), filename);
+    return go('/wiki/Special:Upload', { method: 'POST', body: fd });
+  };
+
+  r = await send({ csrf: upCsrf, name: 'Test upload', author: 'Own work', license: 'cc-by-sa-4.0', description: 'A test image.' }, png);
+  check('upload redirects to the file page', r.status === 302 && r.location.includes('File:Test_upload.png'), `${r.status} ${r.location}`);
+
+  r = await go('/wiki/File:Test_upload.png');
+  check('file page shows the image', r.status === 200 && r.text.includes('/images/Test_upload.png'));
+  check('file page shows the licence', r.text.includes('cc-by-sa-4.0') || r.text.includes('CC BY-SA 4.0'));
+  check('file page shows the author', r.text.includes('Own work'));
+  check('file page shows pixel dimensions', r.text.includes('320') && r.text.includes('240'));
+
+  const img = await fetch(`${BASE}/images/Test_upload.png`, { headers: { Cookie: cookieHeader() } });
+  const buf = new Uint8Array(await img.arrayBuffer());
+  check('image bytes are served', img.status === 200 && buf.length === png.length, `status ${img.status} ${buf.length} vs ${png.length}`);
+  check('image served with the right type', img.headers.get('content-type') === 'image/png');
+  const etag = img.headers.get('etag');
+  const again = await fetch(`${BASE}/images/Test_upload.png`, { headers: { 'If-None-Match': etag } });
+  check('image revalidates with 304', again.status === 304, `status ${again.status}`);
+
+  // the file shows up in an article
+  r = await go('/wiki/Sandbox_Test?action=edit');
+  r = await go('/wiki/Sandbox_Test?action=submit', {
+    method: 'POST',
+    body: form({ csrf: csrfOf((await go('/wiki/Sandbox_Test?action=edit')).text),
+      text: '[[File:Test upload.png|thumb|right|240px|A caption about [[Wombat|wombats]].]]\n\nBody text.', summary: 'add image', save: '1' }),
+  });
+  check('article with an image saves', r.status === 302);
+  r = await go('/wiki/Sandbox_Test');
+  check('article renders the thumbnail', r.text.includes('class="thumb tright"') && r.text.includes('/images/Test_upload.png'));
+  check('caption links still work inside the image', r.text.includes('>wombats</a>'));
+
+  r = await go('/wiki/Special:ListFiles');
+  check('file list shows the upload', r.text.includes('Test upload'));
+
+  // rejections
+  r = await send({ csrf: upCsrf, name: 'Bad file', author: 'Own work', license: 'cc-by-sa-4.0' },
+    new TextEncoder().encode('<svg xmlns="http://www.w3.org/2000/svg"><script>alert(1)</script></svg>'), 'evil.svg', 'image/svg+xml');
+  check('svg is rejected', r.text.includes('not a JPEG, PNG, GIF or WebP'), r.text.slice(0, 120));
+  r = await send({ csrf: upCsrf, name: 'No licence', author: 'Own work', license: '' }, png);
+  check('missing licence is rejected', r.text.includes('Choose a licence'));
+  r = await send({ csrf: upCsrf, name: 'No author', author: '', license: 'cc0' }, png);
+  check('missing author is rejected', r.text.includes('Name the author'));
+  r = await send({ csrf: 'wrong', name: 'Csrf', author: 'x', license: 'cc0' }, png);
+  check('upload with a bad csrf token is rejected', r.status === 403);
+}
+
 console.log(`\n${pass} passed, ${fail} failed\n`);
 process.exit(fail ? 1 : 0);

@@ -20,10 +20,10 @@ command -v node >/dev/null || die "Node.js is not installed. Get it from https:/
 NODE_MAJOR="$(node -p 'process.versions.node.split(".")[0]')"
 [ "$NODE_MAJOR" -ge 18 ] || die "Node 18 or newer is required; you have $(node -v)."
 
-step "1/7  Installing dependencies"
+step "1/8  Installing dependencies"
 npm install --no-audit --no-fund
 
-step "2/7  Checking your Cloudflare login"
+step "2/8  Checking your Cloudflare login"
 if npx --no-install wrangler whoami >/dev/null 2>&1; then
   npx --no-install wrangler whoami | sed -n '1,6p'
 else
@@ -31,7 +31,7 @@ else
   npx --no-install wrangler login
 fi
 
-step "3/7  Finding or creating the D1 database"
+step "3/8  Finding or creating the D1 database"
 DB_ID="$(npx --no-install wrangler d1 list --json 2>/dev/null \
   | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const clean=s.replace(/\x1b\[[0-9;]*m/g,"");const i=clean.search(/^\s*\[/m);const l=JSON.parse(clean.slice(i));const m=l.find(d=>d.name===process.argv[1]);process.stdout.write(m?(m.uuid||m.id||""):"")}catch(e){}})' "$DB_NAME" || true)"
 
@@ -47,7 +47,7 @@ else
   echo "Created ($DB_ID)."
 fi
 
-step "4/7  Writing the database id into wrangler.toml"
+step "4/8  Writing the database id into wrangler.toml"
 node -e '
   const fs = require("fs");
   const f = "wrangler.toml";
@@ -57,7 +57,7 @@ node -e '
   console.log(after.match(/^database_id.*$/m)[0]);
 ' "$DB_ID"
 
-step "5/7  Creating the tables"
+step "5/8  Creating the tables"
 EXISTING="$(npx --no-install wrangler d1 execute "$DB_NAME" --remote -y --json \
   --command "SELECT COUNT(*) AS n FROM revisions" 2>/dev/null | grep -o '"n":[0-9]*' | head -1 | cut -d: -f2 || true)"
 
@@ -75,7 +75,7 @@ fi
 if [ -z "${SKIP_LOAD:-}" ]; then
   npx --no-install wrangler d1 execute "$DB_NAME" --remote -y --file=./schema.sql
 
-  step "6/7  Loading the articles, policies and admin account"
+  step "6/8  Loading the articles, policies and admin account"
   printf "Choose a password for the Admin account (at least 8 characters, hidden as you type): "
   read -rs ADMIN_PW </dev/tty; echo
   if [ "${#ADMIN_PW}" -lt 8 ]; then
@@ -87,10 +87,40 @@ if [ -z "${SKIP_LOAD:-}" ]; then
   npx --no-install wrangler d1 execute "$DB_NAME" --remote -y --file=./seed.sql
   echo "Content loaded. Log in as Admin with the password you just set."
 else
-  step "6/7  Skipped (existing content kept)"
+  step "6/8  Skipped (existing content kept)"
 fi
 
-step "7/7  Deploying"
+step "Applying database migrations"
+for m in migrations/*.sql; do
+  [ -e "$m" ] || continue
+  echo "  $m"
+  npx --no-install wrangler d1 execute "$DB_NAME" --remote -y --file="$m" >/dev/null
+done
+
+step "7/8  Setting up file uploads (R2)"
+if npx --no-install wrangler r2 bucket list 2>/dev/null | grep -q "witipedia-media"; then
+  echo "Bucket witipedia-media already exists."
+  BUCKET_OK=1
+elif npx --no-install wrangler r2 bucket create witipedia-media 2>&1 | tee /tmp/witipedia-r2.log | tail -3; then
+  BUCKET_OK=1
+else
+  BUCKET_OK=0
+fi
+
+if [ "${BUCKET_OK:-0}" = "1" ]; then
+  node -e '
+    const fs=require("fs");const f="wrangler.toml";
+    const s=fs.readFileSync(f,"utf8");
+    fs.writeFileSync(f, s.replace(/# \[\[r2_buckets\]\]\n# binding = "MEDIA"\n# bucket_name = "witipedia-media"/,
+      `[[r2_buckets]]\nbinding = "MEDIA"\nbucket_name = "witipedia-media"`));
+  '
+  echo "Uploads enabled."
+else
+  warn "R2 is not available on this account, so uploads stay switched off."
+  warn "Everything else works. Enable R2 at dash.cloudflare.com -> R2, then run this script again."
+fi
+
+step "8/8  Deploying"
 DEPLOY_OUT="$(npx --no-install wrangler deploy 2>&1 | tee /dev/tty)"
 URL="$(printf '%s' "$DEPLOY_OUT" | grep -oE 'https://[a-z0-9.-]+\.workers\.dev' | head -1 || true)"
 

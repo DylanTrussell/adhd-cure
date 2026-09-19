@@ -158,8 +158,23 @@ function renderTemplate(raw, ctx) {
         .filter(([k]) => !['title', 'name', 'image', 'caption', 'above'].includes(k))
         .map(([k, v]) => `<tr><th scope="row">${inl(k.replace(/_/g, ' ').replace(/^./, (c) => c.toUpperCase()))}</th><td>${inl(v)}</td></tr>`)
         .join('');
+      // | image = Something.jpg puts the picture at the top of the box, the way
+      // it sits on Wikipedia, rather than floating a second thumbnail beside it.
+      let imgRow = '';
+      const imgName = String(named.image || '').replace(/^\s*(?:file|image)\s*:/i, '').trim().replace(/ /g, '_');
+      const meta = imgName && ctx.files ? ctx.files[imgName] : null;
+      if (meta) {
+        const w = 272;
+        const h = meta.width && meta.height ? Math.round(w * (meta.height / meta.width)) : 0;
+        imgRow = `<tr><td colspan="2" class="ib-image">`
+          + `<a href="/wiki/File:${encodeURIComponent(imgName)}"><img src="/images/${encodeURIComponent(imgName)}" `
+          + `alt="${escAttr(named.caption || named.title || ctx.title || '')}" width="${w}"${h ? ` height="${h}"` : ''} loading="lazy"></a></td></tr>`;
+        ctx.links.add(`6:${imgName}`);
+      } else if (imgName) {
+        ctx.links.add(`6:${imgName}`);
+      }
       const cap = named.caption ? `<tr><td colspan="2" class="ib-caption">${inl(named.caption)}</td></tr>` : '';
-      return stash(ctx, `<table class="infobox"><caption>${inl(named.title || named.name || named.above || ctx.title || '')}</caption>${cap}${rows}</table>`);
+      return stash(ctx, `<table class="infobox"><caption>${inl(named.title || named.name || named.above || ctx.title || '')}</caption>${imgRow}${cap}${rows}</table>`);
     }
 
     case 'nowrap':
@@ -208,8 +223,11 @@ function inline(text, ctx) {
       return '';
     }
     if (/^(file|image)\s*:/i.test(tgt)) {
-      const cap = (label || '').trim();
-      return `<span class="mw-file placeholder" title="uploads are not enabled">&#128444; ${esc(cap || tgt.replace(/^[^:]*:/, ''))}</span>`;
+      // Real file syntax is handled before escaping, by fileScanner(); reaching
+      // here means the file does not exist, so show MediaWiki's red link.
+      const nm = tgt.replace(/^[^:]*:/, '').trim();
+      ctx.links.add(`6:${nm.replace(/ /g, '_')}`);
+      return `<a class="new" href="/wiki/File:${encodeURIComponent(nm.replace(/ /g, '_'))}" title="File:${escAttr(nm)} (file does not exist)">File:${esc(nm)}</a>`;
     }
     // interwiki: [[w:Foo]] goes to the real Wikipedia
     const iw = /^(w|wikipedia)\s*:(.+)$/i.exec(tgt);
@@ -327,6 +345,94 @@ function restoreSafeHtml(escaped) {
   return out + open.reverse().map((t) => `</${t}>`).join('');
 }
 
+
+// ------------------------------------------------------------------- file tags
+
+const FILE_PREFIX = /^\s*(?:file|image)\s*:/i;
+
+/** Splits [[File:...]] params on top-level pipes, respecting nested [[ ]]. */
+function splitFileParams(body) {
+  const parts = [];
+  let depth = 0, cur = '';
+  for (let i = 0; i < body.length; i++) {
+    if (body[i] === '[' && body[i + 1] === '[') { depth++; cur += '[['; i++; continue; }
+    if (body[i] === ']' && body[i + 1] === ']') { depth--; cur += ']]'; i++; continue; }
+    if (body[i] === '|' && depth === 0) { parts.push(cur); cur = ''; continue; }
+    cur += body[i];
+  }
+  parts.push(cur);
+  return parts;
+}
+
+function renderFile(body, ctx) {
+  const parts = splitFileParams(body);
+  const rawName = parts.shift().replace(FILE_PREFIX, '').trim();
+  const name = (rawName.charAt(0).toUpperCase() + rawName.slice(1)).replace(/ /g, '_');
+  const meta = ctx.files ? ctx.files[name] : null;
+
+  let frame = '', align = '', px = 0, alt = '', link = null, caption = '';
+  for (const raw of parts) {
+    const p = raw.trim();
+    const low = p.toLowerCase();
+    if (['thumb', 'thumbnail', 'frame', 'framed', 'frameless', 'border'].includes(low)) { frame = low === 'thumbnail' ? 'thumb' : low; continue; }
+    if (['left', 'right', 'center', 'centre', 'none'].includes(low)) { align = low === 'centre' ? 'center' : low; continue; }
+    const m = /^(\d{1,4})\s*px$/.exec(low);
+    if (m) { px = Number(m[1]); continue; }
+    if (/^alt\s*=/i.test(p)) { alt = p.replace(/^alt\s*=/i, '').trim(); continue; }
+    if (/^link\s*=/i.test(p)) { link = p.replace(/^link\s*=/i, '').trim(); continue; }
+    if (p) caption = p;
+  }
+
+  if (!meta) {
+    ctx.links.add(`6:${name}`);
+    return `<a class="new" href="/wiki/File:${encodeURIComponent(name)}" title="File:${escAttr(name.replace(/_/g, ' '))} (file does not exist)">File:${esc(name.replace(/_/g, ' '))}</a>`;
+  }
+
+  const isThumb = frame === 'thumb' || frame === 'frame';
+  const boxWidth = px || (isThumb ? 300 : Math.min(meta.width || 300, 400));
+  const ratio = meta.width && meta.height ? meta.height / meta.width : 0;
+  const w = Math.min(boxWidth, meta.width || boxWidth);
+  const h = ratio ? Math.round(w * ratio) : 0;
+  const src = `/images/${encodeURIComponent(name)}`;
+  const capHtml = caption ? inline(esc(caption), ctx) : '';
+  const altAttr = escAttr(alt || caption.replace(/\[\[[^\]]*\]\]/g, '').trim() || name.replace(/_/g, ' '));
+  const img = `<img src="${src}" alt="${altAttr}" width="${w}"${h ? ` height="${h}"` : ''} loading="lazy" decoding="async">`;
+  const href = link === '' ? null : (link ? `/wiki/${encodeURIComponent(link.replace(/ /g, '_'))}` : `/wiki/File:${encodeURIComponent(name)}`);
+  const wrapped = href ? `<a href="${href}" class="image" title="${escAttr(name.replace(/_/g, ' '))}">${img}</a>` : img;
+
+  if (!isThumb) {
+    const cls = align ? ` mw-file-${align}` : '';
+    return `<span class="mw-file-inline${cls}">${wrapped}</span>`;
+  }
+  const side = align === 'left' ? 'tleft' : align === 'center' ? 'tcenter' : 'tright';
+  return `<figure class="thumb ${side}" style="width:${w + 2}px">`
+    + `<div class="thumbinner">${wrapped}`
+    + (capHtml ? `<figcaption class="thumbcaption">${capHtml}</figcaption>` : '')
+    + `</div></figure>`;
+}
+
+/** Finds [[File:...]] / [[Image:...]] with balanced brackets and renders each. */
+function fileScanner(text, ctx) {
+  let out = '', i = 0;
+  while (i < text.length) {
+    const start = text.indexOf('[[', i);
+    if (start === -1) { out += text.slice(i); break; }
+    const after = text.slice(start + 2, start + 12);
+    if (!FILE_PREFIX.test(after)) { out += text.slice(i, start + 2); i = start + 2; continue; }
+    let depth = 1, j = start + 2;
+    while (j < text.length && depth > 0) {
+      if (text[j] === '[' && text[j + 1] === '[') { depth++; j += 2; continue; }
+      if (text[j] === ']' && text[j + 1] === ']') { depth--; j += 2; continue; }
+      j++;
+    }
+    if (depth !== 0) { out += text.slice(i, start + 2); i = start + 2; continue; }
+    out += text.slice(i, start);
+    out += stash(ctx, renderFile(text.slice(start + 2, j - 2), ctx));
+    i = j;
+  }
+  return out;
+}
+
 // ------------------------------------------------------------------ main parse
 
 export function parse(src, opts = {}) {
@@ -335,7 +441,7 @@ export function parse(src, opts = {}) {
     reflistUsed: false, noToc: false, forceToc: false,
     exists: opts.exists, siteName: opts.siteName || 'Witipedia',
     projectName: opts.projectName || opts.siteName || 'Witipedia',
-    title: opts.title || '', sectionEdit: opts.sectionEdit !== false,
+    title: opts.title || '', sectionEdit: opts.sectionEdit !== false, files: opts.files || null,
     editUrl: opts.editUrl || '',
   };
 
@@ -371,6 +477,8 @@ export function parse(src, opts = {}) {
     t = t.replace(/\{\{([^{}]*)\}\}/, (m, body) => renderTemplate(body, ctx));
   }
 
+  t = fileScanner(t, ctx);
+
   // Everything that remains is user text: escape it, then run block parsing.
   t = esc(t);
   t = restoreSafeHtml(t);
@@ -381,7 +489,7 @@ export function parse(src, opts = {}) {
   let para = [];
   let sectionIdx = 0;
 
-  const BLOCK = /^<\/?(div|table|ol|ul|blockquote|pre|hr|center|h[1-6])[\s/>]/i;
+  const BLOCK = /^<\/?(div|table|ol|ul|blockquote|pre|hr|center|figure|h[1-6])[\s/>]/i;
   const flushPara = () => {
     if (!para.length) return;
     const joined = para.join('\n');

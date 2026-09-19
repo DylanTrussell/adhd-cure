@@ -187,3 +187,51 @@ export async function topRated(db, axis = 'funny', limit = 25) {
     .sort((a, b) => b.score - a.score || b.up - a.up)
     .slice(0, limit);
 }
+
+// ---------------------------------------------------------------------- files
+
+export async function getFile(db, name) {
+  return db.prepare('SELECT * FROM files WHERE name = ?').bind(name.replace(/ /g, '_')).first();
+}
+
+/** Metadata for every file a page references, keyed by name, for the parser. */
+export async function filesByName(db, names) {
+  const list = [...new Set(names)].filter(Boolean).slice(0, 100);
+  if (!list.length) return {};
+  const marks = list.map(() => '?').join(',');
+  const { results } = await db.prepare(
+    `SELECT name,width,height,mime FROM files WHERE name IN (${marks})`).bind(...list).all();
+  const out = {};
+  for (const r of results) out[r.name] = r;
+  return out;
+}
+
+export async function recordFile(db, row) {
+  await db.prepare(
+    `INSERT INTO files (name,r2_key,mime,size,width,height,sha1,uploader,uploaded_at,source,author,license,license_url)
+     VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)
+     ON CONFLICT(name) DO UPDATE SET r2_key=excluded.r2_key, mime=excluded.mime, size=excluded.size,
+       width=excluded.width, height=excluded.height, sha1=excluded.sha1, uploader=excluded.uploader,
+       uploaded_at=excluded.uploaded_at, source=excluded.source, author=excluded.author,
+       license=excluded.license, license_url=excluded.license_url`)
+    .bind(row.name, row.r2_key, row.mime, row.size, row.width, row.height, row.sha1,
+      row.uploader, now(), row.source, row.author, row.license, row.license_url).run();
+  return getFile(db, row.name);
+}
+
+export async function listFiles(db, limit = 200) {
+  const { results } = await db.prepare(
+    'SELECT * FROM files ORDER BY uploaded_at DESC LIMIT ?').bind(limit).all();
+  return results;
+}
+
+export async function deleteFile(db, env, name) {
+  const f = await getFile(db, name);
+  if (!f) return false;
+  // Only drop the object when no other file row points at the same bytes.
+  const others = await db.prepare('SELECT COUNT(*) AS n FROM files WHERE r2_key = ? AND name != ?')
+    .bind(f.r2_key, f.name).first();
+  if (env.MEDIA && (!others || others.n === 0)) await env.MEDIA.delete(f.r2_key);
+  await db.prepare('DELETE FROM files WHERE id = ?').bind(f.id).run();
+  return true;
+}

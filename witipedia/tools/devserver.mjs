@@ -8,8 +8,10 @@
  */
 import { createServer } from 'node:http';
 import { DatabaseSync } from 'node:sqlite';
-import { readFileSync, existsSync, unlinkSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, unlinkSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
+import { join } from 'node:path';
+import { Readable } from 'node:stream';
 import worker from '../src/index.js';
 
 const root = new URL('..', import.meta.url);
@@ -66,8 +68,41 @@ const DB = {
   },
 };
 
+/**
+ * Local stand-in for the R2 bucket: objects land in ./local-media so uploads
+ * can be developed and tested without a Cloudflare account.
+ */
+const mediaDir = fileURLToPath(new URL('local-media/', root));
+mkdirSync(mediaDir, { recursive: true });
+const MEDIA = {
+  async put(key, value, opts = {}) {
+    const dest = join(mediaDir, key.replace(/\//g, '_'));
+    writeFileSync(dest, Buffer.from(value));
+    writeFileSync(`${dest}.meta`, JSON.stringify(opts.httpMetadata || {}));
+    return { key };
+  },
+  async get(key) {
+    const src = join(mediaDir, key.replace(/\//g, '_'));
+    if (!existsSync(src)) return null;
+    const buf = readFileSync(src);
+    let meta = {};
+    try { meta = JSON.parse(readFileSync(`${src}.meta`, 'utf8')); } catch (e) {}
+    return {
+      body: Readable.toWeb(Readable.from(buf)),
+      httpMetadata: meta,
+      size: buf.length,
+      async arrayBuffer() { return buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength); },
+    };
+  },
+  async delete(key) {
+    const src = join(mediaDir, key.replace(/\//g, '_'));
+    if (existsSync(src)) unlinkSync(src);
+    if (existsSync(`${src}.meta`)) unlinkSync(`${src}.meta`);
+  },
+};
+
 const env = {
-  DB,
+  DB, MEDIA,
   SITE_NAME: process.env.SITE_NAME || 'Witipedia',
   SITE_TAGLINE: process.env.SITE_TAGLINE || "It's funny because it's true.",
   ANON_EDITING: process.env.ANON_EDITING || 'true',

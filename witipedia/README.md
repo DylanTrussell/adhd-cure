@@ -34,6 +34,39 @@ inaccuracy is not.
 | Search | Title and full-text, with live suggestions in the header |
 | Skin | Vector-2022-style layout, dark mode, mobile layout |
 
+**File uploads**
+
+| | |
+|---|---|
+| Storage | Cloudflare R2, keyed by content hash, so the same bytes are never stored twice |
+| Accepted | JPEG, PNG, GIF, WebP, up to 10 MB. SVG is refused: it is a script-bearing document, not a picture |
+| Validation | Magic-number sniffing, so a renamed `.exe` is rejected whatever the form says |
+| Required | An author and a licence on every file, chosen from a list, shown on the file page |
+| Pages | `File:` description pages with full history, a file list, and deletion that takes the stored bytes with it |
+| Wikitext | `[[File:Name.jpg\|thumb\|right\|300px\|Caption]]`, plus `frameless`, `left`, `center`, `alt=`, `link=`, and `\| image =` inside an infobox |
+
+Uploads need an account; anonymous editing stays open. If the R2 bucket is missing, the wiki runs
+normally with uploads switched off.
+
+**Sourcing photographs**
+
+`node tools/import-photos.mjs` searches Wikimedia Commons for the picture slots defined in
+`tools/seed/photos.mjs`, filters to free licences and usable resolutions, downloads the candidates,
+and opens a contact sheet at `localhost:8788`. You pick one per slot, press the button, and it
+uploads them to the live wiki with author, licence and source intact, then places them in the
+articles with their captions. Nothing publishes until you press the button.
+
+```bash
+node tools/import-photos.mjs                          # against witipedia.co
+node tools/import-photos.mjs --site http://localhost:8787
+node tools/import-photos.mjs --auto                   # take the top pick for every slot
+node tools/import-photos.mjs --fake                   # offline, generated stand-ins
+```
+
+Commons is the right source here rather than a search engine: the licences are free, every file
+carries its author, and the provenance is checkable. A photograph found on a search engine is
+somebody's property.
+
 **The one difference**
 
 Two independent ratings per article: **was this helpful** and **was this funny**, each with
@@ -104,9 +137,10 @@ tools/
 
 ## Not built yet
 
-File uploads, undelete (deletion is permanent), email password recovery, edit-conflict
-merging (last save wins), rate limiting, categories as browsable listing pages, and a real
-full-text index (search is `LIKE`-based, which is fine to roughly the 10,000-article mark).
+Undelete (deletion is permanent), email password recovery, edit-conflict merging (last save
+wins), rate limiting, server-side thumbnail generation (images are served at full size and
+scaled by the browser), categories as browsable listing pages, and a real full-text index
+(search is `LIKE`-based, which is fine to roughly the 10,000-article mark).
 
 ## On the name
 

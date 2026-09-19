@@ -80,6 +80,28 @@ Set in `wrangler.toml` under `[vars]`:
 namespace. To rename after seeding, re-run `SITE_NAME="New" npm run seed` (destructive) or
 move the pages by hand from `Special:AllPages`.
 
+## Adding file uploads to a wiki that is already live
+
+```bash
+git pull --autostash
+bash setup.sh          # creates the R2 bucket, applies migrations, redeploys
+```
+
+`setup.sh` is safe to re-run: it reuses the existing database, asks before touching content, and
+if R2 is unavailable on the account it leaves uploads switched off rather than breaking the deploy.
+
+To do it by hand instead:
+
+```bash
+npx wrangler r2 bucket create witipedia-media
+npx wrangler d1 execute witipedia --remote -y --file=./migrations/0001-files.sql
+# uncomment the [[r2_buckets]] block in wrangler.toml
+npx wrangler deploy
+```
+
+R2 has to be enabled on the account first, at dash.cloudflare.com under R2. The free tier covers
+10 GB, which is a few thousand photographs.
+
 ## Backups
 
 ```bash

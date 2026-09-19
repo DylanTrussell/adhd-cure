@@ -80,6 +80,7 @@ function sidebar(ctx) {
       <li><a href="/wiki/Help:Editing">Learn to edit</a></li>
       <li><a href="/wiki/${encodeURIComponent(site.project)}:Community_portal">Community portal</a></li>
       <li><a href="/wiki/${encodeURIComponent(site.project)}:Sandbox">Sandbox</a></li>
+      <li><a href="/wiki/Special:Upload">Upload a file</a></li>
       <li><a href="/wiki/Special:SpecialPages">Special pages</a></li>
     </ul>
     ${tools}

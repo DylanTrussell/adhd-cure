@@ -95,3 +95,21 @@ CREATE TABLE logs (
   created_at INTEGER NOT NULL
 );
 CREATE INDEX logs_recent ON logs(created_at DESC);
+
+CREATE TABLE files (
+  id          INTEGER PRIMARY KEY AUTOINCREMENT,
+  name        TEXT NOT NULL UNIQUE,          -- "Wombat_cube.jpg", matches the File: page
+  r2_key      TEXT NOT NULL,                 -- content-hashed object key in R2
+  mime        TEXT NOT NULL,
+  size        INTEGER NOT NULL,
+  width       INTEGER NOT NULL DEFAULT 0,
+  height      INTEGER NOT NULL DEFAULT 0,
+  sha1        TEXT NOT NULL,
+  uploader    TEXT NOT NULL,
+  uploaded_at INTEGER NOT NULL,
+  source      TEXT,
+  author      TEXT,
+  license     TEXT,
+  license_url TEXT
+);
+CREATE INDEX files_uploaded ON files(uploaded_at DESC);

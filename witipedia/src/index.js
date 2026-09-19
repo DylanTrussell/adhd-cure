@@ -12,8 +12,9 @@ import {
 } from './auth.js';
 import {
   articleView, missingPageView, editView, historyView, diffView, loginView, createAccountView,
-  searchView, ratingBox,
+  searchView, ratingBox, uploadView, fileView,
 } from './views.js';
+import { storeUpload, LICENSES, normalizeFileName, ALLOWED, sniffType } from './upload.js';
 
 const MAX_LEN = 1_000_000;
 
@@ -40,6 +41,7 @@ async function buildCtx(request, env, url) {
     csrf: user?.csrf || '',
     ip: clientIp(request),
     voterKey: user ? `u:${user.id}` : `ip:${clientIp(request)}`,
+    licenses: LICENSES.map(([id, label]) => [id, label]),
     site: {
       name: env.SITE_NAME || 'Witipedia',
       tagline: env.SITE_TAGLINE || "It's funny because it's true.",
@@ -74,6 +76,10 @@ async function renderArticle(ctx, t, url) {
   };
 
   if (!page) {
+    if (t.ns === 6) {
+      const file = await db.getFile(env.DB, t.title);
+      if (file) return html(base, fileView(base, { file, page: null, rev: null }));
+    }
     return html(base, missingPageView(base, t.ns, t.title, base.canEdit), 404);
   }
 
@@ -83,13 +89,22 @@ async function renderArticle(ctx, t, url) {
   const mine = t.ns === 0 ? await db.myRatings(env.DB, page.id, ctx.voterKey) : {};
   const watched = await db.isWatched(env.DB, ctx.user?.id, page.id);
 
-  // Resolve red links in one query.
+  // One probe pass tells us which page titles and which files the text needs.
   const probe = parse(rev.content, { exists: () => true, siteName: site.name, projectName: site.project, title: t.title });
-  const existsSet = await db.existingKeys(env.DB, probe.links);
+  const [existsSet, fileMap] = await Promise.all([
+    db.existingKeys(env.DB, probe.links),
+    db.filesByName(env.DB, probe.links.filter((k) => k.startsWith('6:')).map((k) => k.slice(2))),
+  ]);
 
-  const ctx2 = { ...base, isWatched: watched, description: extract(rev.content, 200) };
+  const ctx2 = { ...base, isWatched: watched, description: extract(rev.content, 200), fileMap };
+
+  if (t.ns === 6) {
+    const file = await db.getFile(env.DB, t.title);
+    return html(ctx2, fileView(ctx2, { file, page, rev, existsSet }));
+  }
+
   let body = articleView(ctx2, page, rev, {
-    mine, existsSet, oldRev: oldid && oldid !== page.current_rev_id ? rev : null,
+    mine, existsSet, fileMap, oldRev: oldid && oldid !== page.current_rev_id ? rev : null,
   });
 
   if (t.ns === 0 && t.title === 'Main Page') body += await mainPageExtras(ctx2);
@@ -184,8 +199,9 @@ async function handleSubmit(ctx, t, request) {
   if (wantPreview) {
     const probe = parse(section ? text : fullText, { exists: () => true, siteName: site.name, projectName: site.project, title: t.title });
     const existsSet = await db.existingKeys(env.DB, probe.links);
+    const fileMap = await db.filesByName(env.DB, probe.links.filter((k) => k.startsWith('6:')).map((k) => k.slice(2)));
     const previewParsed = parse(section ? text : fullText, {
-      exists: (k) => existsSet.has(k), siteName: site.name, projectName: site.project,
+      exists: (k) => existsSet.has(k), files: fileMap, siteName: site.name, projectName: site.project,
       title: t.title, sectionEdit: false,
     });
     return html(base, editView(base, {
@@ -315,6 +331,7 @@ async function adminAction(ctx, t, url, request, action) {
     if (request.method === 'POST') {
       const form = await request.formData();
       if (!csrfOk(request, ctx, form.get('csrf'))) return new Response('Bad CSRF token', { status: 403 });
+      if (page.namespace === 6) await db.deleteFile(env.DB, env, page.title);
       await env.DB.batch([
         env.DB.prepare('DELETE FROM ratings WHERE page_id=?').bind(page.id),
         env.DB.prepare('DELETE FROM watchlist WHERE page_id=?').bind(page.id),
@@ -425,6 +442,45 @@ async function handleSpecial(ctx, rest, request, url) {
       }
       return wrap(createAccountView(base));
     }
+
+    case 'upload': {
+      if (request.method === 'POST') {
+        if (!ctx.user) return wrap(uploadView(base), 403);
+        const form = await request.formData();
+        if (!csrfOk(request, ctx, form.get('csrf'))) return new Response('Bad CSRF token', { status: 403 });
+        const fields = {
+          name: String(form.get('name') || ''), author: String(form.get('author') || ''),
+          source: String(form.get('source') || ''), description: String(form.get('description') || ''),
+          license: String(form.get('license') || ''),
+        };
+        const result = await storeUpload(env, {
+          file: form.get('file'), name: fields.name || undefined,
+          uploader: ctx.user.username, license: fields.license,
+          source: fields.source, author: fields.author,
+        });
+        if (result.error) return wrap(uploadView(base, { ...fields, error: result.error }), 400);
+
+        const saved = await db.recordFile(env.DB, result.row);
+        const display = saved.name.replace(/_/g, ' ');
+        const desc = `${fields.description ? `${fields.description}\n\n` : ''}`
+          + `{{Infobox\n| title = ${display}\n| author = ${fields.author}\n`
+          + `| licence = ${result.row.license_name}\n| source = ${fields.source || 'not stated'}\n}}\n\n`
+          + `This file is available under the [${result.row.license_url} ${result.row.license_name}] licence.\n\n`
+          + `[[Category:Files]]\n`;
+        await db.saveEdit(env.DB, {
+          ns: 6, title: display, projectName: site.project, content: desc,
+          comment: `uploaded "${display}"`, user: ctx.user, userText: ctx.user.username, tags: 'upload',
+        });
+        await db.log(env.DB, {
+          type: 'upload', action: 'uploaded', userText: ctx.user.username,
+          target: `File:${display}`, comment: `${result.row.width}x${result.row.height}, ${result.row.license_name}`,
+        });
+        return redirect(`/wiki/File:${encodeURIComponent(saved.name)}`);
+      }
+      return wrap(uploadView(base));
+    }
+
+    case 'listfiles': case 'newfiles': return wrap(await sp.listFilesView(base));
 
     case 'block': {
       if (!effectiveGroups(ctx.user).includes('sysop')) {
@@ -574,6 +630,26 @@ export default {
         <rect width="44" height="44" fill="#fff"/><g color="#202122">${logoSvg(44).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '')}</g></svg>`,
         { headers: { 'Content-Type': 'image/svg+xml', 'Cache-Control': 'public, max-age=86400' } });
     }
+    if (path.startsWith('/images/')) {
+      const name = decodeURIComponent(path.slice('/images/'.length)).replace(/ /g, '_');
+      const file = await env.DB.prepare('SELECT * FROM files WHERE name = ?').bind(name).first();
+      if (!file) return new Response('No such file', { status: 404 });
+      if (!env.MEDIA) return new Response('File storage is not configured', { status: 503 });
+      const etag = `"${file.sha1}"`;
+      if (request.headers.get('If-None-Match') === etag) return new Response(null, { status: 304 });
+      const object = await env.MEDIA.get(file.r2_key);
+      if (!object) return new Response('The stored copy of this file is missing', { status: 404 });
+      return new Response(object.body, {
+        headers: {
+          'Content-Type': file.mime,
+          'Cache-Control': 'public, max-age=86400',
+          'Content-Disposition': `inline; filename="${file.name.replace(/[^\w.-]/g, '_')}"`,
+          'X-Content-Type-Options': 'nosniff',
+          ETag: etag,
+        },
+      });
+    }
+
     if (path === '/robots.txt') {
       return new Response('User-agent: *\nDisallow: /w/\nAllow: /\n', { headers: { 'Content-Type': 'text/plain' } });
     }

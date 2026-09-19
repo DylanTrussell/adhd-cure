@@ -144,6 +144,8 @@ table.infobox caption{background:var(--accent-bg);font-weight:700;padding:7px;fo
 table.infobox th,table.infobox td{padding:5px 8px;border-top:1px solid var(--border-light);text-align:left;vertical-align:top}
 table.infobox th{width:38%;font-weight:700}
 table.infobox td.ib-caption{text-align:center;color:var(--subtle);font-style:italic}
+table.infobox td.ib-image{padding:0;text-align:center;background:var(--content-bg)}
+table.infobox td.ib-image img{display:block;width:100%;height:auto;max-width:100%}
 @media(max-width:620px){table.infobox{float:none;width:auto;margin:1em 0}}
 
 .toc{display:table;background:var(--bg);border:1px solid var(--border-light);padding:10px 16px 10px 10px;
@@ -263,4 +265,29 @@ table.infobox td.ib-caption{text-align:center;color:var(--subtle);font-style:ita
 .userlinks{font-size:12.6px}
 .helptext{font-size:12.8px;color:var(--subtle)}
 .pager{display:flex;gap:12px;margin:16px 0;font-size:13.4px}
+/* ---------- files and thumbnails ---------- */
+figure.thumb{margin:.5em 0 1.2em;padding:0;border:1px solid var(--border-light);background:var(--bg);
+  border-radius:2px;max-width:100%}
+figure.thumb.tright{float:right;clear:right;margin:.4em 0 1.1em 1.4em}
+figure.thumb.tleft{float:left;clear:left;margin:.4em 1.4em 1.1em 0}
+figure.thumb.tcenter{margin-left:auto;margin-right:auto;float:none}
+.thumbinner{padding:4px;font-size:12.8px;text-align:center;overflow:hidden}
+.thumbinner img{display:block;max-width:100%;height:auto;margin:0 auto;border:1px solid var(--border-light)}
+.thumbcaption{text-align:left;padding:5px 3px 2px;line-height:1.45;color:var(--text)}
+.mw-file-inline img{max-width:100%;height:auto;vertical-align:middle;border:1px solid var(--border-light)}
+.mw-file-inline.mw-file-left{float:left;margin:.3em 1em .6em 0}
+.mw-file-inline.mw-file-right{float:right;margin:.3em 0 .6em 1em}
+.mw-file-inline.mw-file-center{display:block;text-align:center;margin:.8em auto}
+@media(max-width:620px){
+  figure.thumb.tright,figure.thumb.tleft{float:none;margin:1em auto;width:auto!important;max-width:100%}
+  .thumbinner img{width:auto}
+}
+.filepage-preview{margin:12px 0 18px;padding:12px;background:var(--bg);border:1px solid var(--border-light);
+  border-radius:2px;text-align:center}
+.filepage-preview img{max-width:100%;height:auto;border:1px solid var(--border-light);background:#fff}
+.filegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:16px;margin:16px 0}
+.filecard{margin:0;border:1px solid var(--border-light);background:var(--bg);border-radius:2px;padding:8px}
+.filecard img{width:100%;height:150px;object-fit:cover;background:var(--content-bg);border:1px solid var(--border-light)}
+.filecard figcaption{font-size:12.5px;margin-top:6px;line-height:1.45}
+
 `;

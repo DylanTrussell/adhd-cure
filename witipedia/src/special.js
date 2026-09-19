@@ -208,8 +208,9 @@ export async function pageInfo(ctx, target) {
 
 export function specialPages(ctx) {
   const groups = {
-    'Lists of pages': [['AllPages', 'All pages'], ['NewPages', 'New pages'], ['TopRated', 'Top rated articles'], ['Random', 'Random article'], ['ShortPages', 'Short pages'], ['WantedPages', 'Wanted pages']],
+    'Lists of pages': [['AllPages', 'All pages'], ['NewPages', 'New pages'], ['TopRated', 'Top rated articles'], ['Random', 'Random article'], ['ShortPages', 'Short pages'], ['WantedPages', 'Wanted pages'], ['ListFiles', 'File list']],
     'Recent activity': [['RecentChanges', 'Recent changes'], ['Log', 'Logs'], ['Watchlist', 'Your watchlist']],
+    Media: [['Upload', 'Upload a file'], ['ListFiles', 'File list']],
     Users: [['ListUsers', 'User list'], ['CreateAccount', 'Create account'], ['UserLogin', 'Log in']],
     'Site data': [['Statistics', 'Statistics'], ['Search', 'Search']],
   };
@@ -253,5 +254,26 @@ export async function wantedPages(ctx) {
       const [ns, title] = [Number(key.split(':')[0]), key.split(':').slice(1).join(':').replace(/_/g, ' ')];
       return `<li><a class="new" href="${pageUrl(ns, title, ctx.site.project, '?action=edit&redlink=1')}">${esc(fullTitle(ns, title, ctx.site.project))}</a> <span class="ts">(${n} link${n === 1 ? '' : 's'})</span></li>`;
     }).join('') || '<li class="helptext">No red links. Suspicious.</li>'}</ol>
+  </div>`;
+}
+
+export async function listFilesView(ctx) {
+  const files = await db.listFiles(ctx.env.DB, 200);
+  if (!files.length) {
+    return `<div class="mw-body"><h1 id="firstHeading">File list</h1>
+      <p>Nothing has been uploaded yet. <a href="/wiki/Special:Upload">Upload the first file</a>.</p></div>`;
+  }
+  return `<div class="mw-body wide"><h1 id="firstHeading">File list</h1>
+    <p class="helptext">${files.length} file${files.length === 1 ? '' : 's'}. Every one carries an author and a licence, because reuse rights are part of the record.</p>
+    <div class="filegrid">
+      ${files.map((f) => `<figure class="filecard">
+        <a href="/wiki/File:${encodeURIComponent(f.name)}"><img src="/images/${encodeURIComponent(f.name)}" alt="${escAttr(f.name.replace(/_/g, ' '))}" loading="lazy"></a>
+        <figcaption>
+          <a href="/wiki/File:${encodeURIComponent(f.name)}"><b>${esc(f.name.replace(/_/g, ' '))}</b></a><br>
+          <span class="ts">${f.width}&times;${f.height} &middot; ${(f.size / 1024).toFixed(0)} KB &middot; ${esc(f.license || '')}</span><br>
+          <span class="ts">${esc(f.author || '')}</span>
+        </figcaption>
+      </figure>`).join('')}
+    </div>
   </div>`;
 }

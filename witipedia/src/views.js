@@ -34,11 +34,11 @@ export function ratingBox(ctx, page, mine = {}) {
   </section>`;
 }
 
-export function articleView(ctx, page, rev, { mine = {}, oldRev = null, existsSet = new Set() } = {}) {
+export function articleView(ctx, page, rev, { mine = {}, oldRev = null, existsSet = new Set(), fileMap = {} } = {}) {
   const { site } = ctx;
   const title = fullTitle(page.namespace, page.title, site.project);
   const parsed = parse(rev.content, {
-    exists: (k) => existsSet.has(k),
+    exists: (k) => existsSet.has(k), files: fileMap,
     siteName: site.name, projectName: site.project, title: page.title,
     editUrl: pageUrl(page.namespace, page.title, site.project, '?action=edit'),
   });
@@ -280,5 +280,96 @@ export function searchView(ctx, q, results, { nsFilter = '' } = {}) {
     ${q ? `<p class="helptext">${results.length} result${results.length === 1 ? '' : 's'} for <b>${esc(q)}</b>.
       ${results.length ? '' : `There is no page with this title yet. <a href="/wiki/${encodeURIComponent(q.replace(/ /g, '_'))}?action=edit">Create it</a>.`}</p>` : ''}
     ${rows}
+  </div>`;
+}
+
+// ----------------------------------------------------------------------- files
+
+export function uploadView(ctx, { error, ok, name = '', author = '', source = '', description = '', license = '' } = {}) {
+  const { site, user, licenses } = ctx;
+  if (!user) {
+    return `<div class="mw-body"><h1 id="firstHeading">Upload a file</h1>
+      <p>You need an account to upload. <a href="/wiki/Special:UserLogin?returnto=Special:Upload">Log in</a> or
+      <a href="/wiki/Special:CreateAccount">create one</a>. Anonymous editing stays open; uploads are named because
+      somebody has to be answerable for the copyright.</p></div>`;
+  }
+  return `<div class="mw-body">
+    <h1 id="firstHeading">Upload a file</h1>
+    ${error ? `<div class="errorbox">${esc(error)}</div>` : ''}
+    ${ok ? `<div class="successbox">${ok}</div>` : ''}
+    <div class="editnotice">
+      <b>Only upload pictures you are allowed to upload.</b> Anything free to reuse works: your own photographs,
+      <a class="external" target="_blank" rel="noopener nofollow" href="https://commons.wikimedia.org/">Wikimedia Commons</a>,
+      public domain material. A picture you found on a search engine is somebody's property and gets deleted.
+      JPEG, PNG, GIF or WebP, up to 10 MB.
+    </div>
+    <form class="form-narrow" method="post" action="/wiki/Special:Upload" enctype="multipart/form-data" style="max-width:560px">
+      <input type="hidden" name="csrf" value="${escAttr(ctx.csrf || '')}">
+      <div class="row"><label for="f">Source file</label><input id="f" type="file" name="file" accept="image/jpeg,image/png,image/gif,image/webp" required></div>
+      <div class="row"><label for="n">Destination filename</label><input id="n" name="name" value="${escAttr(name)}" placeholder="Emu at Campion.jpg">
+        <span class="helptext">Descriptive, not IMG_4021. The extension is added for you.</span></div>
+      <div class="row"><label for="d">Description</label><input id="d" name="description" value="${escAttr(description)}" placeholder="An emu, mid-outrun, Western Australia">
+      </div>
+      <div class="row"><label for="a">Author</label><input id="a" name="author" value="${escAttr(author)}" placeholder="Jane Photographer, or: Own work" required></div>
+      <div class="row"><label for="s">Source</label><input id="s" name="source" value="${escAttr(source)}" placeholder="https://commons.wikimedia.org/wiki/File:..."></div>
+      <div class="row"><label for="l">Licence</label>
+        <select id="l" name="license" class="btn" style="width:100%;padding:8px" required>
+          <option value="">Choose one</option>
+          ${licenses.map(([id, label]) => `<option value="${escAttr(id)}"${license === id ? ' selected' : ''}>${esc(label)}</option>`).join('')}
+        </select></div>
+      <div class="row"><button class="btn btn-primary" type="submit">Upload file</button>
+        &nbsp;<a class="btn" href="/wiki/Special:ListFiles">All files</a></div>
+    </form>
+  </div>`;
+}
+
+export function fileView(ctx, { file, page, rev, existsSet = new Set(), mine = {} }) {
+  const { site } = ctx;
+  const display = file ? file.name.replace(/_/g, ' ') : ctx.title;
+  const parsed = rev ? parse(rev.content, {
+    exists: (k) => existsSet.has(k), siteName: site.name, projectName: site.project,
+    title: display, files: ctx.fileMap || {},
+    editUrl: pageUrl(6, ctx.title, site.project, '?action=edit'),
+  }) : null;
+
+  if (!file) {
+    return `<div class="mw-body">
+      <h1 id="firstHeading">File:${esc(display)}</h1>
+      <div class="errorbox">No file with this name has been uploaded.</div>
+      ${parsed ? `<div class="mw-parser-output">${parsed.html}</div>` : ''}
+      <p><a href="/wiki/Special:Upload">Upload one</a>.</p>
+    </div>`;
+  }
+
+  const w = Math.min(file.width || 640, 800);
+  const h = file.width && file.height ? Math.round(w * (file.height / file.width)) : 0;
+  const rows = [
+    ['Uploaded by', userLink(file.uploader, false)],
+    ['Date', ts(file.uploaded_at)],
+    ['Size', `${(file.size / 1024).toFixed(0)} KB${file.width ? ` &middot; ${file.width} &times; ${file.height} pixels` : ''}`],
+    ['Type', esc(file.mime)],
+    ['Author', esc(file.author || 'unknown')],
+    ['Licence', file.license_url
+      ? `<a class="external" target="_blank" rel="noopener nofollow" href="${escAttr(file.license_url)}">${esc(file.license || '')}</a>`
+      : esc(file.license || 'unspecified')],
+    ['Source', file.source
+      ? (/^https?:/.test(file.source)
+        ? `<a class="external" target="_blank" rel="noopener nofollow" href="${escAttr(file.source)}">${esc(file.source.slice(0, 90))}</a>`
+        : esc(file.source))
+      : '&mdash;'],
+    ['Used by', `<a href="/wiki/Special:WhatLinksHere/File:${encodeURIComponent(file.name)}">pages using this file</a>`],
+  ];
+  return `<div class="mw-body">
+    <h1 id="firstHeading">File:${esc(display)}</h1>
+    <div class="filepage-preview">
+      <a href="/images/${encodeURIComponent(file.name)}" target="_blank" rel="noopener">
+        <img src="/images/${encodeURIComponent(file.name)}" alt="${escAttr(display)}" width="${w}"${h ? ` height="${h}"` : ''}>
+      </a>
+      <p class="helptext"><a href="/images/${encodeURIComponent(file.name)}" target="_blank" rel="noopener">Full resolution</a>
+        &middot; to place it in an article, write <code>[[File:${esc(file.name.replace(/_/g, ' '))}|thumb|your caption]]</code></p>
+    </div>
+    ${parsed ? `<div class="mw-parser-output">${parsed.html}</div>` : ''}
+    <h2>File information</h2>
+    <table class="wikitable">${rows.map(([k, v]) => `<tr><th scope="row">${esc(k)}</th><td>${v}</td></tr>`).join('')}</table>
   </div>`;
 }
