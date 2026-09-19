@@ -50,11 +50,27 @@ normally with uploads switched off.
 
 **Sourcing photographs**
 
-`node tools/import-photos.mjs` searches Wikimedia Commons for the picture slots defined in
-`tools/seed/photos.mjs`, filters to free licences and usable resolutions, downloads the candidates,
-and opens a contact sheet at `localhost:8788`. You pick one per slot, press the button, and it
-uploads them to the live wiki with author, licence and source intact, then places them in the
-articles with their captions. Nothing publishes until you press the button.
+Every article gets two pictures, defined in `tools/seed/photos.mjs`:
+
+- **documentary** - a real photograph of the real subject, in the infobox at the top
+- **humour** - the joke picture, at the foot, with a caption that says plainly what it is
+
+`node tools/import-photos.mjs` searches Wikimedia Commons for both, filters to free licences and
+usable resolutions, downloads the candidates, and opens a picker at `localhost:8788`. Each slot
+offers three ways to fill it:
+
+1. **Pick one** of the Commons candidates.
+2. **Make a side-by-side** - choose a left and a right image and the browser stitches them into one
+   press-style compilation on a canvas, optionally matched to black and white.
+3. **Use my own image** - paste a direct image address or choose a file from your machine, with
+   fields for author, source and licence.
+
+Then press publish. It uploads to the live wiki with the attribution intact and places each picture
+in its article with the written caption. Nothing publishes until you press the button.
+
+A note on the joke pictures: a photoshop found through a search engine is somebody's work, and
+reusing it is the one thing here that can draw a takedown. The captions are written so that a
+staged or generated image is labelled as one, which keeps a site built on verifiability honest.
 
 ```bash
 node tools/import-photos.mjs                          # against witipedia.co

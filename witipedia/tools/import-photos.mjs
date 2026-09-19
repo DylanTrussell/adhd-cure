@@ -105,6 +105,19 @@ function fakeImage(seed, w = 900, h = 650) {
 
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
 
+/** Images composed in the browser or fetched from a URL you supplied. */
+const stagedFiles = new Map();
+let stageCounter = 0;
+function stage(buffer, mime, { title = '', source = '' } = {}) {
+  const ext = mime === 'image/png' ? 'png' : mime === 'image/webp' ? 'webp' : mime === 'image/gif' ? 'gif' : 'jpg';
+  const id = `staged-${++stageCounter}`;
+  const name = `${id}.${ext}`;
+  const path = join(photoDir, name);
+  writeFileSync(path, buffer);
+  stagedFiles.set(id, { path, name, mime, title, source });
+  return { id, name };
+}
+
 async function gather() {
   const sheet = [];
   for (const [i, slot] of photoSlots.entries()) {
@@ -122,6 +135,18 @@ async function gather() {
       try { found = await commonsCandidates(slot.query, CANDIDATES); }
       catch (e) { console.log(`failed (${e.message})`); continue; }
     }
+    let second = [];
+    if (slot.diptych && !FAKE) {
+      try { second = await commonsCandidates(slot.diptych, Math.max(3, Math.floor(CANDIDATES / 2))); }
+      catch (e) { second = []; }
+    } else if (slot.diptych && FAKE) {
+      second = [1, 2].map((n) => ({
+        title: `${slot.diptych.split(' ')[0]} second ${n}.png`, width: 900, height: 650, mime: 'image/png',
+        author: 'Test Fixture', license: 'CC0', licenseUrl: '', description: `second group ${n}`,
+        source: 'offline fixture', score: 5 - n,
+      }));
+    }
+
     const saved = [];
     for (const [n, c] of found.entries()) {
       const ext = c.mime === 'image/png' ? 'png' : c.mime === 'image/webp' ? 'webp' : c.mime === 'image/gif' ? 'gif' : 'jpg';
@@ -136,8 +161,22 @@ async function gather() {
         saved.push({ ...c, local: file, localName: `${id}-${n}.${ext}`, ext });
       } catch (e) { /* skip this candidate */ }
     }
-    console.log(`${saved.length} candidate${saved.length === 1 ? '' : 's'}`);
-    sheet.push({ ...slot, id, candidates: saved });
+    const savedB = [];
+    for (const [n, c] of second.entries()) {
+      const ext = c.mime === 'image/png' ? 'png' : c.mime === 'image/webp' ? 'webp' : c.mime === 'image/gif' ? 'gif' : 'jpg';
+      const file = join(photoDir, `${id}-b${n}.${ext}`);
+      try {
+        if (FAKE) writeFileSync(file, fakeImage(n + 5));
+        else if (!existsSync(file)) {
+          const r = await fetch(c.thumb, { headers: { 'User-Agent': 'Witipedia-photo-import/1.0' } });
+          if (!r.ok) continue;
+          writeFileSync(file, Buffer.from(await r.arrayBuffer()));
+        }
+        savedB.push({ ...c, local: file, localName: `${id}-b${n}.${ext}`, ext });
+      } catch (e) { /* skip */ }
+    }
+    console.log(`${saved.length} candidate${saved.length === 1 ? '' : 's'}${savedB.length ? ` + ${savedB.length} for the diptych` : ''}`);
+    sheet.push({ ...slot, id, candidates: saved, second: savedB });
   }
   return sheet;
 }
@@ -182,9 +221,23 @@ async function publish(sheet, selections, { username, password, log }) {
 
   const results = [];
   for (const slot of sheet) {
-    const pickIndex = selections[slot.id];
-    if (pickIndex === undefined || pickIndex === null || pickIndex === 'skip') { results.push({ slot: slot.id, skipped: true }); continue; }
-    const pick = slot.candidates[Number(pickIndex)];
+    const choice = selections[slot.id];
+    if (!choice || choice === 'skip') { results.push({ slot: slot.id, skipped: true }); continue; }
+
+    let pick;
+    if (choice.type === 'staged') {
+      const staged = stagedFiles.get(choice.id);
+      if (!staged) { results.push({ slot: slot.id, skipped: true }); continue; }
+      pick = {
+        local: staged.path, localName: staged.name, mime: staged.mime,
+        title: staged.title || `${slot.article} illustration`,
+        author: choice.author || 'unknown', license: choice.license || 'CC BY-SA 4.0',
+        source: choice.source || staged.source || 'supplied by the site owner',
+        description: choice.description || '',
+      };
+    } else {
+      pick = slot.candidates[Number(choice.index)];
+    }
     if (!pick) { results.push({ slot: slot.id, skipped: true }); continue; }
 
     const bytes = readFileSync(pick.local);
@@ -224,7 +277,9 @@ async function publish(sheet, selections, { username, password, log }) {
       results.push({ slot: slot.id, file: fileName, already: true });
       continue;
     }
-    const tag = `[[File:${fileName.replace(/_/g, ' ')}|thumb|${slot.place === 'lead' ? 'right|300px' : 'right|280px'}|${slot.caption}]]`;
+    const tag = slot.place === 'end'
+      ? `[[File:${fileName.replace(/_/g, ' ')}|thumb|center|420px|${slot.caption}]]`
+      : `[[File:${fileName.replace(/_/g, ' ')}|thumb|${slot.place === 'lead' ? 'right|300px' : 'right|280px'}|${slot.caption}]]`;
     const updated = insert(wikitext, tag, slot.place);
     if (updated === wikitext) {
       results.push({ slot: slot.id, file: fileName, error: 'could not find where to place it' });
@@ -249,6 +304,18 @@ async function publish(sheet, selections, { username, password, log }) {
 /** Lead images go under the infobox; section images go under their heading. */
 export function insert(wikitext, tag, place) {
   const text = wikitext.replace(/\r\n/g, '\n');
+  if (place === 'end') {
+    // Above the references, which is where a closing illustration belongs.
+    const lines = text.split('\n');
+    for (let i = 0; i < lines.length; i++) {
+      const m = /^(={2,6})\s*(.+?)\s*\1\s*$/.exec(lines[i]);
+      if (m && /^(references|see also|notes|sources)$/i.test(m[2].trim())) {
+        lines.splice(i, 0, tag, '');
+        return lines.join('\n');
+      }
+    }
+    return `${text.replace(/\s+$/, '')}\n\n${tag}\n`;
+  }
   if (place.startsWith('section:')) {
     const heading = place.slice('section:'.length).trim().toLowerCase();
     const lines = text.split('\n');
@@ -281,66 +348,229 @@ export function insert(wikitext, tag, place) {
 // --------------------------------------------------------------- contact sheet
 
 function sheetHtml(sheet) {
+  const tile = (c, i, group) => `
+    <label class="cand">
+      <input type="radio" name="pick-${group}" value="${i}">
+      <img src="/img/${c.localName}" alt="" loading="lazy">
+      <span class="meta"><b>${c.title.replace(/</g, '&lt;')}</b><br>${c.width}&times;${c.height} &middot; ${c.license}<br>${String(c.author).replace(/</g, '&lt;').slice(0, 70)}</span>
+    </label>`;
+
   const card = (slot) => `
-  <section class="slot" id="${slot.id}">
-    <h2>${slot.article} <small>${slot.place === 'lead' ? 'lead image' : slot.place.replace('section:', 'section: ')}</small></h2>
+  <section class="slot" id="${slot.id}" data-kind="${slot.kind}">
+    <div class="slot-head">
+      <h2>${slot.article}</h2>
+      <span class="badge ${slot.kind}">${slot.kind === 'humour' ? 'the joke picture, foot of the article' : 'the real thing, top of the article'}</span>
+      <span class="state" id="state-${slot.id}">nothing chosen</span>
+    </div>
     <p class="cap">Caption: <i>${slot.caption}</i></p>
-    <div class="row">
-      ${slot.candidates.map((c, i) => `
-        <label class="cand">
-          <input type="radio" name="${slot.id}" value="${i}"${i === 0 ? ' checked' : ''}>
-          <img src="/img/${c.localName}" alt="">
-          <span class="meta"><b>${c.title}</b><br>${c.width}&times;${c.height} &middot; ${c.license}<br>${c.author.slice(0, 70)}</span>
-        </label>`).join('')}
-      <label class="cand skip"><input type="radio" name="${slot.id}" value="skip"><span class="meta"><b>None of these</b><br>Skip this slot</span></label>
+
+    <div class="tabs">
+      <button type="button" class="tab on" data-tab="single" data-slot="${slot.id}">Pick one</button>
+      ${slot.second && slot.second.length ? `<button type="button" class="tab" data-tab="diptych" data-slot="${slot.id}">Make a side-by-side</button>` : ''}
+      <button type="button" class="tab" data-tab="own" data-slot="${slot.id}">Use my own image</button>
+      <button type="button" class="tab" data-tab="skip" data-slot="${slot.id}">Skip</button>
+    </div>
+
+    <div class="pane on" data-pane="single" data-slot="${slot.id}">
+      <div class="row">${slot.candidates.map((c, i) => tile(c, i, slot.id)).join('') || '<p class="none">Commons returned nothing for this one. Use your own image.</p>'}</div>
+    </div>
+
+    ${slot.second && slot.second.length ? `
+    <div class="pane" data-pane="diptych" data-slot="${slot.id}">
+      <p class="hint">Left half, then right half. It gets stitched into one picture, like a press compilation.</p>
+      <div class="half"><b>Left</b><div class="row">${slot.candidates.map((c, i) => `
+        <label class="cand sm"><input type="radio" name="dl-${slot.id}" value="${i}"><img src="/img/${c.localName}" loading="lazy"><span class="meta">${c.license}</span></label>`).join('')}</div></div>
+      <div class="half"><b>Right</b><div class="row">${slot.second.map((c, i) => `
+        <label class="cand sm"><input type="radio" name="dr-${slot.id}" value="${i}"><img src="/img/${c.localName}" loading="lazy"><span class="meta">${c.license}</span></label>`).join('')}</div></div>
+      <div class="dip-actions">
+        <button type="button" class="mk" data-slot="${slot.id}">Stitch these two</button>
+        <label class="bw"><input type="checkbox" id="bw-${slot.id}"> match them in black and white</label>
+      </div>
+      <canvas id="canvas-${slot.id}" class="preview" hidden></canvas>
+    </div>` : ''}
+
+    <div class="pane" data-pane="own" data-slot="${slot.id}">
+      <p class="hint">Paste a direct image address (in a browser: right-click the image, Copy Image Address) or choose a file from this Mac.
+        Whatever you upload gets a file page recording the source you type here, so the record stays honest.</p>
+      <div class="own-grid">
+        <input type="url" id="url-${slot.id}" placeholder="https://example.com/thing.jpg">
+        <button type="button" class="fetch" data-slot="${slot.id}">Fetch it</button>
+        <input type="file" id="file-${slot.id}" accept="image/*">
+        <input type="text" id="author-${slot.id}" placeholder="Author or creator (required)">
+        <input type="text" id="source-${slot.id}" placeholder="Where it came from (page URL, or how you made it)">
+        <select id="license-${slot.id}">
+          <option value="cc-by-sa-4.0">CC BY-SA 4.0</option>
+          <option value="cc-by-4.0">CC BY 4.0</option>
+          <option value="cc0">CC0 / public domain dedication</option>
+          <option value="pd">Public domain</option>
+          <option value="own-cc-by-sa-4.0">My own work, CC BY-SA 4.0</option>
+        </select>
+      </div>
+      <img class="preview" id="own-preview-${slot.id}" hidden>
     </div>
   </section>`;
-  return `<!doctype html><html><head><meta charset="utf-8"><title>Pick the photos</title>
+
+  return `<!doctype html><html><head><meta charset="utf-8"><title>Pick the pictures</title>
 <style>
-  :root{--bg:#f8f9fa;--card:#fff;--ink:#202122;--line:#c8ccd1;--blue:#36c}
-  @media(prefers-color-scheme:dark){:root{--bg:#14171a;--card:#1c1f23;--ink:#eaecf0;--line:#3a3f44}}
-  body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
-  header{position:sticky;top:0;background:var(--card);border-bottom:1px solid var(--line);padding:14px 20px;z-index:5;
-    display:flex;gap:16px;align-items:center;flex-wrap:wrap}
-  h1{font:600 17px/1.2 inherit;margin:0}
-  main{padding:20px;max-width:1500px;margin:0 auto}
-  .slot{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:14px 16px;margin:0 0 18px}
-  .slot h2{font-size:16px;margin:0 0 2px}.slot h2 small{font-weight:400;color:#72777d}
-  .cap{margin:0 0 12px;color:#54595d;font-size:13px}
-  .row{display:flex;gap:12px;overflow-x:auto;padding-bottom:6px}
-  .cand{flex:0 0 240px;border:2px solid transparent;border-radius:4px;padding:6px;cursor:pointer;background:var(--bg)}
-  .cand:has(input:checked){border-color:var(--blue);background:#eaf3ff}
-  @media(prefers-color-scheme:dark){.cand:has(input:checked){background:#20304a}}
-  .cand img{width:100%;height:170px;object-fit:cover;border-radius:2px;display:block;background:#ddd}
-  .cand input{margin:0 0 6px}
-  .meta{display:block;font-size:11.5px;line-height:1.4;margin-top:6px;color:#54595d;word-break:break-word}
-  .skip{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;min-height:200px}
-  button{background:var(--blue);color:#fff;border:0;border-radius:3px;padding:9px 18px;font:600 14px inherit;cursor:pointer}
-  button:disabled{opacity:.6;cursor:progress}
+  :root{--bg:#f6f7f9;--card:#fff;--ink:#1c1e21;--dim:#61656b;--line:#d3d7dc;--blue:#36c;--good:#178a4c}
+  @media(prefers-color-scheme:dark){:root{--bg:#121518;--card:#1b1e22;--ink:#e9ecef;--dim:#9aa0a6;--line:#343a40}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.55 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+  header{position:sticky;top:0;z-index:9;background:var(--card);border-bottom:1px solid var(--line);
+    padding:12px 20px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+  h1{font:600 16px/1.2 inherit;margin:0}
+  header .sub{color:var(--dim);font-size:12.5px;flex:1;min-width:220px}
+  main{padding:18px 20px 60px;max-width:1500px;margin:0 auto}
+  .slot{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:14px 16px;margin:0 0 16px}
+  .slot-head{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .slot h2{font-size:16px;margin:0}
+  .badge{font-size:11px;padding:2px 8px;border-radius:10px;background:#e8f0fe;color:#1a4b8c}
+  .badge.humour{background:#fdf0d5;color:#8a5a00}
+  @media(prefers-color-scheme:dark){.badge{background:#1e3350;color:#a9c8f5}.badge.humour{background:#3d2f12;color:#f0c674}}
+  .state{margin-left:auto;font-size:12px;color:var(--dim)}
+  .state.set{color:var(--good);font-weight:600}
+  .cap{margin:6px 0 10px;color:var(--dim);font-size:13px}
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+  .tab{background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:5px 11px;font:inherit;font-size:12.5px;cursor:pointer;color:var(--ink)}
+  .tab.on{background:var(--blue);border-color:var(--blue);color:#fff}
+  .pane{display:none}.pane.on{display:block}
+  .row{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px}
+  .cand{flex:0 0 230px;border:2px solid transparent;border-radius:5px;padding:6px;cursor:pointer;background:var(--bg)}
+  .cand.sm{flex:0 0 150px}
+  .cand:has(input:checked){border-color:var(--blue)}
+  .cand img{width:100%;height:160px;object-fit:cover;border-radius:3px;display:block;background:#ccc}
+  .cand.sm img{height:110px}
+  .cand input{margin:0 0 5px}
+  .meta{display:block;font-size:11px;line-height:1.35;margin-top:5px;color:var(--dim);word-break:break-word}
+  .half{margin:8px 0}.half b{font-size:12.5px;color:var(--dim)}
+  .hint{font-size:12.5px;color:var(--dim);margin:0 0 8px}
+  .none{color:var(--dim);font-size:13px}
+  .dip-actions{display:flex;gap:12px;align-items:center;margin-top:8px;flex-wrap:wrap}
+  .mk,.fetch{background:var(--blue);color:#fff;border:0;border-radius:4px;padding:7px 14px;font:600 13px inherit;cursor:pointer}
+  .bw{font-size:12.5px;color:var(--dim)}
+  .own-grid{display:grid;grid-template-columns:1fr auto;gap:8px;max-width:640px}
+  .own-grid input,.own-grid select{padding:7px 9px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--ink);font:inherit;font-size:13px}
+  .own-grid input[type=file],.own-grid select,.own-grid input[type=text]{grid-column:1/-1}
+  .preview{display:block;max-width:100%;width:520px;margin-top:10px;border:1px solid var(--line);border-radius:4px}
+  #go{background:var(--good);color:#fff;border:0;border-radius:4px;padding:9px 18px;font:600 14px inherit;cursor:pointer}
+  #go:disabled{opacity:.6;cursor:progress}
   #log{white-space:pre-wrap;font:12px/1.5 ui-monospace,Menlo,monospace;background:var(--card);border:1px solid var(--line);
-    border-radius:4px;padding:12px;margin-top:16px;max-height:340px;overflow:auto}
+    border-radius:5px;padding:12px;margin-top:14px;max-height:320px;overflow:auto}
 </style></head><body>
 <header>
-  <h1>Pick the photos</h1>
-  <span style="color:#54595d">Everything here is free-licensed on Wikimedia Commons. Nothing publishes until you press the button.</span>
-  <button id="go" style="margin-left:auto">Publish the selected photos</button>
+  <h1>Pick the pictures</h1>
+  <span class="sub">Two per article: the real thing at the top, the joke at the foot. Nothing publishes until you press the button.</span>
+  <button id="go">Publish what I picked</button>
 </header>
 <main>
   ${sheet.map(card).join('')}
   <div id="log" hidden></div>
 </main>
 <script>
+const picks = {};
+
+function setState(slot, text) {
+  const el = document.getElementById('state-' + slot);
+  el.textContent = text;
+  el.classList.toggle('set', text !== 'nothing chosen' && text !== 'skipped');
+}
+
+document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => {
+  const slot = t.dataset.slot;
+  document.querySelectorAll('.tab[data-slot="' + slot + '"]').forEach(x => x.classList.toggle('on', x === t));
+  document.querySelectorAll('.pane[data-slot="' + slot + '"]').forEach(p => p.classList.toggle('on', p.dataset.pane === t.dataset.tab));
+  if (t.dataset.tab === 'skip') { picks[slot] = 'skip'; setState(slot, 'skipped'); }
+}));
+
+document.querySelectorAll('input[type=radio][name^="pick-"]').forEach(r => r.addEventListener('change', () => {
+  const slot = r.name.slice(5);
+  picks[slot] = { type: 'candidate', index: Number(r.value) };
+  setState(slot, 'one photo chosen');
+}));
+
+// --- side-by-side composer, done on canvas so no image library is needed
+document.querySelectorAll('.mk').forEach(btn => btn.addEventListener('click', async () => {
+  const slot = btn.dataset.slot;
+  const l = document.querySelector('input[name="dl-' + slot + '"]:checked');
+  const r = document.querySelector('input[name="dr-' + slot + '"]:checked');
+  if (!l || !r) { alert('Choose one for the left and one for the right.'); return; }
+  const left = document.querySelectorAll('.pane[data-pane="diptych"][data-slot="' + slot + '"] input[name="dl-' + slot + '"]')[Number(l.value)].parentElement.querySelector('img');
+  const right = document.querySelectorAll('.pane[data-pane="diptych"][data-slot="' + slot + '"] input[name="dr-' + slot + '"]')[Number(r.value)].parentElement.querySelector('img');
+  const load = (src) => new Promise((res, rej) => { const i = new Image(); i.onload = () => res(i); i.onerror = rej; i.src = src; });
+  const [a, b] = await Promise.all([load(left.src), load(right.src)]);
+  const H = 640, GAP = 6;
+  const wa = Math.round(a.naturalWidth * (H / a.naturalHeight));
+  const wb = Math.round(b.naturalWidth * (H / b.naturalHeight));
+  const canvas = document.getElementById('canvas-' + slot);
+  canvas.width = wa + GAP + wb; canvas.height = H;
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, canvas.width, canvas.height);
+  if (document.getElementById('bw-' + slot).checked) ctx.filter = 'grayscale(1) contrast(1.05)';
+  ctx.drawImage(a, 0, 0, wa, H);
+  ctx.drawImage(b, wa + GAP, 0, wb, H);
+  canvas.hidden = false;
+  const blob = await new Promise(res => canvas.toBlob(res, 'image/jpeg', 0.9));
+  const fd = new FormData();
+  fd.append('file', blob, 'diptych.jpg');
+  fd.append('title', 'composite');
+  const res = await fetch('/stage', { method: 'POST', body: fd });
+  const out = await res.json();
+  picks[slot] = { type: 'staged', id: out.id, author: 'see file page', license: 'cc-by-sa-4.0', source: 'composite of two Wikimedia Commons photographs' };
+  setState(slot, 'side-by-side ready');
+}));
+
+// --- your own image, by address or from this machine
+document.querySelectorAll('.fetch').forEach(btn => btn.addEventListener('click', async () => {
+  const slot = btn.dataset.slot;
+  const url = document.getElementById('url-' + slot).value.trim();
+  if (!url) return;
+  btn.disabled = true; btn.textContent = 'Fetching...';
+  try {
+    const res = await fetch('/stage-url', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ url }) });
+    const out = await res.json();
+    if (out.error) { alert(out.error); return; }
+    const prev = document.getElementById('own-preview-' + slot);
+    prev.src = '/img/' + out.name; prev.hidden = false;
+    picks[slot] = { type: 'staged', id: out.id, source: url };
+    setState(slot, 'your image ready');
+  } finally { btn.disabled = false; btn.textContent = 'Fetch it'; }
+}));
+
+document.querySelectorAll('input[type=file]').forEach(inp => inp.addEventListener('change', async () => {
+  const slot = inp.id.slice(5);
+  if (!inp.files[0]) return;
+  const fd = new FormData();
+  fd.append('file', inp.files[0]);
+  fd.append('title', inp.files[0].name);
+  const res = await fetch('/stage', { method: 'POST', body: fd });
+  const out = await res.json();
+  const prev = document.getElementById('own-preview-' + slot);
+  prev.src = '/img/' + out.name; prev.hidden = false;
+  picks[slot] = { type: 'staged', id: out.id, source: 'uploaded from this computer' };
+  setState(slot, 'your image ready');
+}));
+
 document.getElementById('go').addEventListener('click', async () => {
   const btn = document.getElementById('go');
   const log = document.getElementById('log');
-  btn.disabled = true; btn.textContent = 'Publishing...';
-  log.hidden = false; log.textContent = 'Working. Watch the terminal too.\\n';
-  const sel = {};
+  // attach the attribution fields to any staged pick
   document.querySelectorAll('.slot').forEach(s => {
-    const checked = s.querySelector('input:checked');
-    sel[s.id] = checked ? checked.value : 'skip';
+    const p = picks[s.id];
+    if (p && p.type === 'staged') {
+      const a = document.getElementById('author-' + s.id).value.trim();
+      const src = document.getElementById('source-' + s.id).value.trim();
+      const lic = document.getElementById('license-' + s.id).value;
+      if (a) p.author = a;
+      if (src) p.source = src;
+      if (lic) p.license = lic;
+      if (!p.author) p.author = 'supplied by the site owner';
+    }
   });
-  const res = await fetch('/publish', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(sel) });
+  const chosen = Object.values(picks).filter(p => p && p !== 'skip').length;
+  if (!chosen) { alert('Nothing is chosen yet.'); return; }
+  btn.disabled = true; btn.textContent = 'Publishing...';
+  log.hidden = false; log.textContent = 'Working. The terminal shows the same thing.\\n';
+  const res = await fetch('/publish', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(picks) });
   const out = await res.json();
   log.textContent += out.log.join('\\n');
   btn.textContent = 'Done';
@@ -382,6 +612,51 @@ const server = createServer(async (req, res) => {
     res.writeHead(200, { 'Content-Type': ext === 'png' ? 'image/png' : ext === 'webp' ? 'image/webp' : ext === 'gif' ? 'image/gif' : 'image/jpeg' });
     return res.end(readFileSync(file));
   }
+  if (req.url === '/stage' && req.method === 'POST') {
+    // A composed diptych or a file from this machine.
+    const chunks = [];
+    for await (const c of req) chunks.push(c);
+    const request = new Request('http://local/stage', {
+      method: 'POST', headers: req.headers, body: Buffer.concat(chunks), duplex: 'half',
+    });
+    const form = await request.formData();
+    const file = form.get('file');
+    if (!file || typeof file.arrayBuffer !== 'function') {
+      res.writeHead(400, { 'Content-Type': 'application/json' });
+      return res.end(JSON.stringify({ error: 'no file' }));
+    }
+    const buf = Buffer.from(await file.arrayBuffer());
+    const out = stage(buf, file.type || 'image/jpeg', { title: String(form.get('title') || '') });
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    return res.end(JSON.stringify(out));
+  }
+
+  if (req.url === '/stage-url' && req.method === 'POST') {
+    // An image address you pasted. Fetched here rather than in the browser,
+    // because most sites refuse a cross-origin read.
+    const chunks = [];
+    for await (const c of req) chunks.push(c);
+    let url = '';
+    try { url = JSON.parse(Buffer.concat(chunks).toString()).url; } catch (e) { /* handled below */ }
+    const fail = (msg) => { res.writeHead(200, { 'Content-Type': 'application/json' }); res.end(JSON.stringify({ error: msg })); };
+    if (!/^https?:\/\//i.test(url || '')) return fail('That is not a web address.');
+    try {
+      const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (witipedia photo import)' }, redirect: 'follow' });
+      if (!r.ok) return fail(`The server answered ${r.status}. Some sites block direct fetches; save the image and use the file picker instead.`);
+      const type = (r.headers.get('content-type') || '').split(';')[0].trim();
+      if (!/^image\/(jpeg|png|gif|webp)$/.test(type)) {
+        return fail(`That address returned ${type || 'something that is not an image'}. You need the image address itself, not the page it sits on.`);
+      }
+      const buf = Buffer.from(await r.arrayBuffer());
+      if (buf.length > 10 * 1024 * 1024) return fail('That image is over 10 MB.');
+      const out = stage(buf, type, { title: url.split('/').pop().slice(0, 80), source: url });
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      return res.end(JSON.stringify(out));
+    } catch (e) {
+      return fail(`Could not fetch it: ${e.message}`);
+    }
+  }
+
   if (req.url === '/publish' && req.method === 'POST') {
     const chunks = [];
     for await (const c of req) chunks.push(c);
