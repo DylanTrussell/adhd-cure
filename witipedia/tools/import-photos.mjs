@@ -84,6 +84,52 @@ async function commonsCandidates(query, limit) {
   return out.sort((a, b) => b.score - a.score).slice(0, limit);
 }
 
+// --------------------------------------------------------------- web search
+
+const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36';
+
+/**
+ * Image results from the open web, for the joke pictures. These are other
+ * people's work: they are marked non-free, and the file page records where each
+ * one came from and why it is there. DuckDuckGo needs no API key, which is why
+ * it is used here; if the endpoint changes, the "use my own image" tab in the
+ * picker still works.
+ */
+async function webCandidates(query, limit) {
+  const seed = await fetch(`https://duckduckgo.com/?q=${encodeURIComponent(query)}&iar=images&iax=images&ia=images`,
+    { headers: { 'User-Agent': UA } });
+  const html = await seed.text();
+  const vqd = (/vqd=["']?([\d-]+)["']?/.exec(html) || /vqd=([\w-]+)&/.exec(html) || [])[1];
+  if (!vqd) throw new Error('could not start an image search');
+
+  const res = await fetch(
+    `https://duckduckgo.com/i.js?l=us-en&o=json&q=${encodeURIComponent(query)}&vqd=${vqd}&f=,,,&p=1`,
+    { headers: { 'User-Agent': UA, Referer: 'https://duckduckgo.com/', Accept: 'application/json' } });
+  if (!res.ok) throw new Error(`image search returned ${res.status}`);
+  const data = await res.json();
+
+  return (data.results || [])
+    .filter((r) => r.image && /\.(jpe?g|png|gif|webp)(\?|$)/i.test(r.image))
+    .filter((r) => (r.width || 0) >= 400)
+    .slice(0, limit)
+    .map((r) => ({
+      title: String(r.title || 'web image').slice(0, 90),
+      thumb: r.thumbnail || r.image,
+      full: r.image,
+      width: r.width, height: r.height,
+      mime: /\.png(\?|$)/i.test(r.image) ? 'image/png'
+        : /\.gif(\?|$)/i.test(r.image) ? 'image/gif'
+        : /\.webp(\?|$)/i.test(r.image) ? 'image/webp' : 'image/jpeg',
+      author: String(r.source || 'unknown').slice(0, 80),
+      license: 'fair use',
+      licenseUrl: 'https://www.copyright.gov/fair-use/',
+      description: String(r.title || '').slice(0, 200),
+      source: r.url || r.image,
+      nonFree: true,
+      score: Math.min(30, (r.width || 0) / 200),
+    }));
+}
+
 /** Offline stand-in so the publish path can be exercised without Commons. */
 function fakeImage(seed, w = 900, h = 650) {
   const crcT = [...Array(256)].map((_, n) => { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1; return c >>> 0; });
@@ -130,10 +176,22 @@ async function gather() {
         thumb: null, width: 900, height: 650, mime: 'image/png',
         author: 'Test Fixture', license: 'CC0', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/',
         description: `Generated stand-in ${n}`, source: 'offline fixture', score: 10 - n,
+        nonFree: n === 3,
       }));
     } else {
-      try { found = await commonsCandidates(slot.query, CANDIDATES); }
-      catch (e) { console.log(`failed (${e.message})`); continue; }
+      // Joke pictures come from the open web first, where the photoshops live.
+      // Documentary pictures come from Commons first, where the real ones are.
+      const wantWeb = slot.kind === 'humour' || slot.web !== false;
+      const [commons, web] = await Promise.all([
+        commonsCandidates(slot.query, CANDIDATES).catch(() => []),
+        wantWeb ? webCandidates(slot.webQuery || slot.query, CANDIDATES).catch((e) => {
+          process.stdout.write(`(web search unavailable: ${e.message}) `);
+          return [];
+        }) : Promise.resolve([]),
+      ]);
+      found = slot.kind === 'humour' ? [...web, ...commons] : [...commons, ...web];
+      if (!found.length) { console.log('nothing found'); sheet.push({ ...slot, id, candidates: [], second: [] }); continue; }
+      found = found.slice(0, CANDIDATES * 2);
     }
     let second = [];
     if (slot.diptych && !FAKE) {
@@ -154,9 +212,13 @@ async function gather() {
       try {
         if (FAKE) writeFileSync(file, fakeImage(n + 1));
         else if (!existsSync(file)) {
-          const r = await fetch(c.thumb, { headers: { 'User-Agent': 'Witipedia-photo-import/1.0' } });
-          if (!r.ok) continue;
-          writeFileSync(file, Buffer.from(await r.arrayBuffer()));
+          let r = await fetch(c.full || c.thumb, { headers: { 'User-Agent': UA, Referer: c.source || '' } })
+            .catch(() => null);
+          if ((!r || !r.ok) && c.thumb) r = await fetch(c.thumb, { headers: { 'User-Agent': UA } }).catch(() => null);
+          if (!r || !r.ok) continue;
+          const buf = Buffer.from(await r.arrayBuffer());
+          if (buf.length > 10 * 1024 * 1024 || buf.length < 1000) continue;
+          writeFileSync(file, buf);
         }
         saved.push({ ...c, local: file, localName: `${id}-${n}.${ext}`, ext });
       } catch (e) { /* skip this candidate */ }
@@ -244,7 +306,8 @@ async function publish(sheet, selections, { username, password, log }) {
     const destination = `${slot.article} ${slot.place === 'lead' ? '' : slot.place.replace('section:', '')} (${pick.title.replace(/\.[a-z]+$/i, '')})`
       .replace(/\s+/g, ' ').trim().slice(0, 100);
 
-    const licenseId = pick.license.toLowerCase().includes('cc0') ? 'cc0'
+    const licenseId = pick.nonFree || /fair use/i.test(pick.license || '') ? 'fair-use'
+      : pick.license.toLowerCase().includes('cc0') ? 'cc0'
       : /public domain|^pd/i.test(pick.license) ? 'pd'
       : pick.license.toLowerCase().includes('by-sa 4') ? 'cc-by-sa-4.0'
       : pick.license.toLowerCase().includes('by-sa') ? 'cc-by-sa-3.0'
@@ -254,7 +317,12 @@ async function publish(sheet, selections, { username, password, log }) {
     const fd = new FormData();
     fd.append('csrf', uploadCsrf);
     fd.append('name', destination);
-    fd.append('description', `${pick.description || slot.caption}\n\nOriginally ${pick.title} on Wikimedia Commons.`);
+    const rationale = (pick.nonFree || /fair use/i.test(pick.license || ''))
+      ? `${pick.description || slot.caption}\n\n'''Fair-use rationale.''' This image illustrates commentary in [[${slot.article}]]. `
+        + `It is used at low resolution, it substitutes for nothing the copyright holder sells, and no free equivalent exists. `
+        + `Source: ${pick.source || 'unrecorded'}.`
+      : `${pick.description || slot.caption}\n\nOriginally ${pick.title} on Wikimedia Commons.`;
+    fd.append('description', rationale);
     fd.append('author', pick.author);
     fd.append('source', pick.source);
     fd.append('license', licenseId);
@@ -352,6 +420,7 @@ function sheetHtml(sheet) {
     <label class="cand">
       <input type="radio" name="pick-${group}" value="${i}">
       <img src="/img/${c.localName}" alt="" loading="lazy">
+      <span class="lic ${c.nonFree ? 'nonfree' : 'free'}">${c.nonFree ? 'non-free, fair use' : 'free licence'}</span>
       <span class="meta"><b>${c.title.replace(/</g, '&lt;')}</b><br>${c.width}&times;${c.height} &middot; ${c.license}<br>${String(c.author).replace(/</g, '&lt;').slice(0, 70)}</span>
     </label>`;
 
@@ -404,6 +473,7 @@ function sheetHtml(sheet) {
           <option value="cc0">CC0 / public domain dedication</option>
           <option value="pd">Public domain</option>
           <option value="own-cc-by-sa-4.0">My own work, CC BY-SA 4.0</option>
+          <option value="fair-use">Non-free, used under fair use</option>
         </select>
       </div>
       <img class="preview" id="own-preview-${slot.id}" hidden>
@@ -442,6 +512,10 @@ function sheetHtml(sheet) {
   .cand.sm img{height:110px}
   .cand input{margin:0 0 5px}
   .meta{display:block;font-size:11px;line-height:1.35;margin-top:5px;color:var(--dim);word-break:break-word}
+  .lic{display:inline-block;font-size:10.5px;padding:1px 6px;border-radius:8px;margin-top:5px}
+  .lic.free{background:#e4f5e9;color:#176c3a}
+  .lic.nonfree{background:#fbe9e7;color:#8c2f1f}
+  @media(prefers-color-scheme:dark){.lic.free{background:#16351f;color:#8fd6a8}.lic.nonfree{background:#3a1f1a;color:#f2a99b}}
   .half{margin:8px 0}.half b{font-size:12.5px;color:var(--dim)}
   .hint{font-size:12.5px;color:var(--dim);margin:0 0 8px}
   .none{color:var(--dim);font-size:13px}
@@ -459,7 +533,7 @@ function sheetHtml(sheet) {
 </style></head><body>
 <header>
   <h1>Pick the pictures</h1>
-  <span class="sub">Two per article: the real thing at the top, the joke at the foot. Nothing publishes until you press the button.</span>
+  <span class="sub">Two per article: the real thing at the top, the joke at the foot. Green means free to reuse; red means someone else's work, published with a fair-use rationale on its file page. Nothing publishes until you press the button.</span>
   <button id="go">Publish what I picked</button>
 </header>
 <main>
@@ -531,7 +605,8 @@ document.querySelectorAll('.fetch').forEach(btn => btn.addEventListener('click',
     if (out.error) { alert(out.error); return; }
     const prev = document.getElementById('own-preview-' + slot);
     prev.src = '/img/' + out.name; prev.hidden = false;
-    picks[slot] = { type: 'staged', id: out.id, source: url };
+    picks[slot] = { type: 'staged', id: out.id, source: url, license: 'fair-use', author: 'unknown (see source)' };
+    document.getElementById('license-' + slot).value = 'fair-use';
     setState(slot, 'your image ready');
   } finally { btn.disabled = false; btn.textContent = 'Fetch it'; }
 }));
@@ -582,7 +657,7 @@ document.getElementById('go').addEventListener('click', async () => {
 // ---------------------------------------------------------------------- main
 
 console.log(`\nWitipedia photo import  ->  ${SITE}${FAKE ? '  (offline fixtures)' : ''}\n`);
-console.log('Searching Wikimedia Commons:');
+console.log('Searching Wikimedia Commons and the open web:');
 const sheet = await gather();
 const total = sheet.reduce((n, s) => n + s.candidates.length, 0);
 if (!total) { console.error('\nNo candidates found. Check the network and try again.'); process.exit(1); }

@@ -265,6 +265,14 @@ console.log('\nUploads');
   r = await send({ csrf: upCsrf, name: 'Bad file', author: 'Own work', license: 'cc-by-sa-4.0' },
     new TextEncoder().encode('<svg xmlns="http://www.w3.org/2000/svg"><script>alert(1)</script></svg>'), 'evil.svg', 'image/svg+xml');
   check('svg is rejected', r.text.includes('not a JPEG, PNG, GIF or WebP'), r.text.slice(0, 120));
+  r = await send({ csrf: upCsrf, name: 'Borrowed meme', author: 'unknown (see source)', license: 'fair-use',
+    source: 'https://example.com/meme.png', description: 'A meme about wombats.' }, png);
+  check('non-free upload is accepted', r.status === 302, `${r.status}`);
+  r = await go('/wiki/File:Borrowed_meme.png');
+  check('non-free file page carries the fair-use notice', r.text.includes('Non-free file'));
+  check('non-free file page records the source', r.text.includes('example.com/meme.png'));
+  check('non-free rationale names the licence', r.text.includes('fair-use') || r.text.includes('fair use'));
+
   r = await send({ csrf: upCsrf, name: 'No licence', author: 'Own work', license: '' }, png);
   check('missing licence is rejected', r.text.includes('Choose a licence'));
   r = await send({ csrf: upCsrf, name: 'No author', author: '', license: 'cc0' }, png);

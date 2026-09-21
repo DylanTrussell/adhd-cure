@@ -68,9 +68,15 @@ offers three ways to fill it:
 Then press publish. It uploads to the live wiki with the attribution intact and places each picture
 in its article with the written caption. Nothing publishes until you press the button.
 
-A note on the joke pictures: a photoshop found through a search engine is somebody's work, and
-reusing it is the one thing here that can draw a takedown. The captions are written so that a
-staged or generated image is labelled as one, which keeps a site built on verifiability honest.
+Candidates come from two places. Wikimedia Commons supplies the documentary pictures, where the
+licences are free. A general web image search supplies the joke pictures, where the photoshops
+actually live. The picker labels every candidate **free licence** or **non-free, fair use** so you
+always know which you are publishing.
+
+Non-free files are handled the way Wikipedia handles them, under
+[`Witipedia:Non-free content`](#): the file page carries a notice, records the source, and stores a
+fair-use rationale naming the article it illustrates. Nothing is ever mislabelled as free to make
+the upload easier, and any file can be deleted by an administrator the moment a rights holder asks.
 
 ```bash
 node tools/import-photos.mjs                          # against witipedia.co

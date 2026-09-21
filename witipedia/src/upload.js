@@ -25,7 +25,12 @@ export const LICENSES = [
   ['cc0', 'CC0 (public domain dedication)', 'https://creativecommons.org/publicdomain/zero/1.0/'],
   ['pd', 'Public domain', 'https://en.wikipedia.org/wiki/Public_domain'],
   ['own-cc-by-sa-4.0', 'My own work, released as CC BY-SA 4.0', 'https://creativecommons.org/licenses/by-sa/4.0/'],
+  // Non-free, the way Wikipedia handles it: allowed, but it has to be declared,
+  // sourced, and justified on the file page rather than quietly uploaded.
+  ['fair-use', 'Non-free, used under a fair-use rationale', 'https://www.copyright.gov/fair-use/'],
 ];
+
+export const NON_FREE = new Set(['fair-use']);
 
 export function licenseInfo(id) {
   const row = LICENSES.find((l) => l[0] === id);

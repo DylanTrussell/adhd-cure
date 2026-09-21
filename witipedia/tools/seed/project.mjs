@@ -286,6 +286,30 @@ Content disputes on this site are usually one of three things: a fact is wrong (
 [[Category:Witipedia]]
 ` },
 
+{ ns: 4, title: 'Non-free content', user: 'Admin', daysAgo: 82, comment: 'non-free content policy', content: `Most files here are free to reuse. Some are not: a photograph or a piece of internet art that illustrates the subject better than anything free can, used under a claim of '''fair use'''.
+
+Wikipedia allows this under a narrow policy, and so does Witipedia. The rules are the same ones a court would look at.
+
+== When a non-free file is acceptable ==
+* '''No free equivalent exists.''' If somebody has photographed the thing under a free licence, use that instead.
+* '''It illustrates commentary.''' The file has to support something the article actually says. A funny picture stapled to an unrelated article is decoration, not commentary.
+* '''Low resolution.''' Upload the smallest version that still reads. This is the single factor most within your control.
+* '''It does not substitute for the original.''' If somebody would look at our copy instead of buying or visiting the source, it fails.
+* '''It is sourced.''' The file page records where it came from. Always.
+
+== What it is not ==
+Fair use is a defence, not a permission slip. It means that if the copyright holder objects, there is a real argument to make. It does not mean nobody can object.
+
+If a creator asks for their work to come down, it comes down, the same day, without an argument. That is the deal: we borrow, with credit, and we stop the moment we are asked. An administrator can delete any file at [[Special:ListFiles]].
+
+== Marking ==
+Choose '''Non-free, used under a fair-use rationale''' when uploading. The file page then carries a notice, and the rationale it stores says which article the file illustrates and where it came from.
+
+Do not mark somebody else's work as CC or public domain because it is more convenient. A wrong licence tag is a lie in the record, and this site does not tell those.
+
+[[Category:Witipedia]]
+` },
+
 { ns: 4, title: 'Privacy policy', user: 'Admin', daysAgo: 100, comment: 'privacy', content: `== What is stored ==
 * '''If you edit while logged out''': your IP address is recorded in the page history, permanently and publicly. This is the same as Wikipedia. If that is not acceptable to you, [[Special:CreateAccount|create an account]] first.
 * '''If you have an account''': your username, a salted PBKDF2 hash of your password, your optional email address, your registration date and your edit count.

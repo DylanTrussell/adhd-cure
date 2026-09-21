@@ -466,8 +466,13 @@ async function handleSpecial(ctx, rest, request, url) {
         const desc = `${fields.description ? `${fields.description}\n\n` : ''}`
           + `{{Infobox\n| title = ${display}\n| author = ${fields.author}\n`
           + `| licence = ${result.row.license_name}\n| source = ${fields.source || 'not stated'}\n}}\n\n`
-          + `This file is available under the [${result.row.license_url} ${result.row.license_name}] licence.\n\n`
-          + `[[Category:Files]]\n`;
+          + (result.row.license === 'fair-use'
+            ? `This file is '''not''' freely licensed. It is used here under a fair-use rationale, set out above. `
+              + `If you hold the rights and want it removed, say so on the talk page and it goes, same day. `
+              + `See [[${site.project}:Non-free content]].\n\n`
+            : `This file is available under the [${result.row.license_url} ${result.row.license_name}] licence.\n\n`)
+          + `[[Category:Files]]\n`
+          + (result.row.license === 'fair-use' ? `[[Category:Non-free files]]\n` : '');
         await db.saveEdit(env.DB, {
           ns: 6, title: display, projectName: site.project, content: desc,
           comment: `uploaded "${display}"`, user: ctx.user, userText: ctx.user.username, tags: 'upload',

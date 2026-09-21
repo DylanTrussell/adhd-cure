@@ -343,6 +343,7 @@ export function fileView(ctx, { file, page, rev, existsSet = new Set(), mine = {
 
   const w = Math.min(file.width || 640, 800);
   const h = file.width && file.height ? Math.round(w * (file.height / file.width)) : 0;
+  const nonFree = file.license === 'fair-use';
   const rows = [
     ['Uploaded by', userLink(file.uploader, false)],
     ['Date', ts(file.uploaded_at)],
@@ -361,6 +362,12 @@ export function fileView(ctx, { file, page, rev, existsSet = new Set(), mine = {
   ];
   return `<div class="mw-body">
     <h1 id="firstHeading">File:${esc(display)}</h1>
+    ${nonFree ? `<div class="ambox ambox-content"><span class="ambox-icon">&#169;</span><span>
+      <b>Non-free file.</b> This image is used under a claim of fair use: it illustrates commentary
+      about the subject, it is reproduced at low resolution, and it replaces nothing the copyright
+      holder sells. It is not released under a free licence, so do not reuse it on the strength of
+      this page. ${file.source ? 'The source is recorded below.' : ''}
+      <a href="/wiki/${encodeURIComponent(ctx.site.project)}:Non-free_content">Policy</a>.</span></div>` : ''}
     <div class="filepage-preview">
       <a href="/images/${encodeURIComponent(file.name)}" target="_blank" rel="noopener">
         <img src="/images/${encodeURIComponent(file.name)}" alt="${escAttr(display)}" width="${w}"${h ? ` height="${h}"` : ''}>
