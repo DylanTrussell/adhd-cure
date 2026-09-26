@@ -11,6 +11,7 @@ import { randomBytes } from 'node:crypto';
 import { hashPassword } from '../src/auth.js';
 import { articles1 } from './seed/articles-1.mjs';
 import { articles2 } from './seed/articles-2.mjs';
+import { articles3 } from './seed/articles-3.mjs';
 import { projectPages } from './seed/project.mjs';
 
 const SITE = process.env.SITE_NAME || 'Witipedia';
@@ -85,7 +86,7 @@ function addPage({ ns, title, protect = '', revisions }) {
 }
 
 // ---- articles, their talk pages and their ratings
-const articles = [...articles1, ...articles2];
+const articles = [...articles1, ...articles2, ...articles3];
 for (const a of articles) {
   const id = addPage({ ns: 0, title: a.title, protect: a.protect || '', revisions: a.revisions });
   if (a.talk) {
