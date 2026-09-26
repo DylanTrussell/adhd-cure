@@ -1,0 +1,48 @@
+name: Deploy Witipedia
+
+# Runs whenever code in witipedia/ changes on these branches. Deploys the
+# Worker, then pushes any new seed content that isn't live yet. The content
+# push is non-destructive: it only adds pages that don't already exist, so it
+# never touches a real edit, vote, or account.
+on:
+  push:
+    branches:
+      - main
+      - "claude/**"
+    paths:
+      - "witipedia/**"
+      - ".github/workflows/witipedia-deploy.yml"
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: witipedia
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Deploy the Worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler deploy
+
+      - name: Push any new content
+        if: ${{ secrets.SEED_IMPORT_TOKEN != '' }}
+        env:
+          SEED_IMPORT_TOKEN: ${{ secrets.SEED_IMPORT_TOKEN }}
+          SITE: ${{ vars.WITIPEDIA_SITE_URL || 'https://witipedia.co' }}
+        run: node tools/push-content.mjs
+
+      - name: Content push skipped
+        if: ${{ secrets.SEED_IMPORT_TOKEN == '' }}
+        run: echo "SEED_IMPORT_TOKEN repo secret is not set, so only the code deployed. See witipedia/DEPLOY.md to enable automatic content pushes."

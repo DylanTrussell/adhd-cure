@@ -107,6 +107,50 @@ KV holds values up to 25 MB, so every image this wiki accepts fits. R2 is cheape
 better suited to media, so switch over later if you turn R2 on: create the bucket, swap the
 commented blocks in `wrangler.toml`, and re-upload.
 
+## Deploying automatically from GitHub (no terminal after this)
+
+By default, getting new code or content live means running commands on your Mac. A GitHub Action
+(`.github/workflows/witipedia-deploy.yml`, at the repo root) can do that for you instead: every
+push to `witipedia/` deploys the Worker and pushes any new pages, with no terminal step. Content
+pushed this way never overwrites a page that already exists, so it is safe even once real people
+are editing the live site.
+
+Three secrets, set once.
+
+1. **A Cloudflare API token.** dash.cloudflare.com &rarr; the account icon (top right) &rarr;
+   **My Profile** &rarr; **API Tokens** &rarr; **Create Token** &rarr; use the **Edit Cloudflare
+   Workers** template, scoped to your account. Copy the token; Cloudflare shows it once.
+2. **Your account ID.** Printed by `npx wrangler whoami`, or on the right-hand side of any zone's
+   Overview page in the dashboard.
+3. **A content-import token.** Any long random string you make up yourself, for example the
+   output of `openssl rand -hex 32`. This one is not a Cloudflare credential; it just has to match
+   between the Worker and GitHub. Set it on the live Worker with:
+
+   ```bash
+   npx wrangler secret put SEED_IMPORT_TOKEN
+   # paste the same random string when it prompts
+   ```
+
+Then, on GitHub: the repo's **Settings** &rarr; **Secrets and variables** &rarr; **Actions** &rarr;
+**New repository secret**, three times:
+
+| Secret name | Value |
+|---|---|
+| `CLOUDFLARE_API_TOKEN` | from step 1 |
+| `CLOUDFLARE_ACCOUNT_ID` | from step 2 |
+| `SEED_IMPORT_TOKEN` | from step 3, exactly as you set it on the Worker |
+
+That's it. The next push to `witipedia/` runs the Action: `wrangler deploy`, then
+`node tools/push-content.mjs` against the live domain. Check progress under the repo's **Actions**
+tab. Skip the third secret if you would rather content stay a manual step; the Action still
+deploys code changes automatically either way.
+
+To push a new content batch by hand instead of waiting for CI:
+
+```bash
+SEED_IMPORT_TOKEN=your-random-string node tools/push-content.mjs
+```
+
 ## Backups
 
 ```bash

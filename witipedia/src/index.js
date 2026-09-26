@@ -623,6 +623,54 @@ async function handleApi(ctx, path, request, url) {
     return redirect(pageUrl(page.namespace, page.title, site.project, '?action=history'));
   }
 
+  // Non-destructive content import: adds pages the deployed site does not
+  // already have (new seed batches pushed after the site went live), and
+  // never touches a page that already exists, so a real edit or vote is
+  // never overwritten. Used by the GitHub Action after every deploy, and can
+  // be run by hand with tools/push-content.mjs.
+  if (path === '/api/admin/import' && request.method === 'POST') {
+    const configured = String(env.SEED_IMPORT_TOKEN || '');
+    if (!configured) return json({ error: 'Import is not configured on this deployment.' }, 503);
+    const given = (request.headers.get('Authorization') || '').replace(/^Bearer\s+/i, '');
+    if (given !== configured) return json({ error: 'Bad token.' }, 403);
+
+    const body = await request.json().catch(() => null);
+    if (!body || !Array.isArray(body.pages)) return json({ error: 'Expected { pages: [...] }' }, 400);
+    if (body.pages.length > 300) return json({ error: 'Too many pages in one call (limit 300).' }, 400);
+
+    const results = [];
+    for (const p of body.pages) {
+      const ns = Number(p.ns) || 0;
+      const title = String(p.title || '').trim();
+      if (!title || typeof p.content !== 'string') { results.push({ title, skipped: 'invalid' }); continue; }
+      const key = `${ns}:${title.replace(/ /g, '_')}`;
+      const existing = await db.getPageByKey(env.DB, key);
+      if (existing) { results.push({ title, skipped: 'already exists' }); continue; }
+
+      const saved = await db.saveEdit(env.DB, {
+        ns, title, content: p.content, projectName: site.project,
+        comment: p.comment || 'imported', userText: 'SeedBot',
+      });
+
+      if (p.ratings) {
+        for (const [axis, counts] of Object.entries(p.ratings)) {
+          const [up, down] = Array.isArray(counts) ? counts : [0, 0];
+          const rows = [];
+          const t = db.now();
+          for (let i = 0; i < Math.min(up, 5000); i++) rows.push(`(${saved.page.id},'seed:${axis}:u${i}','${axis}',1,${t})`);
+          for (let i = 0; i < Math.min(down, 5000); i++) rows.push(`(${saved.page.id},'seed:${axis}:d${i}','${axis}',-1,${t})`);
+          for (let i = 0; i < rows.length; i += 200) {
+            await env.DB.prepare(
+              `INSERT INTO ratings (page_id,voter_key,axis,value,created_at) VALUES ${rows.slice(i, i + 200).join(',')}`).run();
+          }
+          await db.recountRatings(env.DB, saved.page.id, axis);
+        }
+      }
+      results.push({ title, created: true });
+    }
+    return json({ results, created: results.filter((r) => r.created).length, skipped: results.filter((r) => r.skipped).length });
+  }
+
   return new Response('Not found', { status: 404 });
 }
 

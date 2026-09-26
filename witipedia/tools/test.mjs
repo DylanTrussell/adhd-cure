@@ -281,5 +281,33 @@ console.log('\nUploads');
   check('upload with a bad csrf token is rejected', r.status === 403);
 }
 
+// ---------------------------------------------------------- content import API
+console.log('\nContent import (non-destructive, for pushing new batches)');
+{
+  const importReq = (token, body) => go('/api/admin/import', {
+    method: 'POST', headers: { 'Content-Type': 'application/json', ...(token ? { Authorization: `Bearer ${token}` } : {}) },
+    body: JSON.stringify(body),
+  });
+  if (process.env.SEED_IMPORT_TOKEN) {
+    const TOKEN = process.env.SEED_IMPORT_TOKEN;
+    let r = await importReq('wrong-token', { pages: [{ ns: 0, title: 'Import Probe', content: 'x' }] });
+    check('wrong import token is rejected', r.status === 403);
+    r = await importReq(TOKEN, { pages: [{ ns: 0, title: 'Import Probe', content: "'''Import Probe''' exists.", ratings: { funny: [3, 1] } }] });
+    const out = JSON.parse(r.text);
+    check('import creates a new page', out.created === 1, JSON.stringify(out));
+    r = await go('/wiki/Import_Probe');
+    check('imported page is live', r.status === 200 && r.text.includes('Import Probe exists'));
+    check('imported ratings applied', /class="n">3/.test(r.text));
+    r = await importReq(TOKEN, { pages: [{ ns: 0, title: 'Import Probe', content: 'different text, should be ignored' }] });
+    const out2 = JSON.parse(r.text);
+    check('re-import of an existing page is skipped, not overwritten', out2.skipped === 1 && out2.created === 0);
+    r = await go('/wiki/Import_Probe');
+    check('existing page content was not touched by the re-import', r.text.includes('Import Probe exists'));
+  } else {
+    const r = await importReq('anything', { pages: [] });
+    check('import endpoint is inert until SEED_IMPORT_TOKEN is set', r.status === 503);
+  }
+}
+
 console.log(`\n${pass} passed, ${fail} failed\n`);
 process.exit(fail ? 1 : 0);

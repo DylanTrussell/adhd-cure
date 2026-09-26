@@ -131,6 +131,7 @@ const env = {
   SITE_NAME: process.env.SITE_NAME || 'Witipedia',
   SITE_TAGLINE: process.env.SITE_TAGLINE || "It's funny because it's true.",
   ANON_EDITING: process.env.ANON_EDITING || 'true',
+  SEED_IMPORT_TOKEN: process.env.SEED_IMPORT_TOKEN || '',
 };
 
 createServer(async (req, res) => {
