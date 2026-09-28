@@ -613,4 +613,124 @@ export const photoSlots = [
     generate: 'An old abandoned car and a small shed almost completely swallowed by thick green vines, only a headlight and a door handle still visible, lush overgrown illustration style',
     caption: "Illustration. Kudzu can grow up to about 30 centimetres in a single day under the right conditions.",
   },
+
+  // ------------------------------------------------------------------------- Cane toad
+  {
+    article: 'Cane toad', kind: 'documentary', place: 'lead',
+    query: 'cane toad Australia photograph',
+    webQuery: 'cane toad photograph australia',
+    caption: "A cane toad. 102 were released in Queensland in 1935 to control a beetle they cannot physically reach.",
+  },
+  {
+    article: 'Cane toad', kind: 'humour', place: 'end', custom: true,
+    query: 'toad army illustration marching',
+    webQuery: 'cane toad meme funny',
+    generate: 'An enormous horde of cartoon toads marching confidently across the Australian outback under a blazing sun, one lone confused beetle burrowing safely underground far below them, comic illustration style',
+    caption: "Illustration. The toads never reached the beetle they were imported for; the beetle lives underground.",
+  },
+
+  // -------------------------------------------------------------------- Sourdough starter
+  {
+    article: 'Sourdough starter', kind: 'documentary', place: 'lead',
+    query: 'sourdough starter jar bubbling photograph',
+    webQuery: 'sourdough starter photograph',
+    caption: "A sourdough starter. Continuously fed cultures like this are claimed by some bakeries to be over a century old.",
+  },
+  {
+    article: 'Sourdough starter', kind: 'humour', place: 'end', custom: true,
+    query: 'heirloom jar family illustration',
+    webQuery: 'sourdough starter meme funny',
+    generate: 'An ornate heirloom jar of bubbling starter being solemnly handed down through three generations of a family in a warm kitchen, illustrated like a formal inheritance ceremony, gentle humour',
+    caption: "Illustration. What's actually passed down is a self-renewing living culture, not any single original cell.",
+  },
+
+  // ------------------------------------------------------------------------ Dead salmon fMRI study
+  {
+    article: 'Dead salmon fMRI study', kind: 'documentary', place: 'lead',
+    query: 'fMRI brain scanner photograph',
+    webQuery: 'fmri scanner photograph',
+    caption: "An fMRI scanner of the type used to scan a dead Atlantic salmon for a landmark 2009 methodology study.",
+  },
+  {
+    article: 'Dead salmon fMRI study', kind: 'humour', place: 'end', custom: true,
+    query: 'fish brain scan illustration',
+    webQuery: 'dead salmon fmri meme funny',
+    generate: 'A deceased Atlantic salmon lying serenely inside an MRI scanner tube, a brain-activity readout on a nearby monitor showing colourful false signal, deadpan scientific illustration style',
+    caption: "Illustration. The salmon was dead the entire time; the 'signal' was the statistical error the study was built to expose.",
+  },
+
+  // --------------------------------------------------------------------------- Great Stink of 1858
+  {
+    article: 'Great Stink of 1858', kind: 'documentary', place: 'lead',
+    query: 'Victorian London Thames river photograph engraving',
+    webQuery: 'great stink london 1858 illustration',
+    caption: "A contemporary depiction of the polluted Thames during the summer of 1858.",
+  },
+  {
+    article: 'Great Stink of 1858', kind: 'humour', place: 'end', custom: true,
+    query: 'Victorian gentlemen holding noses illustration',
+    webQuery: 'great stink meme funny',
+    generate: 'Distinguished Victorian members of Parliament clutching handkerchiefs to their noses in disgust, curtains soaked in lime chloride hanging limply in the windows behind them, satirical period cartoon style',
+    caption: "Illustration. Parliament passed funding for London's new sewer system within about eighteen days of the smell reaching them directly.",
+  },
+
+  // ------------------------------------------------------------- Pigeon post at the Siege of Paris
+  {
+    article: 'Pigeon post at the Siege of Paris', kind: 'documentary', place: 'lead',
+    query: 'homing pigeon 19th century photograph',
+    webQuery: 'siege of paris pigeon post photograph',
+    caption: "A homing pigeon of the kind that carried microfilm messages into besieged Paris in 1870-71.",
+  },
+  {
+    article: 'Pigeon post at the Siege of Paris', kind: 'humour', place: 'end', custom: true,
+    query: 'microfilm magnifying glass illustration',
+    webQuery: 'pigeon post siege paris meme funny',
+    generate: 'A 19th-century clerk squinting through a large magnifying glass at a tiny scrap of film held in tweezers, a pigeon perched proudly on the desk nearby, warm sepia illustration style',
+    caption: "Illustration. A single pigeon could carry a rolled film containing the text of tens of thousands of messages.",
+  },
+
+  // -------------------------------------------------------------------------------- Emperor Norton
+  {
+    article: 'Emperor Norton', kind: 'documentary', place: 'lead',
+    query: 'Emperor Norton San Francisco photograph portrait',
+    webQuery: 'emperor norton san francisco photograph',
+    caption: "Emperor Norton, in the uniform San Francisco largely humoured him in wearing for over two decades.",
+  },
+  {
+    article: 'Emperor Norton', kind: 'humour', place: 'end', custom: true,
+    query: 'street parade crowd illustration vintage',
+    webQuery: 'emperor norton meme funny',
+    generate: 'A grandly uniformed self-declared emperor strolling down a 19th-century San Francisco street while shopkeepers bow and tip their hats respectfully, warm vintage illustration style',
+    caption: "Illustration. His funeral reportedly drew a crowd in the tens of thousands, for a man who held no real office at all.",
+  },
+
+  // ------------------------------------------------------------------------------- First trans-Atlantic row
+  {
+    article: 'First trans-Atlantic row', kind: 'documentary', place: 'lead',
+    query: 'small wooden rowboat ocean photograph vintage',
+    webQuery: 'trans atlantic rowboat 1896 photograph',
+    caption: "A small open rowboat of the kind Harbo and Samuelsen rowed across the Atlantic in 1896.",
+  },
+  {
+    article: 'First trans-Atlantic row', kind: 'humour', place: 'end', custom: true,
+    query: 'tiny boat vast ocean illustration',
+    webQuery: 'transatlantic row meme funny',
+    generate: 'A tiny open wooden rowboat with two determined rowers, dwarfed by a vast stormy ocean, only a compass and sextant visible aboard, dramatic maritime illustration style',
+    caption: "Illustration. Their route and time stood as the record for over a century, unbeaten until 2010.",
+  },
+
+  // ------------------------------------------------------------------------------------- The Toynbee tiles
+  {
+    article: 'The Toynbee tiles', kind: 'documentary', place: 'lead',
+    query: 'Toynbee tile street photograph asphalt',
+    webQuery: 'toynbee tile photograph street',
+    caption: "A Toynbee tile embedded in a road surface. Their creator has never been definitively identified.",
+  },
+  {
+    article: 'The Toynbee tiles', kind: 'humour', place: 'end', custom: true,
+    query: 'mysterious figure night street illustration',
+    webQuery: 'toynbee tiles meme funny',
+    generate: 'A shadowy figure crouched over a hole cut in the floor of a slowly moving car at night, pressing a small tile into the asphalt below through the gap, mysterious noir illustration style',
+    caption: "Illustration of the leading theory: nobody has ever actually been caught installing one.",
+  },
 ];
