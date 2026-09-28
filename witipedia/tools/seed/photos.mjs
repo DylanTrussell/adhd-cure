@@ -493,4 +493,124 @@ export const photoSlots = [
     generate: 'A 19th-century inventor staring in defeat at a pile of failed rubber tyre prototypes made of a strange gummy substance, then having a sudden idea while glancing at a jar of the same material, comic strip illustration style',
     caption: "Illustration. Thomas Adams was trying to turn chicle into rubber tyres; it never worked, so he sold it as gum instead.",
   },
+
+  // ------------------------------------------------------------------ Tunguska event
+  {
+    article: 'Tunguska event', kind: 'documentary', place: 'lead',
+    query: 'Tunguska flattened forest photograph 1927 expedition',
+    webQuery: 'tunguska event flattened trees photograph',
+    caption: "Trees flattened by the 1908 Tunguska explosion, photographed by Leonid Kulik's 1927 expedition, the first to reach the site.",
+  },
+  {
+    article: 'Tunguska event', kind: 'humour', place: 'end', custom: true,
+    query: 'siberian forest explosion illustration',
+    webQuery: 'tunguska event meme funny',
+    generate: 'A vast Siberian forest with trees flattened outward in a radial starburst pattern from a bright empty sky, no crater, dramatic wide illustration, warm morning light',
+    caption: "Illustration. No crater was ever found, because the explosion happened several kilometres above the ground.",
+  },
+
+  // -------------------------------------------------------------------- Piltdown Man
+  {
+    article: 'Piltdown Man', kind: 'documentary', place: 'lead',
+    query: 'Piltdown Man skull reconstruction photograph museum',
+    webQuery: 'piltdown man skull photograph',
+    caption: "A reconstruction of the Piltdown skull, accepted as a genuine human ancestor for over 40 years before being exposed as a fraud.",
+  },
+  {
+    article: 'Piltdown Man', kind: 'humour', place: 'end', custom: true,
+    query: 'orangutan jaw filing illustration',
+    webQuery: 'piltdown man meme funny',
+    generate: 'A shadowy figure in an early-1900s study filing down an orangutan jawbone with a small tool by lamplight, magnifying glass and staining chemicals on the desk, mystery illustration style',
+    caption: "Illustration. Whoever filed and stained the jawbone to fake it has never been identified with certainty.",
+  },
+
+  // --------------------------------------------------------------- Operation Mincemeat
+  {
+    article: 'Operation Mincemeat', kind: 'documentary', place: 'lead',
+    query: 'World War Two submarine crew photograph 1943',
+    webQuery: 'operation mincemeat world war two photograph',
+    caption: "A British submarine crew of the kind that carried out Operation Mincemeat in April 1943.",
+  },
+  {
+    article: 'Operation Mincemeat', kind: 'humour', place: 'end', custom: true,
+    query: 'briefcase washing ashore illustration',
+    webQuery: 'operation mincemeat meme funny',
+    generate: 'An attache case chained to a uniformed figure washing up on a Spanish beach at dawn, a fisherman approaching cautiously, dramatic wartime illustration style',
+    caption: "Illustration. The fabricated documents inside convinced Hitler to divert forces away from the real invasion target.",
+  },
+
+  // ---------------------------------------------------------- War of the Worlds panic
+  {
+    article: 'War of the Worlds panic', kind: 'documentary', place: 'lead',
+    query: 'Orson Welles radio broadcast 1938 photograph',
+    webQuery: 'orson welles war of the worlds broadcast photograph',
+    caption: "Orson Welles broadcasting the Mercury Theatre's 1938 adaptation of The War of the Worlds.",
+  },
+  {
+    article: 'War of the Worlds panic', kind: 'humour', place: 'end', custom: true,
+    query: 'newspaper headline panic illustration',
+    webQuery: 'war of the worlds panic meme funny',
+    generate: 'A stack of dramatic 1938 newspaper front pages with oversized panic headlines, a single unbothered family calmly listening to a radio in the background, satirical illustration contrast',
+    caption: "Illustration. The newspaper panic headlines were real; the nationwide scale of the actual panic was not, according to later research.",
+  },
+
+  // ---------------------------------------------------------------------- One small step
+  {
+    article: 'One small step', kind: 'documentary', place: 'lead',
+    query: 'Neil Armstrong Apollo 11 moon photograph',
+    webQuery: 'neil armstrong apollo 11 moon photograph',
+    caption: "Neil Armstrong on the lunar surface, 21 July 1969. His first words remain disputed by exactly one word.",
+  },
+  {
+    article: 'One small step', kind: 'humour', place: 'end', custom: true,
+    query: 'radio static waveform illustration',
+    webQuery: 'one small step for man meme funny',
+    generate: 'A radio waveform display with a single tiny gap highlighted and magnified, a scientist peering at it intently through a magnifying glass, retro technical illustration style',
+    caption: "Illustration. A 2006 digital audio analysis claimed to find the missing word 'a' hidden in a compressed gap in the transmission.",
+  },
+
+  // ------------------------------------------------------------------- Kellogg's Corn Flakes
+  {
+    article: "Kellogg's Corn Flakes", kind: 'documentary', place: 'lead',
+    query: 'Battle Creek Sanitarium photograph historical',
+    webQuery: 'battle creek sanitarium photograph',
+    caption: "The Battle Creek Sanitarium, where corn flakes were invented by accident in 1894.",
+  },
+  {
+    article: "Kellogg's Corn Flakes", kind: 'humour', place: 'end', custom: true,
+    query: 'two brothers arguing illustration vintage',
+    webQuery: 'kellogg brothers meme funny',
+    generate: 'Two early-1900s brothers in a factory arguing over a bag of sugar next to a conveyor belt of cereal flakes, one gesturing sternly, comic vintage advertisement illustration style',
+    caption: "Illustration of the actual falling-out: one brother wanted sugar added, the other refused, and they never really spoke again.",
+  },
+
+  // ------------------------------------------------------------------------ Pompeii graffiti
+  {
+    article: 'Pompeii graffiti', kind: 'documentary', place: 'lead',
+    query: 'Pompeii wall inscription photograph',
+    webQuery: 'pompeii graffiti wall photograph',
+    caption: "Preserved wall writing in Pompeii, sealed by volcanic ash in 79 AD.",
+  },
+  {
+    article: 'Pompeii graffiti', kind: 'humour', place: 'end', custom: true,
+    query: 'ancient roman writing wall illustration',
+    webQuery: 'pompeii graffiti meme funny',
+    generate: 'An ordinary Roman citizen scratching a complaint into a plaster wall with a stylus, unaware a volcano looms smoking in the far background, dramatic dramatic-irony illustration style',
+    caption: "Illustration. Thousands of these casual, unofficial complaints and boasts survived only because the city was buried the same day.",
+  },
+
+  // ------------------------------------------------------------------------------ Kudzu
+  {
+    article: 'Kudzu', kind: 'documentary', place: 'lead',
+    query: 'kudzu vine overgrown forest photograph',
+    webQuery: 'kudzu vine overgrown photograph',
+    caption: "Kudzu overtaking trees in the southeastern United States, decades after the federal government paid farmers to plant it.",
+  },
+  {
+    article: 'Kudzu', kind: 'humour', place: 'end', custom: true,
+    query: 'vine covered car abandoned illustration',
+    webQuery: 'kudzu meme funny',
+    generate: 'An old abandoned car and a small shed almost completely swallowed by thick green vines, only a headlight and a door handle still visible, lush overgrown illustration style',
+    caption: "Illustration. Kudzu can grow up to about 30 centimetres in a single day under the right conditions.",
+  },
 ];
