@@ -253,4 +253,124 @@ export const photoSlots = [
     generate: 'A 1969-style computer terminal displaying only the letters "L" and "O" on screen before a crash, an engineer on a rotary phone looking exasperated nearby, retro illustration',
     caption: "Illustration. The first message sent over the ARPANET was meant to be \"LOGIN\"; the system crashed after two letters.",
   },
+
+  // -------------------------------------------------------------- Sliced bread
+  {
+    article: 'Sliced bread', kind: 'documentary', place: 'lead',
+    query: 'bread slicing machine vintage bakery',
+    webQuery: 'sliced bread vintage bakery photograph 1928',
+    caption: "A bread-slicing machine of the kind Otto Rohwedder spent over a decade perfecting.",
+  },
+  {
+    article: 'Sliced bread', kind: 'humour', place: 'end', custom: true,
+    query: 'wartime ration poster bread',
+    webQuery: 'sliced bread ban 1943 meme funny',
+    generate: 'A stern 1940s-style government poster illustration warning citizens against sliced bread, propaganda poster aesthetic, bold red text banner left blank for a caption',
+    caption: "Illustration. The United States government really did ban sliced bread for eight weeks in 1943, then admitted it hadn't saved anything.",
+  },
+
+  // ---------------------------------------------------------- Great Molasses Flood
+  {
+    article: 'Great Molasses Flood', kind: 'documentary', place: 'lead',
+    query: 'Boston molasses flood 1919 wreckage photograph',
+    webQuery: 'boston molasses flood 1919 photograph',
+    caption: "Wreckage in Boston's North End after the January 1919 molasses tank collapse.",
+  },
+  {
+    article: 'Great Molasses Flood', kind: 'humour', place: 'end', custom: true,
+    query: 'giant wave illustration brown',
+    webQuery: 'molasses flood meme funny',
+    generate: 'A giant slow-motion wave of thick brown molasses rolling down a 1919 Boston street past horse carts and startled pedestrians, sepia illustration, dramatic but slightly comic',
+    caption: "Illustration. The wave was later estimated to have moved at up to 35 mph, fast enough that several victims could not outrun it.",
+  },
+
+  // --------------------------------------------------------------------- QWERTY
+  {
+    article: 'QWERTY', kind: 'documentary', place: 'lead',
+    query: 'QWERTY typewriter keyboard vintage photograph',
+    webQuery: 'antique typewriter keyboard photograph',
+    caption: "An early QWERTY typewriter keyboard. The layout was shaped by mechanical and telegraph-operator needs, not a plot to slow typists down.",
+  },
+  {
+    article: 'QWERTY', kind: 'humour', place: 'end', custom: true,
+    query: 'typewriter jammed keys closeup',
+    webQuery: 'qwerty keyboard meme funny',
+    generate: 'A close-up illustration of old typewriter typebars jammed together mid-strike, dramatic lighting, mechanical detail, slightly comic tangle',
+    caption: "Illustration. The popular story that QWERTY was designed to cause this is not well supported by the patent record.",
+  },
+
+  // ----------------------------------------------------------------- Cadaver Synod
+  {
+    article: 'Cadaver Synod', kind: 'documentary', place: 'lead',
+    query: 'medieval papal court illustration painting',
+    webQuery: 'cadaver synod pope formosus painting',
+    caption: "A depiction of the Cadaver Synod of January 897, at which the exhumed body of Pope Formosus was put on trial.",
+  },
+  {
+    article: 'Cadaver Synod', kind: 'humour', place: 'end', custom: true,
+    query: 'medieval courtroom illustration',
+    webQuery: 'cadaver synod meme funny',
+    generate: 'A medieval illuminated-manuscript style illustration of a solemn church court, robed officials gesturing at an empty ornate throne, dramatic candlelight, historical illustration style',
+    caption: "Illustration in the medieval style. A deacon was assigned to answer the charges on the corpse's behalf.",
+  },
+
+  // ---------------------------------------------------------------------- Tetris
+  {
+    article: 'Tetris', kind: 'documentary', place: 'lead',
+    query: 'Tetris arcade cabinet Game Boy photograph',
+    webQuery: 'tetris game boy 1989 photograph',
+    caption: "Tetris on the Nintendo Game Boy. Alexey Pajitnov received no royalties from any version of it until 1996.",
+  },
+  {
+    article: 'Tetris', kind: 'humour', place: 'end', custom: true,
+    query: 'falling blocks puzzle illustration',
+    webQuery: 'tetris meme funny',
+    generate: 'A stack of colourful falling tetromino blocks forming a chaotic pile against a Cold War-era Moscow skyline silhouette, retro poster illustration, red and grey palette',
+    caption: "Illustration. The rights to Tetris legally belonged to the Soviet state, not to the man who invented it, for over a decade.",
+  },
+
+  // ----------------------------------------------------------- Dancing plague of 1518
+  {
+    article: 'Dancing plague of 1518', kind: 'documentary', place: 'lead',
+    query: 'Strasbourg medieval town square painting',
+    webQuery: 'dancing plague 1518 strasbourg painting',
+    caption: "Strasbourg, where roughly 400 people were recorded dancing, apparently involuntarily, over about a month in 1518.",
+  },
+  {
+    article: 'Dancing plague of 1518', kind: 'humour', place: 'end', custom: true,
+    query: 'medieval musicians stage illustration',
+    webQuery: 'dancing plague meme funny',
+    generate: 'A wooden stage in a medieval town square with hired musicians playing while exhausted-looking townspeople dance uncontrollably around them, illustration in a period woodcut style',
+    caption: "Illustration. The city council's official response was to hire musicians and build a stage, which historians think made things worse.",
+  },
+
+  // ------------------------------------------------------- Corned beef sandwich incident
+  {
+    article: 'Corned beef sandwich incident', kind: 'documentary', place: 'lead',
+    query: 'Gemini 3 spacecraft astronauts photograph',
+    webQuery: 'gemini 3 astronauts 1965 photograph',
+    caption: "The Gemini 3 crew, John Young and Gus Grissom. Young smuggled a delicatessen sandwich aboard in his spacesuit pocket.",
+  },
+  {
+    article: 'Corned beef sandwich incident', kind: 'humour', place: 'end', custom: true,
+    query: 'sandwich floating space illustration',
+    webQuery: 'space sandwich meme funny',
+    generate: 'A corned beef sandwich floating in the cabin of a 1960s spacecraft, crumbs drifting weightlessly, an astronaut in the background looking alarmed, retro NASA illustration style',
+    caption: "Illustration. Crumbs in zero gravity were a genuine engineering concern, which is why this reached a Congressional hearing.",
+  },
+
+  // ---------------------------------------------------------------------- Bubble wrap
+  {
+    article: 'Bubble wrap', kind: 'documentary', place: 'lead',
+    query: 'bubble wrap sheet macro photograph',
+    webQuery: 'bubble wrap close up photograph',
+    caption: "Bubble wrap. Invented in 1957 as a wallpaper, and rejected as one.",
+  },
+  {
+    article: 'Bubble wrap', kind: 'humour', place: 'end', custom: true,
+    query: 'person popping bubble wrap illustration',
+    webQuery: 'bubble wrap popping meme funny',
+    generate: 'A delighted person popping a huge sheet of bubble wrap with both hands, exaggerated joyful expression, bright colourful cartoon illustration style',
+    caption: "Illustration. Sealed Air never designed a market for this; it happened entirely on its own and became free advertising.",
+  },
 ];
