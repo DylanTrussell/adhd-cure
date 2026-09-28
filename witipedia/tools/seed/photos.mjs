@@ -1448,4 +1448,124 @@ export const photoSlots = [
     generate: 'A hillside of white block letters spelling a long real-estate name, with the last four letters drawn as if being taken down, plain illustration, no modern logos',
     caption: "Illustration. In 1949 the Chamber of Commerce paid to put the H back, on condition the last four letters came off.",
   },
+
+  // ---------------------------------------------------- Liebeck v. McDonald's
+  {
+    article: "Liebeck v. McDonald's", kind: 'documentary', place: 'lead',
+    query: '1990s paper coffee cup drive through',
+    webQuery: 'McDonalds coffee cup 1990s photograph',
+    caption: "A takeaway coffee cup. The operations manual said the coffee was to be held at 180 to 190 degrees Fahrenheit.",
+  },
+  {
+    article: "Liebeck v. McDonald's", kind: 'humour', place: 'end', custom: true,
+    query: 'thermometer in a coffee cup',
+    webQuery: 'coffee temperature thermometer',
+    generate: 'A paper coffee cup with a thermometer in it, the scale high, plain still life, no logos, no brand names, illustration',
+    caption: "Illustration. A student with a thermometer found other cups in the city about 20 degrees cooler.",
+  },
+
+  // ------------------------------------------------------ Sydney Opera House
+  {
+    article: 'Sydney Opera House', kind: 'documentary', place: 'lead',
+    query: 'Sydney Opera House shells construction 1960s',
+    webQuery: 'Sydney Opera House under construction photograph',
+    caption: "The shells under construction. Utzon left on 28 April 1966. The building opened on 20 October 1973.",
+  },
+  {
+    article: 'Sydney Opera House', kind: 'humour', place: 'end', custom: true,
+    query: 'architect briefcase drawings',
+    webQuery: 'architectural drawings rolled',
+    generate: 'A small stack of architectural drawings and a departure board, plain illustration, no readable words, no logos',
+    caption: "Illustration. He told his staff he expected to be back within two years. He was not invited back.",
+  },
+
+  // --------------------------------------------------- Leaning Tower of Pisa
+  {
+    article: 'Leaning Tower of Pisa', kind: 'documentary', place: 'lead',
+    query: 'Leaning Tower of Pisa',
+    webQuery: 'Leaning Tower of Pisa photograph',
+    caption: "The bell tower of Pisa Cathedral. Work stopped after the third ring because the ground was giving way.",
+  },
+  {
+    article: 'Leaning Tower of Pisa', kind: 'humour', place: 'end', custom: true,
+    query: 'tower built with a correcting curve',
+    webQuery: 'pisa tower curve correction diagram',
+    generate: 'A simple diagram of a tower whose lower floors lean one way and whose upper floors bend back the other way, no text, illustration',
+    caption: "Illustration. From 1275 the new floors were built slightly the other way, to straighten it.",
+  },
+
+  // --------------------------------------------------------------- Play-Doh
+  {
+    article: 'Play-Doh', kind: 'documentary', place: 'lead',
+    query: 'Play-Doh cans',
+    webQuery: 'vintage Play-Doh can photograph',
+    caption: "Cans of the modelling compound. Before 1956 the same sort of mixture was sold to wipe soot off wallpaper.",
+  },
+  {
+    article: 'Play-Doh', kind: 'humour', place: 'end', custom: true,
+    query: 'coal soot on wallpaper',
+    webQuery: 'sooty wallpaper coal heating',
+    generate: 'A wallpapered wall with a soft pale smear where soot has been wiped away, domestic still life, no text, no logos',
+    caption: "Illustration. Kutol made it to clean coal residue. The soot went away when the heating did.",
+  },
+
+  // -------------------------------------------------- 1904 Olympic marathon
+  {
+    article: '1904 Olympic marathon', kind: 'documentary', place: 'lead',
+    query: '1904 Olympic marathon St Louis Hicks',
+    webQuery: 'Thomas Hicks 1904 marathon photograph',
+    caption: "Thomas Hicks after the 1904 marathon. His time was 3:28:53. The man writing the account had given him strychnine on the road.",
+  },
+  {
+    article: '1904 Olympic marathon', kind: 'humour', place: 'end', custom: true,
+    query: 'early automobile dusty road 1904',
+    webQuery: '1904 St Louis marathon automobile',
+    generate: 'A dusty unpaved road with an early open automobile and a runner far behind, 1904, illustration, no text, no logos',
+    caption: "Illustration. Fred Lorz rode for many miles, then ran the last five, and was greeted as the winner.",
+  },
+
+  // ----------------------------------------------------------------- Skylab
+  {
+    article: 'Skylab', kind: 'documentary', place: 'lead',
+    query: 'Skylab space station',
+    webQuery: 'Skylab NASA photograph',
+    caption: "Skylab. On 11 July 1979 pieces of it came down in the Shire of Esperance.",
+  },
+  {
+    article: 'Skylab', kind: 'humour', place: 'end', custom: true,
+    query: 'littering fine notice',
+    webQuery: 'parking ticket litter fine',
+    generate: 'A small municipal fine notice beside a fragment of metal on red dirt, illustration, no readable words, no logos',
+    caption: "Illustration. The ranger's littering fine was $400. NASA did not pay it. A radio audience did, in 2009.",
+  },
+
+  // ---------------------------------------------------- Worcestershire sauce
+  {
+    article: 'Worcestershire sauce', kind: 'documentary', place: 'lead',
+    query: 'Lea and Perrins Worcestershire sauce bottle',
+    webQuery: 'Lea Perrins bottle photograph',
+    caption: "Lea and Perrins. The company's account is that the first batch was put in the basement because it tasted awful.",
+  },
+  {
+    article: 'Worcestershire sauce', kind: 'humour', place: 'end', custom: true,
+    query: 'old barrel in a cellar',
+    webQuery: 'cellar barrel stone basement',
+    generate: 'A single old jar on a stone cellar shelf, dust, no labels readable, still life illustration',
+    caption: "Illustration. They tried it again a couple of years later, when they went back downstairs.",
+  },
+
+  // ------------------------------------------------------------------ Slinky
+  {
+    article: 'Slinky', kind: 'documentary', place: 'lead',
+    query: 'Slinky toy metal spring',
+    webQuery: 'original metal Slinky photograph',
+    caption: "A Slinky. US patent 2,415,012, granted 28 January 1947, claims a spring that walks downstairs by gravity.",
+  },
+  {
+    article: 'Slinky', kind: 'humour', place: 'end', custom: true,
+    query: 'spring walking down stairs',
+    webQuery: 'slinky walking downstairs',
+    generate: 'A metal coil mid-step on a plain staircase, one end on an upper tread and the other reaching down, illustration, no text, no logos',
+    caption: "Illustration. The patent says that after the start, the rest of the trip is gravity.",
+  },
 ];
