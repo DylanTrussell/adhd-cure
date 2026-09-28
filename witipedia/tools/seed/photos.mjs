@@ -735,4 +735,124 @@ export const photoSlots = [
     generate: 'An archaeologist kneeling with a trowel at the edge of a marked parking bay, a yellow painted parking line running past an open trench, documentary photograph style, no text, no identifiable living person',
     caption: "Illustration. The trench was real, and it was in a car park. The parking line in this picture is staged.",
   },
+
+  // --------------------------------------------------------------- Gimli Glider
+  {
+    article: 'Gimli Glider', kind: 'documentary', place: 'lead',
+    query: 'Air Canada Boeing 767 Gimli Glider C-GAUN',
+    webQuery: 'Gimli Glider Air Canada 767 photograph',
+    caption: "The Boeing 767 that became the Gimli Glider, after the 23 July 1983 landing. Both tanks were dry.",
+  },
+  {
+    article: 'Gimli Glider', kind: 'humour', place: 'end', custom: true,
+    query: 'drag racing strip runway',
+    webQuery: 'gimli glider meme funny',
+    generate: 'A large airliner stopped at the end of a runway that has been painted as a drag strip, tents and a timing tower in the distance, daylight, documentary style, no airline logos, no text',
+    caption: "Illustration. The drag strip was real: the far end of the disused runway at Gimli was being used for racing, and the aircraft stopped short of the campers.",
+  },
+
+  // -------------------------------------------------------- Mars Climate Orbiter
+  {
+    article: 'Mars Climate Orbiter', kind: 'documentary', place: 'lead',
+    query: 'Mars Climate Orbiter spacecraft NASA',
+    webQuery: 'Mars Climate Orbiter NASA photograph',
+    caption: "Mars Climate Orbiter, launched 11 December 1998 and lost on arrival at Mars on 23 September 1999.",
+  },
+  {
+    article: 'Mars Climate Orbiter', kind: 'humour', place: 'end', custom: true,
+    query: 'metric imperial ruler conversion',
+    webQuery: 'mars climate orbiter metric meme funny',
+    generate: 'Two engineers holding a ruler, one end marked in pounds and the other in newtons, looking at a tiny spacecraft model between them, clean technical illustration, no text',
+    caption: "Illustration. The mismatch was 4.45, the number of newtons in a pound-force. The spacecraft's own software was in metric and was right.",
+  },
+
+  // ---------------------------------------------------------- Leonard v. Pepsico
+  {
+    article: 'Leonard v. Pepsico', kind: 'documentary', place: 'lead',
+    query: 'Harrier jump jet AV-8B landing',
+    webQuery: 'AV-8B Harrier jet photograph',
+    caption: "An AV-8B Harrier. The commercial offered one for 7,000,000 Pepsi Points. The catalogue did not.",
+  },
+  {
+    article: 'Leonard v. Pepsico', kind: 'humour', place: 'end', custom: true,
+    query: 'teenager school bus cartoon',
+    webQuery: 'pepsi harrier jet commercial meme funny',
+    generate: 'A teenager in sunglasses holding a soda, standing beside a bicycle rack, looking pleased, with the shadow of a jump jet on the school wall behind him, 1990s commercial illustration style, no logos, no text',
+    caption: "Illustration of the commercial Judge Wood described shot by shot. Her finding was that no reasonable person would take it as an offer of a fighter plane.",
+  },
+
+  // ----------------------------------------------------------------- Coelacanth
+  {
+    article: 'Coelacanth', kind: 'documentary', place: 'lead',
+    query: 'Latimeria chalumnae coelacanth specimen',
+    webQuery: 'coelacanth Latimeria museum specimen photograph',
+    caption: "A coelacanth. The 1938 specimen had already been mounted by a taxidermist before the ichthyologist arrived.",
+  },
+  {
+    article: 'Coelacanth', kind: 'humour', place: 'end', custom: true,
+    query: 'taxidermist fish mount workshop',
+    webQuery: 'coelacanth meme funny',
+    generate: 'A 1930s taxidermist in a small workshop stuffing a large strange fish while a letter sits unopened on the table, period illustration, no text',
+    caption: "Illustration. J. L. B. Smith wrote that the body had been disposed of beyond any hope of redemption, and the fish mounted, before his letter arrived.",
+  },
+
+  // ---------------------------------------------------------------- Clever Hans
+  {
+    article: 'Clever Hans', kind: 'documentary', place: 'lead',
+    query: 'Clever Hans horse von Osten Berlin',
+    webQuery: 'Clever Hans horse photograph 1904',
+    caption: "Clever Hans with Wilhelm von Osten. The horse tapped out answers for as long as the questioner knew them.",
+  },
+  {
+    article: 'Clever Hans', kind: 'humour', place: 'end', custom: true,
+    query: 'horse watching a person lean',
+    webQuery: 'clever hans horse meme funny',
+    generate: 'A horse watching a man in a 1904 suit who is leaning forward very slightly, the horse mid-hoof-tap, quiet Berlin courtyard, documentary-style illustration, no text',
+    caption: "Illustration of the cue Oskar Pfungst measured. When the questioner did not know the answer, the horse's arithmetic fell to chance.",
+  },
+
+  // ------------------------------------------------------------ Carrington Event
+  {
+    article: 'Carrington Event', kind: 'documentary', place: 'lead',
+    query: 'sunspot drawing Richard Carrington 1859',
+    webQuery: 'Carrington solar flare 1859 drawing',
+    caption: "Carrington's drawing of the sunspot group of 1 September 1859, with the two patches of white light he watched for about five minutes.",
+  },
+  {
+    article: 'Carrington Event', kind: 'humour', place: 'end', custom: true,
+    query: '19th century telegraph operator',
+    webQuery: 'carrington event telegraph meme funny',
+    generate: 'Two 1850s telegraph operators, batteries disconnected and set aside, sending messages while a red aurora glows outside the office window, period illustration, no text',
+    caption: "Illustration. On the Boston to Portland line the operators worked for about two hours on the auroral current alone, and reported that it was better than their batteries.",
+  },
+
+  // ----------------------------------------------------------------- Wow! signal
+  {
+    article: 'Wow! signal', kind: 'documentary', place: 'lead',
+    query: 'Big Ear radio telescope Ohio State',
+    webQuery: 'Ohio State Big Ear telescope photograph',
+    caption: "The Big Ear radio telescope at Ohio State, which recorded the signal on 15 August 1977.",
+  },
+  {
+    article: 'Wow! signal', kind: 'humour', place: 'end', custom: true,
+    query: 'computer printout red pen margin',
+    webQuery: 'wow signal printout 6EQUJ5 photograph',
+    generate: 'A fanfold computer printout with one row of characters circled in red ink and a single handwritten word in the margin, close-up, no other legible text',
+    caption: "Illustration of the annotation, not the original printout. Jerry Ehman wrote Wow! in red pen beside 6EQUJ5. The signal was not recorded again.",
+  },
+
+  // ------------------------------------------------------ Tacoma Narrows Bridge
+  {
+    article: 'Tacoma Narrows Bridge', kind: 'documentary', place: 'lead',
+    query: 'Tacoma Narrows Bridge collapse 1940 photograph',
+    webQuery: 'Galloping Gertie Tacoma Narrows collapse photograph',
+    caption: "The 1940 Tacoma Narrows Bridge twisting in a wind of about 40 miles per hour, on 7 November 1940, shortly before the span failed.",
+  },
+  {
+    article: 'Tacoma Narrows Bridge', kind: 'humour', place: 'end', custom: true,
+    query: 'physics textbook resonance diagram',
+    webQuery: 'tacoma narrows resonance textbook meme funny',
+    generate: 'An open physics textbook showing a neat sine wave labelled resonance, with a small photograph of a twisting bridge tucked in the margin and a red correction mark beside the caption, illustration, no readable brand names',
+    caption: "Illustration. The film of the collapse is real. The vortex-shedding frequency at that wind speed is about 1 hertz, and the twist that destroyed the bridge was 0.2 hertz.",
+  },
 ];
