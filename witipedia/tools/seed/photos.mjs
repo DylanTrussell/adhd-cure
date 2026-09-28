@@ -1215,4 +1215,109 @@ export const photoSlots = [
     generate: 'A long low spectrogram beside the same trace compressed to a short blip, scientific illustration on a dark background, no words, no creature',
     caption: "Illustration. NOAA's file of the original sound is the recorded signal sped up sixteen times. There is no animal in the account.",
   },
+
+  // ------------------------------------------------------------------- Hair ice
+  {
+    article: 'Hair ice', kind: 'documentary', place: 'lead',
+    query: 'hair ice Exidiopsis dead wood',
+    webQuery: 'hair ice fungus wood photograph',
+    caption: "Hair ice on dead wood. The 2015 study found the fungus Exidiopsis effusa on every sample, and found that the ice still forms after the fungus is killed.",
+  },
+  {
+    article: 'Hair ice', kind: 'humour', place: 'end', custom: true,
+    query: 'white hair on a log',
+    webQuery: 'hair ice close up photograph',
+    generate: 'A close illustration of fine white ice filaments growing from the cut end of a damp branch, like hair, on a dark forest floor, no text',
+    caption: "Illustration. The hairs are ice, shaped by a fungus and by the mouths of the wood rays. They are not hair.",
+  },
+
+  // ------------------------------------------ Tanganyika laughter epidemic
+  {
+    article: 'Tanganyika laughter epidemic', kind: 'documentary', place: 'lead',
+    query: 'Lake Victoria Bukoba shoreline',
+    webQuery: 'Bukoba Tanganyika 1960s photograph',
+    caption: "The shore of Lake Victoria near Bukoba. The 1962 outbreak began at a mission school about 25 miles from the town.",
+  },
+  {
+    article: 'Tanganyika laughter epidemic', kind: 'humour', place: 'end', custom: true,
+    query: 'empty school classroom',
+    webQuery: 'closed school classroom photograph',
+    generate: 'An empty school classroom with chairs pushed back and a closed door, quiet daylight, documentary illustration, no children, no text',
+    caption: "Illustration of a closed school, not of the pupils. Rankin and Philip reported laughing, crying and restlessness, and the school shut twice.",
+  },
+
+  // -------------------------------------------------------- Millennium Bridge
+  {
+    article: 'Millennium Bridge', kind: 'documentary', place: 'lead',
+    query: 'London Millennium Footbridge Thames',
+    webQuery: 'Millennium Bridge London photograph crowd',
+    caption: "The Millennium Bridge. It opened on 10 June 2000 and was closed on 12 June after the deck moved sideways under the crowd.",
+  },
+  {
+    article: 'Millennium Bridge', kind: 'humour', place: 'end', custom: true,
+    query: 'pedestrians holding a railing',
+    webQuery: 'millennium bridge wobble opening day',
+    generate: 'Pedestrians on a slender footbridge holding the handrail as the deck shifts sideways a few centimetres, daylight, illustration, no logos, no text',
+    caption: "Illustration. Arup found that walking in time with the sway was the more comfortable way to keep one's balance, and that those steps increased the sway.",
+  },
+
+  // ----------------------------------------------------------------- Wood frog
+  {
+    article: 'Wood frog', kind: 'documentary', place: 'lead',
+    query: 'Rana sylvatica wood frog',
+    webQuery: 'wood frog photograph',
+    caption: "A wood frog. Storey and Storey found that glucose production starts when ice forms, not when the temperature crosses a set line.",
+  },
+  {
+    article: 'Wood frog', kind: 'humour', place: 'end', custom: true,
+    query: 'frog on frozen leaves',
+    webQuery: 'frozen wood frog ice crystals',
+    generate: 'A small brown frog on leaf litter with a thin film of ice on the leaves around it, scientific still life, no text',
+    caption: "Illustration. A frog cooled below zero but not yet frozen had ordinary blood sugar. The same kind of frog, once frozen, did not.",
+  },
+
+  // -------------------------------------------------------- Eric Moussambani
+  {
+    article: 'Eric Moussambani', kind: 'documentary', place: 'lead',
+    query: 'Sydney Olympic swimming pool 2000',
+    webQuery: 'Eric Moussambani Sydney 2000 photograph',
+    caption: "The Sydney Olympic pool. On 19 September 2000 Eric Moussambani swam the first 100 metre freestyle heat alone, in 1:52.72.",
+  },
+  {
+    article: 'Eric Moussambani', kind: 'humour', place: 'end', custom: true,
+    query: 'empty swimming lanes one swimmer',
+    webQuery: 'eric the eel olympics meme',
+    generate: 'An Olympic pool with seven empty lanes and one swimmer mid-length, crowd in the stands, illustration, no likeness of a real person, no text',
+    caption: "Illustration. The other two swimmers in the heat had been eliminated for false starts. He had never raced 100 metres before.",
+  },
+
+  // ------------------------------------------------------- Boring and Dull Day
+  {
+    article: 'Boring and Dull Day', kind: 'documentary', place: 'lead',
+    query: 'Boring Oregon town sign',
+    webQuery: 'Boring Oregon road sign photograph',
+    caption: "Boring, Oregon. On 5 June 2012 its community planning organisation voted unanimously to pair with Dull, Scotland.",
+  },
+  {
+    article: 'Boring and Dull Day', kind: 'humour', place: 'end', custom: true,
+    query: 'two road signs side by side',
+    webQuery: 'dull scotland boring oregon signs photograph',
+    generate: 'Two plain road signs on one post, one reading like a village name and one like another, photographed straight, no extra jokes written on them, documentary style',
+    caption: "Illustration. Oregon's enrolled House Bill 2352 designates 9 August as Boring and Dull Day, and includes a recital that reading the Act is boring and dull.",
+  },
+
+  // ------------------------------------------------------------------ Left-pad
+  {
+    article: 'Left-pad', kind: 'documentary', place: 'lead',
+    query: 'computer terminal npm install error',
+    webQuery: 'npm left-pad install failure screenshot',
+    caption: "A terminal. On 22 March 2016, unpublishing an eleven-line package produced hundreds of failed installs a minute.",
+  },
+  {
+    article: 'Left-pad', kind: 'humour', place: 'end', custom: true,
+    query: 'short function on a screen',
+    webQuery: 'left-pad javascript meme',
+    generate: 'A few lines of plain code on a dark screen, a string of spaces being added to the front of a word, technical illustration, no logos, no brand names',
+    caption: "Illustration. The package padded the left side of a string. Builds failed because version 0.0.3 was no longer where they had been told to look.",
+  },
 ];

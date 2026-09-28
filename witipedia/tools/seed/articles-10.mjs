@@ -50,7 +50,7 @@ A vertebrate that is not mature until it is a century and a half old has very li
 | group = hydrozoan jellyfish
 | paper = Piraino, Boero, Aeschbach and Schmid, 1996
 | observed reversal = sexually mature medusa back to a colonial polyp
-| authors' phrase = "escaping death and achieving potential immortality"
+| authors phrase = "escaping death and achieving potential immortality"
 | condition = the transformation fails if the wrong tissues have been cut away
 }}
 
@@ -167,7 +167,7 @@ The stripes on the legs are real, and they are why a belt looked equine. The sku
 | ship = HMS ''Dreadnought'', flagship of the Home Fleet
 | organisers = Horace de Vere Cole, with Virginia Stephen, Adrian Stephen, Duncan Grant, Anthony Buxton and Guy Ridley
 | method = a telegram, theatrical costumes, and a tour
-| Navy's response = full courtesies, including a band
+| Navy response = full courtesies, including a band
 }}
 
 The '''Dreadnought hoax''' was a visit paid to HMS ''Dreadnought'' on 7 February 1910 by six young Londoners, four of them dressed as Abyssinian princes, one as their interpreter, and one as a Foreign Office official. The ship was the flagship of the Home Fleet, and the newest expression of British naval power. The visit had been arranged by a telegram purporting to come from Sir Charles Hardinge at the Foreign Office. Hardinge had not sent it.<ref name="usni">Chris O'Flaherty, "The Dreadnought Hoax", ''Naval History'' (U.S. Naval Institute), June 2024.</ref><ref name="guardian">Alison Flood, "How a bearded Virginia Woolf and her band of 'jolly savages' hoaxed the navy", ''The Guardian'', 5 February 2012, reporting a letter by Horace de Vere Cole.</ref>
