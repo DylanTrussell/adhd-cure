@@ -18,6 +18,7 @@ import { articles1 } from './seed/articles-1.mjs';
 import { articles2 } from './seed/articles-2.mjs';
 import { articles3 } from './seed/articles-3.mjs';
 import { articles4 } from './seed/articles-4.mjs';
+import { articles5 } from './seed/articles-5.mjs';
 import { projectPages } from './seed/project.mjs';
 
 const args = process.argv.slice(2);
@@ -65,7 +66,7 @@ function projectPagesFlat() {
 }
 
 const pages = [
-  ...articlePages([...articles1, ...articles2, ...articles3, ...articles4]),
+  ...articlePages([...articles1, ...articles2, ...articles3, ...articles4, ...articles5]),
   ...projectPagesFlat(),
 ];
 

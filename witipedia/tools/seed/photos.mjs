@@ -373,4 +373,124 @@ export const photoSlots = [
     generate: 'A delighted person popping a huge sheet of bubble wrap with both hands, exaggerated joyful expression, bright colourful cartoon illustration style',
     caption: "Illustration. Sealed Air never designed a market for this; it happened entirely on its own and became free advertising.",
   },
+
+  // ------------------------------------------------------------- Instant noodles
+  {
+    article: 'Instant noodles', kind: 'documentary', place: 'lead',
+    query: 'instant ramen noodles package photograph',
+    webQuery: 'instant noodles cup noodles vintage photograph',
+    caption: "Instant noodles. Momofuku Ando developed them in a backyard shed after losing his fortune twice.",
+  },
+  {
+    article: 'Instant noodles', kind: 'humour', place: 'end', custom: true,
+    query: 'trophy podium illustration',
+    webQuery: 'instant noodles meme funny',
+    generate: 'A steaming cup of instant noodles standing triumphantly on a first-place podium, tiny gold medal around the cup, karaoke microphone and a Walkman relegated to second and third place beside it, playful illustration',
+    caption: "Illustration. A 2000 Japanese poll ranked instant noodles the invention people were most proud of, ahead of karaoke and the Walkman.",
+  },
+
+  // -------------------------------------------------------- Antikythera mechanism
+  {
+    article: 'Antikythera mechanism', kind: 'documentary', place: 'lead',
+    query: 'Antikythera mechanism fragment photograph museum',
+    webQuery: 'antikythera mechanism artifact photograph',
+    caption: "A fragment of the Antikythera mechanism, a geared astronomical calculator built around the 2nd century BC.",
+  },
+  {
+    article: 'Antikythera mechanism', kind: 'humour', place: 'end', custom: true,
+    query: 'ancient gears illustration mysterious',
+    webQuery: 'antikythera mechanism meme funny',
+    generate: 'An ancient Greek craftsman squinting suspiciously at a small bronze geared device on his workbench as if it is far too advanced for his own century, illustration in a classical vase-painting style',
+    caption: "Illustration. Nothing of comparable mechanical complexity is known to survive from the following 1,000-plus years.",
+  },
+
+  // ------------------------------------------------------------ Guinness World Records
+  {
+    article: 'Guinness World Records', kind: 'documentary', place: 'lead',
+    query: 'Guinness World Records book cover photograph',
+    webQuery: 'guinness book of records vintage photograph',
+    caption: "An early edition of the book commissioned to settle an argument about which bird flies fastest.",
+  },
+  {
+    article: 'Guinness World Records', kind: 'humour', place: 'end', custom: true,
+    query: 'pub argument illustration',
+    webQuery: 'guinness world records meme funny',
+    generate: 'Two determined men in a 1950s pub arguing loudly and gesturing at a bird flying past the window, pints of beer on the table, illustration in a warm vintage advertising style',
+    caption: "Illustration of the argument that started it: golden plover versus red grouse, Ireland, 1951.",
+  },
+
+  // ---------------------------------------------------------------- Domesday Book
+  {
+    article: 'Domesday Book', kind: 'documentary', place: 'lead',
+    query: 'Domesday Book manuscript photograph National Archives',
+    webQuery: 'domesday book manuscript photograph',
+    caption: "A page of the Domesday Book, William the Conqueror's 1086 survey of England.",
+  },
+  {
+    article: 'Domesday Book', kind: 'humour', place: 'end', custom: true,
+    query: 'medieval scribe writing illustration',
+    webQuery: 'domesday book meme funny',
+    generate: 'An exhausted medieval scribe surrounded by towering stacks of parchment, quill in hand, a stern Norman official checking a pocket watch behind him, illuminated-manuscript style illustration',
+    caption: "Illustration. The survey covered most of England in under a year, using eleventh-century travel and record-keeping.",
+  },
+
+  // ---------------------------------------------------------------- Silly Putty
+  {
+    article: 'Silly Putty', kind: 'documentary', place: 'lead',
+    query: 'Silly Putty egg toy photograph',
+    webQuery: 'silly putty toy photograph',
+    caption: "Silly Putty in its plastic egg. Invented as a failed rubber substitute during a wartime shortage.",
+  },
+  {
+    article: 'Silly Putty', kind: 'humour', place: 'end', custom: true,
+    query: 'astronaut floating toy illustration',
+    webQuery: 'silly putty space meme funny',
+    generate: 'An Apollo-era astronaut in a spacecraft cabin using a blob of putty to stick a floating tool to a control panel, retro NASA illustration style',
+    caption: "Illustration. NASA really did fly Silly Putty on Apollo 8, to hold tools in place in zero gravity.",
+  },
+
+  // ------------------------------------------------------------------ Codex Gigas
+  {
+    article: 'Codex Gigas', kind: 'documentary', place: 'lead',
+    query: 'Codex Gigas manuscript photograph devil bible',
+    webQuery: 'codex gigas devil bible photograph',
+    caption: "The Codex Gigas, the largest surviving medieval manuscript, at roughly 75 kilograms.",
+  },
+  {
+    article: 'Codex Gigas', kind: 'humour', place: 'end', custom: true,
+    query: 'monk writing candlelight illustration',
+    webQuery: 'codex gigas meme funny',
+    generate: 'A medieval monk hunched over an enormous book writing frantically by candlelight through the night, a shadowy figure looming just out of focus behind him, dramatic illuminated-manuscript style illustration',
+    caption: "Illustration of the legend, clearly labelled as legend: no contemporary source supports the one-night, sold-his-soul story.",
+  },
+
+  // ------------------------------------------------------------------- Post-it Note
+  {
+    article: 'Post-it Note', kind: 'documentary', place: 'lead',
+    query: 'Post-it notes pad photograph office',
+    webQuery: 'post it notes photograph',
+    caption: "Post-it Notes, built from an adhesive its own inventor considered a failure.",
+  },
+  {
+    article: 'Post-it Note', kind: 'humour', place: 'end', custom: true,
+    query: 'hymnal bookmark falling out illustration',
+    webQuery: 'post it note meme funny',
+    generate: 'A frustrated church choir member fumbling as paper bookmarks fall out of a hymnal mid-song, sheet music scattering, warm illustration style',
+    caption: "Illustration of the actual origin: a colleague's hymnal bookmarks kept falling out, which is where the idea came from.",
+  },
+
+  // ---------------------------------------------------------------------- Chewing gum
+  {
+    article: 'Chewing gum', kind: 'documentary', place: 'lead',
+    query: 'chicle sapodilla tree gum photograph',
+    webQuery: 'vintage chewing gum advertisement photograph',
+    caption: "An early chewing-gum advertisement. The raw chicle came to the US by way of an exiled Mexican general.",
+  },
+  {
+    article: 'Chewing gum', kind: 'humour', place: 'end', custom: true,
+    query: 'failed rubber tire illustration',
+    webQuery: 'chewing gum meme funny',
+    generate: 'A 19th-century inventor staring in defeat at a pile of failed rubber tyre prototypes made of a strange gummy substance, then having a sudden idea while glancing at a jar of the same material, comic strip illustration style',
+    caption: "Illustration. Thomas Adams was trying to turn chicle into rubber tyres; it never worked, so he sold it as gum instead.",
+  },
 ];
