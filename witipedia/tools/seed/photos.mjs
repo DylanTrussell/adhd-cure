@@ -1568,4 +1568,124 @@ export const photoSlots = [
     generate: 'A metal coil mid-step on a plain staircase, one end on an upper tread and the other reaching down, illustration, no text, no logos',
     caption: "Illustration. The patent says that after the start, the rest of the trip is gravity.",
   },
+
+  // ------------------------------------------------------------- Penicillin
+  {
+    article: 'Penicillin', kind: 'documentary', place: 'lead',
+    query: 'Penicillium mould petri dish',
+    webQuery: 'Penicillium notatum culture photograph',
+    caption: "A Penicillium culture. Fleming saw a clear ring around a mould on a dish of Staphylococcus on 3 September 1928.",
+  },
+  {
+    article: 'Penicillin', kind: 'humour', place: 'end', custom: true,
+    query: 'cantaloupe melon mould',
+    webQuery: 'mouldy cantaloupe',
+    generate: 'A cantaloupe with a patch of blue-green mould, laboratory still life, no text, no logos',
+    caption: "Illustration. The strain used for industrial penicillin came from a mouldy cantaloupe in a Peoria market.",
+  },
+
+  // --------------------------------------------------------- Microwave oven
+  {
+    article: 'Microwave oven', kind: 'documentary', place: 'lead',
+    query: 'early Raytheon Radarange microwave oven',
+    webQuery: 'Radarange microwave oven photograph',
+    caption: "An early microwave oven. The 1945 patent is a method of cooking food with waves about ten centimetres long.",
+  },
+  {
+    article: 'Microwave oven', kind: 'humour', place: 'end', custom: true,
+    query: 'wavelength diagram ten centimetres',
+    webQuery: 'microwave wavelength diagram',
+    generate: 'A simple diagram of a short wave entering a piece of food, technical illustration, no text, no logos',
+    caption: "Illustration. The claim specifies a wavelength of substantially ten centimetres, and food left in it until cooked.",
+  },
+
+  // ------------------------------------------------------------ Parthenon
+  {
+    article: 'Parthenon', kind: 'documentary', place: 'lead',
+    query: 'Parthenon Athens',
+    webQuery: 'Parthenon photograph Acropolis',
+    caption: "The Parthenon. On 26 September 1687 a mortar round hit the powder stored inside it.",
+  },
+  {
+    article: 'Parthenon', kind: 'humour', place: 'end', custom: true,
+    query: '17th century mortar siege',
+    webQuery: 'Venetian mortar 17th century illustration',
+    generate: 'A seventeenth-century mortar on a hill aimed at a temple, period engraving style, no text',
+    caption: "Illustration. Morosini's word for the round that brought the cella down was fortunate.",
+  },
+
+  // ------------------------------------------------------------ Apollo 13
+  {
+    article: 'Apollo 13', kind: 'documentary', place: 'lead',
+    query: 'Apollo 13 service module damage',
+    webQuery: 'Apollo 13 damaged service module NASA photograph',
+    caption: "The Apollo 13 service module after the oxygen tank ruptured. The tank had been dropped two inches while it was being removed from Apollo 10.",
+  },
+  {
+    article: 'Apollo 13', kind: 'humour', place: 'end', custom: true,
+    query: 'oxygen tank spherical metal',
+    webQuery: 'apollo oxygen tank photograph',
+    generate: 'A spherical metal tank being lowered, a gap of about two inches under it, technical illustration, no text, no logos',
+    caption: "Illustration. The drop was two inches. The internal fill line was not known to be damaged. The tank flew on the next spacecraft.",
+  },
+
+  // ----------------------------------------------------------------- Tang
+  {
+    article: 'Tang', kind: 'documentary', place: 'lead',
+    query: 'Tang drink mix jar',
+    webQuery: 'vintage Tang jar photograph',
+    caption: "Tang. William Mitchell at General Foods invented the crystals in 1957. They were on grocery shelves in 1959.",
+  },
+  {
+    article: 'Tang', kind: 'humour', place: 'end', custom: true,
+    query: 'space drink pouch',
+    webQuery: 'apollo drink pouch orange',
+    generate: 'A plain foil drink pouch labelled only by a colour swatch of orange, no brand name, illustration',
+    caption: "Illustration. The pouches NASA flew were labelled orange drink. The brand name stayed on the ground.",
+  },
+
+  // ---------------------------------------------------------- Oxford Dodo
+  {
+    article: 'Oxford Dodo', kind: 'documentary', place: 'lead',
+    query: 'Oxford dodo head foot museum',
+    webQuery: 'Oxford University Museum dodo specimen photograph',
+    caption: "The Oxford dodo: a head and a foot. The rest of the stuffed bird did not survive the inspection of 8 January 1755.",
+  },
+  {
+    article: 'Oxford Dodo', kind: 'humour', place: 'end', custom: true,
+    query: 'old museum catalogue latin note',
+    webQuery: 'ashmolean catalogue manuscript',
+    generate: 'A handwritten museum catalogue page with one Latin word circled, no readable modern text, illustration',
+    caption: "Illustration. The bonfire comes from reading lustrandum, an inspection, as a Roman purification by fire.",
+  },
+
+  // ---------------------------------------------------------------- WD-40
+  {
+    article: 'WD-40', kind: 'documentary', place: 'lead',
+    query: 'WD-40 can',
+    webQuery: 'vintage WD-40 can photograph',
+    caption: "A can of WD-40. The name is the lab-book note: water displacement, the formula that worked on the fortieth try.",
+  },
+  {
+    article: 'WD-40', kind: 'humour', place: 'end', custom: true,
+    query: 'Atlas missile on pad',
+    webQuery: 'Atlas missile photograph Convair',
+    generate: 'A tall rocket on a pad with a small oil can at its foot, illustration, no logos, no readable text',
+    caption: "Illustration. Convair used it on the skin of the Atlas missile. Employees took cans home.",
+  },
+
+  // ------------------------------------------------------------ Super Glue
+  {
+    article: 'Super Glue', kind: 'documentary', place: 'lead',
+    query: 'cyanoacrylate adhesive tube',
+    webQuery: 'Eastman 910 super glue tube photograph',
+    caption: "A tube of cyanoacrylate. Kodak sold it in 1958 as Eastman 910, after a 1954 patent on its use as an adhesive.",
+  },
+  {
+    article: 'Super Glue', kind: 'humour', place: 'end', custom: true,
+    query: 'laboratory refractometer',
+    webQuery: 'refractometer laboratory instrument',
+    generate: 'A laboratory optical instrument with two glass plates stuck together, plain illustration, no text, no logos',
+    caption: "Illustration. Coover warned that the sample would stick in the refractometer. It did.",
+  },
 ];

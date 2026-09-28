@@ -28,6 +28,7 @@ import { articles11 } from './seed/articles-11.mjs';
 import { articles12 } from './seed/articles-12.mjs';
 import { articles13 } from './seed/articles-13.mjs';
 import { articles14 } from './seed/articles-14.mjs';
+import { articles15 } from './seed/articles-15.mjs';
 import { projectPages } from './seed/project.mjs';
 
 const args = process.argv.slice(2);
@@ -75,7 +76,7 @@ function projectPagesFlat() {
 }
 
 const pages = [
-  ...articlePages([...articles1, ...articles2, ...articles3, ...articles4, ...articles5, ...articles6, ...articles7, ...articles8, ...articles9, ...articles10, ...articles11, ...articles12, ...articles13, ...articles14]),
+  ...articlePages([...articles1, ...articles2, ...articles3, ...articles4, ...articles5, ...articles6, ...articles7, ...articles8, ...articles9, ...articles10, ...articles11, ...articles12, ...articles13, ...articles14, ...articles15]),
   ...projectPagesFlat(),
 ];
 
