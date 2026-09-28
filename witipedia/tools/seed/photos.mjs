@@ -1328,4 +1328,124 @@ export const photoSlots = [
     generate: 'A few lines of plain code on a dark screen, a string of spaces being added to the front of a word, technical illustration, no logos, no brand names',
     caption: "Illustration. The package padded the left side of a string. Builds failed because version 0.0.3 was no longer where they had been told to look.",
   },
+
+  // ------------------------------------------------------------- Fosbury flop
+  {
+    article: 'Fosbury flop', kind: 'documentary', place: 'lead',
+    query: 'Dick Fosbury high jump Mexico 1968',
+    webQuery: 'Dick Fosbury flop 1968 Olympic photograph',
+    caption: "Dick Fosbury at the 1968 Olympic high jump. He cleared 2.24 metres on his third attempt. The bar at 2.29 stayed up.",
+  },
+  {
+    article: 'Fosbury flop', kind: 'humour', place: 'end', custom: true,
+    query: 'high jump bar falling backwards',
+    webQuery: 'fosbury flop diagram back first',
+    generate: 'A simple sports diagram of a high jumper going over a bar backwards, head first, arching the back, no logos, no readable text, illustration',
+    caption: "Illustration. He finished third at the United States trials. The style is named for the jumper who won the gold.",
+  },
+
+  // ---------------------------------------------------------- Fisher Space Pen
+  {
+    article: 'Fisher Space Pen', kind: 'documentary', place: 'lead',
+    query: 'Fisher space pen AG7',
+    webQuery: 'Fisher space pen photograph',
+    caption: "A Fisher Space Pen. NASA bought 400 of them at $6 each. The mechanical pencils, earlier, had been $128.89.",
+  },
+  {
+    article: 'Fisher Space Pen', kind: 'humour', place: 'end', custom: true,
+    query: 'mechanical pencil on a string',
+    webQuery: 'astronaut pencil floating spacecraft',
+    generate: 'A single mechanical pencil tied to a short cord, floating in a plain spacecraft cabin, technical illustration, no logos, no text',
+    caption: "Illustration. The story says NASA spent a fortune on a pen. The invoice that matches the fortune is for 34 pencils.",
+  },
+
+  // -------------------------------------------------------------- D.B. Cooper
+  {
+    article: 'D.B. Cooper', kind: 'documentary', place: 'lead',
+    query: 'Boeing 727 rear airstair',
+    webQuery: 'Northwest Orient Boeing 727 aft stairs photograph',
+    caption: "The rear stairs of a Boeing 727. On 24 November 1971 the hijacker who signed his ticket Dan Cooper jumped from a set like these.",
+  },
+  {
+    article: 'D.B. Cooper', kind: 'humour', place: 'end', custom: true,
+    query: 'weathered twenty dollar bills rubber band',
+    webQuery: 'decayed currency packets sand',
+    generate: 'Three small stacks of worn paper currency held by rubber bands, sitting on river sand, documentary still life, no readable serial numbers, no text',
+    caption: "Illustration. On 10 February 1980 an eight-year-old raking sand for a campfire found three packets, $5,800, from the ransom.",
+  },
+
+  // --------------------------------------------------- Year Without a Summer
+  {
+    article: 'Year Without a Summer', kind: 'documentary', place: 'lead',
+    query: 'Mount Tambora caldera Sumbawa',
+    webQuery: 'Tambora volcano caldera photograph',
+    caption: "The caldera of Tambora. The 1815 eruption put about 60 megatonnes of sulfur into the stratosphere. 1816 was named for the summer it did not have.",
+  },
+  {
+    article: 'Year Without a Summer', kind: 'humour', place: 'end', custom: true,
+    query: 'snow in June New England 19th century painting',
+    webQuery: 'year without a summer snow June illustration',
+    generate: 'A quiet New England farm in summer clothes with snow on the fields, early nineteenth century, plain illustration, no text',
+    caption: "Illustration. In the northeastern United States, maritime Canada, and Europe, 1816 acquired a name for the season that did not arrive.",
+  },
+
+  // ------------------------------------------------------- Centralia mine fire
+  {
+    article: 'Centralia mine fire', kind: 'documentary', place: 'lead',
+    query: 'Centralia Pennsylvania smoke Route 61',
+    webQuery: 'Centralia PA abandoned highway steam photograph',
+    caption: "Smoke from the Centralia mine fire. First reported on 27 May 1962. The 1983 estimate to put it out was $663 million.",
+  },
+  {
+    article: 'Centralia mine fire', kind: 'humour', place: 'end', custom: true,
+    query: 'two price tags side by side',
+    webQuery: 'abandoned centralia pennsylvania street',
+    generate: 'A plain ledger page with two large figures, one much larger than the other, no words, illustration of a municipal account book',
+    caption: "Illustration. The estimate to extinguish the fire was $663 million. Congress appropriated $42 million to relocate the borough.",
+  },
+
+  // ------------------------------------------ Seattle windshield pitting epidemic
+  {
+    article: 'Seattle windshield pitting epidemic', kind: 'documentary', place: 'lead',
+    query: '1950s American car windshield close up',
+    webQuery: '1954 Seattle automobile windshield photograph',
+    caption: "A 1950s windshield. Between 14 and 15 April 1954, Seattle police took 242 calls about pits in more than 3,000 of them.",
+  },
+  {
+    article: 'Seattle windshield pitting epidemic', kind: 'humour', place: 'end', custom: true,
+    query: 'person inspecting car windshield closely',
+    webQuery: 'windshield pitting close inspection photograph',
+    generate: 'A 1950s driver leaning close to a car windshield, looking at the glass rather than through it, period illustration, no text, no logos',
+    caption: "Illustration. The newspapers had already suggested the pits were being found by people looking at the glass instead of through it.",
+  },
+
+  // ---------------------------------------------------------- Eddie the Eagle
+  {
+    article: 'Eddie the Eagle', kind: 'documentary', place: 'lead',
+    query: 'Eddie Edwards ski jump Calgary 1988',
+    webQuery: 'Eddie the Eagle Calgary Olympics photograph',
+    caption: "Eddie Edwards at Calgary. On the normal hill the K-point was 89 metres. He jumped 55, twice, and finished 58th of 58.",
+  },
+  {
+    article: 'Eddie the Eagle', kind: 'humour', place: 'end', custom: true,
+    query: 'ski jump distance markers',
+    webQuery: 'ski jump hill K point markers',
+    generate: 'A ski jump landing hill with distance marks, one mark far up the hill and a much shorter mark well below it, diagram, no text, no logos',
+    caption: "Illustration. His 69.2 points left him one place behind a score of 140.4.",
+  },
+
+  // ----------------------------------------------------------- Hollywood Sign
+  {
+    article: 'Hollywood Sign', kind: 'documentary', place: 'lead',
+    query: 'Hollywood Sign Mount Lee',
+    webQuery: 'Hollywood sign photograph Mount Lee',
+    caption: "The Hollywood Sign. It was built in 1923 to spell Hollywoodland, as an advertisement for a housing tract.",
+  },
+  {
+    article: 'Hollywood Sign', kind: 'humour', place: 'end', custom: true,
+    query: 'Hollywoodland sign historic photograph',
+    webQuery: 'original Hollywoodland sign 1923 photograph',
+    generate: 'A hillside of white block letters spelling a long real-estate name, with the last four letters drawn as if being taken down, plain illustration, no modern logos',
+    caption: "Illustration. In 1949 the Chamber of Commerce paid to put the H back, on condition the last four letters came off.",
+  },
 ];
