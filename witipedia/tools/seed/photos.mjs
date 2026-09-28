@@ -1688,4 +1688,439 @@ export const photoSlots = [
     generate: 'A laboratory optical instrument with two glass plates stuck together, plain illustration, no text, no logos',
     caption: "Illustration. Coover warned that the sample would stick in the refractometer. It did.",
   },
+
+  // ------------------------------------------------------------ Safety pin
+  {
+    article: 'Safety pin', kind: 'documentary', place: 'lead',
+    query: 'safety pin close up',
+    webQuery: 'safety pin photograph',
+    caption: "A safety pin. Walter Hunt's 1849 patent is one piece of wire: pin, coil, and catch.",
+  },
+  {
+    article: 'Safety pin', kind: 'humour', place: 'end', custom: true,
+    query: 'bent wire coil',
+    webQuery: 'single piece of wire bent into a pin',
+    generate: 'A single length of wire bent into a pin, a coil, and a clasp, plain illustration on a white ground, no text, no logos',
+    caption: "Illustration. The patent's advantage, which it calls unknown in other plans, is that the point goes into the catch instead of the finger.",
+  },
+
+  // ------------------------------------------------------------ Moon tree
+  {
+    article: 'Moon tree', kind: 'documentary', place: 'lead',
+    query: 'Moon tree plaque Apollo 14',
+    webQuery: 'moon tree plaque photograph',
+    caption: "A moon tree. The seeds flew in Stuart Roosa's personal kit on Apollo 14.",
+  },
+  {
+    article: 'Moon tree', kind: 'humour', place: 'end', custom: true,
+    query: 'canvas pouch seeds',
+    webQuery: 'seed canister pouch',
+    generate: 'A small metal canister of seeds beside a canvas pouch, plain illustration, no text, no logos',
+    caption: "Illustration. The bags burst in decontamination. NASA never kept a list of where the trees went.",
+  },
+
+  // ---------------------------------------------------------------- Otzi
+  {
+    article: 'Otzi', kind: 'documentary', place: 'lead',
+    query: 'Otzi reconstruction South Tyrol',
+    webQuery: 'Otzi the Iceman reconstruction photograph',
+    caption: "A reconstruction of the man found on the Schnalstal glacier in 1991. The South Tyrol Museum says he was murdered more than 5,300 years ago.",
+  },
+  {
+    article: 'Otzi', kind: 'humour', place: 'end', custom: true,
+    query: 'newspaper nameplate',
+    webQuery: 'journalist notebook',
+    generate: 'A reporter notebook with a single short name written on it, no readable modern headline, illustration',
+    caption: "Illustration. The name on the exhibit was chosen by the journalist Karl Wendl because it would be remembered.",
+  },
+
+  // ---------------------------------------------------------- Ghost Army
+  {
+    article: 'Ghost Army', kind: 'documentary', place: 'lead',
+    query: 'inflatable tank Ghost Army 23rd Headquarters',
+    webQuery: 'inflatable Sherman tank photograph WWII',
+    caption: "An inflatable tank of the kind the 23rd Headquarters Special Troops used. From a quarter of a mile it looked like an M4.",
+  },
+  {
+    article: 'Ghost Army', kind: 'humour', place: 'end', custom: true,
+    query: 'rubber inflatable tank',
+    webQuery: 'dummy inflatable tank',
+    generate: 'A canvas tank shape on a field, clearly limp at the edges, illustration, no insignia text',
+    caption: "Illustration. The National WWII Museum's account is that up close it would fool no one.",
+  },
+
+  // ---------------------------------------------------- Paul the octopus
+  {
+    article: 'Paul the octopus', kind: 'documentary', place: 'lead',
+    query: 'common octopus aquarium',
+    webQuery: 'octopus in aquarium tank photograph',
+    caption: "A common octopus. Paul's keepers offered a mussel in one of two jars marked with flags.",
+  },
+  {
+    article: 'Paul the octopus', kind: 'humour', place: 'end', custom: true,
+    query: 'two glass jars',
+    webQuery: 'two jars side by side',
+    generate: 'Two plain glass jars side by side, each with a small flag shape that is not a real national flag, illustration, no text',
+    caption: "Illustration. After eight matches the aquarium retired him from what it called the official oracle business.",
+  },
+
+  // ----------------------------------------------------- Sagrada Familia
+  {
+    article: 'Sagrada Familia', kind: 'documentary', place: 'lead',
+    query: 'Sagrada Familia Barcelona towers cranes',
+    webQuery: 'Sagrada Familia under construction photograph',
+    caption: "The Sagrada Familia. Gaudi worked on it from 1883 until 1926. In 2025 the chairman would not pick a year inside a range of ten to twelve.",
+  },
+  {
+    article: 'Sagrada Familia', kind: 'humour', place: 'end', custom: true,
+    query: 'construction crane on a church tower',
+    webQuery: 'sagrada familia crane',
+    generate: 'A tall church tower with scaffolding still on the upper storeys, illustration, no text',
+    caption: "Illustration. The hope for 2026 is the outside of one tower, 172.5 metres, not the finished church.",
+  },
+
+  // ---------------------------------------------------------- Endurance
+  {
+    article: 'Endurance', kind: 'documentary', place: 'lead',
+    query: 'Endurance ship Frank Hurley Weddell Sea',
+    webQuery: 'Shackleton Endurance trapped in ice Hurley photograph',
+    caption: "Endurance in the ice, photographed by Frank Hurley before the ship was crushed in 1915. The wreck was found on 5 March 2022.",
+  },
+  {
+    article: 'Endurance', kind: 'humour', place: 'end', custom: true,
+    query: 'nautical chart pencil mark',
+    webQuery: 'old nautical logbook',
+    generate: 'An old logbook page with one position marked, and a second mark a short distance away, illustration, no readable modern text',
+    caption: "Illustration. The wreck lay about four miles south of the position Captain Worsley wrote down in 1915.",
+  },
+
+  // --------------------------------------------------- Inky the octopus
+  {
+    article: 'Inky the octopus', kind: 'documentary', place: 'lead',
+    query: 'octopus aquarium tank',
+    webQuery: 'octopus in a tank photograph',
+    caption: "An octopus in a tank. The lid on Inky's tank at the National Aquarium of New Zealand had been left slightly ajar.",
+  },
+  {
+    article: 'Inky the octopus', kind: 'humour', place: 'end', custom: true,
+    query: 'floor drain pipe',
+    webQuery: 'aquarium floor drain',
+    generate: 'A round floor drain beside wet tracks, plain illustration, no text, no logos',
+    caption: "Illustration. The drain was about 15 centimetres wide. The manager said he did not leave a message.",
+  },
+
+  // ----------------------------------------- Charge of the Light Brigade
+  {
+    article: 'Charge of the Light Brigade', kind: 'documentary', place: 'lead',
+    query: 'Charge of the Light Brigade 1854 print',
+    webQuery: 'Charge of the Light Brigade Crimea engraving',
+    caption: "A nineteenth-century print of the charge at Balaklava. The order was to stop the Russians carrying off guns. The brigade charged the battery it could see.",
+  },
+  {
+    article: 'Charge of the Light Brigade', kind: 'humour', place: 'end', custom: true,
+    query: 'valley between hills',
+    webQuery: 'valley artillery position illustration',
+    generate: 'A valley seen from the floor, with guns at the far end and a small figure on a height looking the other way, plain illustration, no text',
+    caption: "Illustration. Raglan could see the captured guns. From the valley, the battery in front was the one in view.",
+  },
+
+  // -------------------------------------------------------- Christmas truce
+  {
+    article: 'Christmas truce', kind: 'documentary', place: 'lead',
+    query: 'Christmas truce 1914 British German soldiers photograph',
+    webQuery: 'Christmas truce 1914 no mans land photograph',
+    caption: "British and German soldiers in no man's land, Christmas 1914. The Imperial War Museum says the truce was not observed in every sector.",
+  },
+  {
+    article: 'Christmas truce', kind: 'humour', place: 'end', custom: true,
+    query: 'old leather football',
+    webQuery: '1914 football',
+    generate: 'A single scuffed leather football on bare mud, no players, illustration',
+    caption: "Illustration. Ernie Williams, interviewed by the museum, said it was a proper football and that they did not form teams.",
+  },
+
+  // ----------------------------------------------------------------- SPAM
+  {
+    article: 'SPAM', kind: 'documentary', place: 'lead',
+    query: 'SPAM can Hormel',
+    webQuery: 'vintage Spam can photograph',
+    caption: "A can of SPAM. Hormel says the first can left the line on 5 July 1937.",
+  },
+  {
+    article: 'SPAM', kind: 'humour', place: 'end', custom: true,
+    query: 'contest prize ribbon',
+    webQuery: 'one hundred dollar bill vintage',
+    generate: 'A plain blue tin and a small card marked 100, still life illustration, no logos, no brand name',
+    caption: "Illustration. Ken Daigneau won 100 dollars for the name. The eighty-fifth-birthday release does not say what the letters stand for.",
+  },
+
+  // --------------------------------------------------------------- Martha
+  {
+    article: 'Martha', kind: 'documentary', place: 'lead',
+    query: 'Martha passenger pigeon Smithsonian specimen',
+    webQuery: 'Martha last passenger pigeon mount photograph',
+    caption: "Martha, the last known passenger pigeon, mounted at the Smithsonian after she died on 1 September 1914.",
+  },
+  {
+    article: 'Martha', kind: 'humour', place: 'end', custom: true,
+    query: 'block of ice freight',
+    webQuery: 'large block of ice',
+    generate: 'A rectangular block of ice on a railway baggage cart, plain illustration, no text',
+    caption: "Illustration. The body was frozen into a 300-pound block of ice and sent by train.",
+  },
+
+  // ------------------------------------------------------------- Kon-Tiki
+  {
+    article: 'Kon-Tiki', kind: 'documentary', place: 'lead',
+    query: 'Kon-Tiki balsa raft',
+    webQuery: 'Kon-Tiki raft photograph 1947',
+    caption: "The Kon-Tiki raft. It left Callao on 28 April 1947 with six men and a parrot.",
+  },
+  {
+    article: 'Kon-Tiki', kind: 'humour', place: 'end', custom: true,
+    query: 'balsa wood logs lashed',
+    webQuery: 'balsa raft logs',
+    generate: 'Nine balsa logs lashed with rope, a small sail, open ocean, illustration, no text',
+    caption: "Illustration. After 101 days the raft ran onto a reef. The Kon-Tiki Museum calls that an unconditional success.",
+  },
+
+  // ---------------------------------------------------- Vulcanized rubber
+  {
+    article: 'Vulcanized rubber', kind: 'documentary', place: 'lead',
+    query: 'Charles Goodyear india rubber',
+    webQuery: 'vulcanized rubber sheet',
+    caption: "India-rubber. Goodyear's 1844 patent is rubber, sulphur, and white lead, heated to about 270 degrees Fahrenheit.",
+  },
+  {
+    article: 'Vulcanized rubber', kind: 'humour', place: 'end', custom: true,
+    query: 'white lead pigment powder',
+    webQuery: 'lead white pigment',
+    generate: 'Three small heaps of material, a dark gum, a yellow powder, and a white powder, still life, no labels',
+    caption: "Illustration. The patent says he is not claiming the sulphur. He already had that, from 1839. This one adds the white lead.",
+  },
+
+  // -------------------------------------------------------- Cardiff Giant
+  {
+    article: 'Cardiff Giant', kind: 'documentary', place: 'lead',
+    query: 'Cardiff Giant Farmers Museum Cooperstown',
+    webQuery: 'Cardiff Giant gypsum statue photograph',
+    caption: "The Cardiff Giant, a gypsum figure Fenimore Farm calls America's Greatest Hoax. The farm bought it in 1947.",
+  },
+  {
+    article: 'Cardiff Giant', kind: 'humour', place: 'end', custom: true,
+    query: 'gypsum block quarry',
+    webQuery: 'gypsum stone block',
+    generate: 'A rough block of pale stone beside a carved foot, barn interior, illustration, no text',
+    caption: "Illustration. George Hull started from a five-ton block of gypsum and a verse in Genesis.",
+  },
+
+  // ---------------------------------------------------- Year 2000 problem
+  {
+    article: 'Year 2000 problem', kind: 'documentary', place: 'lead',
+    query: 'year 2000 computer mainframe',
+    webQuery: 'Y2K computer room 1999 photograph',
+    caption: "A computer room of the sort the year-2000 work was done in. The GAO says 99.9 percent of federal mission-critical systems were reported compliant by December 1999.",
+  },
+  {
+    article: 'Year 2000 problem', kind: 'humour', place: 'end', custom: true,
+    query: 'calendar page 1900',
+    webQuery: 'calendar year 1900',
+    generate: 'A claim form with the year printed as 1900, plain illustration, no logos, no personal names',
+    caption: "Illustration. Medicare contractors received claims dated 1900 or 2099. By mid-February there were at least 50,475 of them.",
+  },
+
+  // ------------------------------------------------------------ Saccharin
+  {
+    article: 'Saccharin', kind: 'documentary', place: 'lead',
+    query: 'saccharin crystals sweetener',
+    webQuery: 'saccharin crystals photograph',
+    caption: "Saccharin crystals. Fahlberg's 1885 patent says a diluted solution tastes like saturated cane sugar.",
+  },
+  {
+    article: 'Saccharin', kind: 'humour', place: 'end', custom: true,
+    query: 'coal tar laboratory flask',
+    webQuery: 'coal tar sample jar',
+    generate: 'A small laboratory flask of dark liquid beside a dish of white crystals, illustration, no text',
+    caption: "Illustration. The starting material the patent names, for reasons of cost, is toluene from coal-tar.",
+  },
+
+  // ------------------------------------------------ The Landlord's Game
+  {
+    article: "The Landlord's Game", kind: 'documentary', place: 'lead',
+    query: "Landlord's Game Lizzie Magie board",
+    webQuery: "Landlord's Game 1904 board photograph",
+    caption: "A board for The Landlord's Game. Lizzie J. Magie's 1904 patent starts each player with five hundred dollars.",
+  },
+  {
+    article: "The Landlord's Game", kind: 'humour', place: 'end', custom: true,
+    query: 'board game corner jail space',
+    webQuery: 'old board game jail corner',
+    generate: 'A square game board corner marked only with a small barred window, no brand name, illustration',
+    caption: "Illustration. A player who refuses the rules goes to jail until a double or a fifty-dollar fine.",
+  },
+
+  // ------------------------------------------ Mike the headless chicken
+  {
+    article: 'Mike the headless chicken', kind: 'documentary', place: 'lead',
+    query: 'Mike the headless chicken Fruita',
+    webQuery: 'Miracle Mike headless chicken photograph',
+    caption: "Mike, photographed after 10 September 1945. He lived eighteen months.",
+  },
+  {
+    article: 'Mike the headless chicken', kind: 'humour', place: 'end', custom: true,
+    query: 'glass eyedropper',
+    webQuery: 'medicine dropper',
+    generate: 'A glass dropper and a small syringe on a motel bedside table, illustration, no text',
+    caption: "Illustration. He was fed with a dropper. The night he died, the syringe that cleared his throat had been left at the sideshow.",
+  },
+
+  // --------------------------------------------------------------- Ouija
+  {
+    article: 'Ouija', kind: 'documentary', place: 'lead',
+    query: 'Ouija board planchette',
+    webQuery: 'early Ouija board photograph',
+    caption: "A talking board. Elijah Bond's 1891 patent calls it an Ouija or Egyptian luck-board, operated by the touch of the hand.",
+  },
+  {
+    article: 'Ouija', kind: 'humour', place: 'end', custom: true,
+    query: 'felt furniture pad',
+    webQuery: 'felt pad on a wooden leg',
+    generate: 'A small round table with four short legs, felt under each foot, and a pointed tongue, plain illustration, no letters',
+    caption: "Illustration. The patent puts felt on the feet so the table will not scratch the board or creak.",
+  },
+
+  // ------------------------------------------------------ Hitler diaries
+  {
+    article: 'Hitler diaries', kind: 'documentary', place: 'lead',
+    query: 'Stern magazine 1983 press conference',
+    webQuery: 'Hitler diaries Stern 1983 photograph',
+    caption: "The volumes sold to Stern as Hitler's diaries. A Hamburg court, on 8 July 1985, treated them as forgeries.",
+  },
+  {
+    article: 'Hitler diaries', kind: 'humour', place: 'end', custom: true,
+    query: 'stack of blank notebooks',
+    webQuery: 'stack of old notebooks',
+    generate: 'Sixty thin notebooks in a stack, plain covers, illustration, no readable writing, no symbols',
+    caption: "Illustration. There were sixty volumes. Before sentencing, Kujau told reporters he had written them.",
+  },
+
+  // ---------------------------------------------------- Whaleship Essex
+  {
+    article: 'Whaleship Essex', kind: 'documentary', place: 'lead',
+    query: 'sperm whale Nantucket whaler',
+    webQuery: 'sperm whale nineteenth century whaling print',
+    caption: "A sperm whale and a whaleship. On 20 November 1820 a whale struck the Essex twice.",
+  },
+  {
+    article: 'Whaleship Essex', kind: 'humour', place: 'end', custom: true,
+    query: 'open whaleboat pacific',
+    webQuery: 'whaleboat at sea',
+    generate: 'Three small open boats on a large empty sea, illustration, no text',
+    caption: "Illustration. Chase's answer to the captain, who had not seen the attack, was that they had been stove by a whale.",
+  },
+
+  // ------------------------------------------------------------ Axolotl
+  {
+    article: 'Axolotl', kind: 'documentary', place: 'lead',
+    query: 'Ambystoma mexicanum axolotl',
+    webQuery: 'axolotl external gills photograph',
+    caption: "An axolotl. The adult keeps the external gills. The species is endemic to Lake Xochimilco.",
+  },
+  {
+    article: 'Axolotl', kind: 'humour', place: 'end', custom: true,
+    query: 'Pennsylvania creek',
+    webQuery: 'Walnut Creek Pennsylvania',
+    generate: 'A small salamander with feathery gills in a clear North American creek, illustration, no text',
+    caption: "Illustration. In 2025 one adult female was found in Walnut Creek, Pennsylvania, and removed. The Geological Survey calls it a likely aquarium release.",
+  },
+
+  // --------------------------------------------- Donation of Constantine
+  {
+    article: 'Donation of Constantine', kind: 'documentary', place: 'lead',
+    query: 'Donation of Constantine medieval manuscript',
+    webQuery: 'Donation of Constantine fresco',
+    caption: "A medieval image of Constantine and the pope. Lorenzo Valla's 1440 treatise argues the charter is a forgery.",
+  },
+  {
+    article: 'Donation of Constantine', kind: 'humour', place: 'end', custom: true,
+    query: 'medieval Latin manuscript page',
+    webQuery: 'latin charter manuscript',
+    generate: 'A Latin manuscript page with one word circled, the word not legible as modern text, illustration',
+    caption: "Illustration. One word Valla stops on is satraps. Another is a city that, on the document's own date, had not been founded.",
+  },
+
+  // ------------------------------------------------------- Rosetta Stone
+  {
+    article: 'Rosetta Stone', kind: 'documentary', place: 'lead',
+    query: 'Rosetta Stone British Museum',
+    webQuery: 'Rosetta Stone photograph',
+    caption: "The Rosetta Stone. The decree of 196 BC is written in hieroglyphs, Demotic, and Greek.",
+  },
+  {
+    article: 'Rosetta Stone', kind: 'humour', place: 'end', custom: true,
+    query: 'broken stone slab inscription',
+    webQuery: 'broken stela fragment',
+    generate: 'A broken dark stone with three bands of writing, the top band cut off at an angle, illustration, the letters not readable',
+    caption: "Illustration. The British Museum says a copy was to go to every sizeable temple. Whether that happened is unknown.",
+  },
+
+  // -------------------------------------------------- Voynich manuscript
+  {
+    article: 'Voynich manuscript', kind: 'documentary', place: 'lead',
+    query: 'Voynich manuscript plant page',
+    webQuery: 'Voynich manuscript Beinecke page photograph',
+    caption: "A page of the Voynich manuscript, Beinecke MS 408. The script is unidentified.",
+  },
+  {
+    article: 'Voynich manuscript', kind: 'humour', place: 'end', custom: true,
+    query: 'unread letter pile',
+    webQuery: 'stack of unopened letters',
+    generate: 'A tall stack of unopened letters on a library desk, illustration, no readable addresses',
+    caption: "Illustration. The library that owns the book says it cannot answer individual theories, because of the volume of proposals.",
+  },
+
+  // -------------------------------------------------------- Hope Diamond
+  {
+    article: 'Hope Diamond', kind: 'documentary', place: 'lead',
+    query: 'Hope Diamond Smithsonian',
+    webQuery: 'Hope Diamond necklace photograph',
+    caption: "The Hope Diamond. Taken out of its setting in 1974, it weighed 45.52 carats, not the 44.5 long reported.",
+  },
+  {
+    article: 'Hope Diamond', kind: 'humour', place: 'end', custom: true,
+    query: 'plain brown paper package',
+    webQuery: 'brown paper parcel string',
+    generate: 'A plain brown paper parcel tied with string, on a museum table, illustration, no labels',
+    caption: "Illustration. On 10 November 1958 the diamond arrived by registered mail in a plain brown package, insured for one million dollars.",
+  },
+
+  // ----------------------------------------------------------- Sputnik 1
+  {
+    article: 'Sputnik 1', kind: 'documentary', place: 'lead',
+    query: 'Sputnik 1 satellite',
+    webQuery: 'Sputnik 1 sphere photograph',
+    caption: "Sputnik 1. NASA describes it as about the size of a beach ball: 58 centimetres, 83.6 kilograms.",
+  },
+  {
+    article: 'Sputnik 1', kind: 'humour', place: 'end', custom: true,
+    query: 'beach ball',
+    webQuery: 'plain beach ball',
+    generate: 'A polished metal sphere the size of a beach ball with four thin antennae, plain illustration, no flags, no text',
+    caption: "Illustration. The American satellite planned for that season was to weigh 3.5 pounds. On 6 December, Vanguard TV-3 exploded on the pad.",
+  },
+
+  // ----------------------------------------------------- Great Moon Hoax
+  {
+    article: 'Great Moon Hoax', kind: 'documentary', place: 'lead',
+    query: 'Great Moon Hoax 1835 lunar animals print',
+    webQuery: '1835 moon hoax bat people print',
+    caption: "The 1835 print deposited for copyright as discoveries by Sir John Herschel. The Library of Congress catalogue calls the beings imaginary.",
+  },
+  {
+    article: 'Great Moon Hoax', kind: 'humour', place: 'end', custom: true,
+    query: 'copyright deposit stamp',
+    webQuery: 'nineteenth century copyright notice',
+    generate: 'A printed picture of a winged figure and a unicorn on a cratered ground, with a clerk stamp in the corner, the stamp not readable, illustration',
+    caption: "Illustration. Benjamin Henry Day deposited it on 29 August 1835 with the Clerk of the Southern District of New York.",
+  },
 ];
