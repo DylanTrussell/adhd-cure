@@ -855,4 +855,124 @@ export const photoSlots = [
     generate: 'An open physics textbook showing a neat sine wave labelled resonance, with a small photograph of a twisting bridge tucked in the margin and a red correction mark beside the caption, illustration, no readable brand names',
     caption: "Illustration. The film of the collapse is real. The vortex-shedding frequency at that wind speed is about 1 hertz, and the twist that destroyed the bridge was 0.2 hertz.",
   },
+
+  // -------------------------------------------------------- Donoghue v Stevenson
+  {
+    article: 'Donoghue v Stevenson', kind: 'documentary', place: 'lead',
+    query: 'ginger beer bottle stone opaque',
+    webQuery: 'ginger beer bottle 1930s photograph',
+    caption: "A stone ginger-beer bottle of the opaque kind at issue in Donoghue v Stevenson. The snail was never proved, and never disproved.",
+  },
+  {
+    article: 'Donoghue v Stevenson', kind: 'humour', place: 'end', custom: true,
+    query: 'snail bottle illustration',
+    webQuery: 'donoghue v stevenson snail meme funny',
+    generate: 'A courtroom clerk holding an empty opaque stone bottle up to the light, unable to see inside, period illustration, no text',
+    caption: "Illustration. The House of Lords decided the case on the assumption that the pursuer's story was true. The trial that would have tested the story never happened.",
+  },
+
+  // ------------------------------------------------- Mayo v. Satan and His Staff
+  {
+    article: 'Mayo v. Satan and His Staff', kind: 'documentary', place: 'lead',
+    query: 'United States federal courthouse Pennsylvania',
+    webQuery: 'federal courthouse Western District Pennsylvania photograph',
+    caption: "A federal courthouse. Gerald Mayo's complaint was given a miscellaneous docket number here, in the Western District of Pennsylvania, and not served.",
+  },
+  {
+    article: 'Mayo v. Satan and His Staff', kind: 'humour', place: 'end', custom: true,
+    query: 'blank legal form marshal',
+    webQuery: 'mayo v satan meme funny',
+    generate: 'A blank process-server form on a clerk desk, the address line empty, a quill beside it, sober illustration, no text, no infernal imagery',
+    caption: "Illustration of the missing form. The order denies the fee waiver because the complaint included no instructions telling the marshal how to serve the defendant.",
+  },
+
+  // ------------------------------------------------------------ Streisand effect
+  {
+    article: 'Streisand effect', kind: 'documentary', place: 'lead',
+    query: 'California coastline aerial photograph erosion',
+    webQuery: 'California coast aerial survey photograph',
+    caption: "The California coast, photographed from the air for an erosion survey. One frame of that survey showed a house in Malibu.",
+  },
+  {
+    article: 'Streisand effect', kind: 'humour', place: 'end', custom: true,
+    query: 'magnifying glass on a tiny photograph',
+    webQuery: 'streisand effect meme funny',
+    generate: 'A tiny aerial photograph pinned to a board, and a huge crowd of identical pointing fingers entering from outside the frame, editorial illustration, no likeness of any real person, no text',
+    caption: "Illustration. Before the lawsuit the frame had been downloaded six times, two of them by the plaintiff's lawyers.",
+  },
+
+  // ----------------------------------------------------------- Naruto v. Slater
+  {
+    article: 'Naruto v. Slater', kind: 'documentary', place: 'lead',
+    query: 'crested macaque Sulawesi Macaca nigra',
+    webQuery: 'crested black macaque Sulawesi photograph',
+    caption: "A crested macaque. Naruto, a macaque in a reserve on Sulawesi, took photographs with a camera a photographer had left unattended.",
+  },
+  {
+    article: 'Naruto v. Slater', kind: 'humour', place: 'end', custom: true,
+    query: 'camera on a tripod in a forest',
+    webQuery: 'monkey selfie meme funny',
+    generate: 'An unattended camera on a rock in a tropical forest, a crested macaque looking into the lens, documentary style, no text, not a reproduction of the copyrighted selfie',
+    caption: "Illustration, and not one of the photographs in the lawsuit. The Ninth Circuit held that the Copyright Act does not let an animal sue.",
+  },
+
+  // ------------------------------------------------------------------ Pringles
+  {
+    article: 'Pringles', kind: 'documentary', place: 'lead',
+    query: 'stack of saddle-shaped potato snacks',
+    webQuery: 'Pringles stack photograph',
+    caption: "Regular Pringles. The Court of Appeal held they were similar to potato crisps and made from the potato, and therefore standard-rated for VAT.",
+  },
+  {
+    article: 'Pringles', kind: 'humour', place: 'end', custom: true,
+    query: 'judge looking at a snack',
+    webQuery: 'pringles VAT crisp meme funny',
+    generate: 'A single saddle-shaped crisp on a courtroom exhibit stand beside a potato, sober still-life illustration, no logos, no text',
+    caption: "Illustration. Potato flour was over 40 per cent of the product, which the court held was enough to count as made from the potato.",
+  },
+
+  // ---------------------------------------------------------------- Hoover Dam
+  {
+    article: 'Hoover Dam', kind: 'documentary', place: 'lead',
+    query: 'Hoover Dam construction concrete pour 1930s',
+    webQuery: 'Hoover Dam construction workers concrete photograph',
+    caption: "Pouring Hoover Dam. The blocks rose a few inches at a time, with puddlers standing in the concrete. The Bureau of Reclamation says nobody is buried in it.",
+  },
+  {
+    article: 'Hoover Dam', kind: 'humour', place: 'end', custom: true,
+    query: 'concrete block construction workers',
+    webQuery: 'hoover dam bodies buried myth meme',
+    generate: 'Six workers standing in a shallow layer of wet concrete inside a wooden form, the concrete only inches deep, documentary illustration of a 1930s pour, no text',
+    caption: "Illustration of the pour the Bureau describes. A bucket raised the level by two to six inches. That is not enough concrete to hide a person from the people standing in it.",
+  },
+
+  // ------------------------------------------------ A Severe Strain on Credulity
+  {
+    article: 'A Severe Strain on Credulity', kind: 'documentary', place: 'lead',
+    query: 'Robert Goddard rocket test 1926',
+    webQuery: 'Robert H Goddard rocket photograph',
+    caption: "Robert Goddard with one of his rockets. In 1920 the New York Times said he seemed to lack the physics taught in high school.",
+  },
+  {
+    article: 'A Severe Strain on Credulity', kind: 'humour', place: 'end', custom: true,
+    query: 'newspaper correction notice',
+    webQuery: 'new york times goddard correction meme funny',
+    generate: 'A 1969 newspaper page with a short correction notice set in small type, a Moon photograph on the opposite page, editorial illustration, no readable masthead, no real newspaper logo',
+    caption: "Illustration. The real correction ran on 17 July 1969, quoted the 1920 sneer, cited Newton, and said the Times regretted the error.",
+  },
+
+  // ------------------------------------------------------------ Pierson v. Post
+  {
+    article: 'Pierson v. Post', kind: 'documentary', place: 'lead',
+    query: 'red fox Vulpes vulpes',
+    webQuery: 'red fox running photograph',
+    caption: "A red fox. In 1805 the New York Supreme Court decided who owned one, and held that chasing it was not enough.",
+  },
+  {
+    article: 'Pierson v. Post', kind: 'humour', place: 'end', custom: true,
+    query: 'fox hunt hounds beach',
+    webQuery: 'pierson v post fox meme funny',
+    generate: 'A fox on an empty beach with two distant figures, one with hounds and one stepping in, early-1800s illustration style, no text',
+    caption: "Illustration. Post had the hounds. Pierson had the fox. The court, citing Roman law, gave it to Pierson.",
+  },
 ];
