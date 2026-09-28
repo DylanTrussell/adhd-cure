@@ -613,4 +613,126 @@ export const photoSlots = [
     generate: 'An old abandoned car and a small shed almost completely swallowed by thick green vines, only a headlight and a door handle still visible, lush overgrown illustration style',
     caption: "Illustration. Kudzu can grow up to about 30 centimetres in a single day under the right conditions.",
   },
+
+  // ---------------------------------------------------------- Pitch drop experiment
+  {
+    article: 'Pitch drop experiment', kind: 'documentary', place: 'lead',
+    query: 'University of Queensland pitch drop experiment funnel',
+    webQuery: 'pitch drop experiment Queensland photograph',
+    caption: "The University of Queensland pitch drop experiment. The pitch was poured in 1927. The ninth drop fell in 2014.",
+  },
+  {
+    article: 'Pitch drop experiment', kind: 'humour', place: 'end', custom: true,
+    query: 'scientist watching empty desk',
+    webQuery: 'pitch drop experiment meme funny',
+    generate: 'A patient professor in a cardigan sitting in a folding chair staring at a glass funnel of black pitch, calendar pages flying off the wall behind him, warm illustration, no text',
+    caption: "Illustration. John Mainstone watched the experiment for 52 years. Five drops fell on his watch. He saw none of them.",
+  },
+
+  // ---------------------------------------------------------- Oxford Electric Bell
+  {
+    article: 'Oxford Electric Bell', kind: 'documentary', place: 'lead',
+    query: 'Oxford Electric Bell Clarendon dry pile',
+    webQuery: 'Oxford electric bell Clarendon laboratory photograph',
+    caption: "The Oxford Electric Bell, bought in 1840 and still ringing. The ringing is practically inaudible.",
+  },
+  {
+    article: 'Oxford Electric Bell', kind: 'humour', place: 'end', custom: true,
+    query: 'Victorian scientist battery experiment',
+    webQuery: 'oxford electric bell meme funny',
+    generate: 'A Victorian gentleman in a frock coat cupping his ear toward a tiny brass bell under a glass dome, hearing nothing, oil-painting illustration, no text',
+    caption: "Illustration. The bell has been ringing since 1840 at about two strikes a second. A corridor away, it cannot be heard.",
+  },
+
+  // ------------------------------------------------------------ London Beer Flood
+  {
+    article: 'London Beer Flood', kind: 'documentary', place: 'lead',
+    query: 'Meux Horse Shoe Brewery Tottenham Court Road',
+    webQuery: 'London beer flood 1814 Horse Shoe brewery',
+    diptych: 'Dominion Theatre Tottenham Court Road',
+    caption: "Left: the Horse Shoe Brewery, where a vat of porter burst on 17 October 1814. Right: the Dominion Theatre, which stands on the site.",
+  },
+  {
+    article: 'London Beer Flood', kind: 'humour', place: 'end', custom: true,
+    query: 'Victorian tax office ledger',
+    webQuery: 'London beer flood meme funny',
+    generate: 'A Regency clerk in a dim excise office carefully writing a rebate into a leather ledger while a brewery vat looms in a painting behind him, period illustration, no text, not depicting any real victim',
+    caption: "Illustration, and not a picture of the flood. Eight people died. The brewery was not held liable, and recovered the excise duty on the beer.",
+  },
+
+  // --------------------------------------- Carlill v Carbolic Smoke Ball Company
+  {
+    article: 'Carlill v Carbolic Smoke Ball Company', kind: 'documentary', place: 'lead',
+    query: 'Carbolic Smoke Ball advertisement 1891',
+    webQuery: 'carbolic smoke ball company advertisement',
+    caption: "The advertisement. It offered £100, and mentioned a £1,000 bank deposit, which is why the Court of Appeal decided the company had meant it.",
+  },
+  {
+    article: 'Carlill v Carbolic Smoke Ball Company', kind: 'humour', place: 'end', custom: true,
+    query: 'Victorian judge wig illustration',
+    webQuery: 'carbolic smoke ball meme funny',
+    generate: 'A Victorian lady in a high-collared dress holding a small rubber ball with a nozzle up to her nose, looking unwell but determined, a folded newspaper advertisement on the table, period illustration, no text',
+    caption: "Illustration. Using the ball three times a day was, in the judgment, inconvenience enough to count as consideration. Catching influenza was how Mrs Carlill accepted the offer.",
+  },
+
+  // ----------------------------------------------------------------- Jaffa Cakes
+  {
+    article: 'Jaffa Cakes', kind: 'documentary', place: 'lead',
+    query: 'Jaffa Cakes packet McVitie',
+    webQuery: 'Jaffa Cakes packet photograph',
+    caption: "Jaffa Cakes. A 1991 VAT tribunal held they were cakes, in part because they go hard when they go stale.",
+  },
+  {
+    article: 'Jaffa Cakes', kind: 'humour', place: 'end', custom: true,
+    query: 'stale cake biscuit courtroom',
+    webQuery: 'jaffa cakes VAT meme funny',
+    generate: 'A small sponge cake with a dark chocolate top and a dot of orange sitting on a courtroom evidence table beside a gavel, documentary still-life photograph style, no text, no logos',
+    caption: "A staged still life, not an exhibit from the hearing. The actual test was culinary: cakes harden with age, biscuits soften, and a Jaffa Cake hardens.",
+  },
+
+  // -------------------------------------------------------------------- Pig War
+  {
+    article: 'Pig War', kind: 'documentary', place: 'lead',
+    query: 'English Camp San Juan Island Royal Marines',
+    webQuery: 'San Juan Island Pig War English Camp photograph',
+    diptych: 'American Camp San Juan Island officers quarters',
+    caption: "Left: English Camp, San Juan Island. Right: American Camp. The two garrisons occupied opposite ends of the island for twelve years. The dispute had begun with a pig.",
+  },
+  {
+    article: 'Pig War', kind: 'humour', place: 'end', custom: true,
+    query: 'pig in a vegetable garden',
+    webQuery: 'pig war san juan meme funny',
+    generate: 'A large pig standing in a nineteenth-century potato patch with two tiny rival flags planted at opposite ends of the garden, gentle storybook illustration, no text',
+    caption: "Illustration. The pig was real, and it was the only casualty. The flags, the camps and the German emperor came afterwards.",
+  },
+
+  // ----------------------------------------------------------------------- Vasa
+  {
+    article: 'Vasa', kind: 'documentary', place: 'lead',
+    query: 'Vasa warship museum Stockholm hull',
+    webQuery: 'Vasa ship museum photograph',
+    caption: "Vasa, in the museum that now holds her. On 10 August 1628 she sailed 1,300 metres and sank.",
+  },
+  {
+    article: 'Vasa', kind: 'humour', place: 'end', custom: true,
+    query: 'sailors running across deck illustration',
+    webQuery: 'Vasa ship meme funny',
+    generate: 'Thirty seventeenth-century sailors running from one side of a decorated warship deck to the other while an admiral on the quay waves both arms for them to stop, historical illustration, no text',
+    caption: "Illustration of the stability test at the quay. The admiral stopped it, afraid the ship would sink where she was moored, and then ordered her to sail.",
+  },
+
+  // ---------------------------------------------------- Discovery of Richard III
+  {
+    article: 'Discovery of Richard III', kind: 'documentary', place: 'lead',
+    query: 'Greyfriars Leicester Richard III excavation skeleton',
+    webQuery: 'Richard III Leicester car park excavation photograph',
+    caption: "The Greyfriars excavation in Leicester, 2012, on the site of a car park. The skeleton in the choir of the lost church was Richard III.",
+  },
+  {
+    article: 'Discovery of Richard III', kind: 'humour', place: 'end', custom: true,
+    query: 'archaeologist trowel asphalt',
+    webQuery: 'richard iii car park meme funny',
+    generate: 'An archaeologist kneeling with a trowel at the edge of a marked parking bay, a yellow painted parking line running past an open trench, documentary photograph style, no text, no identifiable living person',
+    caption: "Illustration. The trench was real, and it was in a car park. The parking line in this picture is staged.",
+  },
 ];
