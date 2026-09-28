@@ -17,6 +17,19 @@ import { articles5 } from './seed/articles-5.mjs';
 import { articles6 } from './seed/articles-6.mjs';
 import { articles7 } from './seed/articles-7.mjs';
 import { articles8 } from './seed/articles-8.mjs';
+import { articles9 } from './seed/articles-9.mjs';
+import { articles10 } from './seed/articles-10.mjs';
+import { articles11 } from './seed/articles-11.mjs';
+import { articles12 } from './seed/articles-12.mjs';
+import { articles13 } from './seed/articles-13.mjs';
+import { articles14 } from './seed/articles-14.mjs';
+import { articles15 } from './seed/articles-15.mjs';
+import { articles16 } from './seed/articles-16.mjs';
+import { articles17 } from './seed/articles-17.mjs';
+import { articles18 } from './seed/articles-18.mjs';
+import { articles19 } from './seed/articles-19.mjs';
+import { articles20 } from './seed/articles-20.mjs';
+import { articles21 } from './seed/articles-21.mjs';
 import { projectPages } from './seed/project.mjs';
 
 const SITE = process.env.SITE_NAME || 'Witipedia';
@@ -91,7 +104,7 @@ function addPage({ ns, title, protect = '', revisions }) {
 }
 
 // ---- articles, their talk pages and their ratings
-const articles = [...articles1, ...articles2, ...articles3, ...articles4, ...articles5, ...articles6, ...articles7, ...articles8];
+const articles = [...articles1, ...articles2, ...articles3, ...articles4, ...articles5, ...articles6, ...articles7, ...articles8, ...articles9, ...articles10, ...articles11, ...articles12, ...articles13, ...articles14, ...articles15, ...articles16, ...articles17, ...articles18, ...articles19, ...articles20, ...articles21];
 for (const a of articles) {
   const id = addPage({ ns: 0, title: a.title, protect: a.protect || '', revisions: a.revisions });
   if (a.talk) {
