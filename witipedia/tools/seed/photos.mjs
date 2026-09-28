@@ -1095,4 +1095,124 @@ export const photoSlots = [
     generate: 'A single poplar stump in a border camp, a chainsaw on the ground, and distant helicopters in a grey sky, documentary illustration, no insignia, no text',
     caption: "Illustration. The return visit brought chainsaws, hundreds of troops, helicopters, B-52s and a carrier. The BBC's account says it was over in less than 45 minutes.",
   },
+
+  // ------------------------------------------- Hubble Space Telescope mirror
+  {
+    article: 'Hubble Space Telescope mirror', kind: 'documentary', place: 'lead',
+    query: 'Hubble Space Telescope primary mirror polishing',
+    webQuery: 'Hubble Space Telescope primary mirror photograph',
+    caption: "The Hubble primary mirror during manufacture. It was polished to the shape the reflective null corrector reported, and that instrument's lens was 1.3 mm out.",
+  },
+  {
+    article: 'Hubble Space Telescope mirror', kind: 'humour', place: 'end', custom: true,
+    query: 'optical test interferometer fringes',
+    webQuery: 'hubble mirror spherical aberration meme',
+    generate: 'A laboratory optical bench with a small metal cap, a chip of dark paint missing around a pinhole, and a beam of light reflecting off the cap instead of the rod beneath it, technical illustration, no text',
+    caption: "Illustration of the board's account. The field cap was painted so it would not reflect. A little of the paint was gone, and the reflection was taken from the cap.",
+  },
+
+  // -------------------------------------------------------- Ariane 5 Flight 501
+  {
+    article: 'Ariane 5 Flight 501', kind: 'documentary', place: 'lead',
+    query: 'Ariane 5 rocket launch Kourou',
+    webQuery: 'Ariane 5 launch photograph',
+    caption: "An Ariane 5 leaving Kourou. Flight 501, on 4 June 1996, broke up about 37 seconds after the ignition sequence began.",
+  },
+  {
+    article: 'Ariane 5 Flight 501', kind: 'humour', place: 'end', custom: true,
+    query: 'redundant computers same error',
+    webQuery: 'ariane 5 software overflow diagram',
+    generate: 'Two identical grey electronics boxes side by side, both showing the same small fault light, a rocket silhouette faint in the background, technical illustration, no readable text, no logos',
+    caption: "Illustration. The backup inertial unit failed 72 milliseconds before the active one, because it was running the same software.",
+  },
+
+  // ------------------------------------------------------------- Knight Capital
+  {
+    article: 'Knight Capital', kind: 'documentary', place: 'lead',
+    query: 'New York Stock Exchange trading floor 2012',
+    webQuery: 'NYSE trading floor photograph',
+    caption: "The New York Stock Exchange. On 1 August 2012 one Knight Capital server turned 212 retail orders into about 4 million executions.",
+  },
+  {
+    article: 'Knight Capital', kind: 'humour', place: 'end', custom: true,
+    query: 'server room one machine different',
+    webQuery: 'knight capital trading error meme',
+    generate: 'Eight identical server racks in a row, seven with a small green light and one with a small amber light, sober technical illustration, no logos, no text',
+    caption: "Illustration. Seven of the eight servers had the new code. The eighth still had Power Peg, which Knight had stopped using in 2003.",
+  },
+
+  // -------------------------------------------------------- Chelyabinsk meteor
+  {
+    article: 'Chelyabinsk meteor', kind: 'documentary', place: 'lead',
+    query: 'Chelyabinsk meteor smoke trail 2013',
+    webQuery: 'Chelyabinsk meteor dashcam trail photograph',
+    caption: "The trail of the Chelyabinsk meteor, 15 February 2013. The body was about 20 metres across and broke up near 30 kilometres altitude.",
+  },
+  {
+    article: 'Chelyabinsk meteor', kind: 'humour', place: 'end', custom: true,
+    query: 'broken window and a plaster bust',
+    webQuery: 'chelyabinsk meteor broken windows photograph',
+    generate: 'A library interior with one window frame pushed inward and a plaster bust toppled and cracked beside it, daylight, documentary illustration, no readable text',
+    caption: "Illustration. In Yemanzhelinsk the buildings were not structurally damaged. A statue of Pushkin in the library was cracked by a window frame.",
+  },
+
+  // -------------------------------------------------- Florence whale explosion
+  {
+    article: 'Florence whale explosion', kind: 'documentary', place: 'lead',
+    query: 'Oregon coast beach Florence',
+    webQuery: 'Florence Oregon exploding whale 1970 photograph',
+    caption: "The Oregon coast near Florence. On 12 November 1970 the State Highway Division detonated half a ton of dynamite under a beached sperm whale.",
+  },
+  {
+    article: 'Florence whale explosion', kind: 'humour', place: 'end', custom: true,
+    query: 'whale carcass on a beach crowd distant',
+    webQuery: 'exploding whale florence meme',
+    generate: 'A 1970s beach with a distant crowd on a dune and a column of sand and spray where a carcass had been, period news illustration, no gore, no text',
+    caption: "Illustration. Spectators stood about a quarter of a mile off. A piece about three feet across still reached a car.",
+  },
+
+  // --------------------------------------------------------- Pentium FDIV bug
+  {
+    article: 'Pentium FDIV bug', kind: 'documentary', place: 'lead',
+    query: 'Intel Pentium processor ceramic package',
+    webQuery: 'Intel Pentium processor photograph 1994',
+    caption: "An early Intel Pentium. For some divisions the floating-point unit returned a result wrong from the fifth significant digit.",
+  },
+  {
+    article: 'Pentium FDIV bug', kind: 'humour', place: 'end', custom: true,
+    query: 'Windows calculator 1990s',
+    webQuery: 'pentium fdiv bug calculator meme',
+    generate: 'A 1990s beige desktop calculator window showing a long division and the number 256 where a zero was expected, period interface illustration, no logos, no brand names',
+    caption: "Illustration of the check Thomas Nicely published. On a flawed Pentium, 4195835 minus 3145727 times their quotient comes out as 256.",
+  },
+
+  // ------------------------------------------------------------- Phineas Gage
+  {
+    article: 'Phineas Gage', kind: 'documentary', place: 'lead',
+    query: 'Phineas Gage skull tamping iron Harvard',
+    webQuery: 'Phineas Gage skull and tamping iron photograph',
+    caption: "Gage's skull and the tamping iron, deposited by John Martyn Harlow at Harvard. The bar is three feet seven inches long.",
+  },
+  {
+    article: 'Phineas Gage', kind: 'humour', place: 'end', custom: true,
+    query: 'nineteenth century surgeons examining a skull',
+    webQuery: 'phineas gage diagram iron path',
+    generate: 'A nineteenth-century medical lecture, a skull on a table beside a long iron bar, surgeons leaning in, engraving style, no likeness of a real person, no text',
+    caption: "Illustration. Harlow wrote that many surgeons would not believe the man had stood up again until they had put a finger into the hole in his head.",
+  },
+
+  // -------------------------------------------------------------------- Bloop
+  {
+    article: 'Bloop', kind: 'documentary', place: 'lead',
+    query: 'tabular iceberg Antarctic',
+    webQuery: 'large Antarctic iceberg photograph',
+    caption: "A large iceberg. NOAA describes the 1997 sound called Bloop as consistent with the icequakes icebergs make when they crack.",
+  },
+  {
+    article: 'Bloop', kind: 'humour', place: 'end', custom: true,
+    query: 'spectrogram underwater sound',
+    webQuery: 'bloop sound spectrogram noaa',
+    generate: 'A long low spectrogram beside the same trace compressed to a short blip, scientific illustration on a dark background, no words, no creature',
+    caption: "Illustration. NOAA's file of the original sound is the recorded signal sped up sixteen times. There is no animal in the account.",
+  },
 ];
