@@ -10,7 +10,9 @@
  *
  * `query` searches Wikimedia Commons. `diptych` suggests a second search for
  * the side-by-side composer. `custom` slots expect you to supply the image in
- * the contact sheet, by URL or from your own machine.
+ * the contact sheet, by URL or from your own machine. `generatedFile` is a
+ * humour illustration already drawn for the article (under seed/); the picker
+ * offers it ahead of a web search. It is an illustration, never a document.
  */
 export const photoSlots = [
   // --------------------------------------------------------- Great Emu War
@@ -623,6 +625,7 @@ export const photoSlots = [
   },
   {
     article: 'Pitch drop experiment', kind: 'humour', place: 'end', custom: true,
+    generatedFile: 'humour/pitch-drop-humour.png',
     query: 'scientist watching empty desk',
     webQuery: 'pitch drop experiment meme funny',
     generate: 'A patient professor in a cardigan sitting in a folding chair staring at a glass funnel of black pitch, calendar pages flying off the wall behind him, warm illustration, no text',
@@ -638,6 +641,7 @@ export const photoSlots = [
   },
   {
     article: 'Oxford Electric Bell', kind: 'humour', place: 'end', custom: true,
+    generatedFile: 'humour/oxford-bell-humour.png',
     query: 'Victorian scientist battery experiment',
     webQuery: 'oxford electric bell meme funny',
     generate: 'A Victorian gentleman in a frock coat cupping his ear toward a tiny brass bell under a glass dome, hearing nothing, oil-painting illustration, no text',
@@ -1105,6 +1109,7 @@ export const photoSlots = [
   },
   {
     article: 'Hubble Space Telescope mirror', kind: 'humour', place: 'end', custom: true,
+    generatedFile: 'humour/hubble-cap-humour.png',
     query: 'optical test interferometer fringes',
     webQuery: 'hubble mirror spherical aberration meme',
     generate: 'A laboratory optical bench with a small metal cap, a chip of dark paint missing around a pinhole, and a beam of light reflecting off the cap instead of the rod beneath it, technical illustration, no text',
@@ -1120,6 +1125,7 @@ export const photoSlots = [
   },
   {
     article: 'Ariane 5 Flight 501', kind: 'humour', place: 'end', custom: true,
+    generatedFile: 'humour/ariane-humour.png',
     query: 'redundant computers same error',
     webQuery: 'ariane 5 software overflow diagram',
     generate: 'Two identical grey electronics boxes side by side, both showing the same small fault light, a rocket silhouette faint in the background, technical illustration, no readable text, no logos',
@@ -1135,6 +1141,7 @@ export const photoSlots = [
   },
   {
     article: 'Knight Capital', kind: 'humour', place: 'end', custom: true,
+    generatedFile: 'humour/knight-servers-humour.png',
     query: 'server room one machine different',
     webQuery: 'knight capital trading error meme',
     generate: 'Eight identical server racks in a row, seven with a small green light and one with a small amber light, sober technical illustration, no logos, no text',
@@ -1210,6 +1217,7 @@ export const photoSlots = [
   },
   {
     article: 'Bloop', kind: 'humour', place: 'end', custom: true,
+    generatedFile: 'humour/bloop-humour.png',
     query: 'spectrogram underwater sound',
     webQuery: 'bloop sound spectrogram noaa',
     generate: 'A long low spectrogram beside the same trace compressed to a short blip, scientific illustration on a dark background, no words, no creature',
