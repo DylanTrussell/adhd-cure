@@ -2123,4 +2123,214 @@ export const photoSlots = [
     generate: 'A printed picture of a winged figure and a unicorn on a cratered ground, with a clerk stamp in the corner, the stamp not readable, illustration',
     caption: "Illustration. Benjamin Henry Day deposited it on 29 August 1835 with the Clerk of the Southern District of New York.",
   },
+
+  // ------------------------------------------------------------------------- Cane toad
+  {
+    article: 'Cane toad', kind: 'documentary', place: 'lead',
+    query: 'cane toad Australia photograph',
+    webQuery: 'cane toad photograph australia',
+    caption: "A cane toad. 102 were released in Queensland in 1935 to control a beetle they cannot physically reach.",
+  },
+  {
+    article: 'Cane toad', kind: 'humour', place: 'end', custom: true,
+    query: 'toad army illustration marching',
+    webQuery: 'cane toad meme funny',
+    generate: 'An enormous horde of cartoon toads marching confidently across the Australian outback under a blazing sun, one lone confused beetle burrowing safely underground far below them, comic illustration style',
+    caption: "Illustration. The toads never reached the beetle they were imported for; the beetle lives underground.",
+  },
+
+  // -------------------------------------------------------------------- Sourdough starter
+  {
+    article: 'Sourdough starter', kind: 'documentary', place: 'lead',
+    query: 'sourdough starter jar bubbling photograph',
+    webQuery: 'sourdough starter photograph',
+    caption: "A sourdough starter. Continuously fed cultures like this are claimed by some bakeries to be over a century old.",
+  },
+  {
+    article: 'Sourdough starter', kind: 'humour', place: 'end', custom: true,
+    query: 'heirloom jar family illustration',
+    webQuery: 'sourdough starter meme funny',
+    generate: 'An ornate heirloom jar of bubbling starter being solemnly handed down through three generations of a family in a warm kitchen, illustrated like a formal inheritance ceremony, gentle humour',
+    caption: "Illustration. What's actually passed down is a self-renewing living culture, not any single original cell.",
+  },
+
+  // ------------------------------------------------------------------------ Dead salmon fMRI study
+  {
+    article: 'Dead salmon fMRI study', kind: 'documentary', place: 'lead',
+    query: 'fMRI brain scanner photograph',
+    webQuery: 'fmri scanner photograph',
+    caption: "An fMRI scanner of the type used to scan a dead Atlantic salmon for a landmark 2009 methodology study.",
+  },
+  {
+    article: 'Dead salmon fMRI study', kind: 'humour', place: 'end', custom: true,
+    query: 'fish brain scan illustration',
+    webQuery: 'dead salmon fmri meme funny',
+    generate: 'A deceased Atlantic salmon lying serenely inside an MRI scanner tube, a brain-activity readout on a nearby monitor showing colourful false signal, deadpan scientific illustration style',
+    caption: "Illustration. The salmon was dead the entire time; the 'signal' was the statistical error the study was built to expose.",
+  },
+
+  // --------------------------------------------------------------------------- Great Stink of 1858
+  {
+    article: 'Great Stink of 1858', kind: 'documentary', place: 'lead',
+    query: 'Victorian London Thames river photograph engraving',
+    webQuery: 'great stink london 1858 illustration',
+    caption: "A contemporary depiction of the polluted Thames during the summer of 1858.",
+  },
+  {
+    article: 'Great Stink of 1858', kind: 'humour', place: 'end', custom: true,
+    query: 'Victorian gentlemen holding noses illustration',
+    webQuery: 'great stink meme funny',
+    generate: 'Distinguished Victorian members of Parliament clutching handkerchiefs to their noses in disgust, curtains soaked in lime chloride hanging limply in the windows behind them, satirical period cartoon style',
+    caption: "Illustration. Parliament passed funding for London's new sewer system within about eighteen days of the smell reaching them directly.",
+  },
+
+  // ------------------------------------------------------------- Pigeon post at the Siege of Paris
+  {
+    article: 'Pigeon post at the Siege of Paris', kind: 'documentary', place: 'lead',
+    query: 'homing pigeon 19th century photograph',
+    webQuery: 'siege of paris pigeon post photograph',
+    caption: "A homing pigeon of the kind that carried microfilm messages into besieged Paris in 1870-71.",
+  },
+  {
+    article: 'Pigeon post at the Siege of Paris', kind: 'humour', place: 'end', custom: true,
+    query: 'microfilm magnifying glass illustration',
+    webQuery: 'pigeon post siege paris meme funny',
+    generate: 'A 19th-century clerk squinting through a large magnifying glass at a tiny scrap of film held in tweezers, a pigeon perched proudly on the desk nearby, warm sepia illustration style',
+    caption: "Illustration. A single pigeon could carry a rolled film containing the text of tens of thousands of messages.",
+  },
+
+  // -------------------------------------------------------------------------------- Emperor Norton
+  {
+    article: 'Emperor Norton', kind: 'documentary', place: 'lead',
+    query: 'Emperor Norton San Francisco photograph portrait',
+    webQuery: 'emperor norton san francisco photograph',
+    caption: "Emperor Norton, in the uniform San Francisco largely humoured him in wearing for over two decades.",
+  },
+  {
+    article: 'Emperor Norton', kind: 'humour', place: 'end', custom: true,
+    query: 'street parade crowd illustration vintage',
+    webQuery: 'emperor norton meme funny',
+    generate: 'A grandly uniformed self-declared emperor strolling down a 19th-century San Francisco street while shopkeepers bow and tip their hats respectfully, warm vintage illustration style',
+    caption: "Illustration. His funeral reportedly drew a crowd in the tens of thousands, for a man who held no real office at all.",
+  },
+
+  // ------------------------------------------------------------------------------- First trans-Atlantic row
+  {
+    article: 'First trans-Atlantic row', kind: 'documentary', place: 'lead',
+    query: 'small wooden rowboat ocean photograph vintage',
+    webQuery: 'trans atlantic rowboat 1896 photograph',
+    caption: "A small open rowboat of the kind Harbo and Samuelsen rowed across the Atlantic in 1896.",
+  },
+  {
+    article: 'First trans-Atlantic row', kind: 'humour', place: 'end', custom: true,
+    query: 'tiny boat vast ocean illustration',
+    webQuery: 'transatlantic row meme funny',
+    generate: 'A tiny open wooden rowboat with two determined rowers, dwarfed by a vast stormy ocean, only a compass and sextant visible aboard, dramatic maritime illustration style',
+    caption: "Illustration. Their route and time stood as the record for over a century, unbeaten until 2010.",
+  },
+
+  // ------------------------------------------------------------------------------------- The Toynbee tiles
+  {
+    article: 'The Toynbee tiles', kind: 'documentary', place: 'lead',
+    query: 'Toynbee tile street photograph asphalt',
+    webQuery: 'toynbee tile photograph street',
+    caption: "A Toynbee tile embedded in a road surface. Their creator has never been definitively identified.",
+  },
+  {
+    article: 'The Toynbee tiles', kind: 'humour', place: 'end', custom: true,
+    query: 'mysterious figure night street illustration',
+    webQuery: 'toynbee tiles meme funny',
+    generate: 'A shadowy figure crouched over a hole cut in the floor of a slowly moving car at night, pressing a small tile into the asphalt below through the gap, mysterious noir illustration style',
+    caption: "Illustration of the leading theory: nobody has ever actually been caught installing one.",
+  },
+
+  // -------------------------------------------------------------------- 10,000 Year Clock
+  {
+    article: '10,000 Year Clock', kind: 'documentary', place: 'lead',
+    query: '10000 year clock Long Now mechanism photograph',
+    webQuery: 'long now clock 10000 year photograph',
+    caption: "Part of the 10,000 Year Clock mechanism, being built inside a mountain in West Texas.",
+  },
+  {
+    article: '10,000 Year Clock', kind: 'humour', place: 'end', custom: true,
+    query: 'giant clock inside mountain illustration',
+    webQuery: '10000 year clock meme funny',
+    generate: 'A colossal mechanical clock built into the inside of a mountain, tiny visitors dwarfed beside an enormous gear, epic scale illustration, warm cinematic lighting',
+    caption: "Illustration. Its continued operation over ten millennia depends on people actually bothering to visit and wind it.",
+  },
+
+  // -------------------------------------------------------------------------------- Baby cage
+  {
+    article: 'Baby cage', kind: 'documentary', place: 'lead',
+    query: 'baby cage window 1930s photograph historical',
+    webQuery: 'baby cage window photograph 1930s',
+    caption: "A baby cage, bolted to an outside windowsill, photographed in the 1930s.",
+  },
+  {
+    article: 'Baby cage', kind: 'humour', place: 'end', custom: true,
+    query: 'patent drawing baby cage illustration',
+    webQuery: 'baby cage meme funny',
+    generate: 'A formal, deadpan 1920s-style patent diagram of a wire cage attached to a window ledge, technical labels and dotted lines, cross-section illustration style',
+    caption: "Illustration in the style of the real 1922 patent. The London County Council issued these to residents on purpose.",
+  },
+
+  // ------------------------------------------------------------------ Boston Tea Party disguises
+  {
+    article: 'Boston Tea Party disguises', kind: 'documentary', place: 'lead',
+    query: 'Boston Tea Party painting historical',
+    webQuery: 'boston tea party painting 1773',
+    caption: "A depiction of the Boston Tea Party, December 1773.",
+  },
+  {
+    article: 'Boston Tea Party disguises', kind: 'humour', place: 'end', custom: true,
+    query: 'colonial men soot blankets illustration',
+    webQuery: 'boston tea party disguise meme funny',
+    generate: 'A group of colonial men hastily smearing soot on their faces and wrapping blankets around themselves by lantern light before heading to the harbour, historical illustration style',
+    caption: "Illustration. Several participants were recognised by acquaintances despite the disguise.",
+  },
+
+  // ---------------------------------------------------------------- World's first speeding ticket
+  {
+    article: "World's first speeding ticket", kind: 'documentary', place: 'lead',
+    query: 'early motor car 1890s photograph',
+    webQuery: 'early motor car 1896 photograph',
+    caption: "An early motor car of the type Walter Arnold was driving when he was clocked at 8 mph in 1896.",
+  },
+  {
+    article: "World's first speeding ticket", kind: 'humour', place: 'end', custom: true,
+    query: 'policeman bicycle chase car illustration',
+    webQuery: 'first speeding ticket meme funny',
+    generate: 'A Victorian policeman pedalling furiously on a bicycle to catch up with a slow, sputtering early motor car, comic period illustration style',
+    caption: "Illustration. The car was going 8 mph. The legal limit was 2.",
+  },
+
+  // ------------------------------------------------------------------------------------ Napoleon's rabbit hunt
+  {
+    article: "Napoleon's rabbit hunt", kind: 'documentary', place: 'lead',
+    query: 'Napoleon Bonaparte hunting party painting',
+    webQuery: 'napoleon hunting party painting',
+    caption: "A depiction of an imperial hunting party of Napoleon's era.",
+  },
+  {
+    article: "Napoleon's rabbit hunt", kind: 'humour', place: 'end', custom: true,
+    query: 'emperor fleeing rabbits illustration comic',
+    webQuery: 'napoleon rabbit hunt meme funny',
+    generate: 'A startled French emperor in full military dress fleeing toward his carriage as a horde of determined rabbits charges after him across a field, comic historical illustration style',
+    caption: "Illustration of the widely repeated anecdote. The article's talk page flags this one as more thinly sourced than most.",
+  },
+
+  // ----------------------------------------------------------------------------------------- Great Wall of China visibility myth
+  {
+    article: 'Great Wall of China visibility myth', kind: 'documentary', place: 'lead',
+    query: 'Great Wall of China photograph',
+    webQuery: 'great wall of china photograph',
+    caption: "The Great Wall of China, typically 4 to 5 metres wide — narrower than the myth about seeing it from orbit suggests.",
+  },
+  {
+    article: 'Great Wall of China visibility myth', kind: 'humour', place: 'end', custom: true,
+    query: 'astronaut squinting window space illustration',
+    webQuery: 'great wall space meme funny',
+    generate: 'An astronaut squinting hard through a spacecraft window at a barely visible thin line on the distant Earth below, straining to see it, illustration style, gentle humour',
+    caption: "Illustration. Multiple astronauts, including China's own first, have said plainly that they could not see it.",
+  },
 ];
