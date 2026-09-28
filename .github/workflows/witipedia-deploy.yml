@@ -37,12 +37,12 @@ jobs:
         run: npx wrangler deploy
 
       - name: Push any new content
-        if: ${{ secrets.SEED_IMPORT_TOKEN != '' }}
         env:
           SEED_IMPORT_TOKEN: ${{ secrets.SEED_IMPORT_TOKEN }}
           SITE: ${{ vars.WITIPEDIA_SITE_URL || 'https://witipedia.co' }}
-        run: node tools/push-content.mjs
-
-      - name: Content push skipped
-        if: ${{ secrets.SEED_IMPORT_TOKEN == '' }}
-        run: echo "SEED_IMPORT_TOKEN repo secret is not set, so only the code deployed. See witipedia/DEPLOY.md to enable automatic content pushes."
+        run: |
+          if [ -z "$SEED_IMPORT_TOKEN" ]; then
+            echo "SEED_IMPORT_TOKEN repo secret is not set, so only the code deployed. See witipedia/DEPLOY.md to enable automatic content pushes."
+            exit 0
+          fi
+          node tools/push-content.mjs
