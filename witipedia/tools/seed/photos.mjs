@@ -975,4 +975,124 @@ export const photoSlots = [
     generate: 'A fox on an empty beach with two distant figures, one with hounds and one stepping in, early-1800s illustration style, no text',
     caption: "Illustration. Post had the hounds. Pierson had the fox. The court, citing Roman law, gave it to Pierson.",
   },
+
+  // ----------------------------------------------------------- Greenland shark
+  {
+    article: 'Greenland shark', kind: 'documentary', place: 'lead',
+    query: 'Somniosus microcephalus Greenland shark',
+    webQuery: 'Greenland shark photograph',
+    caption: "A Greenland shark. Radiocarbon in the eye-lens nuclei of 28 females put the largest, at 502 cm, at about 392 years, plus or minus 120.",
+  },
+  {
+    article: 'Greenland shark', kind: 'humour', place: 'end', custom: true,
+    query: 'shark eye close up',
+    webQuery: 'greenland shark old meme funny',
+    generate: 'A close illustration of a shark eye in cross-section, the lens nucleus marked as a small dark core, scientific plate style, no text',
+    caption: "Illustration. The nucleus of the lens is laid down early and does not turn over, which is why the carbon in it dates the birth and not last Tuesday.",
+  },
+
+  // ------------------------------------------------------ Turritopsis nutricula
+  {
+    article: 'Turritopsis nutricula', kind: 'documentary', place: 'lead',
+    query: 'Turritopsis jellyfish hydrozoan medusa',
+    webQuery: 'Turritopsis dohrnii jellyfish photograph',
+    caption: "A Turritopsis medusa. In 1996 a colony in a laboratory tank reverted from medusa to polyp and grew a new colony.",
+  },
+  {
+    article: 'Turritopsis nutricula', kind: 'humour', place: 'end', custom: true,
+    query: 'jellyfish life cycle diagram',
+    webQuery: 'immortal jellyfish life cycle backwards meme',
+    generate: 'A simple scientific diagram of a jellyfish life cycle with one arrow drawn back from the medusa to the polyp, ink on paper, no words',
+    caption: "Illustration. The 1996 paper reported the medusa turning back into the polyp stage. The arrow in a textbook usually points the other way.",
+  },
+
+  // -------------------------------------------------------- Bombardier beetle
+  {
+    article: 'Bombardier beetle', kind: 'documentary', place: 'lead',
+    query: 'Brachinus bombardier beetle',
+    webQuery: 'bombardier beetle photograph spray',
+    caption: "A bombardier beetle. The spray of benzoquinones is mixed in a reaction chamber and leaves at 100°C.",
+  },
+  {
+    article: 'Bombardier beetle', kind: 'humour', place: 'end', custom: true,
+    query: 'beetle abdomen glands diagram',
+    webQuery: 'bombardier beetle chemistry meme funny',
+    generate: 'A cutaway illustration of a small beetle abdomen with two separate reservoirs meeting a tiny chamber at the tip, scientific plate, no text',
+    caption: "Illustration. The hydroquinones and the hydrogen peroxide are stored apart and mixed only as they are fired.",
+  },
+
+  // -------------------------------------------------------------------- Okapi
+  {
+    article: 'Okapi', kind: 'documentary', place: 'lead',
+    query: 'Okapia johnstoni okapi',
+    webQuery: 'okapi photograph legs stripes',
+    caption: "An okapi. The first material shown in London was two strips of hide cut for belts, and it was published as a horse.",
+  },
+  {
+    article: 'Okapi', kind: 'humour', place: 'end', custom: true,
+    query: 'leather belt striped hide',
+    webQuery: 'okapi belt discovery meme funny',
+    generate: 'Two short strips of striped hide laid on a zoological-society table beside a handwritten label reading nothing, museum still life, no readable text',
+    caption: "Illustration. Philip Sclater named Equus johnstoni from strips of skin. The skull, which arrived later, put the animal with the giraffes.",
+  },
+
+  // -------------------------------------------------------- Dreadnought hoax
+  {
+    article: 'Dreadnought hoax', kind: 'documentary', place: 'lead',
+    query: 'HMS Dreadnought 1910 battleship',
+    webQuery: 'HMS Dreadnought photograph 1910',
+    caption: "HMS Dreadnought. On 7 February 1910 a party in costume was piped aboard after a telegram the Foreign Office had not sent.",
+  },
+  {
+    article: 'Dreadnought hoax', kind: 'humour', place: 'end', custom: true,
+    query: 'Edwardian battleship officers on deck',
+    webQuery: 'dreadnought hoax photograph 1910',
+    generate: 'An Edwardian battleship quarterdeck with a naval band and a flag lieutenant, and a small party in theatrical robes and false beards being saluted, period illustration, no likeness of any real person',
+    caption: "Illustration of the visit. The robes, beards and makeup came from a theatrical costumier. One officer on board was Virginia Stephen's cousin and did not recognise her.",
+  },
+
+  // -------------------------------------------------- Theft of the Mona Lisa
+  {
+    article: 'Theft of the Mona Lisa', kind: 'documentary', place: 'lead',
+    query: 'Mona Lisa Louvre painting',
+    webQuery: 'Mona Lisa Leonardo photograph',
+    caption: "Leonardo's Mona Lisa. It left the Louvre on a Monday, 21 August 1911, while the museum was closed.",
+  },
+  {
+    article: 'Theft of the Mona Lisa', kind: 'humour', place: 'end', custom: true,
+    query: 'empty picture frame on a gallery wall',
+    webQuery: 'mona lisa stolen empty wall 1911 photograph',
+    generate: 'A museum gallery wall with one empty hook and a pale rectangle where a painting had been, 1911 interior, no readable labels, no reproduction of the painting',
+    caption: "Illustration of the gap. Staff assumed the picture had been taken down to be photographed, and it was about a day before anyone treated the wall as a theft.",
+  },
+
+  // ------------------------------------------------------- Cottingley Fairies
+  {
+    article: 'Cottingley Fairies', kind: 'documentary', place: 'lead',
+    query: 'Cottingley Beck Yorkshire stream',
+    webQuery: 'Cottingley Beck photograph',
+    caption: "Cottingley Beck. The five photographs were taken here in 1917 and 1920. The fairies in four of them were cardboard.",
+  },
+  {
+    article: 'Cottingley Fairies', kind: 'humour', place: 'end', custom: true,
+    query: 'cardboard paper cutout on a hatpin',
+    webQuery: 'cottingley fairies cardboard cutout hatpin',
+    generate: 'A cardboard paper cutout of a winged figure propped on a hatpin in the grass beside a stream, photographed as a prop, not a reproduction of the 1917 plates, no children',
+    caption: "Illustration of the method Elsie Wright described in 1983: drawings copied from a book, cut out of card, and held up with hatpins. Not one of the original photographs.",
+  },
+
+  // --------------------------------------------------- Operation Paul Bunyan
+  {
+    article: 'Operation Paul Bunyan', kind: 'documentary', place: 'lead',
+    query: 'Korean DMZ Joint Security Area poplar tree stump',
+    webQuery: 'Operation Paul Bunyan tree stump Joint Security Area photograph',
+    caption: "The Joint Security Area. On 21 August 1976 a work party with chainsaws cut down the poplar whose pruning, three days earlier, had ended with two officers dead.",
+  },
+  {
+    article: 'Operation Paul Bunyan', kind: 'humour', place: 'end', custom: true,
+    query: 'chainsaw and military helicopter',
+    webQuery: 'operation paul bunyan tree cutting photograph',
+    generate: 'A single poplar stump in a border camp, a chainsaw on the ground, and distant helicopters in a grey sky, documentary illustration, no insignia, no text',
+    caption: "Illustration. The return visit brought chainsaws, hundreds of troops, helicopters, B-52s and a carrier. The BBC's account says it was over in less than 45 minutes.",
+  },
 ];

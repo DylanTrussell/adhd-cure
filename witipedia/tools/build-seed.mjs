@@ -18,6 +18,7 @@ import { articles6 } from './seed/articles-6.mjs';
 import { articles7 } from './seed/articles-7.mjs';
 import { articles8 } from './seed/articles-8.mjs';
 import { articles9 } from './seed/articles-9.mjs';
+import { articles10 } from './seed/articles-10.mjs';
 import { projectPages } from './seed/project.mjs';
 
 const SITE = process.env.SITE_NAME || 'Witipedia';
@@ -92,7 +93,7 @@ function addPage({ ns, title, protect = '', revisions }) {
 }
 
 // ---- articles, their talk pages and their ratings
-const articles = [...articles1, ...articles2, ...articles3, ...articles4, ...articles5, ...articles6, ...articles7, ...articles8, ...articles9];
+const articles = [...articles1, ...articles2, ...articles3, ...articles4, ...articles5, ...articles6, ...articles7, ...articles8, ...articles9, ...articles10];
 for (const a of articles) {
   const id = addPage({ ns: 0, title: a.title, protect: a.protect || '', revisions: a.revisions });
   if (a.talk) {
