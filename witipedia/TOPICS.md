@@ -1,0 +1,1608 @@
+# Witipedia topic claims
+
+Claude owns exactly the 1,000 titles under "Claude's 1,000". VoiceBot and Cursor: do not write those. Anything in "Free pool" or off this page is yours; add your titles to "Other agents" at the bottom before you start. Live titles: `node tools/list-titles.mjs`.
+
+## Claude's 1,000
+
+### Animals 
+- Aardvark
+- African elephant
+- Albatross
+- Alpaca
+- Anglerfish
+- Armadillo
+- Aye-aye
+- Bald eagle
+- Beaver
+- Blobfish
+- Blue whale
+- Bonobo
+- Capybara
+- Cassowary
+- Cheetah
+- Chimpanzee
+- Cockroach
+- Colossal squid
+- Cuttlefish
+- Dolphin
+- Domestic cat
+- Domestic pig
+- Dung beetle
+- Electric eel
+- Emperor penguin
+- Flamingo
+- Giant panda
+- Giraffe
+- Hippopotamus
+- Honey badger
+- Honey bee
+- Horseshoe crab
+- Hummingbird
+- Kakapo
+- Koala
+- Komodo dragon
+- Leafcutter ant
+- Lyrebird
+- Manatee
+- Narwhal
+- Octopus
+- Orca
+- Pangolin
+- Peacock
+- Pistol shrimp
+- Quokka
+- Sea otter
+- Sloth
+- Naked mole-rat
+- Spotted hyena
+
+### Human body and medicine 
+- Appendix
+- Aspirin
+- Blood type
+- Brain
+- Common cold
+- Cowpox
+- DNA
+- Dopamine
+- Fever
+- Fingerprint
+- Hiccup
+- Human eye
+- Human skeleton
+- Insulin
+- Lobotomy
+- Mosquito
+- Placebo
+- Scurvy
+- Smallpox vaccine
+- Sneeze
+- Stethoscope
+- Sleep
+- Tonsil
+- Vaccine
+- X-ray
+- Yawn
+- Hand washing
+- Anesthesia
+- Gray's Anatomy
+- Hippocratic Oath
+- Leech
+- Penicillin mould
+- Rabies
+- Tuberculosis
+- Typhoid Mary
+- Spanish flu
+- Black Death
+- Cholera
+- Polio vaccine
+- Nobel Prize in Physiology or Medicine
+
+### Space and astronomy 
+- Andromeda Galaxy
+- Apollo 11
+- Apollo 1
+- Asteroid belt
+- Betelgeuse
+- Big Bang
+- Black hole
+- Callisto
+- Ceres
+- Challenger disaster
+- Columbia disaster
+- Comet Halley
+- Curiosity rover
+- Event Horizon Telescope
+- Gagarin
+- Galileo Galilei
+- International Space Station
+- Io
+- James Webb Space Telescope
+- Jupiter
+- Laika
+- Mars
+- Mercury
+- Milky Way
+- Moon
+- Neptune
+- Olympus Mons
+- Pale Blue Dot
+- Pluto
+- Pulsar
+- Saturn
+- Solar eclipse
+- Space Shuttle
+- Sun
+- Tycho Brahe
+- Uranus
+- Venus
+- Viking program
+- Voyager 1
+- Voyager Golden Record
+- Hale-Bopp
+- Mir
+- Sojourner
+- Spirit and Opportunity
+- Valentina Tereshkova
+
+### Inventions and technology 
+- Abacus
+- Air conditioning
+- Barcode
+- Batteries
+- Ballpoint pen
+- Camera obscura
+- Canned food
+- Compass
+- Disposable razor
+- Dynamite
+- Electric chair
+- Escalator
+- Elevator
+- Fax machine
+- Floppy disk
+- Gutenberg Bible
+- Hot air balloon
+- Internet
+- Jacquard loom
+- Kevlar
+- LEGO
+- Light bulb
+- Lightning rod
+- Magnifying glass
+- Mechanical clock
+- Morse code
+- Movable type
+- Printing press
+- Paper
+- Parachute
+- Pencil
+- Phonograph
+- Pneumatic tire
+- Radar
+- Radio
+- Refrigerator
+- Revolving door
+- Sewing machine
+- Smartphone
+- Spectacles
+- Steam engine
+- Telegraph
+- Telephone
+- Television
+- Thermos
+- Toilet
+- Transistor
+- Typewriter
+- Umbrella
+- Vacuum cleaner
+- Wheel
+- World Wide Web
+- Zipper
+- Rubik's Cube
+- Duct tape
+- Tupperware
+- Pet Rock
+- Hula hoop
+- Frisbee
+
+### Food and drink 
+- Avocado
+- Bacon
+- Banana
+- Beer
+- Bread
+- Broccoli
+- Burrito
+- Caesar salad
+- Cheese
+- Chocolate
+- Chocolate chip cookie
+- Coffee
+- Cola wars
+- Corn dog
+- Croissant
+- Doughnut
+- Eggs Benedict
+- Espresso
+- Fortune cookie
+- French fries
+- Garlic
+- Gin
+- Hamburger
+- Hot dog
+- Ice cream
+- Ice cream cone
+- Ketchup
+- Kimchi
+- Lobster
+- Macaroni and cheese
+- Mayonnaise
+- Mustard
+- Nutella
+- Orange juice
+- Pasta
+- Peanut butter
+- Pineapple on pizza
+- Pizza
+- Popcorn
+- Potato
+- Potato chip
+- Pretzel
+- Ramen
+- Rice
+- Saffron
+- Salt
+- Sandwich
+- Sauerkraut
+- Spaghetti
+- Sushi
+- Taco
+- Tea
+- Tofu
+- Tomato
+- Turkey
+- Vanilla
+- Vegemite
+- Vodka
+- Waffle
+- Whisky
+- Wine
+- Yogurt
+- Marmite
+- Haggis
+- Durian
+- Surstromming
+- Casu marzu
+- Spam musubi
+- Twinkie
+
+### Famous people: science 
+- Albert Einstein
+- Alan Turing
+- Alexander Fleming
+- Ada Lovelace
+- Archimedes
+- Aristotle
+- Carl Sagan
+- Charles Darwin
+- Charles Babbage
+- Dmitri Mendeleev
+- Edwin Hubble
+- Enrico Fermi
+- Ernest Rutherford
+- Euclid
+- Galen
+- Grace Hopper
+- Gregor Mendel
+- Hedy Lamarr
+- Isaac Newton
+- Jane Goodall
+- Johannes Kepler
+- Katherine Johnson
+- Leonardo da Vinci
+- Louis Pasteur
+- Marie Curie
+- Max Planck
+- Michael Faraday
+- Nikola Tesla
+- Niels Bohr
+- Pythagoras
+- Rosalind Franklin
+- Richard Feynman
+- Robert Hooke
+- Srinivasa Ramanujan
+- Stephen Hawking
+- Thomas Edison
+- Werner Heisenberg
+- Wright brothers
+- Alfred Nobel
+- Ignaz Semmelweis
+- John Snow
+- Joseph Lister
+- Edward Jenner
+- Benjamin Franklin
+- Carl Linnaeus
+- Alexander Graham Bell
+- Tim Berners-Lee
+- Claude Shannon
+- John von Neumann
+- Paul Erdos
+
+### Famous people: history and politics 
+- Abraham Lincoln
+- Alexander the Great
+- Augustus
+- Cleopatra
+- Catherine the Great
+- Charlemagne
+- Charles II of England
+- Churchill
+- Confucius
+- Constantine the Great
+- Dwight D. Eisenhower
+- Elizabeth I
+- Franklin D. Roosevelt
+- Frederick the Great
+- Genghis Khan
+- George Washington
+- Gandhi
+- Henry VIII
+- Hammurabi
+- Harriet Tubman
+- Joan of Arc
+- John F. Kennedy
+- Julius Caesar
+- Justinian I
+- Kublai Khan
+- Louis XIV
+- Mansa Musa
+- Marcus Aurelius
+- Martin Luther King Jr.
+- Mary Queen of Scots
+- Nelson Mandela
+- Nero
+- Oliver Cromwell
+- Otto von Bismarck
+- Peter the Great
+- Queen Victoria
+- Ramesses II
+- Richard Nixon
+- Robespierre
+- Rosa Parks
+- Simon Bolivar
+- Tutankhamun
+- Theodore Roosevelt
+- Thomas Jefferson
+- Ulysses S. Grant
+- Vlad the Impaler
+- William the Conqueror
+- Winston Churchill's teeth
+- Zheng He
+- Caligula
+- Commodus
+- Elagabalus
+- Hatshepsut
+- Ivan the Terrible
+- Montezuma II
+- Pocahontas
+- Sitting Bull
+- Spartacus
+- Suleiman the Magnificent
+- Tamerlane
+- Wu Zetian
+- Boudica
+- Attila
+- Saladin
+- Richard the Lionheart
+- William Wallace
+- Robert the Bruce
+- Charles the Bald
+- James Garfield
+
+### Arts and literature 
+- A Christmas Carol
+- Beethoven
+- Brothers Grimm
+- Charlie Chaplin
+- Dracula
+- Don Quixote
+- Edgar Allan Poe
+- Emily Dickinson
+- Frankenstein
+- Hamlet
+- Homer
+- Jane Austen
+- Johann Sebastian Bach
+- Leonardo's Last Supper
+- Les Miserables
+- Mark Twain
+- Michelangelo
+- Moby-Dick
+- Mozart
+- Mona Lisa
+- Oscar Wilde
+- Pablo Picasso
+- Picasso's Guernica
+- Pride and Prejudice
+- Romeo and Juliet
+- Salvador Dali
+- Shakespeare
+- Sherlock Holmes
+- Starry Night
+- The Great Gatsby
+- The Odyssey
+- The Scream
+- The Thinker
+- The Wizard of Oz
+- Ulysses
+- Van Gogh's ear
+- Venus de Milo
+- Vermeer
+- War and Peace
+- Warhol
+- Winnie-the-Pooh
+- Alice in Wonderland
+- Gulliver's Travels
+- Robinson Crusoe
+- Wuthering Heights
+- Beowulf
+- The Canterbury Tales
+- Paradise Lost
+- Leaves of Grass
+- Candide
+- Les Liaisons dangereuses
+- The Raven
+- Dr. Seuss
+- Roald Dahl
+- Agatha Christie
+- Tolkien
+- J. K. Rowling
+- Charles Dickens
+- Leo Tolstoy
+- George Orwell
+
+### Music 
+- A Hard Day's Night
+- Abbey Road
+- Bohemian Rhapsody
+- Beatles
+- Bob Dylan
+- Elvis Presley
+- Four-minute mile
+- Happy Birthday to You
+- Hallelujah (song)
+- Jimi Hendrix
+- Johnny Cash
+- Led Zeppelin
+- Louis Armstrong
+- Madonna
+- Michael Jackson
+- Nirvana
+- Pink Floyd
+- Piano
+- Queen (band)
+- Rickroll
+- Rolling Stones
+- Stairway to Heaven
+- Stradivarius
+- The Four Seasons
+- The Marseillaise
+- Theremin
+- Vinyl record
+- Yesterday (song)
+- Woodstock
+- Bagpipes
+- Banjo
+- Cello
+- Didgeridoo
+- Harmonica
+- Kazoo
+- Metronome
+- Saxophone
+- Tuba
+- Ukulele
+- Vuvuzela
+- Wilhelm scream
+- 4'33"
+- Baby Shark
+- Gangnam Style
+- Macarena
+
+### Film, TV and games 
+- Casablanca
+- Citizen Kane
+- E.T.
+- Friends
+- Game of Thrones
+- Godzilla
+- Jaws
+- Jurassic Park
+- King Kong
+- Monty Python
+- Pac-Man
+- Pong
+- Pokemon
+- Psycho
+- Star Wars
+- Super Mario Bros.
+- Tamagotchi
+- Teletubbies
+- The Godfather
+- The Simpsons
+- The Sopranos
+- Titanic (film)
+- Toy Story
+- Doom
+- Minecraft
+- Monopoly
+- Chess
+- Dungeons and Dragons
+- Pinball
+- Space Invaders
+- Sonic the Hedgehog
+- The Legend of Zelda
+- Grand Theft Auto
+- Mickey Mouse
+- Bugs Bunny
+- Walt Disney
+- Hollywood blacklist
+- The Wicker Man
+- Plan 9 from Outer Space
+- The Room
+- Cats (2019 film)
+- Waterworld
+- Heaven's Gate (film)
+- Ishtar
+- Back to the Future
+- The Princess Bride
+- Blade Runner
+- Alien
+
+### Sports 
+- 1966 FIFA World Cup
+- Baseball
+- Basketball
+- Boston Marathon
+- Cricket
+- Curling
+- Dwarf tossing
+- Football (soccer)
+- Football (American)
+- Golf
+- Hockey
+- Ice hockey
+- Muhammad Ali
+- Olympic Games
+- Pele
+- Rugby
+- Sumo
+- Super Bowl
+- Tennis
+- Tour de France
+- Usain Bolt
+- Wimbledon
+- Wrestling
+- Yo-yo
+- Cheese rolling
+- Bog snorkelling
+- Wife carrying
+- Quidditch
+- Bandy
+- Pickleball
+- Skateboarding
+- Surfing
+- Tug of war
+- Badminton
+- Snooker
+- Darts
+- Table tennis
+- Bowling
+- Ping-pong diplomacy
+- Hand of God goal
+- Miracle on Ice
+- Black Sox scandal
+- Tonya Harding
+- Zidane headbutt
+- Babe Ruth
+- Jesse Owens
+- Michael Phelps
+- Michael Jordan
+- Lionel Messi
+
+### Geography, places, landmarks 
+- Amazon River
+- Angkor Wat
+- Atlantis
+- Antarctica
+- Bermuda Triangle
+- Big Ben
+- Burj Khalifa
+- Cairo
+- Chernobyl
+- Colosseum
+- Dead Sea
+- Easter Island
+- Everglades
+- Golden Gate Bridge
+- Grand Canyon
+- Great Barrier Reef
+- Great Pyramid of Giza
+- Hagia Sophia
+- Iceland
+- Kilimanjaro
+- Lake Baikal
+- Machu Picchu
+- Mount Rushmore
+- Niagara Falls
+- Nile
+- Petra
+- Roanoke Colony
+- Sahara
+- Stonehenge
+- Statue of Liberty
+- Taj Mahal
+- Times Square
+- Vatican City
+- Venice
+- Victoria Falls
+- Yellowstone
+- Area 51
+- Alcatraz
+- Berlin Wall
+- Brooklyn Bridge
+- Buckingham Palace
+- Chichen Itza
+- Dubai
+- Empire State Building
+- Forbidden City
+- Gibraltar
+- Hadrian's Wall
+- Lake Nyos
+- Loch Ness
+- Mariana Trench
+- Mount Vesuvius
+- Neuschwanstein Castle
+- Notre-Dame de Paris
+- Panama Canal
+- Pentagon
+- Pyramid of Khufu
+- Red Square
+- Stone of Scone
+- Suez Canal
+- Tower of London
+- Trafalgar Square
+- Tristan da Cunha
+- Pitcairn Island
+- Sealand
+- Vanuatu cargo cults
+- Isle of Man
+- Monaco
+- Liechtenstein
+
+### Wars and battles 
+- American Civil War
+- Battle of Agincourt
+- Battle of Hastings
+- Battle of Thermopylae
+- Battle of Waterloo
+- Crimean War
+- Cuban Missile Crisis
+- D-Day
+- Falklands War
+- Franco-Prussian War
+- French Revolution
+- Gallipoli campaign
+- Hundred Years' War
+- Napoleonic Wars
+- Pearl Harbor
+- Peloponnesian War
+- Punic Wars
+- Spanish Armada
+- Trojan Horse
+- Vietnam War
+- War of Jenkins' Ear
+- War of the Pig's Ear
+- War of the Bucket
+- Football War
+- Pastry War
+- Whisky Wars
+- Anglo-Zanzibar War
+- Aroostook War
+- Toledo War
+- Pig and Potato War
+- Opium Wars
+- Boer War
+- Zulu War
+- Battle of Rorke's Drift
+- Siege of Leningrad
+- Battle of Stalingrad
+- Battle of Midway
+- Manhattan Project
+- Enigma machine
+- Bletchley Park
+- Great Escape
+- Dambusters raid
+- Operation Fortitude
+- Operation Anthropoid
+- Operation Gunnerside
+- Cold War
+- Korean War
+- Gulf War
+- Bay of Pigs Invasion
+
+### Religion, myth, folklore 
+- Atlas
+- Bigfoot
+- Book of Kells
+- Buddha
+- Chupacabra
+- Dead Sea Scrolls
+- Excalibur
+- Garden of Eden
+- Holy Grail
+- Jack the Ripper
+- Kraken
+- Krampus
+- Leprechaun
+- Loch Ness Monster
+- Medusa
+- Mothman
+- Noah's Ark
+- Paul Bunyan
+- Pied Piper
+- Pope Joan
+- Santa Claus
+- Shroud of Turin
+- Sphinx
+- Thor
+- Tooth fairy
+- Unicorn
+- Vampire
+- Werewolf
+- Yeti
+- Zeus
+- Easter Bunny
+- Groundhog Day
+- Halloween
+- Black Friday
+- Thanksgiving
+- Valentine's Day
+- Friday the 13th
+- Yule log
+- Wassail
+- Tooth worm
+
+### Business, brands, money 
+- Amazon
+- Apple Inc.
+- Bitcoin
+- Black Monday
+- Blockbuster
+- Coca-Cola formula
+- Dutch tulip mania
+- East India Company
+- Enron
+- Facebook
+- Ford Model T
+- Google
+- Great Depression
+- IKEA
+- Kodak
+- Lloyd's of London
+- McDonald's
+- Microsoft
+- Monopoly (game) origin
+- Netflix
+- Nintendo
+- Nokia
+- Pepsi Number Fever
+- Pizza Hut
+- Rolex
+- South Sea Bubble
+- Starbucks
+- Tesla Inc.
+- Toyota
+- Twitter
+- Uber
+- Walmart
+- Yahoo
+- YouTube
+- Zappos
+- Bretton Woods
+- Gold standard
+- Gold rush
+- Hyperinflation
+- Weimar hyperinflation
+- Zimbabwean dollar
+- Penny
+- Banknote
+- Credit card
+- Cheque
+- ATM
+- Barings Bank
+- Lehman Brothers
+- Bernie Madoff
+- Theranos
+- Fyre Festival
+- Dot-com bubble
+- Pets.com
+- Crocs
+- Beanie Babies
+- Cabbage Patch Kids
+- Furby
+- Tickle Me Elmo
+
+### Language and writing 
+- Alphabet
+- Braille
+- Cuneiform
+- Esperanto
+- Emoji
+- English language
+- Egyptian hieroglyphs
+- Klingon
+- Latin
+- Linear A
+- Linear B
+- Mandarin Chinese
+- Oxford English Dictionary
+- Palindrome
+- Pangram
+- Phoenician alphabet
+- Sign language
+- Rongorongo
+- Semicolon
+- Spelling bee
+- Typo
+- Webster's Dictionary
+- Whistled language
+- Yiddish
+- Zero
+- Arabic numerals
+- Roman numerals
+- Dewey Decimal Classification
+- Library of Alexandria
+- Library of Congress
+- Hello
+- OK
+- SOS
+- Shibboleth
+- Interrobang
+
+### Mathematics and science concepts 
+- Absolute zero
+- Atom
+- Big Crunch
+- Calculus
+- Chaos theory
+- Dark matter
+- Entropy
+- Fibonacci sequence
+- Fermat's Last Theorem
+- Four color theorem
+- Gravity
+- Golden ratio
+- Heliocentrism
+- Higgs boson
+- Hubble's law
+- Infinity
+- Light
+- Lightning
+- Magnet
+- Monty Hall problem
+- Pi
+- Periodic table
+- Prime number
+- Quantum mechanics
+- Schrodinger's cat
+- Speed of light
+- Theory of relativity
+- Zero-point energy
+- Cold fusion
+- Continental drift
+- Evolution
+- Fire
+- Electricity
+- Plate tectonics
+- Rainbow
+- Rust
+- Superconductivity
+- Tides
+- Time
+- Uncertainty principle
+- Euler's identity
+- Konigsberg bridge problem
+- Goldbach's conjecture
+- Birthday problem
+- Gambler's fallacy
+- Benford's law
+- Hilbert's Hotel
+- Zeno's paradoxes
+- Antimatter
+- Large Hadron Collider
+
+### Disasters and mysteries 
+- Amityville
+- Amelia Earhart
+- Apollo 13 oxygen tank
+- Black Dahlia
+- Bhopal disaster
+- Deepwater Horizon
+- Dyatlov Pass incident
+- Exxon Valdez
+- Fukushima
+- Hindenburg
+- Hurricane Katrina
+- Johnstown Flood
+- Krakatoa
+- Lusitania
+- Mary Celeste
+- Mount Pelee
+- Mount St. Helens
+- New Madrid earthquakes
+- Pompeii volcano
+- Roswell incident
+- San Francisco earthquake
+- Three Mile Island
+- Titanic
+- Tay Bridge disaster
+- Texas City disaster
+- Triangle Shirtwaist
+- Tenerife airport disaster
+- Zodiac Killer
+- Flight 19
+- Lost Colony
+- Lead poisoning of Rome
+- Great Chicago Fire
+- Great Blizzard of 1888
+- Dust Bowl
+- Irish Famine
+- Great Smog of London
+- Halifax Explosion
+- Oklahoma Run
+- Peshtigo fire
+- Eastland disaster
+- Hartford circus fire
+- Cocoanut Grove fire
+- Rapa Nui collapse
+- Kursk submarine
+- Concorde crash
+- Chicago Beer Riot
+- Texas Tower
+- Lake Peigneur drilling accident
+- Taos Hum
+- Phantom time hypothesis
+- Hessdalen lights
+- Marfa lights
+- Moodus noises
+- Oak Island Money Pit
+
+### Law, crime and oddities 
+- Al Capone
+- Alcatraz escape
+- Bonnie and Clyde
+- Boston Strangler
+- Bugsy Siegel
+- Butch Cassidy
+- Dutch Schultz
+- Great Train Robbery
+- Gunpowder Plot
+- Guy Fawkes
+- Jack Sheppard
+- Jesse James
+- Ned Kelly
+- Pablo Escobar
+- Prohibition
+- Salem witch trials
+- Scopes Trial
+- Watergate scandal
+- Zimmermann Telegram
+- Antarctic Treaty
+- Magna Carta
+- Code of Hammurabi
+- Dred Scott case
+- Marbury v. Madison
+- Miranda v. Arizona
+- Brown v. Board of Education
+- Loving v. Virginia
+- Roe v. Wade
+- Plessy v. Ferguson
+- Apple v. Samsung
+- Lemon test
+- Frog jumping contest
+- Law of the Sea
+- Blue laws
+- Weird laws
+- Pig trial
+- Animal trials
+- Trial of Socrates
+- Trial of Galileo
+- Tichborne case
+- Lindbergh kidnapping
+- Frank Abagnale
+- Victor Lustig
+- Charles Ponzi
+- Elizabeth Holmes
+- Anna Delvey
+
+### Internet and culture 
+- Charlie bit my finger
+- Dancing baby
+- Doge
+- Ice bucket challenge
+- Keyboard Cat
+- Lolcat
+- Nyan Cat
+- Pepe the Frog
+- Planking
+- Rickrolling
+- The Dress
+- Wikipedia
+- Wikipedia hoaxes
+- Bulwer-Lytton Contest
+- Godwin's law
+- Rule 34
+
+## Free pool (534 more popular titles, unclaimed)
+
+### Internet and culture 
+- Slender Man
+- Spam (email)
+- Nigerian prince scam
+- Y2K
+- Chain letter
+- Urban legend
+- April Fools' Day
+- Spaghetti harvest hoax
+- Hot coffee lawsuit
+- Fake news
+- Sokal affair
+- Lorem ipsum
+- Comic Sans
+- Helvetica
+- Papyrus
+- Times New Roman
+- Emoticon
+- GIF
+- JPEG
+- Hashtag
+- Selfie
+- QR code
+- Captcha
+- Clippy
+- Windows XP
+- Blue screen of death
+- Konami Code
+- Trololo
+
+### Transport 
+- Airplane
+- Airship
+- Boeing 747
+- Concorde
+- Eurostar
+- Hindenburg disaster
+- Hyperloop
+- London Underground
+- Mayflower
+- Orient Express
+- Panama hat
+- Railways
+- Route 66
+- Segway
+- Sinking of the Titanic
+- Spruce Goose
+- Subway
+- Taxi
+- Titanic's lifeboats
+- Trans-Siberian Railway
+- Volkswagen Beetle
+- Zeppelin
+- Penny-farthing
+- Hovercraft
+- Rickshaw
+- Gondola
+- Tuk-tuk
+- Dakar Rally
+- Cannonball Run
+- Amphicar
+- Flying car
+- Dymaxion car
+- Trabant
+- Reliant Robin
+- Pinto (Ford)
+- Edsel
+- DeLorean
+- Yugo
+
+### Architecture and engineering 
+- Aqueduct
+- Arch
+- Brooklyn Bridge disaster
+- Burj Al Arab
+- Channel Tunnel
+- Chrysler Building
+- CN Tower
+- Dome
+- Falling Water
+- Fort Knox
+- Gherkin
+- Great Mosque of Djenne
+- Guggenheim Bilbao
+- Hanging Gardens of Babylon
+- Lighthouse
+- Lighthouse of Alexandria
+- Mausoleum at Halicarnassus
+- Millau Viaduct
+- Palm Islands
+- Pantheon
+- Parthenon marbles
+- Pharos
+- Skyscraper
+- Space Needle
+- Three Gorges Dam
+- Tower Bridge
+- Transcontinental railroad
+- Colossus of Rhodes
+- Temple of Artemis
+- Gate of Ishtar
+- Washington Monument
+- Lincoln Memorial
+- Mount Rushmore carving
+- Cristo Redentor
+- Winchester House
+- Hearst Castle
+- Biltmore
+- Casa Mila
+- Duomo di Milano
+- Hundertwasserhaus
+
+### Nature and plants 
+- Baobab
+- Bamboo
+- Banyan
+- Cactus
+- Coconut
+- Corpse flower
+- Cherry blossom
+- Dandelion
+- Giant sequoia
+- Gingko
+- Mistletoe
+- Mushroom
+- Oak
+- Orchid
+- Poison ivy
+- Redwood
+- Rose
+- Strangler fig
+- Sunflower
+- Venus flytrap
+- Wollemi pine
+- Cannabis
+- Tobacco
+- Opium poppy
+- Pando
+- Methuselah (tree)
+- Honey fungus
+- Rafflesia
+- Titan arum
+- Welwitschia
+- Dragon's blood tree
+- Seaweed
+- Moss
+
+### Weird science and records 
+- Bell Labs
+- Cavendish experiment
+- Double-slit experiment
+- Dunning-Kruger effect
+- Foucault pendulum
+- Heisenberg's drunk
+- Joule's paddle
+- Michelson-Morley experiment
+- Milgram experiment
+- Oil drop experiment
+- Pavlov's dogs
+- Placebo surgery
+- Rat Park
+- Stanford prison experiment
+- Tuskegee study
+- Wakefield retraction
+- Mpemba effect
+- Gaia hypothesis
+- Mad cow disease
+- Biosphere 2
+- Philadelphia Experiment
+- Gravity Probe B
+- LIGO
+- Fritz Haber
+- Thalidomide
+- Radium Girls
+- Leaded gasoline
+- Asbestos
+- Sea-Monkeys
+- Ant farm
+- Lava lamp
+- Mood ring
+- Magic 8-Ball
+- Etch A Sketch
+- View-Master
+- Easy-Bake Oven
+- Hot Wheels
+
+### Ancient world 
+- Ancient Egypt
+- Ancient Greece
+- Ancient Rome
+- Assyria
+- Babylon
+- Battle of Marathon
+- Carthage
+- Cyrus Cylinder
+- Fall of Rome
+- Gladiator
+- Hannibal
+- Hittites
+- Indus Valley Civilisation
+- Maya civilization
+- Minoan civilization
+- Mummy
+- Oracle of Delphi
+- Olmec colossal heads
+- Pax Romana
+- Persian Empire
+- Roman roads
+- Roman baths
+- Sparta
+- Sumer
+- Terracotta Army
+- Trojan War
+- Vikings
+- Viking helmets
+- Silk Road
+- Garum
+- Greek fire
+- Roman concrete
+- Vomitorium
+- Lead water pipes
+- Pliny the Elder
+- Lex Talionis
+- Julian calendar
+- Gregorian calendar
+- Sundial
+- Lupercalia
+- Saturnalia
+- Gobekli Tepe
+- Lascaux
+- Cave of Altamira
+
+### Medieval and early modern 
+- Bayeux Tapestry
+- Children's Crusade
+- Crusades
+- Chivalry
+- Gutenberg press
+- Hanseatic League
+- Inquisition
+- Joan of Arc trial
+- Knights Templar
+- Marco Polo
+- Magellan
+- Marie Antoinette
+- Medici
+- Mongol Empire
+- Ottoman Empire
+- Plague doctor
+- Protestant Reformation
+- Renaissance
+- Samurai
+- Shogun
+- Tulip Mania (Dutch)
+- Witch trials
+- Chastity belt
+- Iron Maiden (torture)
+- Medieval bestiary
+- Medieval animal trials
+- Trial by ordeal
+- Cheese Wars
+- Conquest of Mexico
+- Pizarro
+- Cortes
+- Columbus
+- Viking Vinland
+- Leif Erikson
+- Great Schism
+- Fall of Constantinople
+- Battle of Lepanto
+- Treaty of Tordesillas
+
+### Modern history 
+- American Revolution
+- Apollo program
+- Boxer Rebellion
+- Boston Massacre
+- Cold War nuclear drills
+- Cultural Revolution
+- Fall of the Berlin Wall
+- Great Leap Forward
+- Industrial Revolution
+- Iron Curtain
+- Korean DMZ
+- Lewis and Clark Expedition
+- Louisiana Purchase
+- Manifest Destiny
+- Marshall Plan
+- Moon landing conspiracy
+- Pearl Harbor attack
+- Prohibition in the United States
+- Reconstruction
+- Russian Revolution
+- Sinking of Rainbow Warrior
+- Suffragettes
+- Suffrage movement
+- Trail of Tears
+- Treaty of Versailles
+- Underground Railroad
+- Vietnam draft
+- Women's suffrage
+- Y Combinator
+- Zoot Suit Riots
+- Chicago World's Fair
+- Great Exhibition
+- Klondike Gold Rush
+- Alaska Purchase
+- Seward's Folly
+- Pony Express
+- Wild West
+- Gunfight at the O.K. Corral
+- Donner Party
+- Oregon Trail
+- Triangle fire
+- Bonus Army
+- Lincoln assassination
+
+#### Famous objects
+- Koh-i-Noor
+- Crown Jewels
+- Liberty Bell
+- Declaration of Independence
+- Constitution of the United States
+- Fabergé egg
+- Faberge eggs
+- Stone of Destiny
+- Holy Lance
+- Ark of the Covenant
+- Spear of Destiny
+- Philosopher's stone
+- Elixir of life
+- Fountain of Youth
+- El Dorado
+- Shangri-La
+- Camelot
+- Avalon
+- Lemuria
+- Hy-Brasil
+- Prester John
+- Republic of Molossia
+- Principality of Hutt River
+- Free State of Jones
+- Republic of Texas
+- State of Franklin
+- Kingdom of Redonda
+- Duchy of Courland
+- Danzig
+- Liberland
+- Whiteland
+- Wallachia
+- Transnistria
+- Abkhazia
+- Tuva
+- Svalbard
+- Greenland
+- Faroe Islands
+- Easter Island moai
+- Bouvet Island
+- Marion Island
+- Snake Island
+
+#### Everyday things
+- Clock
+- Calendar
+- Week
+- Weekend
+- Leap year
+- Daylight saving time
+- Time zone
+- Alarm clock
+- Mirror
+- Soap
+- Toothbrush
+- Toothpaste
+- Dentist
+- Fork
+- Spoon
+- Chopsticks
+- Knife
+- Plate
+- Cup
+- Bottle
+- Glass
+- Candle
+- Match
+- Lighter
+- Needle
+- Button
+- Shoe
+- Sock
+- High heels
+- Necktie
+- Jeans
+- Bra
+- Hat
+- Wig
+- Perfume
+- Makeup
+- Lipstick
+- Haircut
+- Beard
+- Mustache
+- Tattoo
+- Piercing
+- Ring
+- Wedding
+- Funeral
+- Birth
+- Baby
+- Name
+- Birthday
+- Handshake
+- Kiss
+- Hug
+
+#### Odds and ends (popular pages)
+- Elvis impersonator
+- Zorro
+- Robin Hood
+- King Arthur
+- Sasquatch
+- Beetlejuice
+- Flat Earth
+- Chemtrail conspiracy theory
+- Fluoridation
+- Illuminati
+- Freemasonry
+- Skull and Bones
+- Bohemian Grove
+- Roswell UFO
+- Crop circle
+- Ball lightning
+- Spontaneous human combustion
+- Poltergeist
+- Ghost
+- Haunted house
+- Ouija board
+- Tarot
+- Astrology
+- Horoscope
+- Palmistry
+- Phrenology
+- Alchemy
+- Homeopathy
+- Acupuncture
+- Chiropractic
+- Bloodletting
+- Trepanning
+- Mesmerism
+- Hypnosis
+- Seance
+- Houdini
+- Harry Houdini's death
+- Magic (illusion)
+- Circus
+- P. T. Barnum
+- Cirque du Soleil
+- Sideshow
+- Human cannonball
+- Evel Knievel
+- Niagara tightrope
+- Philippe Petit
+- Weekly World News
+- Onion (newspaper)
+- War of the Worlds (radio)
+- Orson Welles
+- Marilyn Monroe
+- James Dean
+- Elvis death
+- Princess Diana
+- Kurt Cobain
+- Prince
+- David Bowie
+- Freddie Mercury
+- John Lennon
+- Jim Morrison
+- Janis Joplin
+- Amy Winehouse
+- 27 Club
+- Mozart's Requiem
+- Beethoven's deafness
+- Handel's Water Music
+- Vivaldi
+- Chopin
+- Schubert's Unfinished
+- Pachelbel's Canon
+- Carmina Burana
+- Ode to Joy
+- Fur Elise
+- Moonlight Sonata
+- Ride of the Valkyries
+- Flight of the Bumblebee
+- Blue Danube
+- William Tell Overture
+- 1812 Overture
+- Dies irae
+- Gregorian chant
+- Yodeling
+- Throat singing
+- Auto-Tune
+- Karaoke
+- Disco Demolition Night
+- Beatles on Ed Sullivan
+- Beatlemania
+- Live Aid
+- Woodstock 99
+- Altamont
+- Monterey Pop
+- Burning Man
+- Glastonbury
+- Coachella
+- Tomorrowland
+- Oktoberfest
+- Carnival
+- Mardi Gras
+- Running of the Bulls
+- La Tomatina
+- Holi
+- Diwali
+- Hanukkah
+- Ramadan
+- Lent
+- Easter
+- Christmas
+- New Year
+- Chinese New Year
+- Day of the Dead
+- May Day
+- Midsummer
+- Maypole
+- Beltane
+- Samhain
+- Walpurgis Night
+- Burns Night
+- Bonfire Night
+- Guy Fawkes Night
+- Boxing Day
+- Pancake Day
+- Shrove Tuesday
+- Epiphany
+- Candlemas
+- Saint Patrick's Day
+- Saint Nicholas
+- Saint George
+- Saint Valentine
+- Saint Swithin
+- Saint Expedite
+- Saint Christopher
+- Saint Anthony
+- Saint Lucy
+- Saint Cecilia
+- Saint Jude
+- Saint Peter
+- Saint Paul
+- Saint Francis
+
+## Other agents (add your claims here before you start)
+
+### VoiceBot / Cursor
+- (list your titles here)
