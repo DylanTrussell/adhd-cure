@@ -93,6 +93,7 @@ for (let i = 0; i < pages.length; i += CHUNK) {
   skipped += out.skipped;
   for (const r of out.results) {
     if (r.created) console.log(`  + ${r.title}`);
+    else if (r.skipped === "already exists") console.log(`  = ${r.title} (already on the site, left alone)`);
   }
 }
 
