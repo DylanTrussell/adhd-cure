@@ -11,7 +11,7 @@
  * Nothing is published until you press the button in the contact sheet.
  */
 import { createServer } from 'node:http';
-import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
+import { mkdirSync, writeFileSync, readFileSync, existsSync, copyFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
 import { createInterface } from 'node:readline';
@@ -151,6 +151,25 @@ function fakeImage(seed, w = 900, h = 650) {
 
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
 
+/** A humour illustration drawn for the article, preferred over a web search. */
+function generatedCandidate(slot) {
+  if (slot.kind !== 'humour' || !slot.generatedFile) return null;
+  const genPath = join(fileURLToPath(new URL('./seed/', import.meta.url)), slot.generatedFile);
+  if (!existsSync(genPath)) return null;
+  return {
+    title: 'generated illustration.png',
+    thumb: null, full: null, width: 1200, height: 900, mime: 'image/png',
+    author: 'Generated illustration',
+    license: 'CC BY-SA 4.0',
+    licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
+    description: 'Generated illustration. Not a photograph and not evidence.',
+    source: 'Generated illustration made for this article. Not a photograph of the subject.',
+    nonFree: false,
+    score: 1000,
+    localReady: genPath,
+  };
+}
+
 /** Images composed in the browser or fetched from a URL you supplied. */
 const stagedFiles = new Map();
 let stageCounter = 0;
@@ -190,6 +209,8 @@ async function gather() {
         }) : Promise.resolve([]),
       ]);
       found = slot.kind === 'humour' ? [...web, ...commons] : [...commons, ...web];
+      const gen = generatedCandidate(slot);
+      if (gen) found.unshift(gen);
       if (!found.length) { console.log('nothing found'); sheet.push({ ...slot, id, candidates: [], second: [] }); continue; }
       found = found.slice(0, CANDIDATES * 2);
     }
@@ -210,7 +231,8 @@ async function gather() {
       const ext = c.mime === 'image/png' ? 'png' : c.mime === 'image/webp' ? 'webp' : c.mime === 'image/gif' ? 'gif' : 'jpg';
       const file = join(photoDir, `${id}-${n}.${ext}`);
       try {
-        if (FAKE) writeFileSync(file, fakeImage(n + 1));
+        if (c.localReady) copyFileSync(c.localReady, file);
+        else if (FAKE) writeFileSync(file, fakeImage(n + 1));
         else if (!existsSync(file)) {
           let r = await fetch(c.full || c.thumb, { headers: { 'User-Agent': UA, Referer: c.source || '' } })
             .catch(() => null);
@@ -317,11 +339,14 @@ async function publish(sheet, selections, { username, password, log }) {
     const fd = new FormData();
     fd.append('csrf', uploadCsrf);
     fd.append('name', destination);
+    const isGenerated = /generated illustration/i.test(`${pick.source || ''} ${pick.author || ''}`);
     const rationale = (pick.nonFree || /fair use/i.test(pick.license || ''))
       ? `${pick.description || slot.caption}\n\n'''Fair-use rationale.''' This image illustrates commentary in [[${slot.article}]]. `
         + `It is used at low resolution, it substitutes for nothing the copyright holder sells, and no free equivalent exists. `
         + `Source: ${pick.source || 'unrecorded'}.`
-      : `${pick.description || slot.caption}\n\nOriginally ${pick.title} on Wikimedia Commons.`;
+      : isGenerated
+        ? `${slot.caption}\n\nThis file is a generated illustration, not a photograph and not evidence.`
+        : `${pick.description || slot.caption}\n\nOriginally ${pick.title} on Wikimedia Commons.`;
     fd.append('description', rationale);
     fd.append('author', pick.author);
     fd.append('source', pick.source);
@@ -360,7 +385,11 @@ async function publish(sheet, selections, { username, password, log }) {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams({
         csrf: editCsrf, text: updated, save: '1',
-        summary: `adding image from Wikimedia Commons (${pick.license}, ${pick.author})`,
+        summary: /generated illustration/i.test(`${pick.source || ''} ${pick.author || ''}`)
+          ? `adding a generated illustration (${pick.license})`
+          : pick.nonFree
+            ? `adding a non-free illustration (${pick.license})`
+            : `adding image from Wikimedia Commons (${pick.license}, ${pick.author})`,
       }).toString(),
     });
     results.push({ slot: slot.id, file: fileName, placed: save.status === 302 });
