@@ -3593,4 +3593,1273 @@ The Miller Center prints Yale (B.S., 1968). The White House archive prints a bac
 `,
     },
   },
+  {
+    title: "Nicole Kidman",
+    ratings: { helpful: [142, 7], funny: [118, 9] },
+    photoIdeas: {
+      documentary: { query: "Nicole Kidman AFI Life Achievement Award 2024", webQuery: "Nicole Kidman AFI Life Achievement Award gala 2024 photo", caption: "Nicole Kidman at the AFI gala, 27 April 2024. The announcement page still says 10 June 2023." },
+      humour: { webQuery: "spelling error Virginia Woolf Wolff typo", caption: "A spelling note. The Golden Globes page prints Wolff. The AFI pages print Woolf." },
+    },
+    revisions: [
+      {
+        user: "Ornithopod",
+        daysAgo: 12,
+        comment: "created article",
+        content: `'''Nicole Kidman''' is an actress born in Honolulu on 20 June 1967. She won the Academy Award for Best Actress for ''The Hours''.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "HansardHannah",
+        daysAgo: 8,
+        comment: "expanded from the Golden Globes biography, the Television Academy page, two AFI releases, the AFI tribute page and the Academy speech record",
+        content: `{{true and funny|source=The Golden Globes biography spells the novelist Virginia Wolff. The American Film Institute spells her Woolf.}}
+{{Infobox
+| title = Nicole Kidman
+| born = 20 June 1967, Honolulu, Hawaii
+| raised = Sydney
+| film debut = age 16, Bush Christmas
+| Oscar = Best Actress, The Hours, 23 March 2003, Kodak Theatre
+| AFI = 49th Life Achievement Award, presented 27 April 2024
+| date still printed on the announcement = 10 June 2023, Dolby Theatre
+| Globes header = 18 nominations, 6 wins
+| Emmys on the Television Academy page = 4 nominations, 2 wins
+}}
+
+'''Nicole Kidman''' was born on 20 June 1967 in Honolulu, Hawaii, to Australian parents, and was raised in Sydney.<ref name="gg">"Nicole Kidman", Golden Globes. https://www.goldenglobes.com/person/nicole-kidman/</ref> The Television Academy says she made her film debut at 16, in the Australian film ''Bush Christmas''. International recognition, that page says, came six years later, in ''Dead Calm'' (1989), with Sam Neill.<ref name="emmy">"Nicole Kidman", Television Academy. https://www.televisionacademy.com/bios/nicole-kidman</ref> The Golden Globes biography names the same film and the director, Philip Noyce, and then ''Days of Thunder'' (1990), directed by Tony Scott.<ref name="gg" />
+
+The American Film Institute calls ''Dead Calm'' the breakthrough and ''Days of Thunder'' the move into Hollywood films.<ref name="laa">"Nicole Kidman", American Film Institute, 49th Life Achievement Award. https://www.afi.com/laa/nicole-kidman/</ref>
+
+== The Kodak Theatre ==
+The Academy's acceptance-speech record files the award as Year 2002, the 75th Academy Awards, Actress in a Leading Role, for ''The Hours''. The winner line is Nicole Kidman. The presenter is Denzel Washington. The date and venue line is 23 March 2003, Kodak Theatre.<ref name="speech">Academy Awards Acceptance Speech Database, 75th Academy Awards, Actress in a Leading Role, ''The Hours''. https://aaspeechesdb.oscars.org/link/075-3/</ref>
+
+The transcript has her thank Stephen Daldry for taking a chance, David Hare for the words, and Scott Rudin for fighting to get the film made. She asks why anyone comes to the Academy Awards when the world is in turmoil, and answers that art is important. An editor's note under the speech says the U.S. invasion of Iraq had begun earlier that week.<ref name="speech" />
+
+The year box says 2002. The venue line says 2003. That is how this database files a ceremony. The AFI announcement, written later, says the performance as Virginia Woolf in ''The Hours'' earned her the Oscar for Best Actress in 2003, and that she is a five-time Academy Award nominee.<ref name="afi4">"Nicole Kidman to Receive 49th AFI Life Achievement Award", American Film Institute, 22 November 2022. https://www.afi.com/news/nicole-kidman-to-receive-49th-afi-life-achievement-award/</ref> The Institute's tribute page says the New York Times called the portrayal "a performance of astounding bravery."<ref name="laa" />
+
+The Television Academy biography says something the speech record does not. It says ''The Hours'' won the 2003 Academy Award for Best Picture, and that Kidman won Best Actress, the first Australian to do so, plus a BAFTA and a Golden Globe, and that she received a star on the Hollywood Walk of Fame the same year.<ref name="emmy" /> The speech record lists her category and her film. It does not list a best-picture winner.<ref name="speech" />
+
+== A gala with two dates ==
+On 22 November 2022 the AFI Board of Trustees announced that Kidman would receive the 49th AFI Life Achievement Award, which the release calls the highest honor for a career in film. The same page says she is the first Australian actor to receive it. The gala was set for the Dolby Theatre in Los Angeles on Saturday, 10 June 2023.<ref name="afi4" />
+
+An update dated 8 May 2023 sits above that sentence. It says the tribute was postponed, and that a new date would be announced soon.<ref name="afi4" /> The sentence about 10 June 2023 is still on the page.
+
+The Institute's later release says the award was presented on 27 April 2024, at a gala tribute in Hollywood. The television special was set to premiere on TNT on 17 June at 10:00 p.m. Eastern and Pacific. The release says the event raised over $2 million for the Institute's education programmes, and that guests left with a commemorative tribute book.<ref name="gala">"Nicole Kidman Honored at AFI Life Achievement Award Gala Tribute", American Film Institute, 28 April 2024. https://www.afi.com/news/nicole-kidman-honored-at-afi-life-achievement-award-gala-tribute/</ref>
+
+One page has the gala in June 2023, with a postponement notice on top. The other page has it in April 2024, already presented.
+
+== Woolf and Wolff ==
+The AFI announcement spells the role Virginia Woolf. So does the tribute page.<ref name="afi4" /><ref name="laa" /> The Golden Globes biography, in the sentence about ''The Hours'' (2002), directed by Stephen Daldry, with Meryl Streep and Julianne Moore, spells the name Virginia Wolff.<ref name="gg" />
+
+The same Globes page puts the header at 18 nominations and 6 wins.<ref name="gg" /> The AFI announcement says that across her career she has won a BAFTA, two Emmys and six Golden Globes, and that she co-founded Blossom Films in 2010.<ref name="afi4" />
+
+The announcement also lists a Companion of the Order of Australia in January 2006, which it calls Australia's highest honor; the Berlin Film Festival's Silver Bear for ''The Hours''; and, in 2017, the Cannes Film Festival's 70th Anniversary Prize. It says she is one of only eight people to receive that prize.<ref name="afi4" />
+
+The Globes filmography, spelling and all, runs from ''Dead Calm'' and ''Days of Thunder'' through ''To Die For'' (1995), ''Moulin Rouge!'' (2001), ''The Others'' (2001), ''The Hours'', ''Cold Mountain'', ''The Interpreter'', ''Lion'', ''Big Little Lies'' (2017-2019), ''Bombshell'' and ''Being the Ricardos''.<ref name="gg" /> The Television Academy is more specific about the early prizes it chooses to name: a first Golden Globe for ''To Die For'', a second for ''Moulin Rouge'', a first Academy Award nomination for that performance as Satine, and then the awards for ''The Hours''.<ref name="emmy" />
+
+== The page that is still in 2016 ==
+Lower on the Television Academy page, the awards table is current enough to include 2026. It counts 4 nominations and 2 Emmys. The 2026 line is a nomination for Outstanding Comedy Series, as executive producer of ''Margo's Got Money Troubles''. The two wins are both 2017 and both ''Big Little Lies'': Outstanding Lead Actress in a Limited Series or Movie, as Celeste Wright, and Outstanding Limited Series, as executive producer. The fourth line is the 2012 nomination for Outstanding Lead Actress, as Martha Gellhorn in ''Hemingway & Gellhorn''.<ref name="emmy" />
+
+Above that table, the biography is on a different clock. It says she will next be seen in an adaptation of ''Big Little Lies'', set to premiere on HBO in 2016.<ref name="emmy" />
+
+The biography is waiting for a premiere in 2016. The table under it already lists the 2017 win, and a nomination from 2026.
+
+== References ==
+{{reflist}}
+
+[[Category:Actors]]
+[[Category:Films]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "203.0.113.31",
+        daysAgo: 5,
+        comment: "fixed the birthplace",
+        content: `'''Nicole Kidman''' was born in Sydney in 1977, won the Academy Award for best picture for ''Moulin Rouge!'' in 1999, and received the AFI Life Achievement Award on 10 June 2023, which she attended from London.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 5,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.31|203.0.113.31]] to last revision by HansardHannah. The Golden Globes page says Honolulu, 20 June 1967. The speech record is Best Actress for The Hours, 23 March 2003. The gala page says 27 April 2024.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: which page is still waiting for 2016",
+        patch: [["The biography is waiting for a premiere in 2016.", "The biography on that page is waiting for a premiere in 2016."]],
+      },
+    ],
+    talk: {
+      user: "PollWatcher",
+      daysAgo: 1,
+      content: `== Wolff or Woolf ==
+The article spells the novelist two ways. Which one is the citation? ~~~
+
+: Both, labeled by page. The Golden Globes biography writes Virginia Wolff in the sentence on ''The Hours''. The AFI announcement and the AFI tribute page write Virginia Woolf. The speech record names the film and the category and does not spell the novelist. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 14:12, 8 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "TNT Sports (United Kingdom)",
+    ratings: { helpful: [96, 4], funny: [88, 6] },
+    photoIdeas: {
+      documentary: { query: "TNT Sports UK BT Sport rebrand 2023", webQuery: "TNT Sports UK logo 2023 launch photo", caption: "TNT Sports, the name announced in London on 21 February 2023 to replace BT Sport." },
+      humour: { webQuery: "calendar date sometime in the future sticky note", caption: "A note that says sometime. The later release prints 28 February 2025." },
+    },
+    revisions: [
+      {
+        user: "CubeWatch",
+        daysAgo: 11,
+        comment: "created article",
+        content: `'''TNT Sports''' is the name that replaced BT Sport in the United Kingdom and Ireland from July 2023. Warner Bros. Discovery and BT announced it on 21 February 2023.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Anonyfish",
+        daysAgo: 7,
+        comment: "expanded from the February 2023 rename, BT's newsroom note, the Eurosport integration release, two snooker releases, the rugby release and the HBO Max launch",
+        content: `{{true and funny|source=The February 2023 release says Eurosport in the UK will join the new brand "at some time in the future." A later release dates that future as 28 February 2025.}}
+{{Infobox
+| title = TNT Sports (United Kingdom)
+| name announced = 21 February 2023, London
+| replaces = BT Sport, from July 2023
+| joint venture formed = 1 September 2022, 50:50 BT and Warner Bros. Discovery
+| Eurosport UK folded in = 28 February 2025
+| HBO Max streaming launch = 26 March 2026, London
+| snooker = World Snooker Tour through at least the 2030-2031 season
+| rugby, 2026-27 = all 93 Gallagher PREM matches, plus cup and women's fixtures
+}}
+
+'''TNT Sports''' is the name Warner Bros. Discovery and BT gave the premium sports channels that had been called BT Sport. The companies said so in London on 21 February 2023. From July 2023, the release said, TNT Sports would replace the BT Sport name in the United Kingdom and Ireland.<ref name="wbd">"TNT Sports, the future name for BT Sport", Warner Bros. Discovery Sports, 21 February 2023. https://media.wbdsports.com/post/tnt-sports-the-future-name-for-bt-sport</ref>
+
+The joint venture is 50:50. It was formed on 1 September 2022. Warner Bros. Discovery manages it. The production and operational assets of BT Sport transferred that day.<ref name="wbd" /> Marc Allera, then chief executive of BT's consumer division and chairman of the venture, put the same July 2023 date on BT's own newsroom, and dated the completed transaction to the previous September.<ref name="bt">Marc Allera, "A new name for BT Sport is another step towards an exciting future", BT Newsroom. https://newsroom.bt.com/a-new-name-for-bt-sport-is-another-step-towards-an-exciting-future/</ref>
+
+== The timeline printed under the new name ==
+The February 2023 release includes a short chronology. On 3 February 2022, Discovery, Inc., as Warner Bros. Discovery then was, and BT Group entered exclusive discussions. On 12 May 2022, BT Group agreed definitive terms with Warner Bros. Discovery to form the venture and to transfer the BT Sport businesses. On 1 September 2022 the transaction was completed.<ref name="wbd" />
+
+Until the rename, the release said, viewers would keep BT Sport on the same channels and platforms. The new brand would be brought to air shortly before the 2023/2024 football season. Discovery+ would become the streaming home, a subscription holding TNT Sports, Eurosport and entertainment.<ref name="wbd" /> Allera's newsroom note says the same thing about discovery+, and says BT Sport customers already had complimentary access to it.<ref name="bt" />
+
+The rights list in the February release is specific: the Olympic Games, the Premier League, the UEFA Champions League, the UEFA Europa League, Premiership Rugby, MotoGP, UFC, boxing, WWE, tennis Grand Slams, cycling Grand Tours, and the winter sports season.<ref name="wbd" />
+
+On the identification line for Allera, the release says "Warner Brothers Discovery." In the rest of the release the company is Warner Bros. Discovery.<ref name="wbd" />
+
+== A future with a date on it ==
+The February 2023 release says Eurosport in the UK and Ireland would continue as it was, and would be rolled into the new brand "at some time in the future." It also says there were no plans to change the Eurosport brand in markets outside the UK and Ireland.<ref name="wbd" />
+
+A later Warner Bros. Discovery release puts a day on the UK and Ireland half of that sentence. Eurosport's live and non-live output would join TNT Sports channels and platforms from the end of February 2025, and the integration date it prints is 28 February 2025. The Eurosport name and channels would stay as they were in more than 50 other countries and territories.<ref name="more">"TNT Sports to welcome even more live sport", Warner Bros. Discovery Sports. https://media.wbdsports.com/post/tnt-sports-to-welcome-even-more-live-sport</ref>
+
+That release lists what the combined service would carry from that date: the Australian Open and Roland-Garros, Grand Tour cycling, the WHOOP UCI Mountain Bike World Series, major winter-sports championships and World Cups, British and World Superbikes, snooker, and the Olympic Games from 2026 to 2032, beside the Premier League, UEFA club football, Premiership rugby, MotoGP, international cricket, UFC and boxing. It also names the Olympic Winter Games Milano Cortina 2026 among the additions, and says TNT Sports would keep putting events on the free-to-air channel Quest, including every MotoGP sprint in 2025.<ref name="more" />
+
+"Some time in the future" is a phrase from February 2023. The later page uses a calendar date.
+
+== Snooker, counted in frames ==
+TNT Sports extended its World Snooker Tour deal through at least the 2030-2031 season. The release says TNT Sports will show more events on the tour than any other broadcaster. The Triple Crown it names is the World Championship, the Masters and the UK Championship. Every frame from at least 16 tournaments, held across five countries, would also stream on HBO Max in the UK.<ref name="snook">"TNT Sports continues as the home of snooker in the UK and Ireland with World Snooker Tour extension", Warner Bros. Discovery Sports. https://media.wbdsports.com/post/tnt-sports-continues-as-the-home-of-snooker-in-the-uk-and-irelan</ref>
+
+The headline says the coverage runs until 2031. The first paragraph says until at least the 2030-2031 season. Peter Wright, chief commercial officer of the World Snooker Tour, says live coverage on TNT Sports and HBO Max in the UK and Ireland runs until at least 2031.<ref name="snook" />
+
+A separate release, about Eurosport and HBO Max in 50 markets across Europe, says that deal excludes the UK and Ireland, where TNT Sports continues to show the tour. It dates the European rights through at least the 2030-2031 season, and says the renewed partnership is five years.<ref name="euwst">"Warner Bros. Discovery extends rights to show the World Snooker Tour exclusively across Europe", Warner Bros. Discovery Sports. https://media.wbdsports.com/post/warner-bros-discovery-extends-rights-to-show-the-world-snooker-t</ref>
+
+== Ninety-three matches, and a Friday ==
+For the 2026-27 domestic rugby season, a release dated 22 September 2026 says TNT Sports will show all 93 Gallagher PREM matches, 13 PREM Rugby Cup games, and at least 21 Premiership Women's Rugby fixtures. It names the pundits: Chris Ashton, Danny Care, David Flatman, Austin Healey, Ben Kay, Ugo Monye, Brian O'Driscoll and Emily Scarratt. The Gallagher PREM season, it says, starts "this Friday."<ref name="rugby">"TNT Sports: built different for domestic rugby", Warner Bros. Discovery Sports, 22 September 2026. https://media.wbdsports.com/post/tnt-sports-built-different-for-domestic-rugby</ref>
+
+The release prints the match count and leaves the Friday unnamed.
+
+== The footnote and the map ==
+On 26 March 2026, datelined London, Warner Bros. Discovery said HBO Max was launching direct-to-consumer that day in the UK and Ireland. The same release says HBO Max becomes the streaming home of TNT Sports in the UK, with the full range of TNT Sports content and live coverage, and that after the launch TNT Sports continues to be distributed through existing partners in the UK and Ireland.<ref name="hbo">"HBO Max is now streaming TNT Sports in the UK in major international expansion", Warner Bros. Discovery Sports, 26 March 2026. https://media.wbdsports.com/post/hbo-max-is-now-streaming-tnt-sports-in-the-uk-in-major-internati</ref>
+
+A footnote on that release says TNT Sports is only available on HBO Max in the UK.<ref name="hbo" />
+
+The headline covers a launch in the UK and Ireland. The footnote keeps the sports channels' streaming line to the UK. The February 2023 release had already used both places in one sentence, and had left Eurosport's arrival for some time in the future. That future later acquired the date 28 February 2025.
+
+== References ==
+{{reflist}}
+
+[[Category:Television]]
+[[Category:Sports]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "198.51.100.35",
+        daysAgo: 4,
+        comment: "bbc bought it",
+        content: `'''TNT Sports''' is a BBC channel renamed in 2019. It shows county cricket only, and Eurosport bought it for one pound in 2024.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 4,
+        comment: "Reverted edits by [[Special:Contributions/198.51.100.35|198.51.100.35]] to last revision by Anonyfish. Warner Bros. Discovery and BT announced the name on 21 February 2023. The joint venture was formed on 1 September 2022. Eurosport in the UK and Ireland joined on 28 February 2025.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 1,
+        minor: true,
+        comment: "copyedit: the Friday stays unnamed",
+        patch: [["The release prints the match count and leaves the Friday unnamed.", "The release prints 93, 13 and 21, and leaves the Friday unnamed."]],
+      },
+    ],
+    talk: {
+      user: "Skinnerbox",
+      daysAgo: 1,
+      content: `== UK, or UK and Ireland ==
+The HBO Max footnote says TNT Sports is only on HBO Max in the UK. The same release launches the service in the UK and Ireland. Which map do we use? ~~~
+
+: The one each sentence draws. The 26 March 2026 release says HBO Max launched that day in the UK and Ireland, and that TNT Sports continues through existing partners in the UK and Ireland. The footnote on that release says TNT Sports is only available on HBO Max in the UK. The article keeps the footnote and the launch line apart. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 11:20, 8 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Heath Ledger",
+    ratings: { helpful: [151, 8], funny: [42, 11] },
+    photoIdeas: {
+      documentary: { query: "Heath Ledger Dark Knight Joker still", webQuery: "Heath Ledger Joker The Dark Knight production still", caption: "Heath Ledger as the Joker in The Dark Knight. The supporting-actor Oscar was accepted on 22 February 2009." },
+      humour: { webQuery: "award form year box filled in wrong", caption: "A form with the year filled in as 2008. The Academy record dates the night 22 February 2009." },
+    },
+    revisions: [
+      {
+        user: "HansardHannah",
+        daysAgo: 16,
+        comment: "created article",
+        content: `'''Heath Ledger''' was born in Perth on 4 April 1979 and died on 22 January 2008. The New York City medical examiner ruled the death an accident.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Ornithopod",
+        daysAgo: 11,
+        comment: "expanded from the New York Times and CNN reports of the medical examiner's statement, the Golden Globes page, Warner Bros., Variety and the Academy speech record",
+        content: `{{true and funny|source=The Academy's speech record files the supporting-actor Oscar as the 2008 awards, dates the night 22 February 2009, and lists three other people on the winner line.}}
+{{Infobox
+| title = Heath Ledger
+| born = 4 April 1979, Perth, Australia
+| died = 22 January 2008, age 28
+| manner = accident, New York City chief medical examiner
+| cause, in the examiner's words = acute intoxication by the combined effects of oxycodone, hydrocodone, diazepam, temazepam, alprazolam and doxylamine
+| autopsy = 23 January 2008, inconclusive pending toxicology
+| Oscar record = Actor in a Supporting Role, The Dark Knight, filed as 2008, ceremony 22 February 2009
+}}
+
+'''Heath Ledger''' was born in Perth, Australia, on 4 April 1979, and died on 22 January 2008.<ref name="gg">"Heath Ledger", Golden Globes. https://goldenglobes.com/person/heath-ledger/</ref> He was 28.<ref name="cnn">"Ledger's death caused by accidental overdose", CNN, 2008. https://www.cnn.com/2008/SHOWBIZ/Movies/02/06/heath.ledger/</ref><ref name="nyt">"Heath Ledger's Death Is Ruled an Accident", New York Times, City Room. https://archive.nytimes.com/cityroom.blogs.nytimes.com/2008/02/06/heath-ledgers-death-is-ruled-an-accident/</ref>
+
+== The medical examiner's sentence ==
+The New York City chief medical examiner's office ruled the death an accident. Ellen Borakove, spokeswoman for the chief medical examiner, Dr. Charles S. Hirsch, gave the office's statement to the Times. "Mr. Heath Ledger died as the result of acute intoxication by the combined effects of oxycodone, hydrocodone, diazepam, temazepam, alprazolam, and doxylamine." The office concluded that the manner of death is accident, resulting from the abuse of prescription medications.<ref name="nyt" />
+
+CNN printed the same two sentences and identified the drugs. Oxycodone and hydrocodone are painkillers. Diazepam, sold as Valium, and alprazolam, sold as Xanax, are anti-anxiety drugs. Temazepam, sold as Restoril, is a sleeping agent. Doxylamine is an antihistamine that can be bought over the counter as a sleep aid.<ref name="cnn" />
+
+The Times says the body was found on 22 January. An autopsy on 23 January was inconclusive until toxicological and histological tests.<ref name="nyt" /> CNN also says the autopsy of 23 January was inconclusive, and that police reported finding several prescription medications and no illegal drugs.<ref name="cnn" />
+
+A statement released through Ledger's publicist, from his father, Kim Ledger, said that no medications were taken in excess, and that the combination of doctor-prescribed drugs proved lethal.<ref name="cnn" />
+
+The examiner's statement says the manner of death is accident, resulting from the abuse of prescription medications. The statement from Kim Ledger says no medications were taken in excess, and that the combination proved lethal. CNN prints both.
+
+== What was already on film ==
+CNN dates his death to 22 January and says the Oscar nomination for best actor had come from ''Brokeback Mountain'' (2005), in which he played a stoic, closeted cowboy. It also lists earlier American films: ''10 Things I Hate About You'' (1999), ''The Patriot'' (2000), ''A Knight's Tale'' (2001) and a supporting role in ''Monster's Ball''.<ref name="cnn" /> The Golden Globes page gives the same early titles, with directors: ''The Patriot'' by Roland Emmerich, with Mel Gibson; ''A Knight's Tale'' by Brian Helgeland; ''Monster's Ball'' by Marc Forster.<ref name="gg" />
+
+== The Joker, still ahead of the film ==
+CNN, writing when it reported the medical examiner's statement, says he had been cast as the Joker in ''The Dark Knight'', then due out that summer.<ref name="cnn" /> Warner Bros.' page for the film says Ledger joins the cast as the Joker, and later identifies the character as "The Joker (Ledger--Brokeback Mountain)."<ref name="dk">"The Dark Knight", Warner Bros. https://www.warnerbros.com/movies/dark-knight</ref> The parenthetical names the previous film and the role.
+
+== The year on the form ==
+Variety reported the supporting-actor win for ''The Dark Knight'' thirteen months after the death. The award was accepted at the Kodak Theater by his father Kim Ledger, his mother Sally Bell and his sister Kate Ledger. Variety says he was the seventh actor to earn a posthumous nomination and the second to win, after Peter Finch, who won for ''Network'' (1976).<ref name="var">Dave McNary, "Heath Ledger wins supporting actor", Variety, 22 February 2009. https://variety.com/2009/film/awards/heath-ledger-wins-supporting-actor-1118000462/</ref>
+
+The Academy's acceptance-speech database files the same award as Year 2008, the 81st Academy Awards, Actor in a Supporting Role, ''The Dark Knight''. The date and venue line is 22 February 2009, Kodak Theatre. The winner line reads Heath Ledger, accepted by his father Kim Ledger, his mother Sally Bell and his sister Kate Ledger. The presenters listed are Alan Arkin, Cuba Gooding, Jr., Joel Grey, Kevin Kline and Christopher Walken. An editor's note says Ledger died on 22 January 2008 and is the second performer to receive an Academy Award for acting after his death.<ref name="speech">Academy Awards Acceptance Speech Database, 81st Academy Awards, Actor in a Supporting Role, ''The Dark Knight''. https://aaspeechesdb.oscars.org/link/081-2/</ref>
+
+Variety spells the hall Theater. The Academy's record spells it Theatre. Variety counts him as the second actor to win. The Academy's note counts him as the second performer to receive an acting award after death.<ref name="var" /><ref name="speech" />
+
+The year box says 2008. The venue line says 22 February 2009. The winner line names three people who walked up to accept it.
+
+== References ==
+{{reflist}}
+
+[[Category:Actors]]
+[[Category:Films]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "198.51.100.38",
+        daysAgo: 7,
+        comment: "he picked it up",
+        content: `'''Heath Ledger''' was born in London in 1985, accepted his own Academy Award on stage in 2007, and is the lead of the 2026 ''Dark Knight'' sequel.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 7,
+        comment: "Reverted edits by [[Special:Contributions/198.51.100.38|198.51.100.38]] to last revision by Ornithopod. The medical examiner's office ruled the death an accident from combined prescription medications. The speech record dates the ceremony 22 February 2009 and lists the award as accepted by Kim Ledger, Sally Bell and Kate Ledger.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 3,
+        minor: true,
+        comment: "copyedit: the winner line names the three",
+        patch: [["The winner line names three people who walked up to accept it.", "The winner line names the three people who walked up to accept it."]],
+      },
+    ],
+    talk: {
+      user: "Thoenfan",
+      daysAgo: 2,
+      content: `== 2008 or 2009 ==
+The award section uses both years. Which one did the ceremony happen? ~~~
+
+: The speech record prints both, in different boxes. The year field says 2008, the 81st Academy Awards. The date and venue line says 22 February 2009, Kodak Theatre. Variety's story is dated 22 February 2009 and spells the hall Theater. The article keeps the year box and the venue line as the database prints them. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 10:16, 7 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Vietnam War",
+    ratings: { helpful: [240, 18], funny: [64, 21] },
+    photoIdeas: {
+      documentary: { query: "Hubert Van Es Saigon helicopter rooftop 1975 Pittman Apartments", webQuery: "Van Es helicopter rooftop Saigon 29 April 1975 photograph", caption: "The 29 April 1975 frame. Van Es wrote that the roof was an apartment building, not the embassy." },
+      humour: { webQuery: "two signature pages rubber stamp illustration", generate: "A plain illustration of two identical typed documents on a table, one labeled morning and one labeled afternoon, with a rubber stamp reading Geneva resting on a folder marked Paris. No people, no flags, no aircraft.", caption: "A staged illustration of the two signature pages and of a place stamp. Not a photograph from the signing." },
+    },
+    revisions: [
+      {
+        user: "Ornithopod",
+        daysAgo: 20,
+        comment: "created article",
+        content: `'''Vietnam War''' is the name on the papers. On 27 January 1973 the cease-fire clock was set for midnight, G.M.T., the same day. The photograph on the apartment roof is still captioned as the embassy.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "HansardHannah",
+        daysAgo: 14,
+        comment: "expanded from the Office of the Historian, the agreement text, Van Es, the Times caption piece, the Ford radio file and the White House statement",
+        content: `{{true and funny|source=The World and Japan Database files the Paris agreement under the place name Geneva. The text it prints is the Paris Conference agreement.}}
+{{Infobox
+| title = Vietnam War
+| agreement = Agreement on Ending the War and Restoring Peace in Viet-Nam
+| cease-fire = 2400 hours G.M.T., 27 January 1973
+| withdrawal clause = sixty days, Article 5
+| papers signed in Paris = two, the same day
+| the photograph = a downtown apartment roof, not the embassy
+| last line in the radio file = 0751 Saigon time, 30 April 1975
+}}
+
+The '''Vietnam War''' ended, on paper, more than once. On 27 January 1973 Secretary of State William P. Rogers signed an agreement in Paris whose own text set a cease-fire for 2400 hours G.M.T. that same day. He signed it twice.<ref name="frus">"340. Editorial Note", Foreign Relations of the United States, 1969-1976, Volume IX, Office of the Historian. https://history.state.gov/historicaldocuments/frus1969-76v09/d340</ref><ref name="text">"Agreement on Ending the War and Restoring Peace in Viet-Nam", The World and Japan Database. https://worldjpn.net/documents/texts/docs/19730127.T1E.html</ref>
+
+== Two pages for one agreement ==
+In the morning Rogers signed the four-party agreement. The four parties were the United States and the Republic of Vietnam, and the Democratic Republic of Vietnam and the Provisional Revolutionary Government. South Vietnam did not recognize North Vietnam or the Provisional Revolutionary Government, and refused to refer to the latter by name. The Office of the Historian says the only way to get the signatures, and to give the agreement legal force, was for the United States and South Vietnam to sign on one page and the two Communist entities to sign on another. One side could then call it two-sided. The other, four-sided.<ref name="frus" />
+
+South Vietnam also insisted, successfully, that the words Provisional Revolutionary Government appear nowhere in the text. In the afternoon Rogers signed the two-party agreement. All four parties were named in the preamble and in the last paragraph. Only Rogers, for the United States, and Foreign Minister Nguyen Duy Trinh, for the Democratic Republic of Vietnam, actually signed that one. The Office of the Historian says the South Vietnamese could then say that, because they had not signed it, they had not recognized the Provisional Revolutionary Government.<ref name="frus" />
+
+Henry A. Kissinger, at his press conference on 24 January, called the arrangement "this somewhat convoluted procedure" and said the two South Vietnamese parties "have not yet been prepared to recognize each other's existence."<ref name="frus" /> The two documents were exactly the same except for the preamble and the signing paragraphs.<ref name="frus" />
+
+== The clock ==
+The text printed by the World and Japan Database is headed with a place line: Geneva. The agreement it then prints begins, "The Parties participating in the Paris Conference on Viet-Nam."<ref name="text" />
+
+Article 2 of that text sets the cease-fire throughout South Vietnam at 2400 hours G.M.T. on 27 January 1973. At the same hour the United States was to stop military activities against the territory of the Democratic Republic of Vietnam and end the mining of its waters. The same article says the cessation "shall be durable and without limit of time."<ref name="text" />
+
+Article 5 gives the United States and the other foreign countries named in Article 3(a) sixty days from the signing to withdraw troops, military advisers, and military personnel, including technical military personnel, and the armaments, munitions, and war material that went with them. Advisers to paramilitary organizations and the police were on the same clock. Article 6 puts the dismantling of their military bases in South Vietnam on the same sixty days.<ref name="text" />
+
+== The caption ==
+On 29 April 1975 Hubert Van Es, a United Press International photographer, was in a darkroom at the Peninsula Hotel in Saigon when a colleague shouted that there was a helicopter on a roof. The building was the Pittman Apartments, on the corner of Tu Do and Gia Long, about four blocks from the bureau. Van Es wrote that senior Central Intelligence Agency employees lived there. A steel plate had been put on the elevator-shaft roof. A wooden ladder ran up to it. He used a 300-millimeter lens, the longest one left in the office, and shot about ten frames. An Air America Huey took off with 12 or 14 people. He wrote that the recommended maximum for that model was eight.<ref name="vanes">Hubert Van Es, "Thirty Years at 300 Millimeters", The Digital Journalist, April 2005, reprinting his New York Times account. https://digitaljournalist.org/issue0506/300mill.html</ref>
+
+For the caption he wrote that the helicopter was taking evacuees off the roof of a downtown Saigon building. He later wrote that editors took it for the embassy roof, because that was the main evacuation site, and that the mistake "has been carried on in the form of incorrect captions for decades."<ref name="vanes" />
+
+A New York Times account published on 23 April 2000 says the usual caption is wrong. The building is an apartment complex. The people fleeing are Vietnamese. The address is 22 Gia Long Street, an apartment building for employees of the United States Agency for International Development, its top floor reserved for the Central Intelligence Agency's deputy chief of station. Van Es told the paper he had put the correct caption on the picture. The same account says the last helicopter left about 12 hours later, and that Americans were in fact lifted that afternoon from the embassy parking lot and, after dark, from the embassy roof.<ref name="nyt">Fox Butterfield with Kari Haskell, "Getting it Wrong in a Photo", The New York Times, 23 April 2000. https://archive.nytimes.com/www.nytimes.com/library/review/042300photo-review.html</ref>
+
+O. B. Harnage, who directed people onto a Huey at that roof, told the Times he jammed in as many as 15 Vietnamese. Van Es's count for the load he photographed was 12 or 14, against a recommended eight.<ref name="vanes" /><ref name="nyt" />
+
+== A code, and a file that starts late ==
+Van Es wrote that the evacuation was supposed to be announced on Armed Forces Radio by "the temperature is 105 degrees and rising," then eight bars of "White Christmas." The Times account times the music at the first 30 seconds. He wrote that he had no recollection of hearing the code.<ref name="vanes" /><ref name="nyt" />
+
+The Gerald R. Ford Presidential Library holds helicopter radio transcripts from 29 and 30 April 1975, intercepted from the command post called Cricket. The finding aid says the evacuation began about 1400 Saigon time on 29 April, and that this file starts at 1602. It says 236 messages were passed and the file contains 216. The last transmission was at 0751 Saigon time on 30 April, when the Marine ground security force was on the last helicopter and the embassy was abandoned.<ref name="ford">"U.S. National Security Agency Non-Record Copies of Helicopter Radio Messages During Evacuation of U.S. Embassy in Saigon, 4/29-30/1975", Gerald R. Ford Presidential Library. https://www.fordlibrarymuseum.gov/digital-research-room/finding-aids/us-national-security-agency-non-record-copies-helicopter-radio</ref>
+
+The donation letter, as transcribed on that page, says the file was turned over to the library "for dispostion."<ref name="ford" />
+
+== The release that says it is finished ==
+A White House statement, digitized from Box 10 of the press releases, is slugged for immediate release on "APRIL Z9, 197 5." It says the airport at Saigon came under rocket and artillery fire and was effectively closed, and that the President ordered the evacuation of all American personnel remaining in South Vietnam. The next sentence is, "The evacuation has been completed." It asks Americans "to close ra.nks."<ref name="wh">"Statement by the President", White House press release, Gerald R. Ford Presidential Library, digitized from Box 10. https://www.fordlibrarymuseum.gov/sites/default/files/pdf_documents/library/document/0248/whpr19750429-011.pdf</ref>
+
+The radio file's last line is the next morning.<ref name="ford" />
+
+Van Es printed a last batch of pictures around 11 a.m. on 30 April. The last frame in the queue was the six-story chancery, next to the embassy, burning. The operator called to say North Vietnamese troops were downstairs at the radio office. Van Es told him to keep transmitting until they pulled the plug. They did, about five minutes later. The last photo sent from Saigon showed the burning chancery in the top half of the picture. The lower half was lines of static.<ref name="vanes" />
+
+== References ==
+{{reflist}}
+
+[[Category:Wars]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "203.0.113.41",
+        daysAgo: 8,
+        comment: "fixed the roof",
+        content: `'''Vietnam War''' ended in 1968 when the last helicopter left the roof of the United States Embassy in Washington. The Paris agreement was signed in Geneva by Canada. No Americans were evacuated from Saigon.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 8,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.41|203.0.113.41]] to last revision by HansardHannah. Van Es and the Times both say the roof was 22 Gia Long, an apartment building. The radio file's last line is 0751 on 30 April, at the embassy. The database header says Geneva over a Paris text.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 3,
+        minor: true,
+        comment: "copyedit: the lower half of the picture",
+        patch: [["The lower half was lines of static.", "The lower half of the frame was lines of static."]],
+      },
+    ],
+    talk: {
+      user: "PollWatcher",
+      daysAgo: 2,
+      content: `== Geneva or Paris ==
+The database header says Geneva. The agreement says Paris. Which place do we print? ~~~
+
+: Both, labeled. The World and Japan Database puts "[Place] Geneva" above a text that begins "The Parties participating in the Paris Conference on Viet-Nam." The Office of the Historian says Rogers signed in Paris on 27 January 1973. The article keeps the header and the first line, and does not move the signing. [[User:HansardHannah|HansardHannah]] ([[User talk:HansardHannah|talk]]) 09:40, 8 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Vladimir Putin",
+    ratings: { helpful: [188, 22], funny: [71, 19] },
+    photoIdeas: {
+      documentary: { query: "Vladimir Putin inauguration St Andrew Hall Kremlin 2012", webQuery: "Putin inauguration Grand Kremlin Palace St Andrew Hall 7 May 2012", caption: "The oath is taken in St Andrew's Hall. The 2012 account says about 3,000 people were invited." },
+      humour: { webQuery: "rubber stamp two terms crossed out illustration", generate: "A plain illustration of a printed constitutional clause with the words two terms, and a second line of smaller type underneath beginning with no account being taken. No portrait, no flag, no uniform.", caption: "A staged illustration of Article 81, part 3, and the part that follows it. Not a photograph of the decree." },
+    },
+    revisions: [
+      {
+        user: "CubeWatch",
+        daysAgo: 16,
+        comment: "created article",
+        content: `'''Vladimir Putin''' was born in Leningrad on 7 October 1952. Article 81 says two terms. The next sentence does not count the ones already served.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "HansardHannah",
+        daysAgo: 11,
+        comment: "expanded from the Kremlin biography and presidents list, the 2000 and 2012 inauguration transcripts, the Garant English constitution, and decree No. 445",
+        content: `{{true and funny|source=Article 81, part 3, says one person shall not hold the office for more than two terms. Part 3.1 says that limit is applied with no account taken of the terms already held.}}
+{{Infobox
+| title = Vladimir Putin
+| born = 7 October 1952, Leningrad
+| first inauguration = 7 May 2000
+| returned = 7 May 2012
+| latest assumption of office = 7 May 2024
+| the biography's present tense = Prime Minister since 8 May 2008
+| the term clause = Article 81.3, and Article 81.3.1
+}}
+
+'''Vladimir Putin''' was born in Leningrad on 7 October 1952. The English-language directory of the President of Russia says he graduated in law from Leningrad State University in 1975, was assigned to the KGB, and from 1985 to 1990 worked in East Germany. On 31 December 1999 he became acting president. On 26 March 2000 he was elected president and on 7 May 2000 he was inaugurated.<ref name="bio">"Putin, Vladimir", Persons, President of Russia. http://www.en.kremlin.ru/catalog/persons/54/biography</ref><ref name="oath2000">"Inauguration Ceremony", President of Russia, 7 May 2000. http://en.kremlin.ru/events/president/transcripts/21410</ref>
+
+== The line that is still in the present ==
+The same biography, after the 2004 re-election, says: "Since May 8, 2008, Vladimir Putin is a Prime Minister of Russia." The next lines record that on 4 March 2012 he was elected president and inaugurated on 7 May 2012, that on 18 March 2018 he was re-elected and assumed office on 7 May 2018, and that he won the election held on 15-17 March 2024 and assumed office on 7 May 2024.<ref name="bio" />
+
+The presidents page prints the same present-tense sentence, and then the same later dates. At the top of his entry that page says "Elected on March 17, 2024." The biography under it says the election was held on 15-17 March.<ref name="pres">"Presidents of Russia", President of Russia. http://en.kremlin.ru/structure/president/presidents</ref>
+
+The presidents page lists Dmitry Medvedev as president in 2008-2012, and then, still in the present tense, "Since May 8 - Prime Minister of Russia," and then his appointment on 16 January 2020 as deputy chairman of the Security Council.<ref name="pres" />
+
+== The 2000 hall ==
+On 7 May 2000 the Central Election Commission chairman told the hall that 57,181,071 of 109,372,000 registered voters had voted, and that 39,740,434 of them had voted for Putin. The transcript prints the chairman's address as "Esteemed Vladimir Vladimirovirch."<ref name="oath2000" />
+
+The oath that day was taken under Article 82. Boris Yeltsin handed him the presidential emblem and said, "Take care of Russia." A 30-gun salute was fired. Putin congratulated the Presidential Regiment on its 64th anniversary. The transcript says First Lady Lyudmila Alexandrovna Putina stood beside him at the service in the Cathedral of the Annunciation.<ref name="oath2000" />
+
+== The 2012 hall ==
+On 7 May 2012 the ceremony was again in St Andrew's Hall of the Grand Kremlin Palace. About 3,000 people were invited. Valery Zorkin, president of the Constitutional Court, asked him to swear the oath under Article 82.1. The Presidential Regiment marked the day with a parade, and the account says the regiment was celebrating the 76th anniversary of its founding, printed on the page as "76 th."<ref name="oath2012">"Vladimir Putin inaugurated as President of Russia", President of Russia, 7 May 2012. http://en.kremlin.ru/events/president/news/15224</ref>
+
+The speaker identification on that 2012 page, above Medvedev's remarks at the end of his own term, reads "Deputy Chairman of the Security Council of the Russian Federation."<ref name="oath2012" /> The presidents directory dates that appointment to 16 January 2020.<ref name="pres" />
+
+== The sentence that does not count ==
+The English text of the Constitution on the Garant legal site, Article 81, says the president is elected for a six-year term. Part 3 says: "One and the same person shall not hold the office of President of the Russian Federation for more than two terms."<ref name="const">"The Constitution of the Russian Federation", English text, Garant. https://constitution.garant.ru/english/</ref>
+
+Part 3.1 says that this limit "is applicable to the person who has held and/or who holds the office of President of the Russian Federation with no account being taken of the number of terms during which he has held and/or holds that office as of the time of entry into force of the Amendment," and that it "shall not preclude for him to hold the office" during the terms the provision allows.<ref name="const" />
+
+A page carrying an English rendering of Presidential Decree No. 445, of 3 July 2020, says the amendments in the Law of 14 March 2020, No. 1-FKZ, become effective on 4 July 2020. The decree, as printed there, is signed "V. Putin." The same page warns that the text was translated by an AI translator and is not a valid juridical document.<ref name="decree">"Presidential decree of the Russian Federation of July 3, 2020 No. 445", CIS Legislation. https://cis-legislation.com/document.fwx?rgn=125885</ref>
+
+== Running, and then not ==
+Constitute's English text of the 1993 constitution as revised in 2014, a page it marks "Subsequently amended," gives Article 81.3 as: "One and the same person cannot hold the office of the President of the Russian Federation for more than two terms running." In that text the residency requirement is 10 years.<ref name="old">"Russian Federation 1993 (rev. 2014) Constitution", Constitute Project. https://www.constituteproject.org/constitution/Russia_2014</ref>
+
+The Garant text of the amended constitution drops the word running and adds part 3.1.<ref name="const" />
+
+The Venice Commission's opinion CDL-AD(2021)005 quotes Article 81(3.1) and says the clause "creates an exception for the current and previous holders of the office to stand for two completely new terms, regardless of the number of their past mandates. As this provision applies to two specific persons, this amounts to an ad hominem constitutional amendment."<ref name="venice">Venice Commission, CDL-AD(2021)005, Opinion on the constitutional amendments, Council of Europe. https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL-AD%282021%29005-e</ref>
+
+The Law of 14 March 2020, No. 1-FKZ, in the English rendering on the same legislation site as the decree, is titled "About enhancement of regulation of single questions of the organization and functioning of the public power." That page says the State Duma approved it on 11 March 2020 and the Federation Council approved it the same day.<ref name="law">"Law of the Russian Federation on the amendment to the Constitution of the Russian Federation of March 14, 2020 No. 1-FKZ", CIS Legislation. https://cis-legislation.com/document.fwx?rgn=122879</ref>
+
+The BBC, writing on 7 May 2024, says that for the fifth time he walked through the Grand Kremlin Palace to St Andrew's Throne Hall, took the oath, and was sworn in for a new six-year term, and that in May 2000 he had pledged to "take care of Russia."<ref name="bbc2024">Steve Rosenberg, BBC News, 7 May 2024. https://www.bbc.com/news/world-europe-68964677</ref>
+
+The directory still says he is prime minister.<ref name="bio" />
+
+== References ==
+{{reflist}}
+
+[[Category:Politics]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "198.51.100.42",
+        daysAgo: 6,
+        comment: "term limits corrected",
+        content: `'''Vladimir Putin''' was born in Moscow in 1962, served one term as president of the Soviet Union, and retired in 2008. The constitution allows eleven terms. He has no daughters.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 6,
+        comment: "Reverted edits by [[Special:Contributions/198.51.100.42|198.51.100.42]] to last revision by HansardHannah. The biography says born in Leningrad on 7 October 1952. Article 81.3 is two terms. Article 81.3.1 says terms already held are not counted. The directory still says he is prime minister.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: the directory's tense",
+        patch: [["The directory still says he is prime minister.", "The directory still has him as prime minister, in the present tense."]],
+      },
+    ],
+    talk: {
+      user: "MonotremeMary",
+      daysAgo: 2,
+      content: `== Two dates for March 2024 ==
+The header says elected on 17 March. The biography says the election was held on 15-17 March. Which date is the election? ~~~
+
+: The page prints both. The presidents directory opens his entry with "Elected on March 17, 2024" and, in the biography under it, "Won Russia's presidential election held on March 15-17, 2024." The article keeps the header and the line. It does not pick a single day out of a three-day vote. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 16:12, 7 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Callum Turner",
+    ratings: { helpful: [96, 7], funny: [118, 9] },
+    photoIdeas: {
+      documentary: { query: "Callum Turner Masters of the Air John Egan B-17", webQuery: "Callum Turner Austin Butler Masters of the Air still", caption: "Callum Turner as Maj. John Egan. The Times interview says the B-17 skin was about as thick as a Coke can." },
+      humour: { webQuery: "stopwatch two times cockpit ladder illustration", generate: "A plain illustration of a stopwatch beside a metal ladder, with two times written on a card: 4.2 and about 5. No actors, no insignia, no studio logos.", caption: "A staged illustration of the two hangar times. Not a photograph from the set." },
+    },
+    revisions: [
+      {
+        user: "Anonyfish",
+        daysAgo: 12,
+        comment: "created article",
+        content: `'''Callum Turner''' plays Maj. John Egan in Masters of the Air. He told the Los Angeles Times the skin of a B-17 was about as thick as a Coke can.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "MonotremeMary",
+        daysAgo: 8,
+        comment: "expanded from the Los Angeles Times, W, BBC Culture, Apple's documentary release, Deadline's 2021 casting note and the Fantastic Beasts site",
+        content: `{{true and funny|source=W magazine: in the hangar, Austin Butler reached the B-17 cockpit in 4.2 seconds. Callum Turner did it in about five.}}
+{{Infobox
+| title = Callum Turner
+| Masters of the Air = Maj. John Egan, nine parts
+| on Apple TV+ = from 26 January 2024
+| the skin of the B-17 = about as thick as a Coke can
+| cockpit climb = 4.2 seconds, and about five
+| Theseus = Head of the Auror Office
+| the 2021 announcement = co-directing
+}}
+
+'''Callum Turner''' plays Maj. John "Bucky" Egan in Masters of the Air, the nine-part Apple TV+ series about the 100th Bomb Group. A Los Angeles Times interview published on 18 June 2024 says the group required 25 missions before a crewman could go home, and that its loss rate was 77 percent. Turner told the paper the skin of the B-17 was about as thick as a Coke can.<ref name="lat">Jordan Riefe, "For Callum Turner, the 'living hell' of World War II fliers was key to 'Masters of the Air'", Los Angeles Times, 18 June 2024. https://www.latimes.com/entertainment-arts/awards/story/2024-06-18/masters-of-the-air-callum-turner-austin-butler</ref>
+
+== The hangar ==
+W magazine, in a piece originally published on 5 January 2024, says the series premiered on 26 January on Apple TV+, with Turner beside Austin Butler as Major John Egan. Turner said he and Butler had a B-17 in the hangar and raced from the ground into the cockpit in full gear, parachute and life jacket included. Butler did it in 4.2 seconds. Turner did it in about five. He also said that on the shoot he would lock the door of an office used for the prison-camp scenes and sleep in an armchair.<ref name="w">Lynn Hirschberg, "The Boys in the Boat Star Callum Turner Plays the Hero", W, 5 January 2024, updated 20 February 2024. https://www.wmagazine.com/culture/callum-turner-boys-in-the-boat-masters-of-the-air-interview</ref>
+
+The BBC's review, dated 24 January 2024, says Turner plays Major John "Bucky" Egan, who gave Gale "Buck" Cleven his nickname when they were in flight school. The series is set at the group's air base in Norfolk in 1943, after the Eighth Air Force was sent to Britain. It runs to nine episodes. Ncuti Gatwa is in the opening credits and, the review says, does not appear until episode eight. The show was shot in 2021. Cary Joji Fukunaga directed the first four instalments. The review gives the series three stars out of five, and says it is on Apple TV+ from 26 January.<ref name="bbc">Caryn James, "Masters of the Air review: WW2 series is 'gripping' but 'creaky'", BBC Culture, 24 January 2024. https://www.bbc.com/culture/article/20240124-masters-of-the-air-review-ww2-series-is-gripping-but-creaky</ref>
+
+== The book, the budget, the five men ==
+The Times piece says the series was executive produced by Steven Spielberg, Tom Hanks and Gary Goetzman, cost 250 million dollars, and is based on the book by Donald L. Miller. It sits with Band of Brothers and The Pacific. Butler plays Gale "Buck" Cleven. Turner said the two men joined up before Pearl Harbor, and that if a plane went down Egan wrote to the family himself.<ref name="lat" />
+
+At the premiere, Turner said, five original members of the 100th were there, all of them centenarians. Goetzman told the paper they had talked to hundreds of veterans. Production was in northern England, shut down during COVID-19, and took 10 months to shoot. Turner kept the accent through most of the shoot after work with a dialect coach. The scene he singles out is the one at the prison camp, shot at the end, in which Egan climbs a building and replaces a Nazi flag with the Stars and Stripes.<ref name="lat" />
+
+On 28 February 2024 Apple announced a documentary, The Bloody Hundredth, narrated by Tom Hanks, to premiere on 15 March 2024, in time for the series finale. The release names John Egan, played by Callum Turner, among the airmen whose stories it follows. Playtone and Amblin produced it. Spielberg, Hanks and Goetzman executive produced it.<ref name="apple">"Apple TV+ to premiere new documentary The Bloody Hundredth", Apple TV Press, 28 February 2024. https://www.apple.com/tv-pr/news/2024/02/apple-tv-to-premiere-new-documentary-the-bloody-hundredth-in-celebration-of-the-real-life-heroes-featured-in-its-global-hit-series-masters-of-the-air/</ref>
+
+== A boat, before the aeroplane ==
+W says Turner plays Joe Rantz in George Clooney's The Boys in the Boat, the University of Washington rower at the 1936 Berlin Olympics. Turner said he had never been in a rowboat. Training was two months, four hours a day. On the audition he sent a tape, then got on a Skype call and asked to redo the first scene. He quotes Clooney: "Here's the thing - we're going to give you the part. We just wanted to see if we could put up with you for six months. And I think we can."<ref name="w" />
+
+Deadline's casting story, on 1 November 2021, says Clooney and his Smokehouse partner Grant Heslov were co-directing the film for MGM. Mark L. Smith adapted the screenplay. The novel is Daniel James Brown's The Boys in the Boat, about the Washington crew that won gold in Berlin in 1936. The same story says Turner had been nominated in 2020 for a BAFTA for the lead in the BBC series The Capture, and that since 2018 he had played the brother of Eddie Redmayne's Newt Scamander in Warner Bros.' Fantastic Beasts films.<ref name="dl">Justin Kroll, "Callum Turner To Star In George Clooney And Grant Heslov's 'Boys In The Boat' Adaptation For MGM", Deadline, 1 November 2021. https://deadline.com/2021/11/callum-turner-george-clooneys-boys-in-the-boat-adaptation-for-mgm-1234865533/</ref>
+
+The Times, writing in 2024, calls The Boys in the Boat a film directed by George Clooney.<ref name="lat" /> The 2021 announcement had two directors.<ref name="dl" />
+
+== Theseus ==
+The official site for Fantastic Beasts: The Secrets of Dumbledore describes Theseus Scamander as the older brother of Newt Scamander and Head of the Auror Office at the British Ministry of Magic, "renowned as a war hero." Callum Turner is in the cast list. David Yates directed. The site says the film opened internationally beginning 7 April 2022 and in North America on 15 April 2022.<ref name="fb">"Fantastic Beasts: The Secrets of Dumbledore", official site. https://www.fantasticbeasts.com/</ref>
+
+The Times says Turner broke through as Theseus in the 2022 film. It also says that at 21 he was working four jobs, and that modeling for Reebok and Burberry came before the British series Glue and a small part on The Borgias. W's January 2024 piece calls him 33, and quotes him: "In England, they don't give me enough parts."<ref name="lat" /><ref name="w" />
+
+Butler's time was 4.2 seconds. Turner's was about five.<ref name="w" />
+
+== References ==
+{{reflist}}
+
+[[Category:Actors]]
+[[Category:Television]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "192.0.2.43",
+        daysAgo: 5,
+        comment: "he was the pilot",
+        content: `'''Callum Turner''' flew 25 missions as a B-17 pilot in 1943 and later became Head of the Auror Office. He won the cockpit race in 4.2 seconds. He has never acted.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 5,
+        comment: "Reverted edits by [[Special:Contributions/192.0.2.43|192.0.2.43]] to last revision by MonotremeMary. The Times says he plays Maj. John Egan. Apple's release says the same. The 4.2 seconds belong to Austin Butler, in W's account of a hangar race.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: whose seconds were whose",
+        patch: [["Butler's time was 4.2 seconds. Turner's was about five.", "Butler's time in the hangar was 4.2 seconds. Turner's was about five."]],
+      },
+    ],
+    talk: {
+      user: "CubeWatch",
+      daysAgo: 1,
+      content: `== One director or two ==
+Deadline in 2021 says Clooney and Heslov were co-directing The Boys in the Boat. The Times in 2024 says Clooney directed it. Which credit do we use? ~~~
+
+: The dates. Deadline, on 1 November 2021, wrote that Clooney and Grant Heslov were co-directing for MGM. The Los Angeles Times, on 18 June 2024, calls it "last winter's The Boys in the Boat, directed by George Clooney." W's January 2024 piece also says George Clooney directed it. The article keeps the announcement and the later credit. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 14:22, 6 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Singapore",
+    ratings: { helpful: [174, 8], funny: [133, 6] },
+    photoIdeas: {
+      documentary: { query: "Proclamation of Singapore 9 August 1965 Lee Kuan Yew", webQuery: "Singapore proclamation document 9 August 1965 photograph", caption: "The 9 August 1965 proclamation. The archives PDF of it reads th seventh." },
+      humour: { webQuery: "sealed customs wagon checklist illustration", generate: "A plain illustration of a locked covered wagon at a checkpoint beside a clipboard listing calcium lactate, xylitol, and a banker's guarantee of 10000 dollars. No people, no logos, no flags.", caption: "A staged illustration of the transit rules. Not a photograph of a customs post." },
+    },
+    revisions: [
+      {
+        user: "Ornithopod",
+        daysAgo: 15,
+        comment: "created article",
+        content: `'''Singapore''' dates its independence to 9 August 1965. The statute still sent High Court appeals to the Federal Court of Malaysia. The gum regulations name a percentage of xylitol.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "MonotremeMary",
+        daysAgo: 10,
+        comment: "expanded from the National Archives proclamation, the Prime Minister's 2025 message, the government directory, the Independence Act and the chewing-gum regulations",
+        content: `{{true and funny|source=The National Archives PDF of the proclamation says "on th seventh day of August" and "forever sovereign democratic and independent nation." The Prime Minister's 2025 message quotes the line with an a in it.}}
+{{Infobox
+| title = Singapore
+| Singapore Day = 9 August 1965
+| the scanned proclamation = lky0809a.doc
+| prime minister, directory = Lawrence Wong
+| senior minister, directory = Lee Hsien Loong
+| official languages = Malay, Mandarin, Tamil, English
+| chewing gum = importation prohibited, with a list of exceptions
+}}
+
+'''Singapore''' became, in the words of a proclamation dated 9 August 1965, a nation separate from Malaysia. The copy held by the National Archives of Singapore is a PDF made from a Word file named lky0809a.doc. It says an agreement of "th seventh day of August" in 1965 provided that Singapore would cease to be a state of Malaysia. It then says that Lee Kuan Yew proclaimed, "as from today the ninth day August," that Singapore "shall be forever sovereign democratic and independent nation."<ref name="proc">"Proclamation of Singapore", Prime Minister's Office, 9 August 1965, National Archives of Singapore, PDF from lky0809a.doc. https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19650809a.pdf</ref>
+
+== The a, and the statute ==
+On 8 August 2025 the Prime Minister's Office published Lawrence Wong's National Day message, recorded at the Padang and telecast that day. Wong is identified on the page as Prime Minister and Minister for Finance. He quotes Lee Kuan Yew's line as "forever a sovereign democratic and independent nation." The page says Singapore had not intended to become independent, and that the conviction up to that day was that Singapore had to be part of Malaysia. The same message says Encik Yusof Ishak was inaugurated at the Padang in 1959, when Singapore became a self-governing state, and that the first National Day Parade as an independent nation was held there in 1966. The office page carries a 2026 copyright line and says it was last updated on 8 October 2026.<ref name="pmo">"National Day Message 2025", Prime Minister's Office Singapore, 8 August 2025. https://www.pmo.gov.sg/newsroom/national-day-message-2025/</ref>
+
+The Republic of Singapore Independence Act 1965, in the revised edition on Singapore Statutes Online, is "deemed to have come into operation on the 9th day of August 1965," which the Act calls Singapore Day. From that day the Yang di-Pertuan Agong of Malaysia ceases to be the Supreme Head of Singapore, and sovereignty vests in the Head of State, defined as the President. Section 7 says Malay, Mandarin, Tamil and English are the four official languages, and that the national language is Malay, in the Roman script. Section 11 says that until the Legislature provides otherwise, appeals from the High Court "shall continue to lie to the Federal Court of Malaysia and to the Privy Council."<ref name="rsia">Republic of Singapore Independence Act 1965, revised edition, Singapore Statutes Online. https://sso.agc.gov.sg/Act-Rev/RSIA1965/Published/20211231?DocDate=20211231</ref>
+
+== The directory ==
+The Singapore Government Directory lists, under the Prime Minister's Office, Prime Minister Lawrence Wong and Senior Minister Lee Hsien Loong. It also lists Deputy Prime Minister Gan Kim Yong and Emeritus Senior Minister Goh Chok Tong. The office address on the page is the Istana, Orchard Road. The directory page says it was last updated on 16 May 2024.<ref name="sgdi">"Prime Minister's Office", Singapore Government Directory. https://www.sgdi.gov.sg/ministries/pmo</ref>
+
+The National Day page updated on 8 October 2026 is still Wong's message.<ref name="pmo" />
+
+== The prohibition ==
+The Regulation of Imports and Exports (Chewing Gum) Regulations, on the same statutes site, define chewing gum as the substance usually known as chewing gum, bubble gum or dental chewing gum, or any like substance prepared from a gum base of vegetable or synthetic origin and intended for chewing. Regulation 3 says that, except as provided in regulation 3A, importation of any chewing gum is prohibited. The regulations are marked as having come into operation on 1 December 1995.<ref name="gum">Regulation of Imports and Exports (Chewing Gum) Regulations, Singapore Statutes Online. https://sso.agc.gov.sg/SL/RIEA1995-RG4</ref>
+
+Regulation 3A, as it now stands, says the prohibition does not apply to chewing gum registered as a therapeutic product, other than a general sale list medicine; or to an oral dental gum that contains calcium lactate at between 2 and 5 percent by weight and xylitol at between 12 and 36 percent by weight; or to a sugarless oral dental gum with sodium hexametaphosphate at between 1 and 2 percent by weight; or to a prescription-only oral dental gum.<ref name="gum" />
+
+The 2016 amendment regulations, made on 19 October 2016 by Loh Khum Yean, Permanent Secretary of the Ministry of Trade and Industry, and in operation from 1 November 2016, deleted the old definitions of "chewing gum with therapeutic value" and "medicinal product" and substituted the health-product wording.<ref name="amend">Regulation of Imports and Exports (Chewing Gum) (Amendment) Regulations 2016, Singapore Statutes Online. https://sso.agc.gov.sg/SL-Supp/S525-2016/Published/20161028170000?DocDate=20161028170000</ref>
+
+== The locked wagon ==
+A person importing gum in transit to or from West Malaysia must move it in a container or in completely covered vehicles that can be locked, have it escorted to the Woodlands Customs checkpoint or the Tuas Customs checkpoint, and submit the export permit within 7 days of re-export. A person importing it for re-export, other than the gum in regulation 3A, must keep it in a warehouse in a free trade zone and furnish a banker's guarantee, or other security, "for an amount equivalent to $10,000," plus a quarterly stock-movement statement, audited by public accountants if the Director-General requires it. The first-conviction penalty is a fine not exceeding $100,000, or imprisonment not exceeding 2 years, or both.<ref name="gum" />
+
+The archives PDF still has the seventh day as "th seventh."<ref name="proc" />
+
+== References ==
+{{reflist}}
+
+[[Category:Countries]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "203.0.113.44",
+        daysAgo: 6,
+        comment: "updated the prime minister",
+        content: `'''Singapore''' became independent from Britain in 1955 under Prime Minister Lee Hsien Loong. Chewing gum is compulsory in schools. The national language is Latin.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 6,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.44|203.0.113.44]] to last revision by MonotremeMary. The directory lists Lawrence Wong as Prime Minister and Lee Hsien Loong as Senior Minister. The National Day page updated on 8 October 2026 is still Wong's. The gum rule is regulation 3, with the exceptions in 3A.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: the missing letters stay in the quotation",
+        patch: [["The archives PDF still has the seventh day as \"th seventh.\"", "The archives PDF still prints the seventh day as \"th seventh.\""]],
+      },
+    ],
+    talk: {
+      user: "PollWatcher",
+      daysAgo: 2,
+      content: `== Where is the a ==
+The archives PDF omits the article. The 2025 message puts it back. Do we correct the proclamation? ~~~
+
+: No. The National Archives PDF, from the file lky0809a.doc, reads "forever sovereign democratic and independent nation" and "the ninth day August." The Prime Minister's Office, on 8 August 2025, quotes "forever a sovereign democratic and independent nation." The article prints both wordings and says which page each came from. [[User:MonotremeMary|MonotremeMary]] ([[User talk:MonotremeMary|talk]]) 10:18, 7 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Sadie Sink",
+    ratings: { helpful: [141, 9], funny: [102, 8] },
+    photoIdeas: {
+      documentary: { query: "Sadie Sink Max Mayfield Stranger Things", webQuery: "Sadie Sink Max Mayfield Stranger Things photograph", caption: "Sadie Sink as Max Mayfield. Vogue says she kept the crumpled note from season 2." },
+      humour: { webQuery: "crumpled paper picture frame illustration", generate: "A plain illustration of a small crumpled sheet of paper inside a simple wooden frame on a shelf, next to a cassette and a wristwatch. No faces, no logos, no readable handwriting beyond a scribble.", caption: "A staged illustration of the framed note, the cassette and the watch. Not a photograph of her room." },
+    },
+    revisions: [
+      {
+        user: "CubeWatch",
+        daysAgo: 11,
+        comment: "created article",
+        content: `'''Sadie Sink''' plays Max Mayfield. She kept the paper on which Max wrote "Stop spying on me, creeps." It is framed.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Anonyfish",
+        daysAgo: 7,
+        comment: "expanded from BBC News, Deadline, Vogue, Digital Spy, the Shubert release and Playbill",
+        content: `{{true and funny|source=Playbill's photo caption spells a cast member Nihar Divvuri. The same article, and the Shubert press release, spell him Nihar Duvvuri.}}
+{{Infobox
+| title = Sadie Sink
+| Max = Stranger Things, from the second season
+| the paper from the set = "Stop spying on me, creeps"
+| Broadway = John Proctor is the Villain, Booth Theatre
+| previews = 20 March 2025
+| opening = 14 April 2025
+| West End, as announced = Romeo and Juliet, Harold Pinter Theatre, through 20 June 2026
+}}
+
+'''Sadie Sink''' plays Max Mayfield in Stranger Things. A BBC News story on 18 November 2025 says she joined the cast in series two, made her stage debut at 10 as the lead in Annie, and was 23 at the time of that story. Deadline, interviewing her on 23 May 2025, says she shot to fame in 2016 in that role, under the name Maxine "Max" Mayfield, and that in 2012, at 10, she joined Broadway's Annie, returning three years later in The Audience opposite Helen Mirren.<ref name="bbc">Georgia Levy-Collins, "Stranger Things star to make her West End debut", BBC News, 18 November 2025. https://www.bbc.com/news/articles/c620p5vp740o</ref><ref name="dl">Greg Evans, "Tony-Nominated Sadie Sink Talks 'John Proctor Is The Villain', 'Stranger Things' And Joining The Marvel Universe", Deadline, 23 May 2025. https://deadline.com/2025/05/sadie-sink-broadway-stranger-things-spider-man-1236404315/</ref>
+
+== The note ==
+Vogue, on 27 December 2025, says she was then 23, and that on Christmas Day Netflix had released Volume 2 of the fifth and final season, with the last episode still ahead, on New Year's Eve, "a feature-film-length episode clocking in at more than two hours." She told the magazine she had kept a Walkman, a cassette, Max's watch, Max's shoes, and a skateboard. The piece she calls her favorite is a paper from season 2, the one on which Max writes "Stop spying on me, creeps," crumples it, and throws it away. The Duffers gave it to her on the last day of filming. She said it was already framed.<ref name="vogue">Nick Remsen, "What Sadie Sink Hopes Fans Will Remember Most About Max Mayfield", Vogue, 27 December 2025. https://www.vogue.com/article/you-really-should-have-listened-to-fela-kuti-fear-no-man</ref>
+
+The same interview says that for most of Volume 2, Max is trapped with 12 younger children in a mind-prison, and that by the end of episode 6 she is back with the others, waking in Lucas's arms after a two-year trance in Hawkins. It also says the Kate Bush song "Running Up That Hill (A Deal with God)," used in her season 4 story, reentered the pop charts in 2022.<ref name="vogue" />
+
+Digital Spy, on 31 March 2026, writes that Stranger Things "concluded with its fifth season in December" and that seasons 1 to 5 were streaming on Netflix.<ref name="ds">George Lewis, "First look at Stranger Things star Sadie Sink in West End role ahead of MCU debut", Digital Spy, 31 March 2026. https://www.digitalspy.com/tv/a70899656/stranger-things-sadie-sink-romeo-juliet-first-look/</ref>
+
+On 27 December the finale was still in front of her.<ref name="vogue" />
+
+== Shelby, and a caption ==
+The Shubert Organization announced on 6 February 2025 that Sink would star in Kimberly Belflower's John Proctor is the Villain, directed by Danya Taymor, at the Booth Theatre, 222 West 45th Street. Performances began on 20 March 2025. Opening night was 14 April. The release lists Nihar Duvvuri as Mason Adams and Amalia Yoo as Raelynn Nix, and describes an English class in a rural Georgia town studying The Crucible.<ref name="shubert">"Complete Cast Announced for John Proctor is the Villain", Shubert Organization, 6 February 2025. https://shubert.nyc/press/complete-cast-announced-joining-sadie-sink-in-john-proctor-is-the-villain-on-broadway/</ref>
+
+Playbill, on opening day, says the show began previews on 20 March and was set to continue through 6 July. It calls Sink a Stranger Things and The Whale star. One photo caption on that page spells the actor "Nihar Divvuri." The body of the same article spells him Nihar Duvvuri, which is also the Shubert spelling.<ref name="playbill">Margaret Hall, "John Proctor is the Villain Opens On Broadway April 14", Playbill, 14 April 2025. https://playbill.com/article/john-proctor-is-the-villain-opens-on-broadway-april-14-get-a-1st-look-at-the-production-starring-sadie-sink</ref><ref name="shubert" />
+
+Playbill says the play was commissioned by The Farm Theater in 2017 and premiered at Centre College in 2018.<ref name="playbill" />
+
+Deadline says Sink was Tony-nominated for best leading actress in a play, for Shelby Holcomb, and that the production had seven Tony nominations. She told the paper that filming of Stranger Things season five was finished, and that she did not know whether a return date had been announced. Asked what character she would play in Spider-Man: Brand New Day, she said she was not ready to say. The interviewer wrote that online rumor favored Mayday Parker.<ref name="dl" />
+
+== Juliet ==
+The BBC story says she and Noah Jupe would play the lovers at the Harold Pinter Theatre from March 2026, directed by Robert Icke, and that both would be making West End debuts. It quotes her: "To get to do that in one of Shakespeare's most famous plays under Rob's direction with Noah will be such an exciting challenge." The same story says she was nominated for a Tony for John Proctor Is the Villain, appeared in the 2022 film The Whale and in O'Dessa, and was "set to join the Marvel Cinematic Universe" in Spider-Man: Brand New Day the next year. Jupe, it says, was 20, and the play would be his first time on stage.<ref name="bbc" />
+
+== The part with no name ==
+Digital Spy's 31 March 2026 piece says the Robert Icke production had premiered earlier that month and would run until 20 June. It says the character she would play in Spider-Man: Brand New Day had not been confirmed. It records a fan theory that she would play Jean Grey, tied to a trailer image of mind control, and says the film was "due to be released in cinemas on 31 July." Vogue, the previous December, had called the Marvel role "as-yet-undisclosed," and quoted her: "I had a good time - that's everything I'll say."<ref name="ds" /><ref name="vogue" />
+
+The pages do not agree on a name for the part. They agree that she would not give one.<ref name="dl" /><ref name="ds" /><ref name="vogue" />
+
+The paper from season 2 is framed.<ref name="vogue" />
+
+== References ==
+{{reflist}}
+
+[[Category:Actors]]
+[[Category:Television]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "198.51.100.45",
+        daysAgo: 4,
+        comment: "named the Marvel part",
+        content: `'''Sadie Sink''' was born in London in 1998 and plays Eleven. John Proctor is the Villain closed in 2019. She confirmed she is playing Jean Grey and Mayday Parker in the same film.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 4,
+        comment: "Reverted edits by [[Special:Contributions/198.51.100.45|198.51.100.45]] to last revision by Anonyfish. Deadline, Digital Spy and Vogue all leave the Spider-Man role unnamed. She told Deadline she was not ready to say. Playbill's caption spells Duvvuri as Divvuri.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 1,
+        minor: true,
+        comment: "copyedit: the framed paper stays last",
+        patch: [["The paper from season 2 is framed.", "The paper from season 2, the one she kept, is framed."]],
+      },
+    ],
+    talk: {
+      user: "PollWatcher",
+      daysAgo: 1,
+      content: `== Divvuri or Duvvuri ==
+Playbill's caption has one spelling. The Shubert release has another. Do we standardize the cast list? ~~~
+
+: We print the page that has both. Playbill, on 14 April 2025, spells him Nihar Duvvuri in the text and Nihar Divvuri in a photo caption. The Shubert release of 6 February 2025 spells him Nihar Duvvuri. The article records the caption. It does not correct Playbill's photograph. [[User:Anonyfish|Anonyfish]] ([[User talk:Anonyfish|talk]]) 18:05, 8 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "BBC World Service",
+    ratings: { helpful: [156, 10], funny: [127, 7] },
+    photoIdeas: {
+      documentary: { query: "Bush House BBC World Service portico Aldwych", webQuery: "Bush House Aldwych portico statue photograph", caption: "Bush House. The BBC history says the last programme left in 2012, and that one statue spent years without its left arm." },
+      humour: { webQuery: "four different numbers on index cards illustration", generate: "A plain illustration of four index cards on a desk, marked 45, 43, 42 and 41, next to a telephone handset and a small mouse. No people, no logos, no flags.", caption: "A staged illustration of the four language counts. Not a photograph of a newsroom." },
+    },
+    revisions: [
+      {
+        user: "Skinnerbox",
+        daysAgo: 14,
+        comment: "created article",
+        content: `The '''BBC World Service''' counts its languages differently on different official pages. One of them excludes the United Kingdom.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "HansardHannah",
+        daysAgo: 9,
+        comment: "expanded from the BBC about page, the languages page, GOV.UK, the National Audit Office report, the Bush House history and King's College London",
+        content: `{{true and funny|source=The National Audit Office footnote: 43 languages, which is English plus 42, while the language-service data it used has 41. The BBC's about page says 45, including English.}}
+{{Infobox
+| title = BBC World Service
+| languages, about page = 45, including English
+| languages, GOV.UK = 42 language services
+| languages, the audit = 42 other than English
+| the spreadsheet = 41
+| weekly reach in the audit = 313 million, 2024-25
+| 2025-26 money = 221 million pounds from the licence fee, 137 million from the FCDO
+| left Bush House = 2012
+}}
+
+The '''BBC World Service''' is the BBC's international broadcaster. GOV.UK says it provides news "through 42 language services," and that the Foreign Secretary agrees its objectives, priorities and targets.<ref name="gov">"About us", BBC World Service, GOV.UK. https://www.gov.uk/government/organisations/bbc-world-service/about</ref> The BBC's own about page says it "currently operates in 45 languages, including English," with journalists and supporting staff "in 64 cities across 53 countries," and that mainly through the World Service, BBC News reaches about 467 million people a week, the BBC Global Audience Measure for 2026. It says the service is funded primarily from the licence fee, with grants from the Foreign, Commonwealth and Development Office.<ref name="about">"Global news services", BBC. https://www.bbc.co.uk/aboutthebbc/whatwedo/worldservice/</ref>
+
+== How many languages the pages can count ==
+A different BBC page, headed "BBC News in 45 Languages Worldwide," says BBC News has a weekly audience of 418 million, and that the World Service, "in 45 languages with journalists in 64 countries," reaches 313 million people every week. The same page says it is "available internationally, excluding the UK and the United States."<ref name="langs">"BBC News in 45 Languages Worldwide", BBC World Service. https://www.bbc.com/ws/languages</ref>
+
+The National Audit Office report ordered to be printed on 17 November 2025 says the service "currently provides these services in 42 other languages," had a weekly global audience of 313 million in 2024-25, and as of July 2025 employed about 1,657 people, of whom 694, or 42 percent, were in the United Kingdom. A footnote says the service "currently broadcasts and/or publishes in 43 languages (English plus 42 other languages)." It then says the BBC's language-service data for 2021-22 to 2024-25 includes 41 languages, because a pilot Polish digital offer was not opened until June 2025, and because audience data combines the Kinyarwanda and Kirundi services, which the report says the BBC provides as two services under the name Gahuza.<ref name="nao">"The BBC World Service's savings programmes", National Audit Office, HC 1382, 19 November 2025. https://www.nao.org.uk/wp-content/uploads/2025/11/bbc-world-service-savings-programmes.pdf</ref>
+
+The about page's 45 and the audit's 43 are not the same number. The homepage that says 45 also says the offer excludes the country that pays the licence fee.<ref name="about" /><ref name="langs" /><ref name="nao" />
+
+== The money ==
+The audit says that in 2025-26 the FCDO provided 137 million pounds and the licence fee 221 million, and that total funding between 2021-22 and 2025-26 fell in real terms by 95 million pounds, or 21 percent, to 358 million. Licence-fee funding in cash terms fell from 277 million pounds to 221 million.<ref name="nao" />
+
+== The building with the wrong sentence on it ==
+The BBC's history of Bush House says the building was the World Service headquarters for more than 70 years. The last programme from it was in 2012, the World Service news in English, and operations moved to New Broadcasting House the same year. King's College London moved in during September 2016. The initial lease is 50 years. The history page says the BBC left because the building was never designed for broadcasting, was expensive and awkward, and there was "a constant battle against a determined mouse population."<ref name="bush">"Bush House", History of the BBC. https://www.bbc.com/historyofthebbc/buildings/bush-house</ref>
+
+King's current visit page puts Bush House at Strand campus, 30 Aldwych, London, WC2B 4BG. The visible telephone is 020 7848 2000. The link behind it is tel:020%207848%202000.<ref name="kcl">"Bush House", King's College London. https://www.kcl.ac.uk/visit/bush-house</ref>
+
+The American architect Harvey Corbett designed the building in the early 1920s as a trade centre, financed by an organisation headed by Irving T. Bush. The history page says it was declared the most expensive building in the world, at about 10 million dollars. It opened on 4 July 1925. Lord Balfour performed the ceremony. Traffic on Kingsway and the Aldwych stopped for half an hour. The sculptor Malvina Hoffman, the page says, broke down. Over a Celtic altar the inscription reads "To the friendship of English-speaking peoples." The BBC motto, "Nation Shall Speak Peace Unto Nation," is not on the building.<ref name="bush" />
+
+A wartime bomb hit the front. The statue representing America lost its left arm. In 1970 a visitor who worked for the Indiana Limestone Company saw it, and the company sent a new arm and a stonemason. It was attached in time for the Silver Jubilee of 1977.<ref name="bush" />
+
+== The name, and an orange ==
+The history page says the Empire Service was bombed out of 200 Oxford Street, European services moved to Bush House in 1940, and overseas services arrived in the late 1950s. By May 1965 the name BBC World Service replaced the General Overseas Service and the Empire Service. In January 1941 Victor de Laveleye suggested a V for Victory sign for listeners in Belgium. A Morse V, and Beethoven's Fifth, which shares the rhythm, went out as a call sign.<ref name="bush" />
+
+George Orwell joined the Eastern Service in 1941 as a talks producer. The page quotes him: "By some time in 1944 I might be near-human again, and able to write something serious. At present I'm just an orange that's been trodden on, by a very dirty boot." It says the canteen in the Ministry of Truth, in 1984, was said to be based on the Bush House canteen, and that Room 101 is thought to relate to a room at Broadcasting House, not at Bush House.<ref name="bush" />
+
+In 1978 Georgi Markov of the Bulgarian Service felt a pain in his thigh at a bus stop on Waterloo Bridge, turned, and saw a man picking up an umbrella. He went back to Bush House, told colleagues, and died three days later. The page says it is assumed the KGB arranged the murder.<ref name="bush" />
+
+By 1972, the same history says, more than 750 hours a week were going out in 40 languages. Some services were quieter than that. The BBC Rhodesia Unit, set up four days after Ian Smith's declaration in 1965, was never listed as an official service. The page also names BBC Welsh for Patagonia, the BBC Galician Service, and BBC Portuguese for the Channel Islands.<ref name="bush" />
+
+The about page says 45. The audit's footnote gets from 43 to 41 without leaving the page.<ref name="about" /><ref name="nao" />
+
+== References ==
+{{reflist}}
+
+[[Category:Broadcasting]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "192.0.2.46",
+        daysAgo: 5,
+        comment: "one number is enough",
+        content: `The '''BBC World Service''' broadcasts in two languages from a studio on the Moon. Bush House is still its headquarters. The licence fee pays the entire cost and the Foreign Office pays nothing.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 5,
+        comment: "Reverted edits by [[Special:Contributions/192.0.2.46|192.0.2.46]] to last revision by HansardHannah. The about page says 45 languages. GOV.UK says 42 services. The audit says 42 other languages, and its footnote explains 43 and 41. They are not averaged.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: the footnote stays with the 45",
+        patch: [["The about page says 45. The audit's footnote gets from 43 to 41 without leaving the page.", "The about page says 45. The audit's own footnote gets from 43 to 41 without leaving the page."]],
+      },
+    ],
+    talk: {
+      user: "Thoenfan",
+      daysAgo: 1,
+      content: `== 45, 43, 42, or 41 ==
+Four numbers are in the sources. Can we pick the current one and drop the rest? ~~~
+
+: No. The about page says 45 languages including English, and a 2026 audience measure of about 467 million. GOV.UK says 42 language services. The National Audit Office, printed in November 2025, says 42 other languages, then in a footnote 43 including English, then 41 in the data set, because the Polish pilot opened in June 2025 and because Kinyarwanda and Kirundi are combined. The languages page says 45 and 313 million, and also 418 million for BBC News. Each figure stays tied to the page that printed it. [[User:HansardHannah|HansardHannah]] ([[User talk:HansardHannah|talk]]) 13:41, 8 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "The Boys (TV series)",
+    ratings: { helpful: [166, 14], funny: [149, 11] },
+    photoIdeas: {
+      documentary: { query: "The Boys Prime Video Homelander Karl Urban cast", webQuery: "The Boys TV series cast Prime Video photograph", caption: "The series. The December 2025 release set the last episode for 20 May 2026." },
+      humour: { webQuery: "empty press release folder illustration", generate: "A plain illustration of a labelled folder reading press releases, open and empty, beside a note that says Prime Video and a crossed-out line reading Amazon Prime Video. No actors, no logos, no blood.", caption: "A staged illustration of the editor's note and the empty releases line. Not a photograph from the show." },
+    },
+    revisions: [
+      {
+        user: "CubeWatch",
+        daysAgo: 10,
+        comment: "created article",
+        content: `'''The Boys''' is a Prime Video series. A December 2025 release set the last episode for 20 May 2026, and told editors not to call the service Amazon Prime Video.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Thoenfan",
+        daysAgo: 6,
+        comment: "expanded from the December 2025 Prime Video release, the season press site, Deadline, The Ringer, Collider and The Verge",
+        content: `{{true and funny|source=The 6 December 2025 release says: refer to the service as Prime Video, not Amazon Prime Video. The Verge's finale review calls it Amazon Prime's The Boys.}}
+{{Infobox
+| title = The Boys
+| first season = July 2019
+| final season, as announced = 8 April 2026, two episodes, then weekly
+| finale date on the release = 20 May 2026
+| episodes in the last season = eight
+| finale title = Blood and Bone, and Blood & Bone
+| the run, on one review page = 2019 - 2026-00-00
+}}
+
+'''The Boys''' is a Prime Video series developed by Eric Kripke from the comic by Garth Ennis and Darick Robertson. A Prime Video press release of 6 December 2025, from a panel at CCXP in Sao Paulo, says the fifth and final season would premiere on 8 April 2026 with two episodes, then a new episode each week, and end on 20 May 2026, in more than 240 countries and territories. A note at the top tells editors to call the service Prime Video, not Amazon Prime Video.<ref name="pr">"The Boys Explosive Final Season Premiere Date & Teaser Drop at CCXP Brazil", Prime Video press release, 6 December 2025. https://press.amazonmgmstudios.com/us/en/press-release/ithe-boysi-explosive-final-season-premiere-date-te</ref>
+
+== The page that cannot find itself ==
+The season's press site lists a launch date of 8 April 2026 and repeats the release's description of the final season, including the line "It's the climax, people. Big stuff's gonna happen." It names the same producers, Sony Pictures Television and Amazon MGM Studios with Kripke Enterprises, Original Film and Point Grey. The same page says "No press releases found," and under its asset counts it says "No records found."<ref name="site">"The Boys" season 5, Prime Video press site. https://press.amazonmgmstudios.com/us/en/original-series/the-boys/5</ref>
+
+Deadline's guide, published 7 April 2026, the day before the announced premiere, says season 5 would debut on Wednesday 8 April with two episodes, that it contains eight episodes, and that the finale would arrive on 20 May. It quotes a post by Kripke from 11 June 2024: "Season 5 will be the Final Season! Always my plan, I just had to be cagey till I got the final OK from Vought. Thrilled to bring the story to a gory, epic, moist climax." The same article quotes him saying he knew "that moment where the title card comes up and it says six months later," and that he could "write the last 10 pages of this story right now."<ref name="dl">Dessi Gomez, "Everything We Know About 'The Boys' Season 5 So Far", Deadline, 7 April 2026. https://deadline.com/feature/the-boys-season-5-everything-we-know-1236014576/</ref>
+
+== Blood and Bone ==
+The Ringer, on 20 May 2026, calls that day's episode Wednesday's finale and titles it "Blood and Bone," directed by Phil Sgriccia and written by Judalina Neira and David Reed. It says the first season premiered in July 2019, and that the show had then run seven years and five seasons. It says that by the end of the episode neither Butcher nor Homelander is left standing, and that Butcher kills Homelander with a crowbar in the Oval Office after Kimiko's abilities remove his powers. Kripke tells the magazine the series would not use the comic's ending, in which a clone had done Homelander's worst acts. The review says the franchise continues with the prequel Vought Rising and the spinoff The Boys: Mexico, and that Gen V had been cancelled.<ref name="ringer">Daniel Chin, "The Boys Bows Out on an Uncharacteristic Note", The Ringer, 20 May 2026. https://www.theringer.com/2026/05/20/tv/the-boys-series-finale-blood-and-bone-eric-kripke</ref>
+
+== The ampersand ==
+Collider, the same day, titles the finale "Blood & Bone" and calls it a final hour that feels rushed. Its information box prints the run as "2019 - 2026-00-00" and lists Erin Moriarty, Karen Fukuhara, Karl Urban, Jack Quaid and Eric Kripke under directors. The showrunner line says Eric Kripke.<ref name="col">Nate Richard, "The Boys Officially Ends on a Rushed but Mostly Satisfying Note", Collider, 20 May 2026. https://collider.com/the-boys-series-finale-recap-prime-video/</ref>
+
+== Amazon Prime, anyway ==
+The Verge, on 22 May 2026, says the series "concluded this week with its series finale," and calls the show "Amazon Prime's The Boys." It says the final season was eight episodes, and that once Homelander is stripped of his powers he cannot throw a punch.<ref name="verge">Tauriq Moosa, "The Boys limped through its last season, but made up for it with the finale", The Verge, 22 May 2026. https://www.theverge.com/entertainment/935482/the-boys-finale-review</ref>
+
+The December note asked editors not to write Amazon Prime Video. The May review uses Amazon Prime. The title on one review has an ampersand. The title on the other has the word and.<ref name="pr" /><ref name="verge" /><ref name="ringer" /><ref name="col" />
+
+The season page still says no press releases were found.<ref name="site" />
+
+== References ==
+{{reflist}}
+
+[[Category:Television]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "198.51.100.48",
+        daysAgo: 3,
+        comment: "wrong service",
+        content: `'''The Boys''' was cancelled after two episodes in 2019. Eric Kripke has said season 5 will never be made. The finale was called Blood and Water and aired on Netflix.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 3,
+        comment: "Reverted edits by [[Special:Contributions/198.51.100.48|198.51.100.48]] to last revision by Thoenfan. The 6 December 2025 release sets the finale for 20 May 2026 and says to write Prime Video, not Amazon Prime Video. The Ringer and Collider, both on 20 May 2026, review a finale that has aired. The season page still says no press releases were found.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 1,
+        minor: true,
+        comment: "copyedit: the empty press page stays last",
+        patch: [["The season page still says no press releases were found.", "The season's own press page still says no press releases were found."]],
+      },
+    ],
+    talk: {
+      user: "PollWatcher",
+      daysAgo: 1,
+      content: `== And, or ampersand ==
+The Ringer writes Blood and Bone. Collider writes Blood & Bone. Do we pick one title? ~~~
+
+: We keep both spellings next to the pages that use them. The Ringer, on 20 May 2026, titles the finale "Blood and Bone." Collider, the same day, titles it "Blood & Bone." The press site for the season still says no press releases were found, so the title is not settled there either. [[User:Thoenfan|Thoenfan]] ([[User talk:Thoenfan|talk]]) 11:47, 8 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "David Bowie",
+    ratings: { helpful: [220, 8], funny: [74, 16] },
+    photoIdeas: {
+      documentary: { query: "David Bowie Blackstar 2016 album", webQuery: "David Bowie Blackstar album cover January 2016", caption: "Blackstar, released 8 January 2016 on the official album page. He died two days later." },
+      humour: { webQuery: "two calendar pages Friday dates illustration", generate: "A plain illustration of two wall-calendar pages, one with 8 January circled and one with 9 January circled, beside a black five-pointed star cut from paper. No portrait, no album art copied.", caption: "A staged illustration of the two Fridays. Not a photograph of the album." },
+    },
+    revisions: [
+      {
+        user: "MonotremeMary",
+        daysAgo: 22,
+        comment: "created article",
+        content: `'''David Bowie''' died of cancer on 10 January 2016. He was 69. Blackstar had come out on his birthday. One report dates that Friday to the 9th.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "HansardHannah",
+        daysAgo: 15,
+        comment: "expanded from the BBC report, Rolling Stone, the official death note, the Blackstar album page, Sony Music UK and NME",
+        content: `{{true and funny|source=Sony and the official album page date Blackstar to 8 January 2016, his 69th birthday. NME dates that Friday to 9 January.}}
+{{Infobox
+| title = David Bowie
+| born = David Robert Jones, 8 January 1947
+| died = 10 January 2016, cancer, aged 69
+| the family's sentence = peacefully, after an 18-month battle
+| Blackstar, album page = 8 January 2016
+| Blackstar, NME = Friday 9 January
+| studio albums = 25 on the BBC tally, the 28th on Sony's release note
+}}
+
+'''David Bowie''' died of cancer at the age of 69. The BBC, on 11 January 2016, reported a statement from his social media accounts that he "died peacefully, surrounded by his family" after an "18-month battle with cancer." His official site, posted by Mark Adams and dated Sunday 01.10.16, prints the sentence as: "David Bowie died peacefully today surrounded by his family after a courageous 18 month battle with cancer."<ref name="bbc">"David Bowie dies of cancer aged 69", BBC News, 11 January 2016. https://www.bbc.com/news/entertainment-arts-35278872</ref><ref name="site">"January 10 2016", David Bowie official site. https://www.davidbowie.com/2016/2016/01/11/january-10-2016</ref>
+
+Rolling Stone, the same day, quotes the statement with the word courageous and the word today, and says a representative confirmed the death. It says he was 69. Ivo van Hove, who directed the play Lazarus, told the magazine's account that Bowie had said he was battling liver cancer and would not attend every rehearsal. The family's statement, on the official site and in the Rolling Stone quotation, says cancer, and does not name an organ.<ref name="rs">Kory Grow, "David Bowie Dead at 69", Rolling Stone, 11 January 2016. https://www.rollingstone.com/music/music-news/david-bowie-dead-at-69-34429/</ref><ref name="site" />
+
+== The Friday ==
+The BBC says he released Blackstar "only last Friday, his birthday." Sony Music's UK release note, dated 8 January 2016, says the album came out that day, his 69th birthday, and calls it his 28th studio album, produced with Tony Visconti. The official album page says "Released: January 8, 2016," on ISO, Columbia and Sony, produced by David Bowie and Tony Visconti. The artwork credit includes a star image from NASA.<ref name="bbc" /><ref name="sony">"David Bowie releases Blackstar", Sony Music UK, 8 January 2016. https://www.sonymusic.co.uk/david-bowie-releases-blackstar/</ref><ref name="album">"Blackstar", David Bowie official site. https://www.davidbowie.com/blackstar</ref>
+
+NME, on 11 January 2016, says Blackstar "was released on Friday (January 9)." It quotes Tony Visconti: "His death was no different from his life – a work of Art. He made Blackstar for us, his parting gift." The BBC quotes the same two ideas in a different casing and a different dash: a "parting gift," and "His death was no different from his life - a work of art."<ref name="nme">David Renshaw, "Producer Tony Visconti: David Bowie's final album a parting gift to fans", NME, 11 January 2016. https://www.nme.com/news/music/david-bowie-164-1196249</ref><ref name="bbc" />
+
+The album page lists seven tracks and a video: Blackstar; 'Tis a Pity She Was a Whore; Lazarus; Sue (Or in a Season of Crime); Girl Loves Me; Dollar Days; I Can't Give Everything Away.<ref name="album" />
+
+== John, and Johan ==
+Sony says the videos for the single and for Lazarus were directed by "Breaking Bad Director John Renck." The album page credits photography to Jimmy King and Johan Renck.<ref name="album" /><ref name="sony" />
+
+== 25, or the 28th ==
+The BBC's tally on the day of the death says 25 studio albums, including Blackstar, 140 million albums sold since a first release in 1967, 111 singles, and 51 music videos. It puts an estimated net worth at 135 million pounds, with an asterisk. It says Blackstar was on course to be number one in Britain that Friday, with combined sales of more than 43,000. Sony's note, three days earlier, calls the new record the 28th studio album.<ref name="bbc" /><ref name="sony" />
+
+The BBC says he was born David Jones in Brixton on 8 January 1947, and changed his name in 1966 after Davy Jones of the Monkees became famous. Rolling Stone says David Robert Jones, born 8 January 1947 in a working-class London suburb, father Heywood Jones, mother Margaret Mary Jones, a waitress. He started saxophone at 13. The name Bowie, Rolling Stone says, was taken from the knife, so he would not be confused with Davy Jones. NME says he released a first studio album in 1969, "having changed his name from David Jones the year before."<ref name="bbc" /><ref name="rs" /><ref name="nme" />
+
+== What the pages list, and then stop ==
+The BBC lists Let's Dance, Changes, Space Oddity, Starman, Modern Love, Heroes, Under Pressure, Rebel Rebel and Life on Mars, and the alter ego Ziggy Stardust. It lists film roles including The Man Who Fell to Earth and Labyrinth. It says his last live performance was a New York charity concert in 2006, that The Next Day in 2013 was his first British number one in 20 years, and that Lazarus, a musical using his songs, had opened in New York the previous month. His son Duncan Jones wrote that it was true. NME also puts the last live performance in 2006, and says Visconti first worked with him on Space Oddity in 1969.<ref name="bbc" /><ref name="nme" />
+
+Rolling Stone says the 1967 album charted poorly in Britain and not at all in the United States, and that van Hove said Bowie was still writing on his deathbed.<ref name="rs" />
+
+The official site asks for the family's privacy. It gives the date as Sunday, 10 January 2016.<ref name="site" />
+
+NME's Friday is the 9th. Sony's Friday is the birthday, the 8th.<ref name="nme" /><ref name="sony" />
+
+== References ==
+{{reflist}}
+
+[[Category:Musicians]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "192.0.2.49",
+        daysAgo: 9,
+        comment: "fixed the death",
+        content: `'''David Bowie''' died of a heart attack in 2004 at the age of 57. Blackstar came out in 2014. His name was always Bowie.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 9,
+        comment: "Reverted edits by [[Special:Contributions/192.0.2.49|192.0.2.49]] to last revision by HansardHannah. The BBC headline is cancer, aged 69. The official site says he died peacefully on 10 January 2016 after an 18-month battle with cancer. Blackstar's album page says 8 January 2016. NME says 9 January.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 4,
+        minor: true,
+        comment: "copyedit: the two Fridays stay in the last line",
+        patch: [["NME's Friday is the 9th. Sony's Friday is the birthday, the 8th.", "NME's Friday is the 9th. Sony's date is the birthday, the 8th."]],
+      },
+    ],
+    talk: {
+      user: "Skinnerbox",
+      daysAgo: 3,
+      content: `== Which Friday ==
+Sony says 8 January. NME says the release was Friday 9 January. The BBC says last Friday, his birthday. What date do we print for the album? ~~~
+
+: 8 January, and the disagreement beside it. The official album page says released 8 January 2016. Sony's note of that day calls it his 69th birthday. The death statement on the official site is dated Sunday 01.10.16, which is 10 January. NME, on 11 January, writes "Friday (January 9)." The article does not correct NME in silence. It quotes the parenthesis. [[User:HansardHannah|HansardHannah]] ([[User talk:HansardHannah|talk]]) 19:02, 8 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Off Campus",
+    ratings: { helpful: [84, 6], funny: [139, 5] },
+    photoIdeas: {
+      documentary: { query: "Off Campus Prime Video Ella Bright Belmont Cameli", webQuery: "Off Campus TV series Ella Bright Garrett hockey still", caption: "Ella Bright and Belmont Cameli in Off Campus. The pages set the whole first season for 13 May 2026." },
+      humour: { webQuery: "two name cards Ella Elle illustration", generate: "A plain illustration of two library cards for the same book, one stamped Ella Kennedy and one stamped Elle Kennedy, beside a black water bottle on a stair. No actors' faces, no logos.", caption: "A staged illustration of the two spellings of the author's name. Not a photograph from the set." },
+    },
+    revisions: [
+      {
+        user: "PollWatcher",
+        daysAgo: 8,
+        comment: "created article",
+        content: `'''Off Campus''' is a Prime Video series from a book series. Variety spells the author Ella Kennedy. The other announcements spell her Elle Kennedy.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Anonyfish",
+        daysAgo: 5,
+        comment: "expanded from Variety, two Deadline stories, the Prime Video release, Newsweek and Elite Daily",
+        content: `{{true and funny|source=Variety's 19 March 2026 story spells the author Ella Kennedy and, in the same article, spells the actor Belmont Camelli and Belmont Cameli. Deadline, Prime Video and Newsweek spell her Elle Kennedy.}}
+{{Infobox
+| title = Off Campus
+| premiere, as announced = 13 May 2026, whole season at once
+| episodes = eight, between 46 and 56 minutes
+| author, on Variety = Ella Kennedy
+| author, on the other pages = Elle Kennedy
+| Hannah = Ella Bright
+| Garrett = Belmont Cameli, and, once, Belmont Camelli
+| season 2 = renewed before the premiere; in production on 13 May 2026
+}}
+
+'''Off Campus''' is a Prime Video series from the books about a college hockey team. Variety, on 19 March 2026, says it is "based on Ella Kennedy's book series," that the entire first season would debut on 13 May, and that it had an early season 2 renewal in February. The sentence that names the leads calls the hockey player "Garrett (Belmont Camelli)." The photo captions on the same page call him Belmont Cameli.<ref name="var">Joe Otterson, "Off Campus TV Series Sets Amazon Release Date, Drops First Teaser", Variety, 19 March 2026. https://variety.com/2026/tv/news/off-campus-tv-series-amazon-release-date-first-teaser-1236693292/</ref>
+
+== The note to editors ==
+Prime Video's own release, also dated 19 March 2026, says the series is "based on the international bestselling book series from Elle Kennedy," created for television by Louisa Levy, with all episodes on Prime Video on 13 May 2026 in more than 240 countries and territories. It says Kennedy "is a New York Times, USA Today and Wall Street Journal bestselling author of more than 50 contemporary fiction and romance novels," translated into over 25 languages, with over 10 million copies sold. A note to editors says to refer to the service as Prime Video, not Amazon Prime Video. Variety's first sentence calls it Amazon Prime Video.<ref name="prime">"The Game is On and the Gloves are Coming Off", Prime Video press release, 19 March 2026. https://press.amazonmgmstudios.com/us/en/press-release/the-game-is-on-and-the-gloves-are-coming-off-prime</ref><ref name="var" />
+
+== Elle, on every page but that one ==
+Deadline, on 23 April 2026, says the series is based on Elle Kennedy's books, and that season 1 is based on the first book, The Deal. It names Ella Bright as Hannah and Belmont Cameli as Garrett, and Josh Heuston as Justin. It says all episodes would drop at once on 13 May, in more than 240 countries and territories, and that the series had already been renewed for a second season. Louisa Levy and Gina Fattore are co-showrunners and executive producers. Wyck Godfrey, Marty Bowen and James Seidman executive produce for Temple Hill.<ref name="dlapr">Denise Petski and Dessi Gomez, "Off Campus Unveils Official Trailer For Amazon's Steamy College Romance Series", Deadline, 23 April 2026. https://deadline.com/2026/04/off-campus-release-date-trailer-elle-kennedy-books-amazon-1236760242/</ref>
+
+The cast lists agree on Ella Bright, Mika Abdalla, Antonio Cipriano, Jalen Thomas Brooks and Josh Heuston. Variety's list of series regulars says Stephen Kalyn. A caption on the same Variety page says Stephen Thomas Kalyn. Deadline's April captions also use Stephen Thomas Kalyn. Prime's release says Stephen Kalyn.<ref name="var" /><ref name="dlapr" /><ref name="prime" />
+
+== The deal, and a bottle ==
+Deadline's April story says Hannah, called Wellsy in one line, asks: "So what, I help you study and you play my fake boyfriend to get Justin's attention?" It says a black hydroflask rolling down the stairs of a lecture hall is what gets Justin to see them. A voice in the trailer says, "Garrett Graham doesn't do girlfriends."<ref name="dlapr" />
+
+On 13 May 2026, the day of the premiere, Deadline interviewed Bright and Cameli and described the season as having "entered the hockey rink." Hannah Wells is a singer-songwriter. Garrett Graham captains Briar University's hockey team. Justin Kohl, played by Heuston, is the crush in the band. Bright said the opening, set to "Dancing With Myself," was filmed in the first week, wrapped around 3 a.m., and that she was mopping a wet floor and almost slipped. Cameli said she had already done a "Bitch Is Back" sequence for about 13 hours that day, and that his own skating was mostly a double. Steve Howie plays Phil Graham, Garrett's father. The showrunner, the article says, described Phil as not a good guy.<ref name="dlmay">Dessi Gomez, "Off Campus Stars Ella Bright & Belmont Cameli Talk Season 1", Deadline, 13 May 2026. https://deadline.com/2026/05/off-campus-ella-bright-belmont-cameli-interview-season-1-1236899959/</ref>
+
+== Eight episodes, and a fifth season that is not this one ==
+Newsweek, published 13 May 2026 at 9:00 a.m. Eastern, says Elle Kennedy's Off Campus is a five-book series, that season 1 is inspired by The Deal, and that all eight episodes land at once, at 12 a.m. Pacific, or 3 a.m. Eastern. Episodes run between 46 and 56 minutes. It says the book won the Goodreads Choice Award for romance in 2015 and has over 1 million ratings on Goodreads. It says season 2 has been confirmed. In the how-to-watch section it says a subscription is required "to watch Off Campus Season 5," and gives Prime Video at 14.99 dollars a month, or 139 dollars a year with Amazon Prime, or 8.99 dollars a month for the service alone.<ref name="nw">Billie Melissa, "Off Campus Season 1 - Release Date, Schedule, How to Watch", Newsweek, 13 May 2026. https://www.newsweek.com/entertainment/tv/off-campus-season-1-release-date-schedule-how-to-watch-11944580</ref>
+
+Elite Daily, the same morning, spells the leads Belmont Cameli and Ella Bright, says the first season "fully adapted the 2015 novel The Deal," and says season 2 was in production. Cameli says the intimate scenes were "really tricky to get right," and that an intimacy coordinator was on set.<ref name="ed">Dylan Kickham, "Belmont Cameli & Ella Bright Say Their Off Campus Sex Scenes Were Tricky", Elite Daily, 13 May 2026. https://www.elitedaily.com/entertainment/belmont-cameli-ella-bright-off-campus-sex-scenes-interview</ref>
+
+Variety's page is the one that spells the author Ella. The others spell her Elle. The article does not choose.<ref name="var" /><ref name="dlapr" /><ref name="prime" /><ref name="nw" />
+
+Newsweek, on the morning the eight episodes arrived, told readers how to watch season 5.<ref name="nw" />
+
+== References ==
+{{reflist}}
+
+[[Category:Television]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "203.0.113.50",
+        daysAgo: 2,
+        comment: "same person",
+        content: `'''Off Campus''' is a documentary about the University of Singapore, released in 2019 on Netflix. Elle Kennedy and Ella Kennedy are the same actress. There is no second season.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.50|203.0.113.50]] to last revision by Anonyfish. Variety on 19 March 2026 spells the author Ella Kennedy. Prime Video the same day, and Deadline, spell her Elle Kennedy. Newsweek on 13 May says eight episodes of season 1, then tells readers how to watch season 5.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 1,
+        minor: true,
+        comment: "copyedit: season 5 stays where Newsweek put it",
+        patch: [["Newsweek, on the morning the eight episodes arrived, told readers how to watch season 5.", "Newsweek, on the morning the eight episodes of season 1 arrived, told readers how to watch season 5."]],
+      },
+    ],
+    talk: {
+      user: "CubeWatch",
+      daysAgo: 1,
+      content: `== Ella or Elle ==
+Variety spells the novelist Ella Kennedy. Deadline and Prime Video spell her Elle Kennedy. Which name is the article's? ~~~
+
+: Neither one alone. Variety, on 19 March 2026, writes "Ella Kennedy's book series" and also spells the actor Belmont Camelli in the text and Belmont Cameli in the captions. Prime Video's release of the same day, Deadline on 23 April and on 13 May, and Newsweek on 13 May all write Elle Kennedy. The article quotes Variety's spelling as Variety's, and the other spelling as the other pages'. It does not merge them. [[User:Anonyfish|Anonyfish]] ([[User talk:Anonyfish|talk]]) 12:26, 9 October 2026 (UTC)
+`,
+    },
+  },
 ];
