@@ -1517,4 +1517,1047 @@ If he wrote it alone, the credit is a mistake and the article should correct it.
 `,
     },
   },
+  {
+    title: "Margaret Qualley",
+    ratings: { helpful: [142, 7], funny: [188, 9] },
+    photoIdeas: {
+      documentary: { query: "Margaret Qualley Cannes 2024 Kinds of Kindness", webQuery: "Margaret Qualley Cannes 2024 Kinds of Kindness red carpet photo", caption: "Margaret Qualley at Cannes, May 2024, with two films in competition." },
+      humour: { webQuery: "movie title misspelled on a printed ticket stub photo", generate: "A close-up of a film-festival ticket printed with the title THE SUBTANCE, pastel couture fabric out of focus behind it, documentary photograph", caption: "Not her ticket. Variety's own story spelled the title Subtance in the body and Substance in the headline." },
+    },
+    revisions: [
+      {
+        user: "Ornithopod",
+        daysAgo: 18,
+        comment: "created article",
+        content: `'''Margaret Qualley''' had two films in competition at Cannes in 2024. One of them stood up for eleven minutes.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "HansardHannah",
+        daysAgo: 11,
+        comment: "expanded from Variety, Searchlight, A24, Chanel and MUBI",
+        content: `{{true and funny|source=Variety, 22 May 2024: an 11-minute ovation, and the title spelled Subtance in the body.}}
+{{Infobox
+| title = Margaret Qualley
+| Cannes 2024 = two competition films
+| ovations = 4.5 minutes, then 11
+| Kindness = in theaters 21 June 2024
+| Substance = 141 minutes, on MUBI
+| ambassador = Chanel
+}}
+
+'''Margaret Qualley''' went to the 2024 Cannes Film Festival with two films in competition, and the trade paper that interviewed her spelled one of the titles wrong in the story.
+
+== Two premieres ==
+Variety's Angelique Jackson filed the interview on 22 May 2024. Qualley called the fortnight surreal. She was one of the only actors with two films premiering in competition: Yorgos Lanthimos's black comedy ''Kinds of Kindness'' and Coralie Fargeat's body-horror film ''The Substance''.<ref name="variety">Angelique Jackson, "Margaret Qualley Talks 'Surreal' Experience of Pulling Double Duty at Cannes with 'Kinds of Kindness' and 'The Substance'", Variety, 22 May 2024. https://variety.com/2024/film/news/cannes-margaret-qualley-kinds-of-kindness-the-substance-chanel-1236012305/</ref>
+
+It was her third Cannes. The first was in 2012, when she walked the carpet with Andie MacDowell. The second was in 2022, opposite Joe Alwyn in Claire Denis's ''Stars at Noon'', her debut there as an actor. She told Variety she had been a deer in the headlights the first time, and that she adored Denis. On this trip she said she felt lucky and was trying to enjoy every step.<ref name="variety" />
+
+A24's page for ''Stars at Noon'' dates the film 2022, credits Denis, and lists the cast as Margaret Qualley, Joe Alwyn, John C. Reilly, Benny Safdie, and Nick Romano. The synopsis is a young American journalist stranded in present-day Nicaragua who falls for an Englishman and then decides he may be in more danger than she is. The film is adapted from Denis Johnson's novel.<ref name="a24">"Stars at Noon", A24. https://a24films.com/films/stars-at-noon</ref>
+
+== The spelling ==
+The Variety headline spells the horror title correctly. The body does not. For the press events she wore couture Chanel and, in the article's spelling, designs for "The Subtance". On Sunday night, the same misspelling "blew the roof off the Palais" with an 11-minute standing ovation. ''Kinds of Kindness'' had already taken 4.5 minutes of applause.<ref name="variety" />
+
+She described 2,000 people standing and clapping while a camera took close-ups of her face. "You don't feel much. You're just like, 'What face do I make?' You feel a lot and nothing." She also said a movie in that theater is special regardless.<ref name="variety" />
+
+For the premieres she wore two pastel dresses from Chanel's spring/summer 2024 haute couture and vintage head jewelry from the 1930s. She credited creative director Virginie Viard and compared being a fan of the clothes to being a fan of Lanthimos. Variety calls her a Chanel ambassador.<ref name="variety" />
+
+== Three parts, one triptych ==
+Searchlight's page calls ''Kinds of Kindness'' a triptych fable: a man without choice who tries to take control of his life; a policeman alarmed that his wife, missing at sea, has returned and seems a different person; and a woman determined to find someone with a special ability who is destined to become a prodigious spiritual leader. Lanthimos directed. He and Efthimis Filippou wrote it. The cast list runs Emma Stone, Jesse Plemons, Willem Dafoe, Margaret Qualley, Hong Chau, Joe Alwyn, Mamoudou Athie, Hunter Schafer.<ref name="kok">"Kinds of Kindness", Searchlight Pictures. https://www.searchlightpictures.com/kinds-of-kindness</ref>
+
+The press page adds a date the consumer page does not: in theaters everywhere 21 June 2024. It repeats the triptych synopsis and the same cast order, with Qualley fourth.<ref name="press">"Kinds of Kindness", Searchlight Pictures Press. https://press.searchlightpictures.com/kinds-of-kindness</ref>
+
+Variety says she had three characters in that film and that the interview goes into how she wove them together. The studio pages list her once.<ref name="variety" /><ref name="kok" />
+
+Searchlight is also selling the soundtrack as a Waxwork Records picture disc, artwork by Vasilis Marmatakis, housed in a crystal clear poly-bag.<ref name="kok" />
+
+She had already worked with Lanthimos on ''Poor Things''. Searchlight's page for that film is the story of Bella Baxter, brought back to life by Dr. Godwin Baxter, played by Willem Dafoe, and running off with a lawyer played by Mark Ruffalo. Margaret Qualley is in the cast list, between Vicki Pepperdine and Hanna Schygulla. The page does not assign her a role.<ref name="poor">"Poor Things", Searchlight Pictures. https://www.searchlightpictures.com/poor-things/</ref>
+
+== The library ==
+Chanel's own page for a literary rendez-vous calls her an actress and House ambassador and says she talks about how reading has enchanted her since childhood. The bibliographic record on that page includes a credit line for J.K. Rowling, 2000, ''Harry Potter and the Goblet of Fire''.<ref name="chanel">"In the Library with Margaret Qualley", Chanel. https://www.chanel.com/us/fashion/event/literary-rendez-vous-margaret-qualley-library/</ref>
+
+== The other page ==
+MUBI's page for ''The Substance'' names Coralie Fargeat, the year 2024, the countries United States and United Kingdom, the genre horror, and a running time of 141 minutes. It calls the film Fargeat's Oscar-winning latest feature and says it is powered by a performance from Demi Moore. The page does not contain the name Margaret Qualley.<ref name="mubi">"The Substance", MUBI. https://mubi.com/en/us/films/the-substance</ref>
+
+Variety can get the ovation to eleven minutes and the spelling to Subtance. The streaming page can get the film to 141 minutes and leave her off it.
+
+== References ==
+{{reflist}}
+
+[[Category:Film]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "203.0.113.21",
+        daysAgo: 6,
+        comment: "she directed the Palme",
+        content: `'''Margaret Qualley''' won the Palme d'Or as a director in 2012, at age 9, for a film called The Subtance 2. Chanel lists her as creative director.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 6,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.21|203.0.113.21]] to last revision by HansardHannah. Variety, 22 May 2024, has her as an actor in two competition films, not a director, and dates her first Cannes to 2012 as a visitor.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: the poly-bag line was doing two jobs",
+        patch: [["housed in a crystal clear poly-bag.", "housed in a crystal-clear poly-bag."]],
+      },
+    ],
+    talk: {
+      user: "PollWatcher",
+      daysAgo: 4,
+      content: `== Subtance ==
+
+The body of the Variety piece spells the title Subtance. Are we keeping a typo? ~~~
+
+: Keeping it, labeled as Variety's spelling. The headline on the same story uses Substance. The 22 May 2024 piece is at https://variety.com/2024/film/news/cannes-margaret-qualley-kinds-of-kindness-the-substance-chanel-1236012305/ and the misspelling is in the paragraphs about the press events and the Sunday ovation. MUBI's page for the film, https://mubi.com/en/us/films/the-substance , spells it correctly and does not name her. We do not correct another office's page by silent edit. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 14:20, 6 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Teyana Taylor",
+    ratings: { helpful: [119, 5], funny: [96, 11] },
+    photoIdeas: {
+      documentary: { query: "Teyana Taylor One Battle After Another Perfidia", webQuery: "Teyana Taylor One Battle After Another film still Perfidia", caption: "Teyana Taylor as Perfidia Beverly Hills. The Globes film page gives her the supporting prize." },
+      humour: { webQuery: "award show envelope close up photograph", caption: "An envelope, not her Globe. The person page files one win. The film page files the picture and the director on other lines." },
+    },
+    revisions: [
+      {
+        user: "Thoenfan",
+        daysAgo: 16,
+        comment: "created article",
+        content: `'''Teyana Taylor''' won a Golden Globe for supporting actress. The film she is in also won the picture.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Skinnerbox",
+        daysAgo: 9,
+        comment: "expanded from the Golden Globes pages, Focus Features and her own music list",
+        content: `{{true and funny|source=Golden Globes film page: the picture won, the director won, and her supporting prize is a separate line.}}
+{{Infobox
+| title = Teyana Taylor
+| Globe = supporting actress, 2026
+| role = Perfidia Beverly Hills
+| album = Escape Room
+| Sundance = Grand Jury Prize, 27 January 2023
+| runtime = 1 hour 57 minutes
+}}
+
+'''Teyana Taylor''' won a Golden Globe in 2026 for a supporting performance, and the film page and the person page do not file that fact in the same size.
+
+== The Globe ==
+The Golden Globes person page gives her one nomination and one win. It says she starred in Paul Thomas Anderson's ''One Battle After Another'' as Perfidia Beverly Hills. On the music side it says her album ''Escape Room'' earned a Grammy nomination for Best R&B Album. It lists a next role opposite Matt Damon and Ben Affleck in Netflix's ''The Rip'', and a first feature she is set to direct, ''Get Lite'', for Paramount. Other credits on that page include Ryan Murphy's ''All's Fair'' on Hulu, ''Straw'' on Netflix, ''A Thousand and One'', ''The Book of Clarence'', ''Coming 2 America'', the 2023 ''White Men Can't Jump'', and a run of earlier titles down to ''Stomp the Yard 2: Homecoming''.<ref name="gg">"Teyana Taylor", Golden Globes. https://goldenglobes.com/person/teyana-taylor/</ref>
+
+The separate film page for ''One Battle After Another'' names her in the cast with Leonardo DiCaprio, Sean Penn, Benicio del Toro, Regina Hall, and Chase Infiniti. The awards block on that page is longer than the person page. The film won Best Motion Picture, Musical or Comedy, for 2026. Chase Infiniti is a nominee for lead actress in that category. DiCaprio is a nominee for lead actor. Taylor is the 2026 winner for Best Performance by a Female Actor in a Supporting Role in any Motion Picture. Del Toro and Penn are nominees for supporting actor. Paul Thomas Anderson won Best Director.<ref name="film">"One Battle After Another", Golden Globes. https://goldenglobes.com/film/one-battle-after-another/</ref>
+
+The person page's arithmetic is one and one. The film page's arithmetic is a picture, a director, and her supporting prize, plus four other nominations that are not hers.
+
+== The kidnapping, as the studio tells it ==
+Focus Features' page for ''A Thousand and One'' rates it R, dates it 31 March 2023, calls it a drama, and times it at 1 hour 57 minutes. Inez, played by Teyana Taylor, kidnaps her six-year-old son Terry from the foster care system. Mother and son hold onto the secret and try to reclaim home, identity, and stability in a changing New York. The cast is Teyana Taylor, Will Catlett, Josiah Cross, Aven Courtney, Aaron Kingsley Adetola. A.V. Rockwell wrote and directed. The producers are Eddie Vaisman, Julia Lebedev, Lena Waithe, Rishi Rajani, and Brad Weston.<ref name="focus">"A Thousand and One", Focus Features. https://www.focusfeatures.com/a-thousand-and-one</ref>
+
+Focus had already announced the Sundance premiere, on 7 December 2022, for Sunday 22 January 2023 at 5:30 p.m. The same release uses the kidnapping sentence and calls the film Rockwell's feature-length debut.<ref name="ann">"A Thousand and One and Polite Society Head to Sundance", Focus Features, 7 December 2022. https://www.focusfeatures.com/article/announcement_sundance-2023</ref>
+
+On 27 January 2023 Focus reported that the film had won the Grand Jury Prize at Sundance in Park City. The premiere date in that piece is 22 January. The theatrical date is still 31 March 2023. Focus quotes the festival site calling it an elegant ode to family, and quotes a Variety review on survivorship. The prize paragraph does not add a second trophy.<ref name="sun">"A Thousand and One wins Grand Jury Prize at Sundance Film Festival", Focus Features, 27 January 2023. https://www.focusfeatures.com/article/a-thousand-and-one_sundance-film-festival</ref>
+
+== The discography, as her site files it ==
+Her own site lists the releases without the Globe. The music page carries ''Escape Room'', ''Bed of Roses'' with Wale, ''Long Time'', ''The Album'', ''K.T.S.E.'', and ''VII (Deluxe)''. The video list includes "Hard Part" with Lucky Daye from ''The Tonight Show Starring Jimmy Fallon'', a short film called ''Escape Room'', "Bed of Roses" with Issa Rae, and "Long Time".<ref name="site">"Teyana Taylor", official site. https://www.teyanataylor.com/</ref>
+
+The Globe page and the site agree on the album title. Neither page prints a sales figure. The Grammy line is a nomination, not a win, and it sits on the same person page as the Globe win.
+
+== What the two Globe pages are for ==
+One page is a person, and it compresses 2026 into a single win beside a Grammy nomination for ''Escape Room''. The other page is a film, and it spends a block of lines on who won the picture, who won directing, and who won supporting. Her name is on the supporting line.
+
+The kidnapping is 1 hour and 57 minutes. The Globe win is one line, unless you open the other page.
+
+== References ==
+{{reflist}}
+
+[[Category:Film]]
+[[Category:Music]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "198.51.100.14",
+        daysAgo: 5,
+        comment: "grammy count",
+        content: `'''Teyana Taylor''' has eight Grammy wins for a 2019 song called Glade Plugin, and she directed One Battle After Another. The Golden Globe was for best director.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 5,
+        comment: "Reverted edits by [[Special:Contributions/198.51.100.14|198.51.100.14]] to last revision by Skinnerbox. The Golden Globes person page lists one win, for supporting actress, and a Grammy nomination for Escape Room, not eight wins and not a directing prize.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: the arithmetic line was louder than the pages",
+        patch: [["The person page's arithmetic is one and one.", "The person page's count is one and one."]],
+      },
+    ],
+    talk: {
+      user: "Anonyfish",
+      daysAgo: 3,
+      content: `== One win or three ==
+
+The person page says one win. The film page has the picture and the director as well. Should the lead say she won three? ~~~
+
+: No. The person page at https://goldenglobes.com/person/teyana-taylor/ states one nomination and one win, and places that win on her supporting performance. The film page at https://goldenglobes.com/film/one-battle-after-another/ gives Best Motion Picture and Best Director to the film and to Paul Thomas Anderson, and gives her the supporting-actress line. Those are not her three wins. The article keeps both pages and does not add them. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 09:41, 7 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Emily Blunt",
+    ratings: { helpful: [167, 8], funny: [201, 6] },
+    photoIdeas: {
+      documentary: { query: "Emily Blunt Oppenheimer film still", webQuery: "Emily Blunt Oppenheimer Katherine 2023 still", caption: "Emily Blunt in Oppenheimer. Universal's home-video page puts the cinematographer on the director line." },
+      humour: { webQuery: "clipboard and high heels on a film set floor photo", caption: "Not her clipboard. She told GMA she fell, clipboard and all, practically on Meryl Streep, on the first day of The Devil Wears Prada." },
+    },
+    revisions: [
+      {
+        user: "CubeWatch",
+        daysAgo: 20,
+        comment: "created article",
+        content: `'''Emily Blunt''' fell on Meryl Streep, clipboard and all, on the first day of The Devil Wears Prada.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "MonotremeMary",
+        daysAgo: 12,
+        comment: "expanded from Good Morning America, two BAFTA PDFs, Universal and Disney",
+        content: `{{true and funny|source=Universal Pictures at Home: Hoyte van Hoytema is on the Directed By line with Christopher Nolan.}}
+{{Infobox
+| title = Emily Blunt
+| first Oscar nomination = Oppenheimer
+| BAFTA nominations = 3, none bolded as wins
+| Prada = 2006, first big movie
+| Poppins = 19 December 2018, 2 hours 10 minutes
+| train = 2016, 1 hour 52 minutes
+}}
+
+'''Emily Blunt''' has three BAFTA Film nominations on the academy's own list, and the home-video page for ''Oppenheimer'' files the cinematographer under Directed By.
+
+== The clipboard ==
+On 18 September 2024 she sat with Good Morning America. The piece says she had been nominated earlier that year for her first Academy Award, for ''Oppenheimer'' (2023). The interview was about ''The Devil Wears Prada'' (2006) and ''A Quiet Place'' (2018). A line at the foot of the same article says she sat with GMA at the American Institute for Stuttering gala to reflect on how stuttering paved the way for her career.<ref name="gma">Carson Blackwelder, "Emily Blunt reflects on 'The Devil Wears Prada,' 'A Quiet Place'", Good Morning America, 18 September 2024. https://www.goodmorningamerica.com/culture/story/emily-blunt-reflects-devil-wears-prada-quiet-place-113816407</ref>
+
+Her first day on ''The Devil Wears Prada'' was, in her words, nerve-racking, because it was her first big movie. She remembered Anne Hathaway being kind, and director David Frankel letting people improvise. The detail she kept from that day was physical. A scene required her to run down a corridor in high heels. She said she is not very good at walking in them. She fell, practically on Meryl Streep, clipboard and all, clattering to the floor. Streep did not break character. Blunt remembered the sound as "Oh, oh, oh."<ref name="gma" />
+
+She called the film her first foray into comedy and said the method was to throw the kitchen sink at it. Stanley Tucci would have ten different reads of a line. Streep changed it every take.<ref name="gma" />
+
+Twelve years later she was in ''A Quiet Place'', which John Krasinski directed. She said she had not done horror like that before, and that she had never realized how tiring it is to be constantly hyperventilating and terrified.<ref name="gma" />
+
+== Three nominations, printed without a win ==
+BAFTA's PDF of previous nominations and wins, prepared for the ceremony of Sunday 18 February 2024, says wins are in bold and that years refer to the year of presentation. Under Supporting Actress it lists Emily Blunt with three nominations: 2024, Supporting Actress, ''Oppenheimer''; 2017, Leading Actress, ''The Girl on the Train''; 2007, Supporting Actress, ''The Devil Wears Prada''. It adds the Britannia Award in 2009 and a Rising Star nomination in 2007. Her lines are not bold. On the next page, Da'Vine Joy Randolph's 2024 supporting-actress line for ''The Holdovers'' is the win in that category.<ref name="bafta">"EE BAFTA Film Awards, Sunday 18 February 2024, Previous Nominations and Wins", BAFTA. https://static.bafta.org/uploads_pre_202411/2024eebaftafilmawardspreviousnomineesswinners.pdf</ref>
+
+A second BAFTA PDF, nominations by film, gives ''Oppenheimer'' thirteen nominations and names Supporting Actress: Emily Blunt, on the same list as Leading Actor Cillian Murphy and Supporting Actor Robert Downey Jr.<ref name="noms">"EE BAFTA Film Awards 2024 Nominations by Film", BAFTA. https://static.bafta.org/uploads_pre_202411/2024eebaftafilmawardnomsbyfilmsanddistributor2.pdf</ref>
+
+== The director line ==
+Universal's home-video page for ''Oppenheimer'' stars Cillian Murphy, Emily Blunt, Matt Damon, Rami Malek, Kenneth Branagh, Robert Downey Jr., Florence Pugh, Josh Hartnett, and Casey Affleck. The Directed By line reads Christopher Nolan, Hoyte van Hoytema. Genres are thriller, drama, war. Release year 2023. Run time 3 hours 1 minute. The rating is R, for some sexuality, nudity and language.<ref name="uni">"Oppenheimer", Universal Pictures at Home. https://www.universalpicturesathome.com/movies/oppenheimer</ref>
+
+Hoyte van Hoytema is the name BAFTA's nominations PDF puts under Cinematography, not under Director. Director on that PDF is Christopher Nolan alone.<ref name="noms" /> The home-video page has put the two names on one line.
+
+== The train and the carpet bag ==
+Universal's page for ''The Girl on the Train'' says the film is based on Paula Hawkins's thriller. Rachel, played by Emily Blunt, devastated by her recent divorce, spends her commute fantasizing about a couple whose house the train passes every day. The release year is 2016. The run time is 1 hour 52 minutes. The rating is R, for violence, sexual content, language and nudity. Tate Taylor is the director. The copyright line is 2016.<ref name="train">"The Girl on the Train", Universal Pictures at Home. https://www.universalpicturesathome.com/movies/the-girl-on-the-train</ref>
+
+Disney's page for ''Mary Poppins Returns'' rates it PG, times it at 2 hours 10 minutes, and dates the release 19 December 2018. Rob Marshall directed. David Magee wrote it. The cast begins Emily Blunt, Lin-Manuel Miranda, Ben Whishaw, Emily Mortimer, Julie Walters, Pixie Davies. The synopsis sends Mary Poppins back to the Banks family with Jack the lamplighter, and ends on the claim that everything is possible, even the impossible.<ref name="disney">"Mary Poppins Returns", Disney Movies. https://movies.disney.com/mary-poppins-returns</ref>
+
+The heels were the first day. The hyperventilating was twelve years later. The director line on the Oppenheimer disc still has two names.
+
+== References ==
+{{reflist}}
+
+[[Category:Film]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "192.0.2.44",
+        daysAgo: 7,
+        comment: "oscar year",
+        content: `'''Emily Blunt''' won the Academy Award for Oppenheimer in 1964 and was born in 1999. She has eleven BAFTA wins, all for the same film.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 7,
+        comment: "Reverted edits by [[Special:Contributions/192.0.2.44|192.0.2.44]] to last revision by MonotremeMary. GMA, 18 September 2024, calls the Oppenheimer nod her first Academy Award nomination, earlier that year, for a 2023 film. The BAFTA PDF lists three nominations and does not bold a win.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 3,
+        minor: true,
+        comment: "copyedit: the disc line needed the page's own verb",
+        patch: [["The home-video page has put the two names on one line.", "The home-video page puts the two names on one line."]],
+      },
+    ],
+    talk: {
+      user: "HansardHannah",
+      daysAgo: 4,
+      content: `== Hoyte on the director line ==
+
+Universal lists two names under Directed By. Do we correct it to cinematographer? ~~~
+
+: We report the line and we report the other document. Universal's page, https://www.universalpicturesathome.com/movies/oppenheimer , puts Christopher Nolan and Hoyte van Hoytema on Directed By. BAFTA's nominations-by-film PDF puts Nolan under Director and van Hoytema under Cinematography: https://static.bafta.org/uploads_pre_202411/2024eebaftafilmawardnomsbyfilmsanddistributor2.pdf . The article does not merge the two offices into one job title. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 16:05, 5 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Japan",
+    ratings: { helpful: [210, 11], funny: [133, 14] },
+    photoIdeas: {
+      documentary: { query: "Mount Fuji Dezome-shiki firefighters January", webQuery: "Dezome-shiki Fuji City firefighters Mount Fuji photograph", caption: "Dezome-shiki in Fuji City, the handbook's cover subject, with Japan's highest peak behind the firefighters." },
+      humour: { webQuery: "Japanese statistics bureau population estimate document", generate: "Three official Japanese statistical printouts pinned to a cork board, each showing a different population total, fluorescent office light, documentary photograph", caption: "A population table. The September provisional, the April final, and the handbook's 2024 total are three different numbers." },
+    },
+    revisions: [
+      {
+        user: "HansardHannah",
+        daysAgo: 22,
+        comment: "created article",
+        content: `'''Japan''' publishes more than one population at a time. The land area is a single number, and it is already out of date relative to the people standing on it.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Ornithopod",
+        daysAgo: 14,
+        comment: "expanded from the Statistics Bureau, the 2026 handbook, the Diet Library constitution, JMA and the Imperial Household Agency",
+        content: `{{true and funny|source=Statistics Bureau, 24 September 2026: two populations on one page, and a handbook that still prints a third.}}
+{{Infobox
+| title = Japan
+| area = 377,980 square kilometers, January 2026
+| population, 1 September 2026 = 122.65 million, provisional
+| population, 1 April 2026 = 122,838,000, final
+| handbook, 2024 = 123.80 million
+| life expectancy, 2024 = 81.09 men, 87.13 women
+| yen, end of April 2026 = 160.14 per dollar
+}}
+
+'''Japan''' is an island country whose statistics bureau, on one page, is willing to publish two different populations, and whose handbook is still holding a third.
+
+== The count ==
+The Statistics Bureau's population-estimates page, released 24 September 2026, gives a provisional total for 1 September 2026 of 122.65 million, down 540,000, or 0.44 percent, from the same month a year earlier. The same page gives a final total for 1 April 2026, based on the 2020 census, of 122,838,000, down 559,000, or 0.45 percent.<ref name="pop">"Population Estimates", Statistics Bureau, Ministry of Internal Affairs and Communications, released 24 September 2026. https://www.stat.go.jp/data/jinsui/new.html</ref>
+
+The April final is split by age. People under 15: 13,291,000, down 356,000, or 2.61 percent. People 15 to 64: 73,336,000, down 222,000, or 0.30 percent. People 65 and over: 36,211,000, up 19,000, or 0.05 percent. Inside that last group, people 75 and over: 21,531,000, up 479,000, or 2.27 percent. Japanese nationals: 118,921,000, down 860,000, or 0.72 percent. Foreign nationals: 3,917,000, up 301,000, or 8.32 percent.<ref name="pop" />
+
+The Statistical Handbook of Japan 2026, which the bureau says is published annually in September, still records Japan's total population in 2024 as 123.80 million, twelfth in the world and 1.5 percent of the world total. The world total in that table is 8,162 million. The same paragraph puts the 2020 population density at 338.2 persons per square kilometer, twelfth among countries or areas with at least 10 million people.<ref name="hand">Statistical Handbook of Japan 2026, Statistics Bureau. https://www.stat.go.jp/english/data/handbook/pdf/2026all.pdf</ref><ref name="idx">"Statistical Handbook of Japan", Statistics Bureau. https://www.stat.go.jp/english/data/handbook/index.html</ref>
+
+As of October 2026, the page opened for the monthly estimate and the handbook opened beside it do not pick a winner.
+
+== The land ==
+The handbook's Table 1.1, surface area as of January 2026, sourced to the Geospatial Information Authority of Japan, gives Japan 377,980 square kilometers. Honshu is 231,244. Hokkaido is 83,422. Kyushu is 42,229. Shikoku is 18,802. Okinawa is 2,282. The text adds the main islands of Hokkaido, Honshu, Shikoku, Kyushu and Okinawa, and more than 14,000 smaller islands. Mountainous regions, including hilly terrain, account for about three-quarters of the area. The handbook says the number of earthquakes is quite high, and so is the proportion of active volcanoes.<ref name="hand" />
+
+As of 2020, forestland and fields were 67.0 percent of the land, farmland 11.6 percent, and developed land such as residential and industrial land 5.2 percent.<ref name="hand" />
+
+In 2020 Tokyo Metropolis had the largest population of the 47 prefectures, 14.05 million, ahead of Kanagawa, Osaka, Aichi, Saitama, Chiba, Hyogo, and Hokkaido. Those eight held 63.98 million people, 50.7 percent of the total. Tokyo's density was 6,402.6 persons per square kilometer, which the handbook calls almost 19 times the national figure of 338.2.<ref name="hand" />
+
+The cover caption calls Mt. Fuji a stratovolcano and Japan's highest peak, and says it has been recognized for outstanding universal value as an object of worship and a source of artistic inspiration. The photograph is of Dezome-shiki, a fire-department event in early January, in Fuji City, Shizuoka Prefecture.<ref name="hand" />
+
+Life expectancy at birth in 2024 was 81.09 years for men and 87.13 for women. Against the year before, the men's figure was unchanged and the women's figure was 0.01 years lower.<ref name="hand" />
+
+At the end of April 2026 the handbook's exchange-rate line was 160.14 yen per U.S. dollar.<ref name="hand" />
+
+== The symbol ==
+The National Diet Library's English text of the Constitution, promulgated on 3 November 1946, the twenty-first year of Showa, opens the operative articles with the Emperor. Article 1 says the Emperor shall be the symbol of the State and of the unity of the people, deriving his position from the will of the people with whom resides sovereign power. Article 4 says the Emperor shall perform only such acts in matters of state as the Constitution provides, and shall not have powers related to government.<ref name="const">"The Constitution of Japan", National Diet Library. https://www.ndl.go.jp/constitution/e/etc/c01.html</ref>
+
+Article 9 says the Japanese people forever renounce war as a sovereign right of the nation, and the threat or use of force as means of settling international disputes. To accomplish that, "land, sea, and air forces, as well as other war potential, will never be maintained." The right of belligerency of the state will not be recognized.<ref name="const" />
+
+The Imperial Household Agency's page on the Emperor Emeritus names Akihito, born 23 December 1933, as the 125th Emperor, eldest son of the Emperor Showa. The same page lists, among his children, His Majesty the Emperor Naruhito, born 23 February 1960.<ref name="kunaicho">"Their Majesties the Emperor Emeritus and Empress Emerita", Imperial Household Agency. https://www.kunaicho.go.jp/en/learn/about/history/history02.html</ref>
+
+== Ninety seconds ==
+The Japan Meteorological Agency says the country sits in one of the most active seismic and volcanic zones in the world, and that the agency monitors both. When an earthquake occurs it issues the hypocenter, the magnitude, and the observed seismic intensity. If the intensity is 3 or greater, it issues a Seismic Intensity Information report within one and a half minutes. The report goes to disaster authorities on dedicated lines and reaches the public through local governments and the media. The agency calls that report a trigger for rescue and relief.<ref name="jma">"Monitoring of Earthquakes, Tsunamis and Volcanic Activity", Japan Meteorological Agency. https://www.jma.go.jp/jma/en/Activities/earthquake.html</ref>
+
+The September population and the April population are both on the bureau's page. The 2024 population is still in the handbook. The yen is carried to the hundredth.
+
+== References ==
+{{reflist}}
+
+[[Category:Countries]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "203.0.113.88",
+        daysAgo: 8,
+        comment: "population fix",
+        content: `'''Japan''' has 2 billion people and a land area of 12 square kilometers. The Emperor commands the air force under Article 9.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 8,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.88|203.0.113.88]] to last revision by Ornithopod. The 24 September 2026 estimates page gives 122.65 million provisional for 1 September, not 2 billion, and Article 9 says war potential will never be maintained.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 3,
+        minor: true,
+        comment: "copyedit: the yen sentence was doing the thud twice",
+        patch: [["The yen is carried to the hundredth.", "The yen is printed to the hundredth."]],
+      },
+    ],
+    talk: {
+      user: "Thoenfan",
+      daysAgo: 5,
+      content: `== Which population ==
+
+122.65 million, 122.838 million, and 123.80 million cannot all be current. Which one do we print? ~~~
+
+: All three, with the date on each. The bureau's page of 24 September 2026, https://www.stat.go.jp/data/jinsui/new.html , gives 122.65 million as the 1 September provisional and 122,838,000 as the 1 April final. The Statistical Handbook of Japan 2026, https://www.stat.go.jp/english/data/handbook/pdf/2026all.pdf , gives 123.80 million for 2024. Averaging them would invent a fourth figure. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 11:18, 4 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Brad Pitt",
+    ratings: { helpful: [188, 10], funny: [240, 7] },
+    photoIdeas: {
+      documentary: { query: "Brad Pitt Cliff Booth Once Upon a Time in Hollywood", webQuery: "Brad Pitt Once Upon a Time in Hollywood Cliff Booth still", caption: "Brad Pitt as Cliff Booth. Sony's page puts a supporting-actor Oscar on the film and his name on the stunt double." },
+      humour: { webQuery: "typesetting error missing space printed page photo", caption: "Not the Snatch page. Sony's synopsis really does run the words together: whenwildcard, and awhole lot of trouble." },
+    },
+    revisions: [
+      {
+        user: "PollWatcher",
+        daysAgo: 19,
+        comment: "created article",
+        content: `'''Brad Pitt''' plays a stunt double on Sony's page for Once Upon a Time... in Hollywood. The same page advertises a supporting-actor Oscar and does not say whose.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CubeWatch",
+        daysAgo: 11,
+        comment: "expanded from the Sony and Paramount film pages, including the sentences with missing words",
+        content: `{{true and funny|source=Sony's Once Upon a Time page: two Academy Awards on the film, his name on the stunt double, and no introduction.}}
+{{Infobox
+| title = Brad Pitt
+| Snatch = One Punch Mickey O'Neil, 2000
+| Moneyball = Billy Beane, 2011
+| Fury = Wardaddy, a Sherman tank
+| Hollywood = Cliff Booth, stunt double
+| Bullet Train = Ladybug
+| Lost City credit = Trainer
+}}
+
+'''Brad Pitt''' is the name on six studio pages that cannot agree what to do with a sentence.
+
+== The missing spaces ==
+Sony's page for ''Snatch'' copyrights the film 2000 to Columbia Pictures. The synopsis puts Turkish (Jason Statham) and Tommy (Stephen Graham) into a rigged bare-knuckle fight with Brick Top (Alan Ford). Then the page runs out of spaces. The words on the page are "whenwildcard Irish gypsy boxer One Punch Mickey O'Neil (Brad Pitt)" and, a clause later, "awhole lot of trouble." Franky Four Fingers (Benicio Del Toro) and a stolen 86-carat diamond go missing in London. Avi (Dennis Farina) hires Bullet Tooth Tony (Vinnie Jones). The page writes "Avi(Dennis" with the parenthesis against the name.<ref name="snatch">"Snatch", Sony Pictures. https://www.sonypictures.com/movies/snatch</ref>
+
+== The missing word ==
+Sony's page for ''Moneyball'' dates it 2011 and calls it drama. Oakland Athletics general manager Billy Beane (Brad Pitt) "challenges the system and defies conventional wisdom when his is forced to rebuild his small-market team on a limited budget." The field manager is Philip Seymour Hoffman. The economist is Jonah Hill, described as young, number-crunching, and Yale-educated. The copyright is 2011 Columbia.<ref name="money">"Moneyball", Sony Pictures. https://www.sonypictures.com/movies/moneyball</ref>
+
+The sentence is missing the noun that "his" was reaching for. The rest of the synopsis proceeds as if the noun were still there.
+
+== The tank and the assassin ==
+Sony's page for ''Fury'' puts Pitt in the European theatre as Wardaddy, a sergeant who commands a Sherman tank and a five-man crew on a mission behind enemy lines, with a rookie soldier in the platoon. The copyright line is 2014, Norman Licensing.<ref name="fury">"Fury", Sony Pictures. https://www.sonypictures.com/movies/fury</ref>
+
+The description on Sony's ''Bullet Train'' page is one sentence in the metadata: Brad Pitt stars as Ladybug, an unlucky assassin determined to do his job peacefully after one too many gigs gone off the rails.<ref name="bullet">"Bullet Train", Sony Pictures. https://www.sonypictures.com/movies/bullettrain</ref>
+
+== The awards line that does not name him ==
+Sony's page for ''Once Upon a Time... in Hollywood'' dates the film 2019 and files it as drama and comedy. Quentin Tarantino's film visits 1969 Los Angeles. TV star Rick Dalton is Leonardo DiCaprio. His longtime stunt double Cliff Booth is Brad Pitt. The page's banner says the film is the winner of two Academy Awards, Best Supporting Actor and Best Production Design. The banner does not put a person's name next to either award. The synopsis puts Pitt's name next to the stunt double.<ref name="ouatih">"Once Upon a Time... in Hollywood", Sony Pictures. https://www.sonypictures.com/movies/onceuponatimeinhollywood</ref>
+
+== Trainer ==
+Paramount's page for ''Babylon'' calls it an original epic from Damien Chazelle, set in 1920s Los Angeles, led by Brad Pitt, Margot Robbie, and Diego Calva, with Jovan Adepo, Li Jun Li, and Jean Smart. The synopsis is outsized ambition and outrageous excess, the rise and fall of several characters in early Hollywood.<ref name="babylon">"Babylon", Paramount Movies. https://www.paramountmovies.com/movies/babylon</ref>
+
+Paramount's page for ''The Lost City'' is a different kind of credit. The synopsis follows Loretta Sage, kidnapped by an eccentric billionaire, and her cover model Alan on a rescue through the jungle. The cast notes list Brad Pitt as Trainer.<ref name="lost">"The Lost City", Paramount Movies. https://www.paramountmovies.com/movies/the-lost-city</ref>
+
+Six pages. One of them drops the spaces. One of them drops a word. One of them drops his name from the trophy it is advertising. One of them gives him the job title Trainer.
+
+== References ==
+{{reflist}}
+
+[[Category:Film]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "198.51.100.77",
+        daysAgo: 6,
+        comment: "oscar count",
+        content: `'''Brad Pitt''' has won the Academy Award for Best Actor eleven times and is the starting quarterback for Arsenal. Moneyball grossed 4 dollars.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 6,
+        comment: "Reverted edits by [[Special:Contributions/198.51.100.77|198.51.100.77]] to last revision by CubeWatch. Sony's Once Upon a Time page advertises a supporting-actor Oscar for the film and does not give him eleven Best Actor wins, or a football job.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: Trainer was already the credit, not a punchline we added",
+        patch: [["One of them gives him the job title Trainer.", "One of them gives him the credit Trainer."]],
+      },
+    ],
+    talk: {
+      user: "Skinnerbox",
+      daysAgo: 3,
+      content: `== Does the Oscar belong on his line ==
+
+Sony says the film won Best Supporting Actor. He plays Cliff Booth. Can we connect them? ~~~
+
+: Not from that page. https://www.sonypictures.com/movies/onceuponatimeinhollywood puts the two awards on the film and puts Brad Pitt in the synopsis as Cliff Booth. It does not write his name on the award line. Connecting them here would be a fact from a page we did not use. The Moneyball sentence, on https://www.sonypictures.com/movies/moneyball , really does say "when his is forced." [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 10:12, 6 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Hailee Steinfeld",
+    ratings: { helpful: [134, 6], funny: [171, 8] },
+    photoIdeas: {
+      documentary: { query: "Hailee Steinfeld Hawkeye Kate Bishop", webQuery: "Hailee Steinfeld Kate Bishop Hawkeye still 2021", caption: "Hailee Steinfeld as Kate Bishop. Marvel's page calls her the other archer." },
+      humour: { webQuery: "record label roster fine print contract page", caption: "Not the Sony release. The Sunflower press release lists her voice in the film and, in the Republic Records boilerplate, her name beside Florence and the Machine." },
+    },
+    revisions: [
+      {
+        user: "MonotremeMary",
+        daysAgo: 17,
+        comment: "created article",
+        content: `'''Hailee Steinfeld''' plays Kate Bishop on Marvel's Hawkeye page. A Sony press release also files her as a Republic Records artist in the boilerplate.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Thoenfan",
+        daysAgo: 10,
+        comment: "expanded from Marvel, Universal home video, and two Sony press releases plus the CEEMA sequel page",
+        content: `{{true and funny|source=A Sony press release for a Spider-Man song also files her on the Republic Records roster, between Florence and the Machine and James Blake.}}
+{{Infobox
+| title = Hailee Steinfeld
+| Hawkeye = Kate Bishop, 2021
+| Pitch Perfect 2 = 2015, 1 hour 55 minutes
+| Pitch Perfect 3 = 2017, 1 hour 33 minutes
+| Into the Spider-Verse = Spider-Gwen, release 14 December 2018
+| Across the Spider-Verse = in the cast, role not stated on the page
+}}
+
+'''Hailee Steinfeld''' is on the cast list of a Marvel series, two Pitch Perfect sequels, and two Spider-Verse documents. The first Pitch Perfect home-video page does not have her. A Republic Records boilerplate does.
+
+== The other archer ==
+Marvel's character page for Kate Bishop says the 2021 series ''Hawkeye'' stars Jeremy Renner as Hawkeye, who teams up with another archer from the comics, Kate Bishop, played by Hailee Steinfeld. The cast line continues with Vera Farmiga, Fra Fee, Tony Dalton, Zahn McClarnon, and Brian d'Arcy James.<ref name="marvel">"Hawkeye (Kate Bishop)", Marvel. https://www.marvel.com/characters/kate-bishop</ref>
+
+== The sequels, and the page that skips her ==
+Universal's home-video page for the first ''Pitch Perfect'' is a 2012 comedy, 1 hour 52 minutes, directed by Jason Moore. College freshman Beca joins the Barden Bellas, an all-girl a cappella group. The starring list is Anna Kendrick, Skylar Astin, Rebel Wilson, Adam Devine, Anna Camp, Brittany Snow, John Michael Higgins, Elizabeth Banks. Hailee Steinfeld is not on it.<ref name="pp1">"Pitch Perfect", Universal Pictures at Home. https://www.universalpicturesathome.com/movies/pitch-perfect</ref>
+
+The page for ''Pitch Perfect 2'' puts her third, after Anna Kendrick and Rebel Wilson. A scandal threatens the senior year of the three-time defending champion Barden Bellas. Their competition is a German supergroup, Das Sound Machine, at the World Championships of A Cappella. Elizabeth Banks directed. The release year on the page is 2015. The run time is 1 hour 55 minutes. The rating is PG-13, for innuendo and language. The copyright line on the same page is 2014.<ref name="pp2">"Pitch Perfect 2", Universal Pictures at Home. https://www.universalpicturesathome.com/movies/pitch-perfect-2</ref>
+
+The page for ''Pitch Perfect 3'' starts after the World Championships. The Bellas have graduated and "discover there are no job prospects for making music with only your mouth." They reunite for a European USO tour. Trish Sie directed. The release year is 2017. The run time is 1 hour 33 minutes. The rating is PG-13, for crude and sexual content, language and some action. Steinfeld is again in the starring list. The copyright line is 2017.<ref name="pp3">"Pitch Perfect 3", Universal Pictures at Home. https://www.universalpicturesathome.com/movies/pitch-perfect-3</ref>
+
+The second film's copyright and its release year disagree by a year. The third film's copyright and its release year agree. The first film's cast list simply does not include her.
+
+== Spider-Gwen, and then just a name ==
+On 6 June 2018 Sony Pictures Animation announced the trailer for ''Spider-Man: Into the Spider-Verse'' and a theatrical date of 14 December 2018. Shameik Moore plays Miles Morales. The release says Hailee Steinfeld is playing "the spunky, free-spirited Spider-Gwen." Jake Johnson is Peter Parker. Liev Schreiber is Kingpin. Mahershala Ali is Miles's uncle Aaron.<ref name="into">"Spider-Man: Into the Spider-Verse trailer launches", Sony Pictures Entertainment, 6 June 2018. https://www.sonypictures.com/corp/press_releases/2018/06_18/060618_spiderversetrailer.html</ref>
+
+A later Sony release, 18 October 2018, for the song "Sunflower," describes the film again and lists "the voices of Shameik Moore, Jake Johnson, Hailee Steinfeld," and the rest of the company, including Nicolas Cage and Liev Schreiber. Bob Persichetti, Peter Ramsey, and Rodney Rothman directed. Phil Lord and Rodney Rothman wrote the screenplay from a story by Phil Lord.<ref name="sun">"Sunflower (Spider-Man: Into the Spider-Verse) available now", Sony Pictures Entertainment, 18 October 2018. https://www.sonypictures.com/corp/press_releases/2018/10_18/101818_sunflower.html</ref>
+
+The same release, in the boilerplate about Republic Records, lists Hailee Steinfeld as a recording artist on that label's roster, in a sentence that also contains Florence and the Machine, James Blake, Black Sabbath, and Stevie Wonder.<ref name="sun" />
+
+Sony's CEEMA page for ''Spider-Man: Across the Spider-Verse'' calls the film the next chapter of the Oscar-winning Spider-Verse saga. Miles reunites with Gwen Stacy and is catapulted across the Multiverse. The cast is Shameik Moore, Hailee Steinfeld, Brian Tyree Henry, Luna Lauren Velez, Jake Johnson. The credits put three names on Directed By: Joaquim Dos Santos, Kemp Powers, Justin K. Thompson. The copyright is 2023 Sony Pictures Animation. The page does not write "Spider-Gwen" next to her name.<ref name="across">"Spider-Man: Across the Spider-Verse", Sony Pictures CEEMA. https://ceema.sonypictures.com/en/movies/spider-man-across-spider-verse</ref>
+
+The 2018 trailer release gives her the character. The later sequel page gives her a place in the list and leaves the character in the synopsis, unassigned. The song release gives her a voice credit and, further down, a record contract in the small print.
+
+== References ==
+{{reflist}}
+
+[[Category:Film]]
+[[Category:Music]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "192.0.2.19",
+        daysAgo: 5,
+        comment: "oscar total",
+        content: `'''Hailee Steinfeld''' won five Academy Awards for True Grit at age 14, including best director. She is not in any Pitch Perfect film.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 5,
+        comment: "Reverted edits by [[Special:Contributions/192.0.2.19|192.0.2.19]] to last revision by Thoenfan. None of the studio pages opened for this article give her five Academy Awards. Universal does list her in Pitch Perfect 2 and Pitch Perfect 3.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: the small print was the point, so say small print once",
+        patch: [["a record contract in the small print.", "a roster line in the boilerplate."]],
+      },
+    ],
+    talk: {
+      user: "CubeWatch",
+      daysAgo: 3,
+      content: `== Spider-Gwen on the sequel page ==
+
+Across the Spider-Verse mentions Gwen Stacy and lists Hailee Steinfeld. Is that the same assignment as the 2018 release? ~~~
+
+: The 6 June 2018 Sony release says she is playing Spider-Gwen: https://www.sonypictures.com/corp/press_releases/2018/06_18/060618_spiderversetrailer.html . The CEEMA page for Across the Spider-Verse, https://ceema.sonypictures.com/en/movies/spider-man-across-spider-verse , puts Gwen Stacy in the synopsis and Steinfeld in the cast, and does not connect the two. The article keeps that gap. The vandal's five Oscars are not on any of these pages. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 13:44, 7 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Steve Jobs",
+    ratings: { helpful: [241, 12], funny: [118, 9] },
+    photoIdeas: {
+      documentary: { query: "Steve Jobs iPhone Macworld 2007", webQuery: "Steve Jobs holding first iPhone Macworld 2007 photograph", caption: "Steve Jobs with the iPhone, 9 January 2007. He called the finger the pointing device." },
+      humour: { webQuery: "old email inbox screenshot condolences", caption: "Not his inbox. Apple published rememberingsteve@apple.com on 5 October 2011 and the remembering page still points there." },
+    },
+    revisions: [
+      {
+        user: "Skinnerbox",
+        daysAgo: 24,
+        comment: "created article",
+        content: `'''Steve Jobs''' introduced the iPhone by telling a room that the pointing device was the finger. On the day he died, Apple published an email address.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "PollWatcher",
+        daysAgo: 15,
+        comment: "expanded from the Computer History Museum, Apple's newsroom, Apple Books and Pixar's timeline",
+        content: `{{true and funny|source=Apple Books, fetched October 2026: the biography is still 16.99 dollars, and he asked for no control over it.}}
+{{Infobox
+| title = Steve Jobs
+| Apple founded = 1976, with Steve Wozniak
+| iPhone = 9 January 2007, Macworld
+| died = 5 October 2011
+| inbox = rememberingsteve@apple.com
+| book price = 16.99 dollars
+| Pixar = bought from Lucas, 1986, about 40 people
+}}
+
+'''Steve Jobs''' cofounded Apple in a garage, put the telephone on a finger, and on the day he died was given an email address.
+
+== The garage and the blue boxes ==
+The Computer History Museum's page on the Apple II says Steve Wozniak and Steve Jobs founded Apple Computer in 1976, and that corporate headquarters was the Jobs family garage. They had met in 1971 and sold blue boxes, devices for making free long-distance calls. After stints at Hewlett-Packard and Atari, they formed Apple and demonstrated the Apple I to the Homebrew Computer Club. The museum says it was the Apple II that established the company, with Jobs focused on promotion and a distinct identity, and Wozniak as the designer.<ref name="chm">"The Apple II", Computer History Museum. https://www.computerhistory.org/revolution/personal-computers/17/300</ref>
+
+== The finger ==
+On 9 January 2007, at Macworld in San Francisco, Apple introduced the iPhone. The newsroom release says it combined a mobile phone, a widescreen iPod with touch controls, and an internet device with desktop-class email, web browsing, searching, and maps. The interface was a multi-touch display. Jobs, identified as Apple's CEO, said the iPhone was "literally five years ahead of any other mobile phone," and then: "We are all born with the ultimate pointing device—our fingers—and iPhone uses them to create the most revolutionary user interface since the mouse."<ref name="iphone">"Apple Reinvents the Phone with iPhone", Apple Newsroom, 9 January 2007. https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/</ref>
+
+The same release says a user could make a call by pointing at a name or number, and that contacts would sync from a PC, a Mac, or an internet service such as Yahoo.<ref name="iphone" />
+
+== The address ==
+On 5 October 2011 Apple posted a media advisory. Tim Cook's email to employees begins "Team," and says Steve passed away earlier that day. It calls him a visionary and creative genius, says the company he leaves is one only he could have built, and gives an address for memories in the interim: rememberingsteve@apple.com.<ref name="cook">"Apple Media Advisory", Apple Newsroom, 5 October 2011. https://www.apple.com/newsroom/2011/10/05Apple-Media-Advisory/</ref>
+
+The board's statement the same day says Steve Jobs passed away today, and that his brilliance, passion, and energy were the source of countless innovations. It says the world is immeasurably better because of him.<ref name="board">"Statement by Apple's Board of Directors", Apple Newsroom, 5 October 2011. https://www.apple.com/newsroom/2011/10/05Statement-by-Apples-Board-of-Directors/</ref>
+
+Apple's remembering page says over a million people have shared memories, from personal friends to colleagues to owners of Apple products, and repeats the same address.<ref name="remember">"Remembering Steve Jobs", Apple. https://www.apple.com/stevejobs/</ref>
+
+The condolence line is an inbox.
+
+== Sixteen dollars and ninety-nine cents ==
+Apple Books' page for Walter Isaacson's ''Steve Jobs'' calls it the biography of the Apple cofounder, based on more than forty interviews with Jobs over two years and interviews with more than 100 family members, friends, adversaries, competitors, and colleagues. It lists six industries: personal computers, animated movies, music, phones, tablet computing, and digital publishing. It says Jobs cooperated, asked for no control over what was written, put nothing off-limits, and encouraged people to speak honestly. The page, as fetched in October 2026, prices the book at 16.99 dollars and shows 4.6 from 21.2 thousand ratings.<ref name="book">"Steve Jobs", Walter Isaacson, Apple Books. https://books.apple.com/us/book/steve-jobs/id431617578</ref>
+
+He asked for no control. The store still has a price.
+
+== The first check ==
+Pixar's own timeline puts 1986 as the year Jobs purchased the computer division from George Lucas and established it as an independent company, with about 40 people employed. Pixar and Disney began work on CAPS, the Computer Animation Production System. The first check written to Pixar by a client after incorporation was from Disney, for work on that project. The same stretch of the timeline says ''Luxo Jr.'' was completed, John Lasseter's directorial debut, unveiled in August at SIGGRAPH and screened for general audiences at Los Angeles theaters in November.<ref name="pixar">"Our Story", Pixar Animation Studios. https://www.pixar.com/our-story</ref>
+
+The garage was headquarters. The pointing device was a finger. The memorial was an email address. The biography, which he did not control, is still on sale for 16.99 dollars.
+
+== References ==
+{{reflist}}
+
+[[Category:Technology]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "203.0.113.53",
+        daysAgo: 8,
+        comment: "still ceo",
+        content: `'''Steve Jobs''' invented the internet in 1955 and remains Apple's CEO. The iPhone shipped in 1991 at a price of 16.99 dollars.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 8,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.53|203.0.113.53]] to last revision by PollWatcher. Apple's 5 October 2011 advisory says he passed away that day. The 16.99 dollars is the biography on Apple Books, not the 2007 iPhone.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 4,
+        minor: true,
+        comment: "copyedit: the inbox line was already the fact",
+        patch: [["The condolence line is an inbox.", "The condolence line is an email address."]],
+      },
+    ],
+    talk: {
+      user: "Ornithopod",
+      daysAgo: 6,
+      content: `== The 16.99 ==
+
+That price will go stale. Do we keep a bookstore snapshot? ~~~
+
+: Keep it, dated. The Apple Books page fetched in October 2026, https://books.apple.com/us/book/steve-jobs/id431617578 , showed 16.99 dollars and 4.6 from 21.2 thousand ratings. The article says "as fetched in October 2026" for that reason. The death date is the 5 October 2011 advisory, https://www.apple.com/newsroom/2011/10/05Apple-Media-Advisory/ , not a birth year we did not open. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 08:55, 3 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Arsenal F.C.",
+    ratings: { helpful: [176, 9], funny: [164, 12] },
+    photoIdeas: {
+      documentary: { query: "Arsenal Emirates Stadium exterior", webQuery: "Emirates Stadium Arsenal exterior photograph", caption: "Emirates Stadium. One club page says 60,000. Another says 60,704." },
+      humour: { webQuery: "football match statistics table with inconsistent totals", caption: "Not their spreadsheet. Arsenal's 500-match article says 335 wins in one paragraph and 336 in the table under it." },
+    },
+    revisions: [
+      {
+        user: "Anonyfish",
+        daysAgo: 21,
+        comment: "created article",
+        content: `'''Arsenal F.C.''' went a league season unbeaten in 2003/04. The club's own count of the first 500 games at the new ground cannot decide if the number is 500.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "HansardHannah",
+        daysAgo: 13,
+        comment: "expanded from Arsenal.com on the titles, Highbury, the Emirates move, the Bergkamp testimonial and the 500-match count",
+        content: `{{true and funny|source=Arsenal.com's own 500-match piece: the prose says 335 wins and 1,064 goals in 499 games; the table says 336, 1,066, and 500.}}
+{{Infobox
+| title = Arsenal F.C.
+| Highbury = 1913 to 2006
+| Premier League titles on the club page = 1997/98, 2001/02, 2003/04
+| Invincibles = 26 wins, 12 draws, 0 defeats
+| Emirates capacity = 60,000 on one page, 60,704 on another
+| first 500 = 336 wins, or 335, depending on the paragraph
+}}
+
+'''Arsenal F.C.''' is a football club whose own website cannot decide whether the first 500 matches at Emirates Stadium were 500 matches.
+
+== Three league titles, as the club lists them ==
+The club's feature on Premier League titles says the competition was formed in 1992 from the First Division, and that Arsenal had won the English league championship ten times before the rebranding. It then lists three Premier League seasons: 1997/98, 2001/02, and 2003/04.<ref name="pl">"When have Arsenal won the Premier League?", Arsenal FC. https://www.arsenal.com/feature/when-have-arsenal-won-the-premier-league-a1dPq9t3eJ8C</ref>
+
+Arsene Wenger was appointed in October 1996, so 1997/98 was his first full season. He brought Emmanuel Petit and Giles Grimandi from Monaco, and Marc Overmars from Ajax. The side was unbeaten in the first twelve matches, then lost four of six in November and December and sat 13 points behind Manchester United. A Boxing Day win over Leicester began a run of 18 games without defeat, including Overmars's finish at Old Trafford. On 3 May, at Highbury, a 4-0 over Everton sealed it: an own goal, two from Overmars, and Tony Adams arriving onto a Steve Bould through-ball.<ref name="pl" />
+
+In 2001/02 Sol Campbell arrived from Tottenham on a free transfer. After home defeats to Leeds, Charlton, and Newcastle, an 11-match winning run sent Arsenal to Old Trafford in early May. Thierry Henry and Dennis Bergkamp were not in the starting lineup. Sylvain Wiltord scored the winner. The club finished on 83 points, unbeaten away, and had scored in every Premier League game. The page calls it a league and cup double.<ref name="pl" />
+
+For 2003/04 the page goes back to September 2002, when Wenger said the side could go a league season unbeaten. The 2002/03 season did not: they surrendered top spot with five games to spare. Jens Lehmann came in. Four wins opened the new season. A 0-0 at Old Trafford was followed by wins over Newcastle, Liverpool, and Chelsea. A Henry hat-trick at home to Liverpool was part of the run. On 25 April, at White Hart Lane, Patrick Vieira and Robert Pires scored in a 2-2 draw. The page says this repeated 1971: winning the league at Tottenham. Four games remained. Draws with Birmingham and Portsmouth, a win at Fulham, then Leicester, already relegated. Paul Dickov, a former Gunner, scored for the hosts. Henry and captain Vieira turned it. The line the club prints is 26 wins, 12 draws, 0 defeats.<ref name="pl" />
+
+A long read titled "Invincibles: A season like no other," by Jonathon Rogers, describes the page as a recall, 20 years on, of the story of the 2003/04 unbeaten season, with match reports, interviews from the squad, and stats.<ref name="long">Jonathon Rogers, "Invincibles: A season like no other", Arsenal FC. https://www.arsenal.com/long-read/the-invincibles-a-season-like-no-other-aP8536a9ndC5</ref>
+
+== The old ground ==
+The club's Highbury feature says the ground, under that name, was home from 1913 until 2006. Henry Norris moved the club from the Manor Ground in Plumstead. He had taken over at Woolwich Arsenal in 1910 while still chairman at Fulham. A plan to merge the two clubs was rejected by the Football League. The League then told him it was a conflict of interests to control both, and he chose Arsenal.<ref name="high">"Highbury", Arsenal FC. https://www.arsenal.com/feature/highbury-aOvWp5K7lTf9</ref>
+
+The last season used redcurrent jerseys, a nod to the first Arsenal teams to play there. The gates closed on Sunday 7 May. Thierry Henry scored a hat-trick in a 4-2 win over Wigan Athletic, which secured a Champions League place at Tottenham's expense. The same feature says the club moved to a new 60,000-capacity Emirates Stadium, and that the Grade II-listed East Stand, with its Marble Hall, and the locally listed West Stand were kept.<ref name="high" />
+
+== The new ground, three capacities ==
+Another club feature dates the farewell to May 2006, after 93 years, and the same 4-2 against Wigan. The new site was Ashburton Grove. Proposals were announced in November 1999. Planning consent came in May 2002. Construction began in February 2004. The ground was named Emirates Stadium in October 2004. The topping-out was in August 2005. This page gives the capacity as 60,704. It also records a Women's Super League attendance of 60,160 in February 2024, a 3-1 win over Manchester United, and a Premier League attendance of 60,383 against Wolverhampton Wanderers in November 2019, a 1-1 draw. Henry's last-day hat-trick, on this telling, came from 2-1 down.<ref name="when">"When did Arsenal move to the Emirates Stadium?", Arsenal FC. https://www.arsenal.com/feature/when-did-arsenal-move-to-the-emirates-stadium-ay3317u7KgtE</ref>
+
+The first match at the new ground, on both the move page and a separate gallery, was Dennis Bergkamp's testimonial on 22 July 2006. The gallery says a sell-out crowd of 60,000 watched a 2-1 win, with goals from Thierry Henry and Kanu, and that Bergkamp was ending an 11-year Arsenal career. The gallery, fetched in October 2026, calls the day "20 years ago."<ref name="den">"Gallery: Dennis' day welcomes Emirates Stadium era", Arsenal FC. https://www.arsenal.com/news/gallery-dennis-day-welcomes-emirates-stadium-era-apymj7h1wJSS</ref><ref name="when" />
+
+The Highbury page says 60,000. The move page says 60,704. The testimonial page says a sell-out of 60,000. The club has not averaged them.
+
+== 500, or 499 ==
+The club's statistical piece on the first 500 matches at Emirates Stadium starts with August 2006, a 1-1 draw against Aston Villa, equaliser by Gilberto Silva. The playing record it states in the opening is 336 wins, 93 draws, and 71 defeats, a win percentage of 67.2, with 1,066 goals scored and 427 conceded.<ref name="five">"Stats: The first 500 matches at Emirates Stadium", Arsenal FC. https://www.arsenal.com/news/stats-the-first-500-matches-at-emirates-stadium-aixzv6P6vyfV</ref>
+
+Further down, the same piece says Arsenal played 2,010 games at Highbury, managed only one unbeaten season there in 93 years, in 1980/81, and then compares "the final 500 matches there with the first 499 at our current home." That paragraph says the new ground has won more games, 335 to 314, and scored more goals, 1,064 to 991, and has also lost more, 71 to 64, and conceded more, 427 to 413. The table printed under that paragraph labels the row "Emirates Stadium (first 500)" and fills it 500, 336, 93, 71, 1066, 427. Highbury's last 500 are 500, 314, 122, 64, 991, 413.<ref name="five" />
+
+The biggest win in the piece is 7-0 against Slavia Prague in the Champions League on 23 October 2007. The highest-scoring game is a 7-3 win over Newcastle United on 29 December 2012.<ref name="five" />
+
+The opening says 336 and 1,066. The comparison says 335 and 1,064, and calls the sample 499. The table goes back to 336, 1,066, and 500. The capacity is a separate argument, on other pages.
+
+== References ==
+{{reflist}}
+
+[[Category:Sports]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "198.51.100.9",
+        daysAgo: 7,
+        comment: "title count",
+        content: `'''Arsenal F.C.''' have won the Premier League 22 seasons in a row and play only at Wembley. The Invincibles lost nine games. Emirates Stadium holds 12,000.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 7,
+        comment: "Reverted edits by [[Special:Contributions/198.51.100.9|198.51.100.9]] to last revision by HansardHannah. The club's own feature lists three Premier League titles, 1997/98, 2001/02 and 2003/04, and prints the Invincibles line as 26 wins, 12 draws and 0 defeats.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 3,
+        minor: true,
+        comment: "copyedit: the last sentence was announcing itself",
+        patch: [["The capacity is a separate argument, on other pages.", "The capacity is a different argument, on other pages."]],
+      },
+    ],
+    talk: {
+      user: "MonotremeMary",
+      daysAgo: 4,
+      content: `== 335 or 336 ==
+
+The 500-match article contradicts itself. Do we pick the table? ~~~
+
+: We print both, and we say they are the same article. The opening and the table at https://www.arsenal.com/news/stats-the-first-500-matches-at-emirates-stadium-aixzv6P6vyfV give 336 wins and 1,066 goals in 500 games. The paragraph above the table says 335 wins and 1,064 goals, and calls the sample the first 499. Choosing one would hide the page. The capacity split, 60,000 against 60,704, is the Highbury feature against the move feature, and it is also left as printed. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 15:27, 5 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Katseye",
+    ratings: { helpful: [98, 4], funny: [155, 7] },
+    photoIdeas: {
+      documentary: { query: "Katseye group photograph six members", webQuery: "Katseye official group photo six members Rahul Bhatt", caption: "Katseye. Universal's April 2025 release names six members and puts Lara in New York." },
+      humour: { webQuery: "three different city name tags on luggage", generate: "Three luggage tags on one suitcase reading USA, NEW YORK, and LOS ANGELES, airport fluorescent light, documentary photograph", caption: "Not their luggage. The paperwork puts Lara in the USA, in New York, and in Los Angeles." },
+    },
+    revisions: [
+      {
+        user: "Ornithopod",
+        daysAgo: 12,
+        comment: "created article",
+        content: `'''Katseye''' is a six-member group. Their single Gnarly entered the Hot 100 at No. 92. One of them has three hometowns in the paperwork.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Skinnerbox",
+        daysAgo: 7,
+        comment: "expanded from two Universal Music Canada releases, Billboard, Soompi, Chosun Biz and the Official Charts Company",
+        content: `{{true and funny|source=Three pages, three homes for Lara: USA, New York, and Los Angeles.}}
+{{Infobox
+| title = Katseye
+| debut EP = SIS (Soft Is Strong), 16 August 2024
+| Gnarly = 30 April 2025
+| Hot 100 debut = No. 92
+| UK singles peak = 52
+| members = 6
+| fandom = EYEKONS
+}}
+
+'''Katseye''' is a six-member group whose record company, in the space of a year, filed one member under three different hometowns.
+
+== The EP ==
+Universal Music Canada's release of 16 August 2024 says Katseye, the first global girl group formed using K-pop artist-development methods, put out the debut EP ''SIS (Soft Is Strong)'' that day via HYBE x Geffen Records and Universal Music Canada. The six names on that page are Daniela (USA), Lara (USA), Manon (Switzerland), Megan (USA), Sophia (Philippines), and Yoonchae (South Korea).<ref name="sis">"Katseye's debut EP, SIS (Soft Is Strong), is out today", Universal Music Canada, 16 August 2024. https://www.universalmusic.ca/2024/08/16/katseyes-debut-ep-sis-soft-is-strong-is-out-today/</ref>
+
+The track list is Debut, Touch, My Way, I'm Pretty, Tonight I Might. "Debut" is the first single. Rolling Stone had put it on a songs-you-need list. The group was booked for ''GMA3'' on 20 August. "Touch," produced by Blake Slatkin, Cashmere Cat, Omer Fedi, and Taka Perry, had already been performed on ''Good Morning America''. "My Way" is described as a piano ballad, produced by HYBE founder "hitman" Bang, Slow Rabbit, and Federico Vindver. The Netflix series ''Pop Star Academy: Katseye'', directed by Nadia Hallgren, was premiering 21 August.<ref name="sis" />
+
+== The single ==
+On 30 April 2025 the same office announced "Gnarly," produced by Pink Slip, Tim Randolph, HYBE founder "hitman" Bang, and Slow Rabbit. The video is by Cody Critcheloe. The release says the group had debuted at No. 1 on Billboard's Emerging Artists and Heatseekers Albums charts with the EP. It calls the members a range from 17 to 22, and this time it specifies them: Daniela, Cuban/Venezuelan-American, from Atlanta; Lara, Indian, from New York; Manon, Ghanaian-Italian, from Zurich; Megan, Chinese-American, from Honolulu; Sophia, from Manila; Yoonchae, from Seoul. The fandom is the EYEKONS. "Touch" is said to have made Billboard's staff list of the 100 best songs of 2024. The group had two nominations at the 2025 iHeartRadio Music Awards. Fendi and Pepsi are named as campaigns.<ref name="gnarly">"Katseye's new single, Gnarly, out now", Universal Music Canada, 30 April 2025. https://www.universalmusic.ca/2025/04/30/katseyes-new-single-gnarly-out-now/</ref>
+
+Lara was USA in August 2024. Lara was from New York in April 2025.
+
+== No. 92 ==
+Billboard's 13 May 2025 chart note, by Xander Zellner, says "Gnarly" was the group's first Hot 100 entry, debuting at No. 92, released 30 April via HYBE/Geffen/ICLG. The first full week, 2 to 8 May, was 5.9 million U.S. streams, 192,000 radio audience impressions, and 1,000 downloads, according to Luminate. The note says the group was formed in 2023 from HYBE and Geffen Records' Dream Academy, out of a reported 120,000 applicants, with 20 contestants training in Los Angeles. Its member line is Manon from Zurich, Lara from L.A., Daniela from Atlanta, Megan from Honolulu, Sophia from Manila, and Yoonchae from Seoul. It says the EP debuted and peaked at No. 6 on the Top Album Sales chart and No. 119 on the Billboard 200, and that the group reached No. 1 on Emerging Artists.<ref name="bb">Xander Zellner, "Meet the First-Timers On Our Charts This Week", Billboard, 13 May 2025. https://billboard.substack.com/p/meet-the-first-timers-on-our-charts-50f</ref>
+
+Soompi, the same day, adds the other Billboard debuts it was reporting: No. 39 on the Global chart excluding the U.S., No. 47 on the Global 200, and a re-entry at No. 11 on Emerging Artists.<ref name="soompi">E Cha, "Katseye Enters Billboard Hot 100 For 1st Time With Gnarly", Soompi, 13 May 2025. https://www.soompi.com/article/1744357wpp/katseye-enters-billboard-hot-100-for-1st-time-with-gnarly</ref>
+
+Chosun Biz, on 14 May 2025, repeats the No. 92, the No. 39, the No. 47, and the No. 11. It adds a UK official singles rank of 52nd for the week of 9 to 15 May, and a Spotify weekly global rank of 60th for 2 to 8 May. The group is quoted: "This moment feels unreal and overwhelming. Having our name on the Billboard Hot 100 is like a dream for us."<ref name="chosun">"Katseye debuts on U.S. Billboard Hot 100", Chosun Biz, 14 May 2025. https://biz.chosun.com/en/en-entertainment/2025/05/14/ZDELXBOQVJAQVPC4EG4F7OZLQQ/</ref>
+
+== The British chart, twice ==
+The Official Charts Company page for "Gnarly" gives the Official Singles Chart a peak of 52, first chart date 15 May 2025, label Interscope, catalogue number USUV72501583, and 11 weeks inside the top 100, with the run ending at No. 98 on 24 July 2025. The same page has a separate Official Singles Chart Update whose peak is 64, first dated 11 May 2025. A streaming chart on the page peaks at 93.<ref name="occ">"Gnarly by Katseye", Official Charts Company. https://www.officialcharts.com/songs/katseye-gnarly/</ref>
+
+Fifty-two and sixty-four are both printed. They are not averaged.
+
+Lara, across the pages opened for this article, is from the USA, from New York, and from L.A.
+
+== References ==
+{{reflist}}
+
+[[Category:Music]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "192.0.2.61",
+        daysAgo: 4,
+        comment: "solo act",
+        content: `'''Katseye''' is a solo rapper from Oslo. Gnarly entered the Hot 100 at No. 1 and stayed there for 40 weeks. The group has one member.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 4,
+        comment: "Reverted edits by [[Special:Contributions/192.0.2.61|192.0.2.61]] to last revision by Skinnerbox. Universal Music Canada lists six members, and Billboard's 13 May 2025 note has Gnarly debuting at No. 92, not No. 1.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 1,
+        minor: true,
+        comment: "copyedit: the three hometowns were the last line, so leave them bare",
+        patch: [["Lara, across the pages opened for this article, is from the USA, from New York, and from L.A.", "Lara is from the USA, from New York, and from L.A., depending on the page."]],
+      },
+    ],
+    talk: {
+      user: "PollWatcher",
+      daysAgo: 2,
+      content: `== Lara's city ==
+
+New York, Los Angeles, or just USA? ~~~
+
+: All three, attached to the page that printed them. Universal Music Canada on 16 August 2024 wrote LARA (USA): https://www.universalmusic.ca/2024/08/16/katseyes-debut-ep-sis-soft-is-strong-is-out-today/ . The same office on 30 April 2025 wrote Lara, Indian, from New York: https://www.universalmusic.ca/2025/04/30/katseyes-new-single-gnarly-out-now/ . Billboard on 13 May 2025 wrote Lara (L.A.): https://billboard.substack.com/p/meet-the-first-timers-on-our-charts-50f . We do not vote. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 12:06, 7 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Lewis Hamilton",
+    ratings: { helpful: [203, 8], funny: [147, 10] },
+    photoIdeas: {
+      documentary: { query: "Lewis Hamilton Ferrari number 44", webQuery: "Lewis Hamilton Ferrari 2025 number 44 helmet photograph", caption: "Lewis Hamilton in Ferrari red, number 44. The two factories do not print the same podium total." },
+      humour: { webQuery: "two mismatched scoreboard photographs side by side", generate: "Two adjacent racing timing monitors in a pit garage, one reading 208 PODIUMS and the other 207 PODIUMS, fluorescent light, documentary photograph", caption: "Not a real pair of timing screens. Formula 1 prints 208 podiums and 5,232.5 points. Ferrari prints 207 and 5,209.5." },
+    },
+    revisions: [
+      {
+        user: "Thoenfan",
+        daysAgo: 15,
+        comment: "created article",
+        content: `'''Lewis Hamilton''' has seven world titles. Formula 1 and Ferrari do not print the same number of podiums.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CubeWatch",
+        daysAgo: 9,
+        comment: "expanded from Formula 1, Ferrari, the Gazette, GOV.UK and McLaren, without averaging the two stat blocks",
+        content: `{{true and funny|source=Formula 1 says 208 podiums and 5,232.5 points. Ferrari says 207 and 5,209.5. Neither page averages them.}}
+{{Infobox
+| title = Lewis Hamilton
+| born = 7 January 1985, Stevenage
+| car = Ferrari, number 44
+| Formula 1 podiums = 208
+| Ferrari podiums = 207
+| Formula 1 points = 5232.5
+| Ferrari points = 5209.5
+| titles = 7, on both pages
+| 2026, page fetched October 2026 = 3rd, 214 points
+}}
+
+'''Lewis Hamilton''' is a Formula 1 driver whose two official statistics pages agree about the wins and disagree about almost everything counted next to them.
+
+== The box fetched in October 2026 ==
+The Formula 1 driver page lists him for Ferrari, number 44, born 07/01/1985 in Stevenage, England. The career block reads 396 Grands Prix entered, 5,232.5 points, a highest race finish of 1 (x106), 208 podiums, a highest grid position of 1 (x104), 104 pole positions, 7 world championships, and 35 DNFs.<ref name="f1">"Lewis Hamilton", Formula 1. https://www.formula1.com/en/drivers/lewis-hamilton</ref>
+
+The 2026 season block on that page, as fetched in October 2026, reads 3rd, 214 season points, 16 Grands Prix, 194 Grand Prix points, 1 Grand Prix win, 6 Grand Prix podiums, 0 Grand Prix poles, 15 Grand Prix top tens, 1 fastest lap, 1 DNF, 5 sprint races, 20 sprint points, 0 sprint wins, 2 sprint podiums, and 1 sprint pole.<ref name="f1" />
+
+The separate 2026 drivers' standings page, fetched the same month, has him third on 214 points for Ferrari. Kimi Antonelli is first on 320 for Mercedes. George Russell is second on 236, also Mercedes. Charles Leclerc is fourth on 191, the other Ferrari.<ref name="stand">"2026 Drivers' Standings", Formula 1. https://www.formula1.com/en/results/2026/drivers</ref>
+
+The biography on the driver page says the words "Still I Rise" are on the back of his helmet and tattooed across his shoulders. It puts the career at McLaren, then Mercedes, then Ferrari, and says he leads the all-time pole list ahead of Ayrton Senna, leads the wins list ahead of Michael Schumacher, and has matched Schumacher's seven titles. It calls him Sir Lewis Hamilton. It quotes him: "Driving a Scuderia Ferrari HP car for the first time was one of the best feelings of my life."<ref name="f1" />
+
+The same biography says a tough first season with Ferrari was his first not to feature a Sunday podium appearance, and that a Scuderia Grand Prix win is now under his belt. The statistics box above that sentence, on the same page, lists one win and six podiums for 2026.<ref name="f1" />
+
+== Ferrari's numbers ==
+Ferrari's driver page gives the birth as 7 January 1985, the height as 1.74 m, the weight as 71 kg, and the country as Great Britain. The totals it prints are 207 podiums, 34 retirements, 5,209.5 points, and 7 drivers' titles. A line of laps is printed 22 452. Fastest laps are 68. The first-position row is printed 106, then 105, then 1, under headings that include "In Ferrari." Second position is 59, then 57, then 2. Third is 41, then 40, then 1. The page says he has won more races than any other driver in the category. It quotes him: "Part of me has always held on to that dream of racing in red. I couldn't be happier to realise it." He likes Silverstone for Copse, Maggotts, Becketts, and Stowe, and also Interlagos and Spa-Francorchamps.<ref name="ferrari">"Lewis Hamilton", Scuderia Ferrari. https://www.ferrari.com/en-EN/formula1/lewis-hamilton</ref>
+
+Formula 1's podium total is 208. Ferrari's is 207. Formula 1's points are 5,232.5. Ferrari's are 5,209.5. Formula 1's DNF count is 35. Ferrari's retirement count is 34. The wins figure, 106, is on both. The titles, 7, are on both. This article does not average the pairs that differ.
+
+== The knighthood, as an intention ==
+The London Gazette notice of 31 December 2020, from the Central Chancery of the Orders of Knighthood at St James's Palace, says the Queen has been graciously pleased to signify her intention of conferring the honour of Knighthood upon Lewis Carl Davidson Hamilton, M.B.E., Formula One racing driver, for services to motorsports.<ref name="gaz">"Knights Bachelor", The Gazette, notice 3703125, 31 December 2020. https://www.thegazette.co.uk/notice/3703125</ref>
+
+The government's New Year Honours 2021 overseas and international list, published 30 December 2020, files the same man as a Knight Bachelor: Lewis Carl Davidson Hamilton MBE, Formula One racing driver, for services to motorsports.<ref name="gov">"New Year Honours 2021 Overseas and International List: Knight Bachelor and Order of the British Empire", GOV.UK, 30 December 2020. https://www.gov.uk/government/publications/new-year-honours-2021-overseas-and-international-list/new-year-honours-2021-overseas-and-international-list-knight-bachelor-and-order-of-the-british-empire</ref>
+
+The Gazette records an intention. The Formula 1 page uses the title.
+
+== The promise at the awards ==
+McLaren's heritage page gives the birth as 7 January 1985, the titles as 7, and the McLaren career as 2007 to 2012. It says that as a 10-year-old karter he approached Ron Dennis at the 1995 Autosport Awards and told him he would one day drive for him. For 2007 he joined Vodafone McLaren Mercedes, took consecutive podiums from his first five races, won his first Grand Prix in Montreal, and won again a week later at Indianapolis, beating Fernando Alonso. He finished second in the championship to Ferrari's Kimi Raikkonen. In 2008 he won in the wet at Monaco and at Silverstone and, the page says, took the title after a downpour, on the final corner of the final lap of the final race.<ref name="mcl">"Lewis Hamilton", McLaren Racing heritage. https://www.mclaren.com/racing/heritage/formula-1/drivers/lewis-hamilton/</ref>
+
+The 10-year-old's sentence is in the heritage page. The podium argument is in the two statistics pages. They still do not match.
+
+== References ==
+{{reflist}}
+
+[[Category:Sports]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "203.0.113.40",
+        daysAgo: 5,
+        comment: "title count",
+        content: `'''Lewis Hamilton''' has 200 world championships and drives McLaren number 1 in 2026, with 9,000 points. He was born in Monaco in 1995.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 5,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.40|203.0.113.40]] to last revision by CubeWatch. Formula 1 and Ferrari both print 7 titles, not 200, and the 2026 standings page has him 3rd for Ferrari on 214 points.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: the pairs that differ did not need a second announcement",
+        patch: [["This article does not average the pairs that differ.", "The pairs that differ are left as printed."]],
+      },
+    ],
+    talk: {
+      user: "Anonyfish",
+      daysAgo: 5,
+      content: `== 207 or 208 ==
+
+Ferrari and Formula 1 disagree on podiums, points, and retirements. Which office is the article's? ~~~
+
+: Neither, and we do not split the difference. The Formula 1 driver page, https://www.formula1.com/en/drivers/lewis-hamilton , gives 208 podiums, 5,232.5 points, and 35 DNFs. Ferrari's page, https://www.ferrari.com/en-EN/formula1/lewis-hamilton , gives 207 podiums, 5,209.5 points, and 34 retirements. Both give 106 wins and 7 titles. The 2026 line, 3rd on 214 points, is the driver page and the standings page as fetched in October 2026, not a career total. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 18:02, 4 October 2026 (UTC)
+`,
+    },
+  },
 ];
