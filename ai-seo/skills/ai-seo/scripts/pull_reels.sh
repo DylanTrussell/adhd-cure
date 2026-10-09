@@ -6,9 +6,11 @@
 # Output:
 #   <workdir>/video/        downloaded media (delete when done, it is large)
 #   <workdir>/transcripts/  <shortcode>.txt  and  <shortcode>.info.json
+#   <workdir>/watch/<shortcode>/  contact sheets, frames, audio, OCR of on-screen text
 #   <workdir>/manifest.tsv  shortcode, date, url, caption first line
 #
-# Needs: yt-dlp. Optional: ffmpeg + whisper (local fallback when no captions exist).
+# Needs: yt-dlp, ffmpeg. Optional: whisper (speech when the post has no captions),
+# tesseract (on-screen text).
 # Instagram requires a logged-in session. Set IG_BROWSER to the browser you are
 # logged into (default: chrome), or export cookies to <workdir>/cookies.txt.
 
@@ -54,7 +56,7 @@ else
 fi
 
 LIMIT=()
-[[ "$MAX" != "0" ]] && LIMIT=(--playlist-end "$MAX")
+if [[ "$MAX" != "0" ]]; then LIMIT=(--playlist-end "$MAX"); fi
 
 echo "pulling: $URL -> $WORKDIR"
 
@@ -115,6 +117,20 @@ row = [d.get("id",""), str(d.get("upload_date","")), d.get("webpage_url",""), ca
 open(manifest, "a").write("\t".join(c.replace("\t"," ") for c in row) + "\n")
 PY
 done
+
+# Frames, so Claude can look at the reel instead of only reading it. On-screen text
+# carries most of a reel's argument and never appears in the transcript.
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+if command -v ffmpeg >/dev/null 2>&1; then
+  for media in "$WORKDIR"/video/*.mp4 "$WORKDIR"/video/*.webm; do
+    [[ -f "$media" ]] || continue
+    id="$(basename "${media%.*}")"
+    "$HERE/watch_reel.sh" "$media" "$WORKDIR/watch/$id" "${FRAMES:-24}" || \
+      echo "frame extraction failed for $id" >&2
+  done
+else
+  echo "ffmpeg not installed, skipping frames (brew install ffmpeg)" >&2
+fi
 
 n=$(find "$WORKDIR/transcripts" -name '*.txt' | wc -l | tr -d ' ')
 echo

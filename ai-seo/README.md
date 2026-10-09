@@ -33,8 +33,22 @@ and every seed entry is marked so reel-derived plays can replace it.
 
 Then, in Claude Code: `ingest ~/ai-seo-corpus into the ai-seo playbook`.
 
-Needs `yt-dlp` and a browser you are logged into Instagram in. Set `IG_BROWSER` if it
-is not Chrome. The script rate limits itself on purpose.
+Needs `yt-dlp`, `ffmpeg`, and a browser you are logged into Instagram in. Set
+`IG_BROWSER` if it is not Chrome. The script rate limits itself on purpose.
+Install `tesseract` too: on-screen text is most of what a reel actually says, and it
+never shows up in the transcript.
+
+**Watch a single file**
+
+```bash
+./skills/ai-seo/scripts/watch_reel.sh clip.mp4        # frames + sheets + OCR
+GRID=2x3 ./skills/ai-seo/scripts/watch_reel.sh clip.mp4   # bigger tiles, small captions
+```
+
+Claude reads images, not video streams, so the reel becomes timestamped contact
+sheets plus full-resolution frames plus the audio. For a 30 second talking head with
+text overlays, that is not a lossy substitute for watching, it is the same
+information.
 
 **Apply**
 
@@ -53,4 +67,5 @@ each with the metric that says it worked, plus what got skipped and why.
 - [`skills/ai-seo/SKILL.md`](skills/ai-seo/SKILL.md) - the agent: both modes, merge rules
 - [`skills/ai-seo/references/playbook.md`](skills/ai-seo/references/playbook.md) - the living knowledge base
 - [`skills/ai-seo/references/distill-template.md`](skills/ai-seo/references/distill-template.md) - the per-video entry format and tiering order
-- [`skills/ai-seo/scripts/pull_reels.sh`](skills/ai-seo/scripts/pull_reels.sh) - download and transcribe
+- [`skills/ai-seo/scripts/pull_reels.sh`](skills/ai-seo/scripts/pull_reels.sh) - download, transcribe, extract frames
+- [`skills/ai-seo/scripts/watch_reel.sh`](skills/ai-seo/scripts/watch_reel.sh) - one video into contact sheets, frames, audio and OCR
