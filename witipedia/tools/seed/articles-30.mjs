@@ -1074,4 +1074,447 @@ Box Office Mojo times the film at 1 hour 48 minutes. The Numbers times it at 110
 `,
     },
   },
+  {
+    title: "George VI",
+    ratings: { helpful: [164, 6], funny: [121, 9] },
+    photoIdeas: {
+      documentary: { query: "George VI Instrument of Abdication Fort Belvedere", webQuery: "Instrument of Abdication 1936 Fort Belvedere signatures", caption: "The instrument of 10 December 1936. The witnesses on the schedule are Albert, Henry and George." },
+      humour: { webQuery: "George VI last name George meme", caption: "A joke about the name. The Royal Family page is the one that calls George his last name." },
+    },
+    revisions: [
+      {
+        user: "HansardHannah",
+        daysAgo: 14,
+        comment: "created article",
+        content: `'''George VI''' became king in December 1936, after his brother signed an instrument at Fort Belvedere.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Ornithopod",
+        daysAgo: 10,
+        comment: "expanded from the abdication Act, the Royal Family pages, Logue's biography, IWM and the BBC",
+        content: `{{true and funny|source=His Majesty's Declaration of Abdication Act 1936, Schedule: "Signed at Fort Belvedere in the presence of ALBERT. HENRY. GEORGE."}}
+{{Infobox
+| title = George VI
+| reign = December 1936 to 6 February 1952
+| predecessor = Edward VIII, 325 days, never crowned
+| instrument = 10 December 1936, Fort Belvedere
+| act = 11 December 1936
+| speech work = Lionel Logue, 146 Harley Street, from 1924
+| palace = the Royal Family page says bombed nine times
+| died = 6 February 1952, Sandringham, aged 56
+}}
+
+'''George VI''' became king in December 1936 because his brother signed an instrument and, the next day, gave the royal assent that made the instrument law.<ref name="royal">"George VI (r.1936-1952)", The Royal Family. https://www.royal.uk/george-vi</ref><ref name="edward">"Edward VIII (Jan-Dec 1936)", The Royal Family. https://www.royal.uk/edward-viii</ref>
+
+== The schedule ==
+The Act is dated 11 December 1936. Its schedule prints the instrument Edward signed on the tenth day of December. The operative sentence is his "irrevocable determination to renounce the Throne for Myself and for My descendants," and his desire that effect be given to the instrument immediately. Under the signature EDWARD R.I. the enacted text says: "Signed at Fort Belvedere in the presence of ALBERT. HENRY. GEORGE."<ref name="act">His Majesty's Declaration of Abdication Act 1936, original version as enacted. https://www.legislation.gov.uk/ukpga/Edw8and1Geo6/1/3/enacted</ref>
+
+Section 1 says that immediately upon the royal assent, the instrument has effect, His Majesty ceases to be king, and there is a demise of the Crown. The member of the royal family then next in succession succeeds. His Majesty, his issue if any, and the descendants of that issue have after the abdication no right to the throne. The Royal Marriages Act 1772 does not apply to him after the abdication, nor to that issue.<ref name="act" />
+
+The Royal Family's page on Edward says the instrument of 10 December 1936 was given legal effect the following day. The reign lasted 325 days. Edward was never crowned. The same page says his brother Albert became king, "using his last name George, as George VI."<ref name="edward" />
+
+Three brothers signed the paper. The middle signature is the man who then had to read the broadcasts.
+
+== The window ==
+In 1926 the Duke of York consulted Lionel Logue about his stammer. Logue had practised at 146 Harley Street from 1924. The fees from wealthy clients, the Australian Dictionary of Biography says, let him take poorer patients without charge. He diagnosed poor co-ordination between larynx and diaphragm and asked for an hour a day of exercises. The duke came to the rooms, stood by an open window, and loudly intoned each vowel for fifteen seconds. The biography says the stammer diminished to occasional hesitations. In 1927, "resonantly and without stuttering," he opened the Australian parliament in Canberra.<ref name="logue">Suzanne Edgar, "Logue, Lionel George (1880–1953)", Australian Dictionary of Biography, National Centre of Biography, Australian National University. https://adb.anu.edu.au/biography/logue-lionel-george-10852</ref>
+
+Logue used tongue-twisters to rehearse major speeches and coached the formal language of the 1937 coronation. At Westminster Abbey on 12 May, wearing the M.V.O. given to him by the king the previous night, Logue sat in the apse. Before the radio broadcast that evening he whispered: "Now take it quietly, Sir." The "slow, measured pace" he had given the king's diction, the biography says, carried into the wartime broadcasts. Logue was with him for the VE-Day broadcast on 8 May 1945.<ref name="logue" />
+
+== Nine times, and also five ==
+The Royal Family's page says he remained for most of the war at Buckingham Palace, and that the palace was bombed nine times. In 1940 he instituted the George Cross and the George Medal, for acts of bravery by citizens. In 1942 the George Cross was awarded to the island and people of Malta. He had served in the Navy in the First World War, including at Jutland. In June 1944 he visited his army on the Normandy beaches ten days after D-Day. On VE Day, 8 May 1945, the palace was a focal point of the celebrations. In 1947, when India and Pakistan became independent, he ceased to be Emperor of India.<ref name="royal" />
+
+A BBC page on the Queen Mother's war years says the palace took nine direct hits, the first a narrow escape, with masonry and windows destroyed close to the king and queen. She learned to use a revolver in case of a kidnap. She refused to evacuate to Canada. The page quotes her declaration that, now the palace had been bombed, she could "look the East End in the face."<ref name="qm">"The war years", BBC News, Queen Mother. http://news.bbc.co.uk/hi/english/static/obituaries/queen_mother/the_war_years.stm</ref>
+
+The Imperial War Museums dates a bombing of the palace to 13 September 1940 and uses that same "face" sentence. Further down, in a video transcript on the same page, she is reported as saying: "I am glad we have been bombed. Now we can look the East End in the eye." The transcript also says that in September 1940 five high explosive bombs were dropped on the palace.<ref name="iwm">"What The Royal Family Did During The Second World War", Imperial War Museums. https://www.iwm.org.uk/history/second-world-war/home-front/what-the-royal-family-did-during-the-second-world-war</ref>
+
+The counts are on the pages. They are not the same number. "Face" and "eye" are both printed. The article leaves them that way.
+
+The same IWM page says that at 6pm on 3 September 1939 he broadcast to Britain and the Empire, and that at 6pm on VE Day, 8 May 1945, he broadcast again. During that afternoon and evening the family made eight appearances on the balcony.<ref name="iwm" />
+
+== Sandringham ==
+The Royal Family's page says the strain of the war and the post-war years took a toll on his health. He failed to recover from a lung operation and died in his sleep on 6 February 1952 at Sandringham. He was 56. After lying in state at Westminster Hall, the funeral was at St George's Chapel, Windsor. On the government's wreath Churchill had written the phrase inscribed on the Victoria Cross: "For Valour."<ref name="royal" />
+
+The BBC's On This Day entry, set out as the contemporary bulletin, says the official announcement from Sandringham was given at 1045 GMT. He had retired in his usual health, passed away in his sleep, and was found dead in bed at 0730 GMT by a servant. He was known to have been suffering from a worsening lung condition. Princess Elizabeth, at the royal hunting lodge in Kenya, became queen at 25. A thunderstorm delayed her plane. Cinemas and theatres closed, BBC programmes were cancelled except for news, and sports fixtures were cancelled. A later "In Context" note on the same page says he had suffered a coronary thrombosis soon after falling asleep, and that he was also revealed to have had lung cancer. The note is not the bulletin.<ref name="otd">"1952: King George VI dies in his sleep", BBC On This Day. https://newsimg.bbc.co.uk/onthisday/hi/dates/stories/february/6/newsid_2711000/2711265.stm</ref>
+
+The schedule still has three signatures. The card on the wreath has two words.
+
+== References ==
+{{reflist}}
+
+[[Category:Kings]]
+[[Category:United Kingdom]]
+`,
+      },
+      {
+        user: "203.0.113.14",
+        daysAgo: 7,
+        comment: "the palace was never hit",
+        content: `'''George VI''' was crowned in 1920, never had a stammer, and died in a London traffic accident in 1960 after a palace that was never bombed. Edward VIII was crowned twice.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 7,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.14|203.0.113.14]] to last revision by Ornithopod. The Act is dated 11 December 1936. The Royal Family page says the Palace was bombed nine times and that he died at Sandringham on 6 February 1952.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 3,
+        minor: true,
+        comment: "copyedit: the bomb counts do not match",
+        patch: [["The counts are on the pages. They are not the same number.", "The pages print the counts. They do not agree."]],
+      },
+    ],
+    talk: {
+      user: "PollWatcher",
+      daysAgo: 3,
+      content: `== Last name ==
+The biography says Albert became king using his last name George. That cannot be right, can it? ~~~
+
+: The Royal Family's Edward VIII page says it in those words: his brother Albert became king, "using his last name George, as George VI." Albert Frederick Arthur George had George among his given names. The page still calls it a last name. The article quotes the page. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 09:40, 7 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Germany",
+    ratings: { helpful: [188, 4], funny: [142, 11] },
+    photoIdeas: {
+      documentary: { query: "Bundestag Berlin Bonn debate 20 June 1991", webQuery: "Bundestag waterworks Bonn 1991 vote Berlin photo", caption: "The 20 June 1991 sitting. The official result was corrected from 337 to 338." },
+      humour: { webQuery: "Reinheitsgebot only barley hops water meme", caption: "A joke about the ingredient list. The 1516 text is shorter than the joke." },
+    },
+    revisions: [
+      {
+        user: "CubeWatch",
+        daysAgo: 13,
+        comment: "created article",
+        content: `'''Germany''' moved its parliament from a former waterworks in Bonn to Berlin by a vote the official result corrected from 337 to 338.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "HansardHannah",
+        daysAgo: 9,
+        comment: "expanded from the Bundestag pages, the Brauer-Bund text, ADAC and the Berlin Wall Foundation",
+        content: `{{true and funny|source=Deutscher Brauer-Bund, the 1516 text: "allein Gersten, Hopfen und Wasser."}}
+{{Infobox
+| title = Germany
+| beer ordinance = April 1516, Wilhelm IV, Ingolstadt
+| ingredients named = barley, hops and water
+| capital vote = 20 June 1991, 338 to 320 after a correction from 337
+| law = Berlin/Bonn Act, passed 10 March 1994, in force 7 May 1994
+| Bundestag in Berlin = first sitting in the Reichstag, 4 October 1999
+| autobahn recommendation = 130 km/h
+| network without a limit = 19,301 km, 73.1 percent, on the ADAC page
+| ministries still listing Bonn first = 6 of 16, as of the page dated 31 July 2025
+}}
+
+'''Germany''' is the country whose parliament, sitting in a former waterworks, voted on 20 June 1991 to move itself and the government to Berlin. The president announced 337 votes. The official result was corrected to 338.<ref name="debate">"Berlin-Bonn-Debatte", Deutscher Bundestag. https://www.bundestag.de/parlament/geschichte/debatte/debatte-198770</ref>
+
+== The waterworks ==
+The debate ran nearly twelve hours. At 21:47, Bundestag president Rita Süssmuth announced that 337 votes had been cast for moving parliament and government to Berlin. The official final result was corrected to 338. The majority was 18 votes. On the other side, 320 members had wanted to move the Bundesrat and the seat of the federal president to Berlin, and to leave parliament and the government in Bonn.<ref name="debate" />
+
+The page calls it a narrow result. It also records that the hall was provisional, and that it had been a waterworks.
+
+== The statute that followed ==
+On 10 March 1994 the Bundestag passed, by a large majority, the law implementing the 20 June 1991 decision: the Berlin/Bonn Act. The Bundesrat agreed on 18 March. The law was promulgated on 6 May 1994 and entered into force on 7 May 1994. It names Berlin as the seat of the Bundestag and of the federal government, and it writes down the "faire Arbeitsteilung," the fair division of labour, between the federal capital Berlin and the federal city Bonn.<ref name="act">"10. März 1994: Bundestag verabschiedet das Berlin/Bonn-Gesetz", Deutscher Bundestag, note dated 31 July 2025. https://www.bundestag.de/dokumente/textarchiv/1994-03-10-berlin-bonn-gesetz-627346</ref>
+
+Süssmuth, who had voted in 1991 to remain in Bonn, argued for the bill. Opponents, including Simon Wittmann and Hans Martin Bury, talked about the cost and proposed aiming at 2010 instead. That motion was declared disposed of. A motion to put the move to a referendum was rejected.<ref name="act" />
+
+In the parliamentary summer break of 1999 the Bundestag moved. Official work began on 1 September. The first sitting in the rebuilt Reichstag was on 4 October. The federal government also took up its work in Berlin in 1999. The Bundesrat followed a year later.<ref name="act" />
+
+The same page, dated 31 July 2025, says that six of the 16 ministries still have their first office in Bonn: research, technology and space; health; agriculture, food and consumer protection; environment, climate, nature protection and nuclear safety; defence; and economic cooperation and development. The others are on the Spree. Ministries whose first office is Berlin have, with the exception of the ministry for digital affairs and state modernisation created in 2025, a second office in Bonn.<ref name="act" />
+
+The vote was in 1991. The first sitting was in 1999. Six letterheads still say Bonn.
+
+== Barley, hops, water ==
+The German Brewers Association prints the wording of the ordinance Wilhelm IV, Duke of Bavaria, issued in April 1516. From Michaelmas to St George's Day, a Maß of beer was not to cost more than one Munich penny, and from St George's Day to Michaelmas not more than two. The sentence the association puts in the middle is narrower than the price list. Henceforth, in the cities, the markets and the countryside, nothing was to be used in beer but barley, hops and water: "allein Gersten, Hopfen und Wasser." Anyone who knowingly broke the rule was to have that barrel of beer taken by the court, without mercy, every time it happened. A country innkeeper who bought one, two or three Eimer from a brewer and resold them to the peasantry could charge one Heller more. The ordinance is given by Wilhelm IV at Ingolstadt on St George's Day, 1516.<ref name="beer">"Der Wortlaut des Reinheitsgebotes", Deutscher Brauer-Bund. https://brauer-bund.de/reinheitsgebot/entstehung/wortlaut/</ref>
+
+The penalty in the ordinance is the barrel. The ingredient list is three words long. The price list around it is longer.
+
+== 130, recommended ==
+The ADAC's page on the Richtgeschwindigkeit, updated 21 May 2026, says the recommended speed on German autobahns and roads of a similar kind is 130 km/h. It applies to motor vehicles with a permissible total weight up to 3.5 tonnes, and only in the most favourable road, weather, visibility and traffic conditions. It ceases to apply the moment a specific maximum is ordered. No sign is required. At border crossings, traffic sign 393 tells people entering the country about the 130 km/h recommendation.<ref name="richt">Petra Zollner, "Richtgeschwindigkeit: Wann sie gilt und was sie bedeutet", ADAC, 21 May 2026. https://www.adac.de/verkehr/recht/verkehrsvorschriften-deutschland/richtgeschwindigkeit/</ref>
+
+Exceeding it is not, by itself, a regulatory offence. The page says it draws neither a fine nor points in Flensburg, so long as nobody is harmed. If there is a crash, exceeding it can mean a share of the liability of at least 20 percent, where keeping to the recommendation would have avoided the crash. One case the page cites is a driver who used the infotainment system at 200 km/h, left the road, and was ordered by the Nuremberg higher regional court to pay nearly 12,000 euros.<ref name="richt" />
+
+A second ADAC page, dated 16 June 2026, prints the length of the network. Directional carriageways without a speed limit: 19,301 km, 73.1 percent. The table's total is 26,420 km. Permanent limits on the same table run from 130 down to 60 km/h and below. The line under the table credits BASt 2025. The page also says that in a 2026 survey of ADAC members, 56 percent favoured a general limit and 39 percent were against, and that the club itself makes no recommendation to politicians.<ref name="tempo">"Tempolimit auf Autobahnen: Die Fakten", ADAC, 16 June 2026. https://www.adac.de/verkehr/standpunkte-studien/positionen/tempolimit-autobahn-deutschland/</ref>
+
+The recommendation is 130. The table says nearly three quarters of the measured carriageways have no limit posted. The fine for ignoring the recommendation, if nobody is hurt, is nothing.
+
+== A car, and a wall that was a border ==
+VisitBerlin's page for the Trabant museum says the Trabant was the Volkswagen of the GDR. Between 1958 and 1991 more than three million of them left the line at Zwickau, in Saxony, which was still too few. Citizens usually waited years for the car they had ordered.<ref name="trabi">"The World of the Trabis", visitBerlin. https://www.visitberlin.de/en/event/world-trabis</ref>
+
+The Berlin Wall Foundation's page for the East Side Gallery says the wall on Mühlenstrasse was one part of a border 155 kilometres long that went all the way around West Berlin.<ref name="wall">"East Side Gallery", Stiftung Berliner Mauer. https://www.stiftung-berliner-mauer.de/en/east-side-gallery</ref>
+
+The ordinance still names the day it was given. Six ministries still name Bonn first.
+
+== References ==
+{{reflist}}
+
+[[Category:Countries]]
+[[Category:Europe]]
+`,
+      },
+      {
+        user: "198.51.100.22",
+        daysAgo: 6,
+        comment: "the vote was unanimous",
+        content: `'''Germany''' voted unanimously in 1946 to keep the capital in Bonn forever, banned cars, and repealed the beer ordinance in 1515, the year before it was written.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 6,
+        comment: "Reverted edits by [[Special:Contributions/198.51.100.22|198.51.100.22]] to last revision by HansardHannah. The Bundestag page says 338 to 320, and that the president first announced 337.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: the barrel is the penalty",
+        patch: [["The penalty in the ordinance is the barrel.", "The ordinance takes the barrel."]],
+      },
+    ],
+    talk: {
+      user: "MonotremeMary",
+      daysAgo: 2,
+      content: `== 337 or 338 ==
+If the president said 337 at 21.47, why does the article also say 338? Pick one. ~~~
+
+: The Bundestag's own history page says both. Rita Süssmuth announced 337. The official final result was corrected to 338. The article keeps the correction. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 18:05, 5 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Jalen Brunson",
+    ratings: { helpful: [156, 8], funny: [133, 6] },
+    photoIdeas: {
+      documentary: { query: "Jalen Brunson Knicks 2026", webQuery: "Jalen Brunson New York Knicks game photo", caption: "Brunson with the Knicks. The statistics page lists a 2025-26 line of 26.0 points in 74 games." },
+      humour: { webQuery: "Jalen Brunson contract extension meme", caption: "A meme about the extension. The NBA.com story says the terms were not provided, and then prints them." },
+    },
+    revisions: [
+      {
+        user: "Skinnerbox",
+        daysAgo: 12,
+        comment: "created article",
+        content: `'''Jalen Brunson''' is a New York Knicks guard whose 2025-26 line, on the statistics pages, is 26.0 points in 74 games.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "PollWatcher",
+        daysAgo: 8,
+        comment: "expanded from Basketball-Reference, ESPN, Sports-Reference and the NBA.com extension story",
+        content: `{{true and funny|source=NBA.com, 12 July 2024: "Terms of the contract were not provided." The next paragraphs give the dollars.}}
+{{Infobox
+| title = Jalen Brunson
+| born = 31 August 1996
+| listed height = 6 ft 2 in on the NBA.com player page; 6 ft 3 in on the college page
+| team = New York Knicks
+| number = 11
+| draft = 2018, Dallas, second round, 33rd overall
+| college = Villanova
+| 2025-26 = 74 games, 26.0 points, 3.3 rebounds, 6.8 assists
+| extension reported = four years, $156.5 million, beginning 2025-26
+| awards line = Basketball-Reference includes 2026 NBA Champ and 2025-26 Finals MVP
+}}
+
+'''Jalen Brunson''' is a guard for the New York Knicks. The NBA.com player page lists him at 6 ft 2 in and 190 lb, number 11, last school Villanova, born 31 August 1996, drafted in 2018 in the second round at pick 33. In the line printed there he is at 26.0 points, 3.3 rebounds and 6.8 assists.<ref name="nba">Jalen Brunson player page, NBA.com. https://www.nba.com/player/1628973/jalen-brunson</ref>
+
+== The line ==
+Basketball-Reference has the same 2025-26 averages: 74 games, 26.0 points, 3.3 rebounds, 6.8 assists. It lists him at 6 ft 2 in and 190 lb, shooting left, born 31 August 1996 in New Brunswick, New Jersey, college Villanova, and drafted by Dallas in the second round, the third pick of that round and 33rd overall, in 2018. The awards printed on the page include three All-Star selections, three All-NBA selections, the 2025-26 in-season tournament MVP, the 2025-26 Eastern Conference finals MVP, the 2025-26 Finals MVP, and "2026 NBA Champ."<ref name="bref">"Jalen Brunson", Basketball-Reference. https://www.basketball-reference.com/players/b/brunsja01.html</ref>
+
+ESPN's stats page, opened in October 2026, matches the season line: 74 games, 35.0 minutes, 26.0 points, 3.3 rebounds, 6.8 assists, 46.7 percent from the field, 36.9 percent from three, 84.1 percent from the line. It has the same birthday and the same draft slot, Dallas, round 2, pick 33, and Villanova.<ref name="espnstats">"Jalen Brunson career stats", ESPN. https://www.espn.com/nba/player/stats/_/id/3934672/jalen-brunson</ref>
+
+The championship is on the awards line. The draft slot, on every one of these pages, is 33.
+
+== What the July pages actually compare ==
+On 12 July 2024 NBA.com reported that Brunson had agreed an extension with the Knicks. The first sentence about the money is: "Terms of the contract were not provided." The story then says ESPN's Adrian Wojnarowski reported a four-year extension below market value, and that Brunson would be paid $156.5 million over those four years. Had he waited until the next summer, the same story says, he could have signed a five-year extension for $269 million, "a difference of roughly $113 million." The extension begins with the 2025-26 season. In the season just finished he had averaged 28.7 points and finished fifth in the Kia MVP voting.<ref name="nbanews">"Knicks sign All-star guard Jalen Brunson to 4-year extension", NBA.com, 12 July 2024. https://www.nba.com/news/jalen-brunson-knicks-extension</ref>
+
+ESPN's own story the same day, also from Wojnarowski, says the agent, Sam Rose of CAA, told ESPN it was a four-year, $156.5 million extension, "$113 million less guaranteed" than a deal he would be eligible to sign a year later. The five-year figure in that story is $269.1 million, not the round $269 million on NBA.com. ESPN adds a different subtraction: the deal "will cost Brunson $37.1 million over the next three years," with a fourth-year player option. Rose is the source named for the option. The story says that option would let him seek, later, a four-year maximum of $323 million in 2028 or a five-year deal of $418 million in 2029.<ref name="espn">Adrian Wojnarowski, "Knicks' Jalen Brunson accepts $156.5M, $113M less than '25 deal", ESPN, 12 July 2024. https://www.espn.com/nba/story/_/id/40547744/knicks-jalen-brunson-accepts-1565m-113m-less-25-deal</ref>
+
+The $113 million is a comparison between a four-year contract and a five-year contract that was not signed. The $37.1 million is the figure ESPN attaches to the next three years. The article does not add them together.
+
+NBA.com quotes Knicks president Leon Rose: Brunson "has consistently led by example and continues to show a willingness to sacrifice for this organization." The same story notes a five-year deal for OG Anunoby worth more than $210 million. ESPN's figure for Anunoby is five years and $212.5 million. A related note on the NBA.com story says New York sent Bojan Bogdanovic and five first-round picks to Brooklyn for Mikal Bridges.<ref name="nbanews" /><ref name="espn" />
+
+The July 2024 story was still a negotiation.
+
+== Villanova, on the college page ==
+Sports-Reference's college page lists him at 6 ft 3 in and 199 lb, hometown Lincolnshire, Illinois, high school Adlai Stevenson, recruiting rank 19 in 2015. The school is Villanova. The draft line matches the others: Dallas, second round, third pick of the round, 33rd overall, 2018. The awards on that page include "2x NCAA Champion," the 2017-18 Associated Press player of the year, and the 2017-18 Wooden and Naismith awards. Across 116 college games the page's career line is 14.4 points, 2.5 rebounds and 3.7 assists.<ref name="cbb">"Jalen Brunson", Sports-Reference college basketball. https://www.sports-reference.com/cbb/players/jalen-brunson-1.html</ref>
+
+The NBA page has him at 6 ft 2 in. The college page has him at 6 ft 3 in. Both pages are still up.
+
+== What the awards line says now ==
+Read in October 2026, Basketball-Reference's summary still shows the 2025-26 season at 74 games and 26.0 points, and the award strip still includes the championship and the Finals MVP.<ref name="bref" /> The contract story from July 2024 still begins by saying the terms were not provided.<ref name="nbanews" />
+
+The pick was 33. The awards line is ahead of the press release.
+
+== References ==
+{{reflist}}
+
+[[Category:Basketball]]
+[[Category:Living people]]
+`,
+      },
+      {
+        user: "192.0.2.41",
+        daysAgo: 5,
+        comment: "he was the first pick",
+        content: `'''Jalen Brunson''' was the first overall pick in 2018, skipped college, and signed a one-year deal for one dollar that Basketball-Reference does not list.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 5,
+        comment: "Reverted edits by [[Special:Contributions/192.0.2.41|192.0.2.41]] to last revision by PollWatcher. Basketball-Reference and the NBA.com player page both say the 2018 draft, second round, 33rd overall, Dallas.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 1,
+        minor: true,
+        comment: "copyedit: the July story is not the championship line",
+        patch: [["The July 2024 story was still a negotiation.", "The July 2024 story had not yet become a championship line."]],
+      },
+    ],
+    talk: {
+      user: "Thoenfan",
+      daysAgo: 1,
+      content: `== The 113 ==
+The article refuses to say he gave up 113 million dollars. The pages say 113 million. ~~~
+
+: NBA.com calls it a difference of roughly $113 million between a reported four-year $156.5 million and a five-year $269 million he could have waited for. ESPN's figure for that five-year deal is $269.1 million, and the same story says the signed deal costs him $37.1 million over the next three years. Those are comparisons on the page, not a cheque. The article prints both. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 21:12, 8 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Paul McCartney",
+    ratings: { helpful: [201, 7], funny: [176, 8] },
+    photoIdeas: {
+      documentary: { query: "Paul McCartney Hofner bass 1961", webQuery: "Paul McCartney Hofner 500/1 bass photo", caption: "A H\u00f6fner 500/1. McCartney's site says the 1961 bass stolen in 1972 was returned and authenticated in 2024." },
+      humour: { webQuery: "Yesterday scrambled eggs McCartney meme", caption: "A meme about the working title. His site prints the placeholder lines." },
+    },
+    revisions: [
+      {
+        user: "Ornithopod",
+        daysAgo: 15,
+        comment: "created article",
+        content: `'''Paul McCartney''' wrote "Yesterday" by himself. The Beatles' page still credits it to Lennon-McCartney.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Anonyfish",
+        daysAgo: 11,
+        comment: "expanded from the Beatles' Yesterday and Help pages, McCartney's own news posts and NPR",
+        content: `{{true and funny|source=paulmccartney.com, 12 June 2012: while working on the lyrics he used "Scrambled Eggs / Oh, my baby how I love your legs."}}
+{{Infobox
+| title = Paul McCartney
+| Yesterday = written solely by him; credit on the Beatles' page still Lennon-McCartney
+| recorded = 14 June 1965, EMI Studios, London
+| length = 2:03
+| on the record = McCartney and a string quartet
+| UK single | held back until 1976
+| US single = 13 September 1965
+| working lines = Scrambled Eggs / Oh, my baby how I love your legs
+| bass = 1961 Höfner 500/1, stolen 1972, returned and authenticated, statement of 15 February 2024
+}}
+
+'''Paul McCartney''' wrote "Yesterday" by himself. The Beatles' own page for the song says so, and then leaves the credit where it was: Lennon-McCartney.<ref name="yest">"Yesterday", The Beatles. https://www.thebeatles.com/yesterday</ref>
+
+== The song page ==
+"Yesterday" is on the album ''Help!''. The UK release date on the page is 6 August 1965. It was recorded on 14 June 1965 at EMI Studios, London. The length is 2:03. George Martin produced it. The writer line says Lennon-McCartney. The prose under that line says that although the credit reads Lennon-McCartney, the song was written solely by Paul McCartney.<ref name="yest" />
+
+He is the only Beatle on the recording. A string quartet is with him. The page calls it the first official Beatles recording that relied on a performance by a single member of the band. The finished track was different enough from the band's other work that the members vetoed a single in the United Kingdom. It was issued as a UK single in 1976. In the United States it was a single on 13 September 1965, with "Act Naturally" on the B-side, and it topped the American chart. Matt Monro's cover reached the British top 10 three months after ''Help!'' came out.<ref name="yest" />
+
+The page says there are more than 2,200 cover versions. A 1999 BBC Radio 2 poll of experts and listeners voted it the best song of the 20th century. BMI, the page says, asserts that it was performed more than seven million times in the 20th century. In 2000 McCartney asked Yoko Ono to change the credit in ''The Beatles Anthology'' to McCartney-Lennon. She refused.<ref name="yest" />
+
+The credit line did not move.
+
+== The placeholder ==
+His own site, in a note dated 12 June 2012 about a duet with Jimmy Fallon, says fans know he woke with the melody for "Yesterday" after dreaming it. While he worked on the lyrics he used "Scrambled Eggs / Oh, my baby how I love your legs," until he arrived at the words that were recorded. The Fallon track is called "Scrambled Eggs," and the note calls it a spoof of "Yesterday."<ref name="eggs">"Paul Duets On Jimmy Fallon Album", paulmccartney.com, 12 June 2012. https://www.paulmccartney.com/news/paul-duets-on-jimmy-fallon-album</ref>
+
+The song page has the credit. The news note has the eggs.
+
+== The film that used the album's name ==
+The Beatles' page for the film ''Help!'' dates the release to 29 July 1965 and names Dick Lester as director. McCartney's quote on that page is about the script: "I'm not sure anyone ever knew the script, I think we used to learn it on the way to the set." George Harrison's quote is about a mountain in Austria: they were handed boots nobody laced, handed skis, told "Turn over, take one. Action!", and given a push.<ref name="help">"Help!", The Beatles. https://www.thebeatles.com/help</ref>
+
+The album's song and the film's set are two different kinds of unrehearsed.
+
+== The bass ==
+On 15 February 2024 his site said that the 1961 Höfner 500/1, stolen in 1972, had been returned, after a project called Lost Bass. Höfner authenticated it.<ref name="hofner">"Statement on Höfner Bass", paulmccartney.com, 15 February 2024. https://www.paulmccartney.com/news/statement-on-hofner-bass</ref>
+
+The guitar left in 1972. The statement is two sentences and a date.
+
+== The catalogue, as NPR printed the price ==
+On 15 March 2016 NPR reported that Sony would pay Michael Jackson's estate $750 million for Jackson's 50 percent of Sony/ATV. The article says Jackson bought ATV, then the publisher of many Beatles songs, for a reported $47.5 million, and that in the mid-1990s, in debt, he sold half to Sony. The $750 million bought the estate's remaining half. NPR says the estate still owned Jackson's master recordings and Mijac Music, the company with the songs he wrote.<ref name="npr">Elizabeth Blair, "Sony Buys Michael Jackson's Stake In Lucrative Music Catalog", NPR, 15 March 2016. https://www.npr.org/sections/thetwo-way/2016/03/15/470537451/sony-buys-michael-jacksons-stake-in-lucrative-music-catalog</ref>
+
+The song page's copyright line, under the lyrics, reads Sony/ATV.<ref name="yest" /> The sale NPR described is the half Jackson's estate still held. The page does not say the songs came back to the writer.
+
+== What the front page was listing ==
+Opened in October 2026, paulmccartney.com's news strip included a paperback of ''Wings: The Story of a Band on the Run'', listed as released on 12 August 2026.<ref name="home">paulmccartney.com, news listings as opened in October 2026. https://www.paulmccartney.com/</ref>
+
+The working chorus was about eggs. The credit is still two surnames. The bass has a return date. The catalogue has a price.
+
+== References ==
+{{reflist}}
+
+[[Category:Musicians]]
+[[Category:Living people]]
+`,
+      },
+      {
+        user: "203.0.113.44",
+        daysAgo: 8,
+        comment: "Lennon wrote it",
+        content: `'''Paul McCartney''' co-wrote Yesterday with his bass teacher in 1972, and the Höfner was never stolen. The working title was Yesterday from the first morning.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 8,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.44|203.0.113.44]] to last revision by Anonyfish. The Beatles' Yesterday page says the song was written solely by McCartney and is still credited to Lennon-McCartney.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 4,
+        minor: true,
+        comment: "copyedit: the credit line is still both names",
+        patch: [["The credit line did not move.", "The credit line on the song page still has both names."]],
+      },
+    ],
+    talk: {
+      user: "Skinnerbox",
+      daysAgo: 4,
+      content: `== Both names ==
+If he wrote it alone, the credit is a mistake and the article should correct it. ~~~
+
+: The Beatles' song page says both things. It was written solely by McCartney, and the credit is Lennon-McCartney. In 2000 he asked Yoko Ono to change the Anthology credit to McCartney-Lennon. She refused. The page still prints Lennon-McCartney. [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 11:02, 4 October 2026 (UTC)
+`,
+    },
+  },
 ];
