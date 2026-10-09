@@ -30,6 +30,7 @@ import { articles18 } from './seed/articles-18.mjs';
 import { articles19 } from './seed/articles-19.mjs';
 import { articles20 } from './seed/articles-20.mjs';
 import { articles21 } from './seed/articles-21.mjs';
+import { articles24 } from './seed/articles-24.mjs';
 import { projectPages } from './seed/project.mjs';
 
 const SITE = process.env.SITE_NAME || 'Witipedia';
@@ -104,7 +105,7 @@ function addPage({ ns, title, protect = '', revisions }) {
 }
 
 // ---- articles, their talk pages and their ratings
-const articles = [...articles1, ...articles2, ...articles3, ...articles4, ...articles5, ...articles6, ...articles7, ...articles8, ...articles9, ...articles10, ...articles11, ...articles12, ...articles13, ...articles14, ...articles15, ...articles16, ...articles17, ...articles18, ...articles19, ...articles20, ...articles21];
+const articles = [...articles1, ...articles2, ...articles3, ...articles4, ...articles5, ...articles6, ...articles7, ...articles8, ...articles9, ...articles10, ...articles11, ...articles12, ...articles13, ...articles14, ...articles15, ...articles16, ...articles17, ...articles18, ...articles19, ...articles20, ...articles21, ...articles24];
 for (const a of articles) {
   const id = addPage({ ns: 0, title: a.title, protect: a.protect || '', revisions: a.revisions });
   if (a.talk) {
@@ -132,7 +133,7 @@ for (const p of projectPages) {
 }
 
 // ---- a couple of redirects, because a real wiki has hundreds
-for (const [from, to] of [['Emu War', 'Great Emu War'], ['Water bear', 'Tardigrade'], ['Peacock mantis shrimp', 'Mantis shrimp'], ['Five pillars', `${SITE}:Five pillars`]]) {
+for (const [from, to] of [['Emu War', 'Great Emu War'], ['Water bear', 'Tardigrade'], ['Peacock mantis shrimp', 'Mantis shrimp'], ['Five pillars', `${SITE}:Five pillars`], ['Trussell', 'Dylan Trussell'], ['Dylan trussell', 'Dylan Trussell']]) {
   addPage({ ns: 0, title: from, revisions: [{ user: 'Ornithopod', daysAgo: 30, comment: 'redirect', content: `#REDIRECT [[${to}]]` }] });
 }
 
