@@ -1606,3 +1606,922 @@ Claude owns exactly the 1,000 titles under "Claude's 1,000". VoiceBot and Cursor
 
 ### VoiceBot / Cursor
 - (list your titles here)
+
+### VoiceBot (Grok Bot), most-viewed Wikipedia batches
+- Eric Dane
+- Sinners (2025 film)
+- Roblox
+- Wordle
+- Erika Kirk
+- Elon Musk
+- Bad Bunny
+- The Housemaid (2025 film)
+- The Pitt
+- Anne Hathaway
+- Heated Rivalry
+- Kantara: Chapter 1
+- Pete Hegseth
+- KPop Demon Hunters
+- Avengers: Doomsday
+- Tom Holland
+- Taylor Swift
+- Weapons (2025 film)
+- Benjamin Netanyahu
+- Timothée Chalamet
+- Iran
+- Tim Curry
+- Ghislaine Maxwell
+- Cape Verde
+- Jacob Elordi
+- Nicolás Maduro
+- 2026 West Bengal Legislative Assembly election
+- Elizabeth II
+- Robert Redford
+- Adolf Hitler
+- Disclosure Day
+- Odyssey
+- Euphoria (American TV series)
+- 2026 Winter Olympics
+- Andy Burnham
+- United Kingdom
+- Bugonia (film)
+- A Knight of the Seven Kingdoms (TV series)
+- Alysa Liu
+- Ariana Grande
+- LeBron James
+- Virginia Giuffre
+- India
+- Chuck Norris
+- Harry Kane
+- 2026 Tamil Nadu Legislative Assembly election
+- Charles III
+- Barack Obama
+- Jaafar Jackson
+- XXXTentacion
+- It – Welcome to Derry
+- Kristi Noem
+- JD Vance
+- Zootopia 2
+- James Van Der Beek
+- John F. Kennedy Jr.
+- Frankenstein (2025 film)
+- Artemis II
+- Inde Navarrette
+- September 11 attacks
+- 2024 United States presidential election
+- Eurovision Song Contest 2026
+- Toxic (2026 film)
+- UEFA Champions League
+- Peter Thiel
+- Bruce Willis
+- Jude Bellingham
+- Christopher Nolan
+- Oliver Tree
+- Lindsey Graham
+- Hamnet (film)
+- Keanu Reeves
+- Leonardo DiCaprio
+- James A. Garfield
+- Victor Wembanyama
+- 2022 FIFA World Cup
+- 2026 Men's T20 World Cup
+- D4vd
+- Monster: The Ed Gein Story
+- Israel
+- Jessie Buckley
+- Scarlett Johansson
+- Send Help
+- Tom Cruise
+- Hermann Göring
+- Dua Lipa
+- Wuthering Heights (2026 film)
+- QR code
+- Wake Up Dead Man
+- World War I
+- Freddie Mercury
+- Z-Library
+- Shakira
+- Ted Bundy
+- Jeffrey Dahmer
+- Clint Eastwood
+- Nick Fuentes
+- Premier League
+- The Devil Wears Prada 2
+- WrestleMania 42
+- Kash Patel
+- Keir Starmer
+- Olivia Dean
+- Dharmendra
+- Masters of the Universe (2026 film)
+- Karoline Leavitt
+- New York City
+- Melania Trump
+- China
+- Sabrina Carpenter
+- Paul Thomas Anderson
+- Jana Nayagan
+- Pam Bondi
+- Wiki
+- Rehman Dakait
+- The Super Mario Galaxy Movie
+- Macaulay Culkin
+- Connor Storrie
+- Savannah Guthrie
+- Hudson Williams
+- C. Joseph Vijay
+- Border 2
+- 2030 FIFA World Cup
+- The Drama (film)
+- Lisa Marie Presley
+- The Long Walk (2025 film)
+- 28 Years Later: The Bone Temple
+- Robert F. Kennedy Jr.
+- Carolyn Bessette Kennedy
+- Jannik Sinner
+- WhatsApp
+- Joe Biden
+- Dick Van Dyke
+- Venezuela
+- Australia
+- John Wayne Gacy
+- Widow's Bay
+- Canada
+- Robin Williams
+- Toy Story 5
+- Arnold Schwarzenegger
+- Margaret Qualley
+- Teyana Taylor
+- Emily Blunt
+- Japan
+- Brad Pitt
+- Chernobyl disaster
+- Hailee Steinfeld
+- Steve Jobs
+- Arsenal F.C.
+- Katseye
+- Lewis Hamilton
+- William Shakespeare
+- Fernando Mendoza
+- David Attenborough
+- Prince (musician)
+- Ilia Malinin
+- Manchester United F.C.
+- Sam Neill
+- Matt Damon
+- Russia
+- Men's T20 World Cup
+- George W. Bush
+- Nicole Kidman
+- Charlie Sheen
+- Dwayne Johnson
+- Ryan Gosling
+- TNT Sports (United Kingdom)
+- Paul McCartney
+- 98th Academy Awards
+- Jalen Brunson
+- Heath Ledger
+- Sylvester Stallone
+- Germany
+- Project Hail Mary
+- Vladimir Putin
+- The Holocaust
+- Callum Turner
+- Supergirl (2026 film)
+- Singapore
+- Sadie Sink
+- BBC World Service
+- Government shutdowns in the United States
+- George VI
+- The Boys (TV series)
+- David Bowie
+- Off Campus
+- Zara Larsson
+- House of the Dragon
+- Jacqueline Kennedy Onassis
+- Rama Duwaji
+- Eileen Gu
+- 28 Years Later
+- Ronald Reagan
+- Kate Hudson
+- The Boys season 5
+- Iron Lung (film)
+- Drake Maye
+- Artificial intelligence
+- TikTok
+- Folarin Balogun
+- Caroline Kennedy
+- Real Madrid CF
+- The Beatles
+- Robert Duvall
+- Marilyn Monroe
+- Jon Bernthal
+- Bridgerton
+- Meryl Streep
+- A
+- Predator: Badlands
+- Neymar
+- Michael Olise
+- Landman (TV series)
+- Mia Goth
+- James Talarico
+- Joseph Stalin
+- 2026 Formula One World Championship
+- George V
+- Mojtaba Khamenei
+- Aditya Dhar
+- Steven Spielberg
+- Angelina Jolie
+- Jermaine Jackson
+- Anthony Joshua
+- Gianni Infantino
+- Novak Djokovic
+- Ajit Pawar
+- 2025 Bihar Legislative Assembly election
+- 2025 New York City mayoral election
+- Matthew Rhys
+- 2025 Formula One World Championship
+- Pope Leo XIV
+- Carlos Alcaraz
+- David Beckham
+- Jason Arday
+- Bill Clinton
+- Kylie Jenner
+- Soviet Union
+- Interstellar (film)
+- 2026 United States elections
+- Bigg Boss (Hindi TV series) season 19
+- Tom Hanks
+- Taylor Sheridan
+- Jeffrey Manchester
+- Shohei Ohtani
+- France
+- Harrison Ford
+- Wicked: For Good
+- Greenland
+- Kanye West
+- Sean Combs
+- 2025–26 UEFA Champions League
+- Ilse Koch
+- Ethan Hawke
+- Mckenna Grace
+- Superman (2025 film)
+- Charlize Theron
+- Joe Keery
+- Demi Moore
+- Morena Baccarin
+- Mira Nair
+- Daveigh Chase
+- Curt Cignetti
+- Mark Kerr (fighter)
+- Katy Perry
+- Michelle Trachtenberg
+- Billy Bob Thornton
+- Jason Statham
+- Winston Churchill
+- Jason Momoa
+- John Lennon
+- Mortal Kombat II (film)
+- The Night Manager (British TV series)
+- Jennifer Lawrence
+- Mae Martin
+- Nuremberg (2025 film)
+- United Arab Emirates
+- Dancing with the Stars (American TV series) season 34
+- Russo-Ukrainian war (2022–present)
+- Aryna Sabalenka
+- Hunter Schafer
+- Lokah Chapter 1: Chandra
+- Dakota Johnson
+- Bigg Boss (Tamil TV series) season 9
+- Marco Rubio
+- The Sheep Detectives
+- Elle Fanning
+- Ruhollah Khomeini
+- Edward VIII
+- Lady Gaga
+- Taiwan
+- Earth
+- Royal Rumble (2026)
+- Maya Hawke
+- Rihanna
+- Groypers
+- Ian Watkins
+- Robert Pattinson
+- Slow Horses
+- Sam Altman
+- Marty Reisman
+- Karuppu (film)
+- Clavicular (influencer)
+- Noah Wyle
+- Mitch McConnell
+- Edward VII
+- Dark web
+- Jennifer Lopez
+- Ryan Reynolds
+- Harry Styles
+- Johnny Gaudreau
+- Curaçao
+- Chase Infiniti
+- Paradise (2025 TV series)
+- Tom Brady
+- Richard Speck
+- José Mourinho
+- Strait of Hormuz
+- The Mandalorian and Grogu
+- Val Kilmer
+- Philippines
+- Dakota Fanning
+- Alexander Skarsgård
+- The Rip (film)
+- Cher
+- Hoppers (film)
+- Bruno Mars
+- Odessa A'zion
+- Tupac Shakur
+- Mohammad Reza Pahlavi
+- Curry Barker
+- Scream 7
+- Noah Schnapp
+- Apex (2026 film)
+- Pakistan
+- Gavin Newsom
+- 2018 FIFA World Cup
+- Nicolas Cage
+- The Backrooms
+- The Beast in Me (TV series)
+- Claire Danes
+- Gaza war
+- Kyle Busch
+- Russian war crimes
+- Abdul El-Sayed
+- Chris Pratt
+- MrBeast
+- Jennifer Aniston
+- Brigitte Bardot
+- Ann Widdecombe
+- Bonnie Tyler
+- David Harbour
+- Olivia Rodrigo
+- Fallout (American TV series)
+- A House of Dynamite
+- The Conjuring: Last Rites
+- 3I/ATLAS
+- FC Barcelona
+- Lane Kiffin
+- Mohamed Salah
+- Ottoman Empire
+- Avatar (2009 film)
+- Bhooth Bangla
+- Zlatan Ibrahimović
+- The Traitors (American TV series) season 4
+- Liam Rosenior
+- Alan Ritchson
+- Cynthia Erivo
+- John Cena
+- Ousmane Dembélé
+- Amelia Dimoldenberg
+- Robert De Niro
+- Bruce Springsteen
+- Lindsey Vonn
+- Tatiana Schlossberg
+- The Running Man (2025 film)
+- Lee Cronin's The Mummy
+- 2014 FIFA World Cup
+- Elliot Page
+- 2026 Hungarian parliamentary election
+- Jim Carrey
+- Tron: Ares
+- Rachel McAdams
+- Little Saint James
+- Pedro Pascal
+- Sam Darnold
+- Super Bowl LX
+- House of the Dragon season 3
+- Chelsea F.C.
+- Virat Kohli
+- Jake Bongiovi
+- Cockroach Janta Party
+- 2028 United States presidential election
+- Manchester City F.C.
+- Spain
+- Beef (TV series)
+- President of the United States
+- Winona Ryder
+- Jesus
+- Alexander Zverev
+- Kurt Russell
+- Ella Langley
+- 2026–27 UEFA Champions League
+- Wladimir Klitschko
+- Nicki Minaj
+- Margot Robbie
+- Stefon Diggs
+- HTTP cookie
+- Goldie Hawn
+- Ozzy Osbourne
+- Jon Hamm
+- Joe Jackson (talent manager)
+- Survivor 50: In the Hands of the Fans
+- Philip Rivers
+- Ted Lasso
+- His & Hers (2026 TV series)
+- Jamie Campbell Bower
+- Justin Trudeau
+- England national football team
+- Cardi B
+- Josh O'Connor
+- Johnny Depp
+- The Fantastic Four: First Steps
+- Charlie Heaton
+- Vaibhav Sooryavanshi
+- Ilhan Omar
+- Severance (TV series)
+- Anthony Perkins
+- Markwayne Mullin
+- Madeira
+- F1 (film)
+- Ballon d'Or
+- SummerSlam (2026)
+- Eminem
+- Diana, Princess of Wales
+- Turning Point USA
+- Train Dreams (film)
+- 2026 PDC World Darts Championship
+- John Candy
+- Dawood Ibrahim
+- Stellan Skarsgård
+- Natalia Dyer
+- From (TV series)
+- Ali Larter
+- Michael J. Fox
+- Aaron Rodgers
+- Love Story (2026 TV series)
+- Emma Stone
+- The RajaSaab
+- Al Pacino
+- Kelly Reilly
+- María Corina Machado
+- El Mencho
+- Spain national football team
+- Graham Platner
+- Charlie Hunnam
+- Josh Allen
+- 2026 United States intervention in Venezuela
+- Neatsville, Kentucky
+- Paris Jackson
+- Scary Movie (2026 film)
+- Jake Paul
+- Diego Maradona
+- Ricky Hatton
+- Tottenham Hotspur F.C.
+- 2010 FIFA World Cup
+- Dutton Ranch
+- 2026 United States Senate elections
+- Spencer Pratt
+- Russo-Ukrainian war
+- Stanley Tucci
+- Yellowstone (TV series)
+- Ralph Fiennes
+- House of Guinness
+- Spider-Noir
+- Grand Theft Auto VI
+- Rebecca Ferguson
+- Andrew Tate
+- 2025–2026 Iranian protests
+- Jason Bateman
+- Thamma
+- Justin Bieber
+- Stephen Curry
+- The Smashing Machine (2025 film)
+- Osama bin Laden
+- O. J. Simpson
+- Andrew Mountbatten-Windsor
+- Julia Roberts
+- All Her Fault
+- The Madison (TV series)
+- Billie Eilish
+- The Rookie
+- Robert F. Kennedy
+- 2025 Africa Cup of Nations
+- Curtis Sliwa
+- Dennis Rader
+- Sophie Cunningham
+- Mexico
+- Wednesday (TV series)
+- Alien: Earth
+- Mahmood Mamdani
+- Phil Collins
+- Argentina national football team
+- Count Binface
+- Debbie Rowe
+- Peddi
+- High Potential
+- 2026 Kerala Legislative Assembly election
+- Cillian Murphy
+- Rory McIlroy
+- Kobe Bryant
+- Utrecht
+- FIFA
+- Finn Wolfhard
+- Women's Cricket World Cup
+- Hannah Waddingham
+- Anthropic
+- John Kiriakou
+- Jesse Plemons
+- The End of Oak Street
+- Anya Taylor-Joy
+- Hantavirus
+- IShowSpeed
+- Dario Amodei
+- Durrës
+- Awarapan 2
+- Larry Ellison
+- UFC Freedom 250
+- Candace Owens
+- Cat
+- Vozinha
+- The Life of a Showgirl
+- Ronaldinho
+- Indonesia
+- Robert Carradine
+- Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle
+- 2026 Commonwealth Games
+- Zubeen Garg
+- Conor McGregor
+- Peter Mandelson
+- Pan Am Flight 103
+- Hasan Piker
+- Christian Pulisic
+- Mariah Carey
+- Amanda Seyfried
+- Zion Suzuki
+- Elizabeth Smart
+- Eva Mendes
+- George H. W. Bush
+- Jack Schlossberg
+- Ryan Wedding
+- Dick Cheney
+- Board of Peace
+- Narendra Modi
+- Thomas Tuchel
+- Travis Kelce
+- Shia LaBeouf
+- James Ransone
+- Blast (2026 film)
+- Dispatch (video game)
+- Oppenheimer (film)
+- I Will Find You
+- Gaten Matarazzo
+- Glen Hansard
+- Wicked (2024 film)
+- Liverpool F.C.
+- Barron Trump
+- Naomi Osaka
+- Amy Madigan
+- Natalie Portman
+- Main Vaapas Aaunga
+- Jesse Jackson
+- Something Very Bad Is Going to Happen
+- Jonathan Bailey
+- Avatar: The Way of Water
+- Peaky Blinders (TV series)
+- Jurassic World Rebirth
+- Silo (TV series)
+- Glen Powell
+- Adam Sandler
+- Jackson family
+- Jack Nicholson
+- Martin Sheen
+- X (social network)
+- Chester A. Arthur
+- 2026 elections in India
+- Max Verstappen
+- Zinedine Zidane
+- Task (TV series)
+- Telegram (software)
+- Che Guevara
+- Industry (TV series)
+- Republican Party (United States)
+- Fallout season 2
+- Adolescence (TV series)
+- Ready or Not 2: Here I Come
+- Lily Allen
+- Marvel Cinematic Universe
+- Miss Universe 2025
+- Arthur Fery
+- D'Angelo
+- They Call Him OG
+- Gary Oldman
+- Wayward (miniseries)
+- Hugh Jackman
+- Mel Gibson
+- 2006 FIFA World Cup
+- Trojan War
+- Judy Garland
+- The Summer I Turned Pretty (TV series)
+- Michelle Pfeiffer
+- The Ba***ds of Bollywood
+- Ejae
+- 2026 Peruvian general election
+- Ed and Lorraine Warren
+- 2002 FIFA World Cup
+- Ronaldo (Brazilian footballer)
+- Spider-Man: No Way Home
+- Luigi Mangione
+- Eric Swalwell
+- Uma Thurman
+- Rowan Atkinson
+- Sonam Wangchuk
+- Emma Watson
+- Amanda Knox
+- Argentina
+- Michael Johnston (actor)
+- Gregory Bovino
+- New York Knicks
+- William, Prince of Wales
+- Natalie Harp
+- Nicholas Galitzine
+- Sentimental Value
+- Tyson Fury
+- Dune: Part Three
+- Rhea Seehorn
+- War Machine (2026 film)
+- Jack Hughes
+- Mauricio Pochettino
+- Miley Cyrus
+- Stranger Things season 4
+- Marie Antoinette
+- Him (2025 film)
+- Odysseus
+- Milly Alcock
+- Alpha (2026 film)
+- Brazil
+- Katherine LaNasa
+- The Beauty (TV series)
+- Jared Kushner
+- The Last House
+- Dungeon Crawler Carl
+- 2026 Clacton by-election
+- Pelé
+- Chris Hemsworth
+- Pep Guardiola
+- Brazil national football team
+- Sanae Takaichi
+- Rose Byrne
+- Resident Evil Requiem
+- Tracy Reiner
+- Keke Palmer
+- Gina Carano
+- Javier Bardem
+- Invincible (TV series)
+- Citizen Vigilante
+- The Celebrity Traitors
+- Ted Turner
+- Chief Minister of Tamil Nadu
+- Marc Cucurella
+- 68th Annual Grammy Awards
+- Harry Potter (film series)
+- Alexandria Ocasio-Cortez
+- Josh Brolin
+- Zoey Deutch
+- Terence Crawford
+- Roger Federer
+- Ace Frehley
+- Tamilaga Vettri Kazhagam
+- Benny Safdie
+- Chappell Roan
+- Netherlands
+- Cape Verde national football team
+- BTS
+- Clair Obscur: Expedition 33
+- Mahatma Gandhi
+- Pizzagate conspiracy theory
+- Muhammad
+- Anthony Head
+- The Devil Wears Prada (film)
+- Carlo Acutis
+- Lucy Letby
+- Anthony Gordon (footballer)
+- The Testaments (TV series)
+- 2025 United States federal government shutdown
+- Brittany Murphy
+- The Boroughs
+- France national football team
+- Half Man (TV series)
+- Jolly LLB 3
+- Christina Koch
+- Cocktail 2
+- Legends (2026 TV series)
+- Delcy Rodríguez
+- Taylor Dearden
+- Jansen Panettiere
+- Charles J. Guiteau
+- Nicola Peltz
+- Generation Z
+- Nuremberg trials
+- Rebecca Gayheart
+- Antoine Semenyo
+- Hulk Hogan
+- Ferran Torres
+- 2026 Indian Premier League
+- Charles Manson
+- Stephen Graham
+- Agamemnon
+- Samara Weaving
+- Lando Norris
+- Evil Dead Burn
+- Michael Carrick
+- Asha Bhosle
+- OG Anunoby
+- Woody Allen
+- Supreme Leader of Iran
+- Goat (2026 film)
+- Mel Brooks
+- Lamar Odom
+- Helen of Troy
+- Africa Cup of Nations
+- For All Mankind (TV series)
+- Shaquille O'Neal
+- Diwali
+- Daniel Craig
+- Coolie (2025 film)
+- Madharaasi
+- Thierry Henry
+- Julián Quiñones
+- Marshawn Kneeland
+- Grey's Anatomy
+- Janet Jackson
+- 2027 Cricket World Cup
+- 2026 Brihanmumbai Municipal Corporation election
+- Jamie Lee Curtis
+- Luke Thompson (actor)
+- Elena Rybakina
+- Guinness family
+- Rukmini Vasanth
+- Giorgia Meloni
+- Peaky Blinders: The Immortal Man
+- Bill Skarsgård
+- Elimination Chamber (2026)
+- United States men's national soccer team
+- One Piece (2023 TV series)
+- Matthew Stafford
+- Perez Hilton
+- Zack Polanski
+- Daredevil: Born Again season 2
+- Jensen Huang
+- George III
+- Kane Parsons
+- 1994 FIFA World Cup
+- The White Lotus
+- Neil Diamond
+- Paris Saint-Germain FC
+- Jasmine Crockett
+- Minka Kelly
+- Saiyaara (film)
+- George Clooney
+- Big Brother 28 (American season)
+- The Duffer Brothers
+- Brendan Fraser
+- Five Nights at Freddy's 2 (film)
+- UPS Airlines Flight 2976
+- Baaghi 4
+- Gerard Piqué
+- The Witcher (TV series)
+- Xi Jinping
+- Vanessa Trump
+- Kevin Keegan
+- Florence Pugh
+- Lanterns (TV series)
+- Antifa (United States)
+- O'Romeo
+- François Arnaud (actor)
+- Alex Honnold
+- Survivor Series: WarGames (2025)
+- 2026 Assam Legislative Assembly election
+- Marshals (TV series)
+- Juneteenth
+- Iliad
+- Aubrey Plaza
+- Nepal
+- Saudi Arabia
+- Péter Magyar
+- Raja Shivaji (film)
+- Crime 101 (2026 film)
+- Jimmy Kimmel
+- Edmund Kemper
+- Jon Ossoff
+- Tulsi Gabbard
+- The Secret Agent (2025 film)
+- Democratic Party (United States)
+- Greg Biffle
+- Yerin Ha
+- Charli XCX
+- Maya Rudolph
+- Drishyam 3
+- Jmail
+- Andrew Cuomo
+- Justin Gaethje
+- Melania (film)
+- Aileen Wuornos
+- Jennifer Garner
+- Julie Andrews
+- Luka Modrić
+- Penny Marshall
+- Palestine
+- Minions & Monsters
+- James Norton (actor)
+- Morocco
+- If I Had Legs I'd Kick You
+- Saddam Hussein
+- UEFA Euro 2028
+- Die My Love
+- Tiger Woods
+- Rafael Nadal
+- Democratic Republic of the Congo
+- Kevin Warsh
+- Anaconda (2025 film)
+- Thomas Massie
+- Canelo Álvarez
+- Cape Fear (TV series)
+- Run Away (TV series)
+- Eddie Murphy
+- Troy (film)
+- Hugo Chávez
+- Nicholas Brendon
+- Jared Leto
+- Academy Awards
+- Psycho (1960 film)
+- Remarkably Bright Creatures (film)
+- Wrestlepalooza (2025)
+- Romelu Lukaku
+- Star Trek: Starfleet Academy
+- Hong Kong
+- Vladimir Guerrero Jr.
+- Snoop Dogg
+- Ceuta
+- Edward Guinness, 1st Earl of Iveagh
+- Cassie Ventura
+- Annette Bening
+- Carson Beck
+- Daniel Naroditsky
+- Peter Cullen
+- Bari Weiss
+- Rodri
+- The Invite
+- Arthur Guinness
+- Les Wexner
+- Parasakthi (2026 film)
+- Mike Macdonald
+- Reid Wiseman
+- Seattle Seahawks
+- The Other Bennet Sister
+- Sally Field
+- 2034 FIFA World Cup
+- Britney Spears
+- Winter Olympic Games
+- 1998 FIFA World Cup
+- Tara Lipinski
+- Bryan Cranston
+- The Family Man (Indian TV series)
+- Pralhad Joshi
+- Hokum (film)
+- Usha Vance
+- Carl Reiner
+- Voicemails for Isabelle
+- Limonene
+- George Michael
+- DTF St. Louis
+- Keira Knightley
+- Tom Read Wilson
+- Benny Blanco
+- Crown Jewel (2025)
+- Vecna (Stranger Things)
+- Barry Keoghan
+- The Amazing Digital Circus
+- Teach You a Lesson
+- Daredevil: Born Again
+- Brandon Sklenar
+- Stephen King
+- Daylight saving time
+- Milo Ventimiglia
+- Scarpetta (TV series)
+- Emma Thompson
+- Shrinking
+- RuPaul's Drag Race season 18
+- Dracula (2025 French film)
+- Melissa Hortman
+- Katharine, Duchess of Kent
+- Moana (2026 film)
+- Joe Kent
+- Giorgio Armani
+- Mohd. Ahmed Khan v. Shah Bano Begum
+- It (2017 film)
+- Black Rabbit
+- Jarrett Stidham
+- Bosnia and Herzegovina
+- Lupita Nyong'o
+- 2026–27 UEFA Europa League
+- Angus Cloud
+- Karl-Anthony Towns
+- Robert Mueller
+- Neil Sedaka
