@@ -151,7 +151,7 @@ function renderTemplate(raw, ctx) {
       return stash(ctx, `<blockquote class="quote"><p>${inl(named.text || p0 || '')}</p>${named.author || positional[1] ? `<footer>&mdash; ${inl(named.author || positional[1])}</footer>` : ''}</blockquote>`);
 
     case 'true and funny': case 'trueandfunny': case 'verified':
-      return stash(ctx, `<div class="ambox ambox-verified"><span class="ambox-icon">&#10004;</span><span>The funny part of this article has been <b>fact-checked and survived</b>.${named.source ? ` Source: ${inl(named.source)}` : ''}</span></div>`);
+      return stash(ctx, `<div class="ambox ambox-verified"><span class="ambox-icon">&#10004;</span><span>This article has been <b>fact-checked and survived</b>.${named.source ? ` Source: ${inl(named.source)}` : ''}</span></div>`);
 
     case 'infobox': {
       const rows = Object.entries(named)
