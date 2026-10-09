@@ -2333,4 +2333,21 @@ export const photoSlots = [
     generate: 'An astronaut squinting hard through a spacecraft window at a barely visible thin line on the distant Earth below, straining to see it, illustration style, gentle humour',
     caption: "Illustration. Multiple astronauts, including China's own first, have said plainly that they could not see it.",
   },
+
+  // --------------------------------------------------------------- Fallstreak hole
+  // The real photograph is tools/seed/documentary/fallstreak-hole-suburb.jpg.
+  // The joke illustration is tools/seed/humour/fallstreak-hole-dave.jpg.
+  // Both are already placed in the article. Do not replace them with a web search.
+  {
+    article: 'Fallstreak hole', kind: 'documentary', place: 'lead', custom: true,
+    query: 'fallstreak hole altocumulus photograph',
+    webQuery: 'fallstreak hole cloud photograph',
+    caption: "A fallstreak hole in a deck of altocumulus over a suburb. The hole is an oval of blue sky. A brick apartment block sits at the lower right. A faint bright patch sits at the upper right edge of the hole. Photograph supplied for this article.",
+  },
+  {
+    article: 'Fallstreak hole', kind: 'humour', place: 'end', custom: true,
+    query: 'fallstreak hole rapture joke illustration',
+    webQuery: 'hole punch cloud meme',
+    caption: "The man in the bathrobe is called Dave in this caption and nowhere else that matters. He is not a real person. This is an illustration, not a photograph of an event and not evidence. The hole is a cloud, not a door.",
+  },
 ];
