@@ -2560,4 +2560,1037 @@ Ferrari and Formula 1 disagree on podiums, points, and retirements. Which office
 `,
     },
   },
+  {
+    title: "Abraham Lincoln",
+    ratings: { helpful: [240, 11], funny: [186, 9] },
+    photoIdeas: {
+      documentary: { query: "Abraham Lincoln patent model 6469 Smithsonian", webQuery: "Abraham Lincoln patent model buoying vessels photograph", caption: "The model for patent 6469. He loaded a trough version with bricks in November 1848." },
+      humour: { webQuery: "patent model miniature boat glass case museum", caption: "A patent model in a case. Lincoln's was among the cases at his own inaugural ball." },
+    },
+    revisions: [
+      {
+        user: "HansardHannah",
+        daysAgo: 11,
+        comment: "created article",
+        content: `'''Abraham Lincoln''' was president of the United States. He held a patent for getting boats over shoals. The model was tested with bricks.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Ornithopod",
+        daysAgo: 8,
+        comment: "expanded from the Patent Office, the Archives, Ford's Theatre and the Gettysburg manuscripts",
+        content: `{{true and funny|source=USPTO: the model was a four-foot boat in a trough, loaded with bricks, and the patent never made any money.}}
+{{Infobox
+| title = Abraham Lincoln
+| born = 12 February 1809
+| patent = U.S. Patent No. 6469, granted 22 May 1849
+| Gettysburg = 19 November 1863
+| proclamation = 1 January 1863
+| amendment = ratified 6 December 1865
+| died = 15 April 1865
+}}
+
+'''Abraham Lincoln''' was the 16th president of the United States. He is the only U.S. president to have been granted a patent. The patent is No. 6469, for a method of buoying vessels over shoals, filed on 10 March 1849 and granted on 22 May 1849.<ref name="uspto">"A guide through troubled waters", United States Patent and Trademark Office. https://www.uspto.gov/learning-and-resources/journeys-innovation/abraham-lincoln</ref> He was born on 12 February 1809.<ref name="uspto" /> He was shot at Ford's Theatre on 14 April 1865 and died the next morning.<ref name="fords">"Lincoln's Assassination", Ford's Theatre. https://fords.org/lincolns-assassination/</ref><ref name="npsfaq">"Frequently Asked Questions: The Assassination", Ford's Theatre National Historic Site, National Park Service. https://www.nps.gov/foth/learn/historyculture/faq-the-assassination.htm</ref>
+
+The invention was tested in a trough, with bricks. It was never sold.
+
+== The patent ==
+In November 1848, in Springfield, Lincoln put a four-foot model into a trough near his law office, loaded the deck with bricks until it began to sink, and inflated the air chambers until it floated again.<ref name="uspto" /> Washington patent attorney Z.C. Robbins filed the application on 10 March 1849. An examiner had reviewed it by 10 April. The grant came on 22 May.<ref name="uspto" />
+
+The chambers sat on either side of a vessel and were worked by shafts, ropes and pulleys. Cargo did not have to come off. When the chambers were not in use they were meant to contract into a small space. Lincoln whittled parts of the model himself, in the shop of Springfield mechanic Walter Davis.<ref name="uspto" />
+
+He never brought it to market and never made any money from it. His law partner, William Herndon, later wrote that he had regarded the thing as impracticable and had said nothing, "probably out of respect for Lincoln's well-known reputation as a boatman."<ref name="uspto" />
+
+On 6 March 1865 the inaugural ball for his second term was held in the Patent Office, the first time a federal agency had been used for the occasion. Tickets were $10. A banquet table 250 feet long stood between the patent-model cases. Lincoln came in at 10:30, in a black suit and white gloves, to "Hail to the Chief."<ref name="uspto" /> The address had been given two days earlier. Before 1937, presidential inaugurations were held in March.<ref name="uspto" />
+
+== Five copies ==
+The speech at the Soldiers' National Cemetery in Gettysburg was delivered on 19 November 1863. Edward Everett, the featured speaker and a former president of Harvard, talked for about two hours. Lincoln's remarks took about two minutes. The National Park Service, citing Mark E. Neely, puts the crowd at about 15,000, and says Lincoln had been asked as an afterthought, with about two weeks to prepare.<ref name="npsg">"Gettysburg Address", Lincoln Home National Historic Site, National Park Service. https://www.nps.gov/liho/learn/historyculture/gettysburgaddress.htm</ref>
+
+Everett wrote the next day that he would be glad if he had come as near the central idea of the occasion, in two hours, as Lincoln had in two minutes.<ref name="getty">"The Gettysburg Address", Abraham Lincoln Online. https://www.abrahamlincolnonline.org/lincoln/speeches/gettysburg.htm</ref>
+
+Five manuscripts in Lincoln's hand are known, named for the people who first received them: Nicolay, Hay, Everett, Bancroft and Bliss. They do not match. The steady handwriting is the script of a firm desk, which is how the train story comes apart: he did not dash the speech off aboard a train to Gettysburg.<ref name="getty" />
+
+The Bliss copy, written in 1864, is the one most often reproduced, including on the wall of the Lincoln Memorial. It is the last copy he is known to have written, and the only one he signed and dated. It is displayed in the Lincoln Room of the White House. George Bancroft had asked for a copy to raise money for soldiers. Lincoln wrote on both sides of that sheet, so it could not be lithographed, and Bliss, Bancroft's stepson, had to ask for another.<ref name="getty" />
+
+On 1 June 1865 Senator Charles Sumner, in a eulogy, called the address a "monumental act" and said Lincoln had been mistaken that the world would little note nor long remember it. Sumner's line was that the world noted at once what was said, and that the battle itself was less important than the speech.<ref name="getty" />
+
+== The proclamation ==
+On 1 January 1863 Lincoln issued the Emancipation Proclamation. It declared that all persons held as slaves within the rebellious areas "are, and henceforward shall be free."<ref name="archm">"Emancipation Proclamation (1863)", National Archives, Milestone Documents. https://www.archives.gov/milestone-documents/emancipation-proclamation</ref> A preliminary proclamation on 22 September 1862 had given one hundred days' notice. The final document was a military measure. It did not touch slavery in the loyal border states. It exempted parts of the Confederacy already under Union control, including New Orleans and a list of Louisiana parishes, and forty-eight counties designated as West Virginia. The freedom it announced depended on Union victory.<ref name="archm" /><ref name="arche">"The Emancipation Proclamation", National Archives, Featured Documents. https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation</ref>
+
+It also announced that Black men would be received into the Union Army and Navy. By the end of the war, almost 200,000 Black soldiers and sailors had fought for the Union.<ref name="archm" />
+
+The original is five pages. It was tied with narrow red and blue ribbons, fixed to the signature page by a wafered impression of the seal. Most of the ribbon remains. Parts of the seal have worn off. When the State Department prepared the volume for binding, someone wrote the number 95 in red ink on the upper right of the mounting sheet, long after the signature. The volume moved from the Department of State to the National Archives in 1936.<ref name="arche" /> William H. Seward, as Secretary of State, countersigned it.<ref name="archm" />
+
+== The amendment ==
+The proclamation did not end slavery in the nation. A constitutional amendment had to follow it.<ref name="thirteenth">"13th Amendment to the U.S. Constitution: Abolition of Slavery (1865)", National Archives. https://www.archives.gov/milestone-documents/13th-amendment</ref> The Senate passed the 13th Amendment in April 1864. The House did not. Lincoln had the amendment put onto the Republican platform for the 1864 election. The House passed it in January 1865, 119 to 56. Congress passed the joint resolution on 31 January 1865. Lincoln approved it on 1 February 1865. Three-fourths of the states had ratified it by 6 December 1865.<ref name="thirteenth" />
+
+The text says that neither slavery nor involuntary servitude shall exist in the United States, "except as a punishment for crime whereof the party shall have been duly convicted."<ref name="thirteenth" />
+
+== Ford's Theatre ==
+On the morning of 14 April 1865, Good Friday, the actor John Wilkes Booth learned that the president would attend ''Our American Cousin'' at Ford's Theatre that night. By 10:15 the comedy was in its last act. In the box were the president, Mrs Lincoln, Major Henry Rathbone and Rathbone's fiancee, Clara Harris.<ref name="fords" />
+
+The National Park Service records that he died on 15 April 1865, aged 56 years, 2 months and 3 days. The same page gives his last words, in answer to Mary, as "She won't think anything about it."<ref name="npsfaq" />
+
+That same day, 14 April, he signed the bill creating the Secret Service. Its primary mission was the prevention of counterfeiting. The Service was not assigned to protect the president until after the assassination of William McKinley in 1901. Before that, there was no policy about who protected the president. A Washington police officer, John Parker, was assigned to escort Lincoln to Ford's and back. In May 1865 the superintendent of the Metropolitan Police filed charges of dereliction. The charges were dismissed a month later. No transcript of the hearing survives. Parker was not called at the conspirators' trial.<ref name="npsfaq" />
+
+The charges were dismissed a month later, and the hearing left no transcript.
+
+== References ==
+{{reflist}}
+
+[[Category:People]]
+[[Category:United States]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "203.0.113.21",
+        daysAgo: 5,
+        comment: "he lived",
+        content: `'''Abraham Lincoln''' invented the telephone in 1849, delivered the Gettysburg Address from the back of a moving train, and survived Ford's Theatre. The patent made him a millionaire.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 5,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.21|203.0.113.21]] to last revision by Ornithopod. Patent 6469 was granted 22 May 1849 and never sold. The National Park Service records the death on 15 April 1865.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: the hearing left no transcript, say it once",
+        patch: [["The charges were dismissed a month later, and the hearing left no transcript.", "The hearing left no transcript."]],
+      },
+    ],
+    talk: {
+      user: "PollWatcher",
+      daysAgo: 5,
+      content: `== Both sides of the paper ==
+Bancroft's copy and Bliss's copy are easy to merge into one manuscript. Are they? ~~~
+
+: They are two sheets. Bancroft asked for a fundraising copy. Lincoln wrote on both sides, so the sheet could not be lithographed, and Alexander Bliss had to ask for another. That second sheet is the signed, dated copy. Abraham Lincoln Online sets the five names out as Nicolay, Hay, Everett, Bancroft and Bliss. https://www.abrahamlincolnonline.org/lincoln/speeches/gettysburg.htm [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 09:40, 4 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "David Attenborough",
+    ratings: { helpful: [310, 8], funny: [142, 7] },
+    photoIdeas: {
+      documentary: { query: "David Attenborough gorillas Rwanda Life on Earth", webQuery: "David Attenborough with mountain gorillas Rwanda 1979 photograph", caption: "With the gorillas in Rwanda, during Life on Earth. The series reached about 500 million people." },
+      humour: { webQuery: "yellow hawkweed flower Brecon Beacons close up", caption: "A yellow hawkweed. One species in the Brecon Beacons is Hieracium attenboroughianum." },
+    },
+    revisions: [
+      {
+        user: "MonotremeMary",
+        daysAgo: 14,
+        comment: "created article",
+        content: `'''David Attenborough''' is a broadcaster. He turned 100 on 8 May 2026. He had expected a quiet day.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CubeWatch",
+        daysAgo: 9,
+        comment: "expanded from the BBC birthday notes, the Royal Society, the museum catalogue and the Windsor investiture",
+        content: `{{true and funny|source=BBC Living Icons: a boss kept him off screen because the teeth were too big.}}
+{{Infobox
+| title = David Attenborough
+| born = London, 1926
+| birthday = 8 May
+| BBC Two = controller, 1965-1968
+| Life on Earth = production from 1976, broadcast 1979
+| knighted = 1985
+| Order of Merit = twenty years after the knighthood
+| as of = alive at 100, May 2026
+}}
+
+'''Sir David Frederick Attenborough''' is an English broadcaster and naturalist. A BBC biography says he was born in London in 1926, collected fossils as a child, and took a Natural Sciences degree at Cambridge.<ref name="icons">"Biography: Sir David Attenborough", BBC Living Icons. https://www.bbc.com/arts/livingicons/bio01.shtml</ref> Newsround, on 6 May 2025, wrote that he would turn 99 on 8 May.<ref name="round">"Nine facts about Sir David Attenborough as he turns ninety-nine", BBC Newsround, 6 May 2025. https://www.bbc.com/newsround/articles/cy8e00zxkrzo</ref> The BBC marked his 100th birthday on 8 May 2026.<ref name="msg">"Sir David Attenborough's special 100th birthday message", BBC Media Centre, 7 May 2026. https://www.bbc.com/mediacentre/2026/sir-david-attenborough-100th-birthday-message</ref>
+
+He had thought the day would be quiet.
+
+== The message ==
+On the eve of the birthday he recorded a message. "I had rather thought that I would celebrate my 100th birthday quietly, but it seems that many of you have had other ideas." The greetings, he said, had come from preschool groups, care-home residents, and families. He could not answer them one by one.<ref name="msg" />
+
+The BBC had already commissioned a week of programmes: a film about the making of ''Life on Earth'', a garden series, and a live evening at the Royal Albert Hall with the BBC Concert Orchestra.<ref name="week">"Sir David Attenborough's 100th Birthday celebrated across the BBC", BBC Media Centre, 18 February 2026. https://www.bbc.com/mediacentre/2026/bbc-to-celebrate-100th-birthday-sir-david-attenborough</ref> The iPlayer rail was to run from ''Zoo Quest'' to later series, more than forty of them.<ref name="week" />
+
+== Inside the BBC ==
+The Natural History Museum's catalogue, citing Who's Who 2005, lists him as a trainee producer from 1949 to 1952, controller of BBC Two from 1965 to 1968, and Director of Programmes from 1969 to 1972.<ref name="nhm">"Attenborough; Sir; David Frederick (1926-)", Natural History Museum catalogue, record PX2799. https://www.nhm.ac.uk/CalmView/Record.aspx?id=PX2799&src=CalmView.Persons</ref> As controller of BBC Two he introduced colour television.<ref name="icons" /> Keith Scholey, writing for the Royal Television Society, says Attenborough had been offered the job of Director-General and turned it down.<ref name="rts">Keith Scholey, "Sir David Attenborough: a giant among us", Royal Television Society. https://rts.org.uk/article/sir-david-attenborough-giant-among-us</ref>
+
+''Zoo Quest'' began in 1954. Scholey dates his own first meeting with Attenborough to a canteen lunch at BBC Bristol in 1981, when Scholey was a researcher on ''The Living Planet''. A caption on the same article puts a young Attenborough on a boat to Komodo for ''Zoo Quest'' in 1956.<ref name="rts" />
+
+A BBC page from the Living Icons series says he was discouraged, at the start, from appearing on screen, because a boss thought his teeth were too big.<ref name="icons" />
+
+The museum catalogue, in the same entry, spells the Nature Conservancy Council as "Consevancy" and sends the filming expeditions to "British Guinea."<ref name="nhm" />
+
+== Life on Earth ==
+In 1976 production began on ''Life on Earth''. The BBC's account of the making of it describes three years, forty countries, a million miles, and more than 600 species. No natural-history series had been tried at that scale. The crew met a coup in the Comoros, were shot at in Rwanda, and received threats from Saddam Hussein's army in Iraq. The series was broadcast in 1979. The same account puts the audience at 500 million, and points to the gorillas in the mountains of Rwanda.<ref name="week" /> The Living Icons page gives the same audience figure.<ref name="icons" />
+
+Scholey says Attenborough had wanted to make that landmark himself, and waited until he could step down from BBC management. In 1995 came ''The Private Life of Plants''. Scholey and his colleagues had pitched an ecology idea. Attenborough wanted a series about plants, and answered the obvious problem with timelapse: with timelapse, plants move.<ref name="rts" />
+
+== Names on the organisms ==
+The Royal Society elected him a Fellow in 1983. Its page says he was knighted in 1985 and, twenty years later, appointed to the Order of Merit. Species have been named for him, including Attenborough's hawkweed, ''Hieracium attenboroughianum'', a small yellow flower from the Brecon Beacons, and ''Attenborosaurus conybeari'', a Jurassic marine reptile. The Society's heading lists the letters OM, CH, CVO, CBE and FRS. He received the Michael Faraday Prize for communicating, through lectures, books, broadcasts and discussions, the sense of wonder that drives research.<ref name="rs">"Sir David Attenborough OM CH CVO CBE FRS", Royal Society. https://royalsociety.org/people/david-attenborough-11015/</ref>
+
+== The second knighthood ==
+On 8 June 2022, at an investiture at Windsor Castle, the Prince of Wales awarded him the Knight Grand Cross of the Order of St Michael and St George. The BBC's report from that day says he was 96, and that the Queen had knighted him in 1985.<ref name="windsor">"Sir David Attenborough receives royal honour at Windsor", BBC News, 8 June 2022. https://www.bbc.com/news/entertainment-arts-61728977</ref> Newsround, three years later, says he has been knighted twice, and that the 2022 ceremony was carried out by King Charles while Charles was still Prince of Wales. The same Newsround sentence reads, as printed: "He was first knighthood came in 1985."<ref name="round" />
+
+The boss's objection was the teeth. The programmes went out anyway.
+
+== References ==
+{{reflist}}
+
+[[Category:People]]
+[[Category:Television]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "198.51.100.22",
+        daysAgo: 6,
+        comment: "updated the dates",
+        content: `'''David Attenborough''' died in 2019, turned down a knighthood, and narrated Life on Earth from a studio in Los Angeles. Zoo Quest was a quiz show.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 6,
+        comment: "Reverted edits by [[Special:Contributions/198.51.100.22|198.51.100.22]] to last revision by CubeWatch. The BBC published his 100th-birthday message on 7 May 2026. He was alive for it.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: the programmes went out anyway is enough",
+        patch: [["The boss's objection was the teeth. The programmes went out anyway.", "The programmes went out anyway."]],
+      },
+    ],
+    talk: {
+      user: "Anonyfish",
+      daysAgo: 6,
+      content: `== 1965 to 1968, or longer? ==
+Controller of BBC Two is sometimes given a longer run than the museum catalogue allows. Which dates do we print? ~~~
+
+: The catalogue entry, citing Who's Who 2005, prints controller of BBC2 for 1965-1968 and Director of Programmes for 1969-1972. That is the range in the article. The Royal Television Society piece is the source for the Director-General offer, which is a different job. https://www.nhm.ac.uk/CalmView/Record.aspx?id=PX2799&src=CalmView.Persons [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 14:15, 3 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Prince (musician)",
+    ratings: { helpful: [198, 7], funny: [96, 11] },
+    photoIdeas: {
+      documentary: { query: "Prince Purple Rain First Avenue 1983", webQuery: "Prince performing at First Avenue Minneapolis 1983 photograph", caption: "At First Avenue, where three Purple Rain songs were recorded live in 1983." },
+      humour: { webQuery: "cloud guitar white custom electric guitar shape", caption: "A Cloud guitar. The Hall of Fame traces the shape to a white instrument made in Minneapolis for Purple Rain." },
+    },
+    revisions: [
+      {
+        user: "Thoenfan",
+        daysAgo: 12,
+        comment: "created article",
+        content: `'''Prince''' was a musician from Minneapolis. He died on 21 April 2016. The medical examiner marked the death an accident.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Skinnerbox",
+        daysAgo: 7,
+        comment: "expanded from the medical examiner's release, MNopedia, the Hall of Fame and the 2018 charging decision",
+        content: `{{true and funny|source=The medical examiner's public release: four lines for cause of death, and three of them read na.}}
+{{Infobox
+| title = Prince
+| name = Prince Rogers Nelson
+| born = 7 June 1958, Minneapolis
+| occupation = artist
+| died = 21 April 2016, age 57
+| manner = accident
+| cause = fentanyl toxicity
+| hall of fame = 15 March 2004
+}}
+
+'''Prince Rogers Nelson''' was a Minneapolis musician. The Minnesota Historical Society's encyclopedia says he was born in Minneapolis on 7 June 1958, taught himself piano, guitar, bass and drums, and signed with Warner Brothers at nineteen. The same page credits him with more than 100 million albums sold, seven Grammys and an Oscar, and with the Minneapolis Sound: rhythm and blues, funk, rock, pop, punk and new wave.<ref name="mnhs">Kristen Zschomler, "Prince (1958-2016)", MNopedia, Minnesota Historical Society. https://www.mnhs.org/mnopedia/search/index/person/prince-1958-2016</ref>
+
+He died on 21 April 2016. He was 57. The Midwest Medical Examiner's Office marked the manner of death as accident and the cause as fentanyl toxicity.<ref name="me">Midwest Medical Examiner's Office, press release and public-data form for Prince Rogers Nelson, 2 June 2016. https://i2.cdn.turner.com/cnn/2016/images/06/02/prince.toxicology.pdf</ref>
+
+== The records ==
+The first albums, ''For You'' (1978) and ''Prince'' (1979), carried the credit "produced, arranged, composed and performed by Prince." They registered on the R&B charts. ''Dirty Mind'' (1980), ''Controversy'' (1981) and ''1999'' (1982) fixed the Minneapolis Sound, with The Revolution on MTV.<ref name="mnhs" />
+
+Warner Brothers backed a film. Through 1983 and early 1984 he wrote and recorded ''Purple Rain'' and shot more than half of it at the Minneapolis club First Avenue. Three songs on the soundtrack were recorded live there in 1983.<ref name="mnhs" /> The Rock and Roll Hall of Fame describes the Cloud guitar, a shape made in Minneapolis for that film, white at first, then repeated in other colours. The plaque at the Hall is signed, simply, Prince.<ref name="hall">"Prince", Rock and Roll Hall of Fame. https://rockhall.com/inductees/prince/</ref>
+
+He disbanded The Revolution in 1986, after ''Parade'', and made ''Sign o' the Times'' alone. A ''Batman'' soundtrack went to number one. In 1991 he formed the New Power Generation. To get out of the Warner contract he changed his name to a symbol that could not be pronounced, and often appeared with the word "slave" written on his face.<ref name="mnhs" />
+
+The historical society's bibliography lists a birth certificate as "Nelson, Prince Roger [sic]", Minneapolis, 7 June 1958.<ref name="mnhs" />
+
+== The Hall ==
+On 15 March 2004 he entered the Rock and Roll Hall of Fame at the Waldorf Astoria, with Bob Seger, Traffic, ZZ Top, the Dells and George Harrison. Rolling Stone describes an eleven-minute set: a scrap of Sheila E's "The Glamorous Life", then "Let's Go Crazy", "Sign o' the Times", a shout of "Hall of Fame! It's your song!" into Sam and Dave's "Soul Man", and "Kiss". In "Kiss" he sang, "You don't have to watch Sex and the City to have an attitude." He told the room it had been lovely, a real knockout, and good night.<ref name="rs">Andy Greene, "Watch Prince's Complete Rock and Roll Hall of Fame Performance", Rolling Stone, 28 April 2016. https://www.rollingstone.com/music/music-news/watch-princes-complete-rock-and-roll-hall-of-fame-performance-97879/</ref>
+
+The Harrison tribute was still to come. Rolling Stone writes that, if Prince is to be believed, he had not heard "While My Guitar Gently Weeps" until that morning.<ref name="rs" />
+
+== The form ==
+On 2 June 2016 the Midwest Medical Examiner's Office, over the name of Chief Medical Examiner A. Quinn Strobl, said it had finished the death investigation and was releasing only the public portion defined by Minnesota Statute 13.83, subdivision 2. The office said it could make no further comment. The Carver County Sheriff's Office was still investigating.<ref name="me" />
+
+The form that went with the release gives the name Prince Rogers Nelson, born 7 June 1958, died 21 April 2016, age 57. Place of birth: Minneapolis. Occupation: artist. Business: music. Place of death: residence. How injury occurred: "The decedent self-administered fentanyl." Manner: the box for accident is marked. Cause, line 1: fentanyl toxicity. Lines 2, 3 and 4: na. Other significant conditions: na.<ref name="me" />
+
+CNN, reporting the same release, said he had been found unresponsive in an elevator at Paisley Park, his home and studio in Chanhassen, and that Andrew Kornfeld called 911.<ref name="cnn">Ralph Ellis and Sara Sidner, "Prince died of accidental overdose of opioid fentanyl, medical examiner says", CNN, 2 June 2016. https://www.cnn.com/2016/06/02/health/prince-death-opioid-overdose</ref> The historical society states the same date, the same place, and the same cause, and the age of fifty-seven.<ref name="mnhs" />
+
+== The charging decision ==
+On 19 April 2018 Carver County Attorney Mark Metz said, at a news conference in Chaska, that no criminal charges would be filed. His account was that Prince had taken what he thought was Vicodin, and that the pills were counterfeit and contained fentanyl. "In all likelihood, Prince had no idea he was taking a counterfeit pill that could kill him." Metz said there was no reliable evidence of how the pills were obtained, or of who procured them, and no evidence of a prescription for Vicodin or for fentanyl. Investigators found prescription bottles throughout the house, many of them not in a pharmacy container. He said he could not weigh fame in the charging decision.<ref name="nbc">"Prince died after taking fake Vicodin laced with fentanyl, prosecutor says", NBC News. https://www.nbcnews.com/news/us-news/no-criminal-charges-prince-s-overdose-death-prosecutor-announces-n867491</ref>
+
+The form has four lines for a cause. Three of them say na.
+
+== References ==
+{{reflist}}
+
+[[Category:People]]
+[[Category:Music]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "192.0.2.23",
+        daysAgo: 4,
+        comment: "wrong city",
+        content: `'''Prince''' died of a heart attack on stage in 2014 and was never inducted into the Rock and Roll Hall of Fame. Paisley Park is in Chicago.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 4,
+        comment: "Reverted edits by [[Special:Contributions/192.0.2.23|192.0.2.23]] to last revision by Skinnerbox. The examiner's form dates the death 21 April 2016 and marks accident, fentanyl toxicity.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 1,
+        minor: true,
+        comment: "copyedit: the blank lines can close the page on their own",
+        patch: [["The form has four lines for a cause. Three of them say na.", "Three of the four cause lines say na."]],
+      },
+    ],
+    talk: {
+      user: "HansardHannah",
+      daysAgo: 4,
+      content: `== Roger, with a sic ==
+The birth certificate in the bibliography does not match the name on the medical examiner's form. Do we pick one? ~~~
+
+: We print both, and we print the sic. MNopedia's source line reads "Nelson, Prince Roger [sic]", certificate of 7 June 1958. The examiner's form, released 2 June 2016, reads Prince Rogers Nelson. The article does not correct either document. https://www.mnhs.org/mnopedia/search/index/person/prince-1958-2016 [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 18:05, 5 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Ilia Malinin",
+    ratings: { helpful: [176, 5], funny: [203, 14] },
+    photoIdeas: {
+      documentary: { query: "Ilia Malinin Milan Cortina 2026 free skate", webQuery: "Ilia Malinin figure skating Milan 2026 photograph", caption: "Malinin at Milan-Cortina 2026. The men's free skate scored 156.33." },
+      humour: { webQuery: "raspberry fruit close up red", caption: "Raspberries. Team USA says the Raspberry Twist is named from malina." },
+    },
+    revisions: [
+      {
+        user: "Anonyfish",
+        daysAgo: 10,
+        comment: "created article",
+        content: `'''Ilia Malinin''' is a figure skater. He was the first to land a quad Axel in competition. At Milan-Cortina 2026 the Axel came out as a single.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "PollWatcher",
+        daysAgo: 6,
+        comment: "expanded from the ISU sheet, the BBC report from the arena, and the U.S. Figure Skating roster",
+        content: `{{true and funny|source=Team USA: the move is called the Raspberry Twist because malina is Russian for raspberry.}}
+{{Infobox
+| title = Ilia Malinin
+| born = 2 December 2004, Fairfax, Virginia
+| club = Washington FSC
+| quad Axel = 14 September 2022, Lake Placid
+| worlds = gold 2024, 2025 and 2026
+| Milan-Cortina = team gold; 8th in the men's singles
+| free skate at the Games = 156.33
+| total at the Games = 264.49
+}}
+
+'''Ilia Malinin''' is an American figure skater. U.S. Figure Skating's roster gives his birth date as 2 December 2004 and his birthplace as Fairfax, Virginia, and lists his club as Washington FSC.<ref name="roster">"Ilia Malinin", U.S. Figure Skating roster. https://usfigureskating.org/sports/figure-skating/roster/ilia-malinin/1388</ref> In September 2022, at 17, he became the first skater to land a quadruple Axel in international competition.<ref name="isu">"Ilia Malinin (USA) lands first quad Axel", International Skating Union, 15 September 2022. https://isu-skating.com/en/figure-skating/news/ilia-malinin-usa-lands-first-quad-axel/</ref> At the Milan-Cortina Olympic Winter Games he won team gold with the United States and finished eighth in the men's singles.<ref name="bbc">Emma Smith, "Shaidorov wins gold as 'Quad God' Malinin crumbles", BBC Sport, 13 February 2026. https://www.bbc.com/sport/articles/c99jx4l7191o</ref><ref name="roster" />
+
+The jump he is known for was on the planned list. In the Olympic free skate it came out as a single.
+
+== Lake Placid ==
+On 14 September 2022, at the U.S. International Classic in Lake Placid, he opened the free skate with a quadruple Axel. The ISU noted that the Axel takes off forwards, so a quadruple Axel is four and a half revolutions, and that the jump completed a set: Axel, Lutz, flip, loop, Salchow and toe loop had all now been done as quadruples in an ISU competition. He calls himself "quad God" on Instagram. Yuzuru Hanyu had attempted the jump at the Beijing Games and missed. The only other skater the ISU named as having tried it in competition was Artur Dmitriev jr.<ref name="isu" />
+
+U.S. Figure Skating's report of the same event says he also landed a quad Salchow, a quad toe loop and a quad Lutz in combination with a triple Salchow, skating to "Euphoria" by Labrinth. The total was 257.28, with 185.44 in the free skate. He told them it was not what he wanted, and that it was the first competition of the season.<ref name="usfs">Christie Sausa, "Ilia Malinin Rewrites the History Books with Quad Axel to Take Gold", U.S. Figure Skating, 15 September 2022. https://usfigureskating.org/news/2022/9/15/figure-skating-ilia-malinin-rewrites-the-history-books-with-quad-axel-to-take-gold.aspx</ref>
+
+== The list of firsts ==
+The roster's list runs on from Lake Placid: youngest men's Skate America champion, in 2022; first quad Axel in a short program, at the 2023 Grand Prix Final; fastest turnaround from junior to senior world champion since Alexei Yagudin in 1996 and 1998; first to attempt seven quads in one program, at the 2024 Grand Prix Final; first to land each of the six quadruple jumps in one program, in the free skate at the 2025 World Championships; first to land seven quadruple jumps cleanly in one program, at the 2025 Grand Prix Final.<ref name="roster" /> Team USA states the six-jump claim in its own words, and adds the Raspberry Twist. The page says the name Malinin comes from malina, Russian for raspberry.<ref name="usa">"Ilia Malinin", Team USA. https://www.teamusa.com/profiles/ilia-malinin</ref>
+
+Personal bests on the roster: short program 111.29 at the 2026 World Championships; free skate 238.24 at the 2025 Grand Prix Final, marked as a world record; total 333.81 at 2025 Skate Canada International.<ref name="roster" /> He was world bronze in 2023, world champion in 2024, and defended the title in 2025. Team USA calls that the first American back-to-back men's world titles since Nathan Chen's run from 2018 to 2021. The roster also lists him first at the 2026 World Championships.<ref name="usa" /><ref name="roster" />
+
+== The sheet in Milan ==
+The International Skating Union's result sheet for the men's singles at the 2026 Olympic Winter Games, last updated 13 February 2026 at 23:01, places Mikhail Shaidorov of Kazakhstan first on 291.58, Yuma Kagiyama of Japan second on 280.06, and Shun Sato of Japan third on 274.90. Malinin is eighth on 264.49. The short-program column has him 1. The free-skate column has him 15.<ref name="isures">"Olympic Winter Games 2026 - Men Single Skating", International Skating Union results. https://results.isu.org/results/season2526/owg2026/CAT001RS.htm</ref>
+
+The BBC's report from the Milano Ice Skating Arena says he was 21, at his first Olympics, and already held team gold from earlier in the Games. The quadruple Axel was in the planned elements. He did not do it at these Games. In the free skate the Axel was a single. A quad loop became a double. He fell on a quad Lutz, and fell again after a quad Salchow that came out as a double. The free skate scored 156.33, fifteenth of the night, more than 40 points behind Shaidorov.<ref name="bbc" />
+
+== Bergamo ==
+Before the men's event his team had taken him out of the Olympic bubble to train 35 miles away, in Bergamo. In the team event he had landed the first legal backflip at an Olympic Games since Terry Kubicka in 1976, after which the move was banned. He did the flip again in the short program. When the scores posted, he went to Shaidorov.<ref name="bbc" />
+
+Shaidorov, also 21, skated clean and won Kazakhstan's first figure-skating gold, and the country's first Winter Olympic gold since Vladimir Smirnov's 50-kilometre cross-country title at Lillehammer in 1994. Kagiyama, who fell on a quad flip, took silver. Sato took bronze. Of the last six skaters, five fell.<ref name="bbc" />
+
+The sheet still has him first after the short program, and fifteenth after the free.
+
+== References ==
+{{reflist}}
+
+[[Category:People]]
+[[Category:Sport]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "203.0.113.44",
+        daysAgo: 3,
+        comment: "fixed the medal",
+        content: `'''Ilia Malinin''' won the men's singles gold at Milan-Cortina 2026 with a free skate of 238.24 and has never fallen in competition. He is from Kazakhstan.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 3,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.44|203.0.113.44]] to last revision by PollWatcher. The ISU sheet has him eighth on 264.49. The team gold is a different event.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 1,
+        minor: true,
+        comment: "copyedit: the two columns are the whole point",
+        patch: [["The sheet still has him first after the short program, and fifteenth after the free.", "The sheet has him first after the short program and fifteenth after the free."]],
+      },
+    ],
+    talk: {
+      user: "CubeWatch",
+      daysAgo: 3,
+      content: `== 264.49 ==
+The BBC story I have in front of me gives the free skate as 156.33 and the place as eighth. It does not print the total. Should the total stay out? ~~~
+
+: The total is on the ISU sheet, which also prints Shaidorov at 291.58 and Malinin's placements as short program 1, free skate 15. The BBC figure and the ISU total are different columns. Both stay, with the sheet named. https://results.isu.org/results/season2526/owg2026/CAT001RS.htm [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 11:18, 6 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Manchester United F.C.",
+    ratings: { helpful: [155, 9], funny: [167, 10] },
+    photoIdeas: {
+      documentary: { query: "Old Trafford Manchester United exterior", webQuery: "Old Trafford stadium exterior photograph", caption: "Old Trafford. The club's page puts the present capacity at 75,454." },
+      humour: { webQuery: "empty stadium seats numbered rows", caption: "Numbered seats. An all-seater rebuild once cut this ground to about 44,000." },
+    },
+    revisions: [
+      {
+        user: "Skinnerbox",
+        daysAgo: 13,
+        comment: "created article",
+        content: `'''Manchester United''' play at Old Trafford. The club dates itself to 1878. Another page dates it to 24 April 1902.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Ornithopod",
+        daysAgo: 8,
+        comment: "expanded from the club's investor history, the October 2026 table, and Opta's note on Carrick",
+        content: `{{true and funny|source=The club's own investor page: all-seater work cut Old Trafford to about 44,000, the lowest capacity in its history.}}
+{{Infobox
+| title = Manchester United F.C.
+| founded, on the club's page = 1878, as Newton Heath L&YR
+| founded, on Transfermarkt = 24 April 1902
+| ground = Old Trafford, opened 19 February 1910
+| capacity, club page = 75,454
+| capacity, Transfermarkt = 74.158 seats
+| league titles = 20
+| as of October 2026 = 12th in the Premier League, 5 points from 5 matches
+}}
+
+'''Manchester United Football Club''' plays at Old Trafford in Manchester. The club's investor page says it was founded in 1878 as Newton Heath L&YR Football Club, entered the English First Division for 1892-93, changed its name to Manchester United in 1902, won the first of 20 English league titles in 1908, and moved to Old Trafford in 1910.<ref name="ir">"History", Manchester United plc. https://ir.manutd.com/company-information/history.aspx</ref> Transfermarkt's club page prints a different founding date: 24 April 1902.<ref name="tm">"Manchester United", Transfermarkt. https://www.transfermarkt.us/manchester-united/startseite/verein/985</ref>
+
+As of the Premier League table read in October 2026, the side sat 12th, with one win, two draws and two defeats from five matches, goals 8 and 8, and five points.<ref name="table">"Premier League table", BBC Sport. https://www.bbc.com/sport/football/premier-league/table</ref>
+
+== Two dates ==
+The investor page's 1878 is the railway works club. The 1902 date is the year the page itself gives for the change of name. Transfermarkt puts "Founded" on 24 April 1902 and does not print 1878.<ref name="ir" /><ref name="tm" /> The same Transfermarkt page gives the stadium as Old Trafford and the seats as 74.158. The investor page says the current capacity is 75,454.<ref name="ir" /><ref name="tm" />
+
+The honours on the investor page are a record 20 English league titles, 13 of them Premier League titles since 1992, a record 12 FA Cups, 4 League Cups, 3 European Champions Cups and 1 FIFA Club World Cup. Sir Alex Ferguson was appointed in 1986. The FA Cup of 1990 is the start of the run the page describes.<ref name="ir" />
+
+== The ground ==
+Old Trafford opened on 19 February 1910, built to about 80,000. During the Second World War the ground was used as a military depot. On 11 March 1941 a German raid damaged it heavily. It reopened on 24 August 1949. Floodlights came in 1957. Roofs over the stands were finished in 1959. By 1985 the capacity was 56,385. Conversion to an all-seater ground cut it to about 44,000 by 1992, which the club's page calls the lowest in its history. Later additions took it to about 58,000 by 1996, about 68,000 by 2000, and about 76,000 in 2006. The figure the page now prints is 75,454. The architect named for 1909 is Archibald Leitch.<ref name="ir" />
+
+== February 1958 ==
+In February 1958 an air crash killed eight of the club's first-team players. The page says Matt Busby rebuilt the side around George Best, Bobby Charlton and Denis Law, and that the club won the European Cup in 1968, the first English club to do so.<ref name="ir" />
+
+== This season ==
+Opta Analyst, on 8 October 2026, wrote that Michael Carrick had been given a permanent two-year contract in the summer, after taking over halfway through 2025-26 and finishing third. Of his 17 league games that season he won 12. In 2026-27, five league matches in, the same piece says the club had won two of seven games in all competitions, against Ipswich Town, who had been promoted, and against Sabah, in the Champions League. It records the Ipswich game as a 5-2 win. Possession under Carrick last season was 49.1 percent. In 2026-27 the piece puts it at 58 percent in all competitions and 59.9 percent in the league. The share of defending done as a high block had gone from 26 percent to 42 percent, the highest in the league.<ref name="opta">"Man Utd Are Better Than Results Suggest, But Michael Carrick's Side Are Having an Identity Crisis", Opta Analyst, 8 October 2026. https://theanalyst.com/articles/man-utd-slow-start-2026-27-michael-carrick-stats</ref>
+
+The BBC's club page shows the latest league result as Fulham 1, Manchester United 1, and the next league match as Tottenham Hotspur at Old Trafford on Saturday 10 October at 17:30.<ref name="bbc">"Manchester United", BBC Sport. https://www.bbc.com/sport/football/teams/manchester-united</ref> Sky Sports, on its Manchester United page, was running the headline "Is Carrick's job under threat if Man Utd lose to Spurs?"<ref name="sky">"Manchester United", Sky Sports. https://www.skysports.com/manchester-united</ref>
+
+By 1992 the capacity was about 44,000. By 2006 the page has it at about 76,000.
+
+== References ==
+{{reflist}}
+
+[[Category:Football]]
+[[Category:England]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "198.51.100.55",
+        daysAgo: 4,
+        comment: "updated the table",
+        content: `'''Manchester United''' were founded in 1992, play at Wembley, and sit top of the Premier League in October 2026 with Michael Carrick as captain. Old Trafford holds 20,000.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 4,
+        comment: "Reverted edits by [[Special:Contributions/198.51.100.55|198.51.100.55]] to last revision by Ornithopod. The BBC table in October 2026 had United 12th, on five points from five matches.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: the page's own two years are enough",
+        patch: [["By 1992 the capacity was about 44,000. By 2006 the page has it at about 76,000.", "By 1992 the capacity was about 44,000, and by 2006 about 76,000."]],
+      },
+    ],
+    talk: {
+      user: "Thoenfan",
+      daysAgo: 2,
+      content: `== 1878 or 24 April 1902 ==
+Transfermarkt's founded line and the club's own history cannot both be the start of the club. Which one wins? ~~~
+
+: Neither wins. The investor page says founded in 1878 as Newton Heath, and says the name Manchester United dates from 1902. Transfermarkt prints Founded: 24 April 1902, and does not mention Newton Heath. The article keeps both lines and does not average them into one year. https://ir.manutd.com/company-information/history.aspx [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 08:50, 7 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Sam Neill",
+    ratings: { helpful: [264, 6], funny: [71, 8] },
+    photoIdeas: {
+      documentary: { query: "Sam Neill Jurassic Park Alan Grant 1993", webQuery: "Sam Neill Jurassic Park 1993 film still Alan Grant", caption: "As Alan Grant in Jurassic Park, 1993. Variety puts the original release at $914 million." },
+      humour: { webQuery: "museum dinosaur skeleton standing in a hall", caption: "A mounted dinosaur. His line was that they want to breed and eat, and cannot carry a film." },
+    },
+    revisions: [
+      {
+        user: "CubeWatch",
+        daysAgo: 9,
+        comment: "created article",
+        content: `'''Sam Neill''' was an actor. He died in Sydney on 13 July 2026, aged 78. The cause was pneumonia.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "MonotremeMary",
+        daysAgo: 6,
+        comment: "expanded from the BBC, ABC, CNN, Variety and RNZ reports of 13 and 16 July 2026",
+        content: `{{true and funny|source=Variety, quoting him: a dinosaur cannot lead a film, because dinosaurs have very limited interests.}}
+{{Infobox
+| title = Sam Neill
+| died = 13 July 2026, Sydney
+| age = 78
+| cause = pneumonia
+| cancer = remained cancer free
+| known for = Dr Alan Grant, Jurassic Park (1993)
+| agent = Philip Grenz, 19 years
+}}
+
+'''Sam Neill''' was a New Zealand actor. RNZ's report on the day styles him Sir Sam Neill. He died on Monday 13 July 2026, in Sydney, aged 78.<ref name="rnz">"Actor Sir Sam Neill dead at 78", RNZ, 13 July 2026. https://www.rnz.co.nz/life/people/celebrity/actor-sam-neill-dead-at-78</ref><ref name="variety">"Sam Neill, 'Jurassic Park' Star, Dies at 78", Variety. https://variety.com/2026/film/news/sam-neill-dead-jurassic-park-1236809330/</ref> A statement posted to his Instagram account said the loss was sudden and unexpected, and that he had remained cancer free.<ref name="rnz" /><ref name="cnn">"Sam Neill, star of 'Jurassic Park,' has died, family says", CNN, 13 July 2026. https://www.cnn.com/2026/07/13/entertainment/sam-neill-jurassic-park-dead-intl-hnk</ref>
+
+The cause was pneumonia.
+
+== The statement ==
+Variety quotes the statement as giving the date in so many words: passing on Monday 13th July, in Sydney, Australia. The same statement thanks the staff at St Vincent's Private Hospital.<ref name="variety" /> CNN reports the same hospital, the same age, and the same assurance that he remained cancer free, and says he had revealed in April that he was cancer free after a rare and aggressive form of blood cancer.<ref name="cnn" /> ABC News, writing on 13 July, reported the death at 78 in Sydney and the same cancer-free line, and scheduled an Australian Story tribute for that night.<ref name="abc">"Actor Sam Neill, star of Jurassic Park, dies", ABC News, 13 July 2026. https://www.abc.net.au/news/2026-07-13/sam-neill-dies-jurassic-park-actor/103425588</ref>
+
+The BBC's report, published 16 July and filed from Sydney, said he had died on Monday at a Sydney hospital. His agent confirmed the cause as pneumonia. The agent said that before he became sick he had fought and beaten lymphoma through a treatment called CAR-T therapy. In April 2026 Neill had announced he was in remission from non-Hodgkin's lymphoma.<ref name="bbc">Lana Lam, "Actor Sam Neill died from pneumonia, agent confirms", BBC News, 16 July 2026. https://www.bbc.com/news/articles/cddj7e8v767o</ref>
+
+RNZ's follow-up, also on 16 July, names the agent: Philip Grenz, his representative for 19 years, who said he was clarifying the cause. The sentence he sent was: "Sam passed away from pneumonia."<ref name="rnz2">Nicky Park, "Sir Sam Neill's cause of death revealed", RNZ, 16 July 2026. https://www.rnz.co.nz/life/people/celebrity/sir-sam-neill-s-cause-of-death-revealed</ref>
+
+== Jurassic Park ==
+RNZ identifies him as Dr Alan Grant in the 1993 film ''Jurassic Park''.<ref name="rnz" />
+
+== The other titles ==
+The BBC lists ''Jurassic Park'', ''The Piano'', ''The Hunt for Red October'', ''Dead Calm'', ''Event Horizon'' and the BBC series ''Peaky Blinders''.<ref name="bbc" /> ABC adds ''My Brilliant Career'', ''Sleeping Dogs'' (1977), ''The Dish'' and ''Possession'', and notes that Grant was not in ''The Lost World: Jurassic Park'' in 1997, then returned for the third film in 2001 and for ''Jurassic World: Dominion'' in 2022.<ref name="abc" />
+
+Variety says the 1993 film grossed $914 million on its initial release, and that ''Jurassic Park III'' drew $368 million internationally. It quotes him on what those films are: "What was familiar is what's true of all the 'Jurassic' films, they're not dinosaur films. These are films about people, ordinary people like a paleontologist or a mathematician, but in very, very extreme situations. It's the people that generate these films. You can't have a movie with a dinosaur as the lead because the dinosaurs have very limited interests. They just want to breed and eat things."<ref name="variety" />
+
+== The cause ==
+The death notices on 13 July did not name a cause. They named the hospital, the city, the age, and the fact that he was cancer free.<ref name="variety" /><ref name="cnn" /><ref name="abc" /> Three days later the agent of 19 years named pneumonia, and named the therapy that had dealt with the lymphoma.<ref name="bbc" /><ref name="rnz2" />
+
+The dinosaurs, he said, just want to breed and eat things.
+
+== References ==
+{{reflist}}
+
+[[Category:People]]
+[[Category:Film]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "192.0.2.66",
+        daysAgo: 3,
+        comment: "he is alive",
+        content: `'''Sam Neill''' died in Los Angeles in 2024 of the cancer he had discussed in his memoir, aged 70, during the filming of a fourth Jurassic Park. The BBC says he is alive.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 3,
+        comment: "Reverted edits by [[Special:Contributions/192.0.2.66|192.0.2.66]] to last revision by MonotremeMary. RNZ, Variety and CNN date the death to 13 July 2026 in Sydney. He was 78.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 1,
+        minor: true,
+        comment: "copyedit: leave his line about the dinosaurs where it is",
+        patch: [["The dinosaurs, he said, just want to breed and eat things.", "The dinosaurs, he said, just want to breed and eat."]],
+      },
+    ],
+    talk: {
+      user: "PollWatcher",
+      daysAgo: 1,
+      content: `== Cancer free, and pneumonia ==
+The 13 July statements and the 16 July statements are easy to mash into one cause. They are not the same sentence. ~~~
+
+: The Instagram statement on 13 July said he remained cancer free and did not name a disease as the cause of death. On 16 July the BBC and RNZ both reported the agent, Philip Grenz, confirming pneumonia, after CAR-T therapy for lymphoma. Cancer free is what the statement claimed about the lymphoma. Pneumonia is the cause the agent gave. https://www.bbc.com/news/articles/cddj7e8v767o [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 10:12, 8 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Matt Damon",
+    ratings: { helpful: [133, 4], funny: [188, 12] },
+    photoIdeas: {
+      documentary: { query: "Matt Damon The Martian Mark Watney still", webQuery: "Matt Damon The Martian spacesuit film still", caption: "As Mark Watney in The Martian, 2015. Mojo's headline worldwide total is $630,621,406." },
+      humour: { webQuery: "university transcript credits remaining stamp", caption: "A transcript. Biography.com says the degree was twelve credits short." },
+    },
+    revisions: [
+      {
+        user: "Ornithopod",
+        daysAgo: 15,
+        comment: "created article",
+        content: `'''Matt Damon''' is an actor. He co-wrote Good Will Hunting and left Harvard twelve credits short of a degree.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Thoenfan",
+        daysAgo: 10,
+        comment: "expanded from the Golden Globes, Biography.com and the two Box Office Mojo pages",
+        content: `{{true and funny|source=Biography.com: he left Harvard twelve credits short of a degree, with a 40-page class script in hand.}}
+{{Infobox
+| title = Matt Damon
+| born = 8 October 1970, Cambridge, Massachusetts
+| screenplay = Good Will Hunting, with Ben Affleck
+| Globe, actor = 2016, The Martian, musical or comedy
+| Globe page, screenplay = lists Ben Affleck
+| Martian, worldwide, on Mojo = $630,621,406 and also $630,161,890
+| biography's figure = almost $600 million
+}}
+
+'''Matt Damon''' is an American actor and screenwriter. The Golden Globes' biography gives his name as Matthew Paige Damon, born 8 October 1970 in Cambridge, Massachusetts.<ref name="ggp">"Matt Damon", Golden Globes. https://goldenglobes.com/person/matt-damon/</ref> Biography.com prints the same date and the same city.<ref name="bio">"Matt Damon", Biography.com, updated 7 January 2024. https://www.biography.com/actors/matt-damon</ref>
+
+He left university twelve credits short of graduating. The class assignment was the start of the screenplay.
+
+== Harvard ==
+Biography.com says he studied English at Harvard and wrote a 40-page script for a playwriting class, an early draft of what became ''Good Will Hunting''. He dropped out twelve credits shy of graduation to act. Ben Affleck read the pages, said they should finish the script together, and they did. Gus Van Sant directed the film. Damon played Will Hunting, a janitor at M.I.T. who is a gifted mathematician. The film received nine Academy Award nominations. Robin Williams won supporting actor. Biography.com says Damon and Affleck won the Academy Award for best original screenplay, and it dates that prize to 1997.<ref name="bio" />
+
+The Golden Globes film page dates its own prizes to 1998. Damon is listed as a nominee for best performance by an actor in a motion picture, drama. The screenplay win, best screenplay for a motion picture, is listed under Ben Affleck's name.<ref name="ggh">"Good Will Hunting", Golden Globes. https://goldenglobes.com/film/good-will-hunting/</ref> The Globes' page on Damon repeats that credit: 1998 winner, best screenplay, ''Good Will Hunting'', Ben Affleck.<ref name="ggp" />
+
+Box Office Mojo gives the film's earliest release as 5 December 1997, the running time as 2 hours 6 minutes, the domestic opening as $272,912, the domestic gross as $138,433,435, the international gross as $87,500,000 and the worldwide gross as $225,933,435.<ref name="gwh">"Good Will Hunting (1997)", Box Office Mojo. https://www.boxofficemojo.com/title/tt0119217/</ref>
+
+The Globes biography also lists ''The Rainmaker'' (1997), ''Saving Private Ryan'' (1998), ''The Talented Mr. Ripley'' (1999), the three ''Ocean's'' films, ''Syriana'', ''The Departed'', ''Invictus'', ''The Informant!'', ''True Grit'', ''The Martian'', the Bourne films through ''Jason Bourne'' (2016), ''Behind the Candelabra'', ''Ford v Ferrari'', ''The Last Duel'', ''Air'' (2023, directed by Ben Affleck) and ''Oppenheimer'' (2023, written and directed by Christopher Nolan).<ref name="ggp" />
+
+== Bourne, and a cameo ==
+Biography.com says Doug Liman cast him as Jason Bourne in ''The Bourne Identity'' (2002). Damon did several of his own stunts, including underwater scenes, after three months of training in hand-to-hand combat, weapons, boxing and Filipino escrima. ''The Bourne Supremacy'' followed in 2004 and ''The Bourne Ultimatum'' in 2007. The Ultimatum cost $110 million. Its opening weekend in the United States and Canada was about $70.2 million, which Biography.com calls the largest August opening then on record, a mark that stood until ''Guardians of the Galaxy'' in 2014.<ref name="bio" />
+
+== Groves, and a play within the film ==
+In ''Thor: Ragnarok'' he appears briefly as an actor in a stage play, playing Thor's brother, Loki.<ref name="bio" /> In ''Oppenheimer'' he plays Leslie Groves, the Army Corps of Engineers officer who oversaw the Manhattan Project. Biography.com, written while the film was still ahead, says it would open on 21 July.<ref name="bio" />
+
+== Two worldwide totals ==
+''The Martian'' (2015), directed by Ridley Scott, casts him as the astronaut Mark Watney, left on Mars. The Golden Globes gave the film the 2016 prize for best motion picture, musical or comedy, and gave Damon best performance by an actor in a motion picture, musical or comedy. Ridley Scott was nominated for director.<ref name="ggm">"The Martian", Golden Globes. https://goldenglobes.com/film/the-martian/</ref> Biography.com says the film and Damon both received Golden Globes, his for best actor in a musical or comedy, and that he also received an Oscar nomination. It puts the worldwide gross at almost $600 million.<ref name="bio" />
+
+Box Office Mojo, read in October 2026, prints a budget of $108,000,000, a domestic opening of $54,308,575, and headline totals of domestic $228,433,663, international $402,187,155 and worldwide $630,621,406. The original-release row on the same page, labelled September 30 to February 5, 2016, across 69 markets, prints international $401,728,227 and worldwide $630,161,890.<ref name="bom">"The Martian (2015)", Box Office Mojo. https://www.boxofficemojo.com/title/tt3659388/</ref>
+
+The Globes page lists the screenplay under Affleck. The biography lists the Oscar under both of them, and calls it 1997.
+
+== References ==
+{{reflist}}
+
+[[Category:People]]
+[[Category:Film]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "203.0.113.77",
+        daysAgo: 6,
+        comment: "fixed the degree",
+        content: `'''Matt Damon''' won the Academy Award for best actor in 1997, graduated from Harvard with honours, and has never appeared in a film about Mars. The Bourne films star Ben Affleck.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 6,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.77|203.0.113.77]] to last revision by Thoenfan. Biography.com says he left Harvard twelve credits short. The Globes page does not list him on the screenplay win.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: say which site calls the Oscar 1997",
+        patch: [["The Globes page lists the screenplay under Affleck. The biography lists the Oscar under both of them, and calls it 1997.", "The Globes page lists the screenplay under Affleck. Biography.com lists the Oscar under both of them and calls it 1997."]],
+      },
+    ],
+    talk: {
+      user: "Anonyfish",
+      daysAgo: 2,
+      content: `== 1997 or 1998 ==
+Biography.com says the screenplay Oscar was in 1997. The Golden Globes date their screenplay prize to 1998, and the winner line names Ben Affleck. Do we reconcile this? ~~~
+
+: We do not reconcile it. Biography.com, updated 7 January 2024, says Damon and Affleck won the Academy Award for best original screenplay and places that win in 1997. The Golden Globes film page lists a 1998 screenplay win and links the name Ben Affleck, not Damon. Those are two sites and two prizes. The article reports both lines. https://goldenglobes.com/film/good-will-hunting/ [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 16:40, 7 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Russia",
+    ratings: { helpful: [121, 14], funny: [98, 6] },
+    photoIdeas: {
+      documentary: { query: "Alaska purchase check 1868 National Archives", webQuery: "cancelled check purchase of Alaska 1868 Stoeckl", caption: "The cancelled cheque of 1 August 1868, $7.2 million, payable to Edouard de Stoeckl." },
+      humour: { webQuery: "old cancelled bank check handwritten payee", caption: "A cancelled cheque. This one names the minister, not the treasury that sold the land." },
+    },
+    revisions: [
+      {
+        user: "PollWatcher",
+        daysAgo: 16,
+        comment: "created article",
+        content: `'''Russia''' sold Alaska to the United States in 1867 for $7.2 million. The cheque was made out to the minister who signed the treaty.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "HansardHannah",
+        daysAgo: 11,
+        comment: "expanded from the Alaska cheque, the World Bank country page, the EIA analysis and the February 2025 readout",
+        content: `{{true and funny|source=National Archives: the check for Alaska is payable to Edouard de Stoeckl, and the French text of the treaty is omitted for brevity.}}
+{{Infobox
+| title = Russia
+| United Nations = admitted 24 October 1945
+| population, World Bank = over 143 million, as of 2024
+| borders = 14 countries
+| crude oil, 2024 = 9.2 million barrels a day
+| Alaska sale = $7.2 million, treaty 30 March 1867
+| check = 1 August 1868, payable to Stoeckl
+}}
+
+'''Russia''', in the United Nations list of member states, was admitted on 24 October 1945.<ref name="un">"Member States", United Nations. https://www.un.org/en/about-us/member-states</ref> The World Bank, on its country page as read in October 2026, calls the Russian Federation a high-income country with a population of over 143 million as of 2024, spanning Europe and Asia and sharing borders with 14 countries.<ref name="wb">"Russia", World Bank. https://www.worldbank.org/ext/en/country/russia</ref>
+
+In 1867 the empire sold Alaska. The cheque is made out to a man.
+
+== The cheque ==
+The Office of the Historian at the State Department dates Russia's interest to 1725, when Peter the Great sent Vitus Bering to the Alaskan coast. Permanent Russian settlers in Alaska never numbered more than four hundred. Defeat in the Crimean War reduced interest further. Russia offered the territory to the United States in 1859. The Civil War delayed the sale. On 30 March 1867 Secretary of State William Seward agreed with Edouard de Stoeckl, the Russian minister in Washington, to buy Alaska for $7.2 million. The Senate approved the treaty on 9 April. President Andrew Johnson signed it on 28 May. The transfer was on 18 October 1867.<ref name="state">"Purchase of Alaska, 1867", Office of the Historian, U.S. Department of State. https://history.state.gov/milestones/1866-1898/alaska-purchase</ref>
+
+The National Archives holds the cancelled cheque: $7.2 million, issued 1 August 1868, payable to Edouard de Stoeckl. The same page puts the price at less than 2 cents an acre, for nearly 600,000 square miles. Opponents called it "Seward's Folly" or "Seward's Icebox" until the Klondike gold strike of 1896. The treaty of cession, 30 March 1867, was signed for the emperor Alexander II. The Archives transcript says the French version is omitted for brevity. Ratification by the United States is dated 28 May 1867. The ratifications were exchanged on 20 June 1867, and the United States proclaimed the treaty the same day.<ref name="check">"Check for the Purchase of Alaska (1868)", National Archives. https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska</ref>
+
+The land changed hands on 18 October 1867. The cheque is dated the following August.
+
+== After the sale ==
+For three decades the United States paid little attention to Alaska. It was governed under military, naval or Treasury rule or, at times, under no visible rule at all. A civil government was constituted in 1884 so that U.S. mining laws could be imposed. A gold deposit in the Yukon in 1896 made Alaska the gateway to the Klondike. Alaska became a state on 3 January 1959.<ref name="state" />
+
+== The figures, as of October 2026 ==
+The World Bank page says Russia joined the International Bank for Reconstruction and Development in June 1992. The Bank has approved no new loans or investments in Russia since 2014, and ceased all its programmes in the country as of 2 March 2022, following the invasion of Ukraine. The same page expects growth to ease to 0.8 percent in 2026, from 1.0 percent in 2025, and calls that rate four times slower than the growth it had projected for 2024, and below the 2 percent average from 2010 to 2019. It lists capacity constraints, restrictive monetary policy, high borrowing costs, sanctions, and refinery outages.<ref name="wb" />
+
+The U.S. Energy Information Administration's country analysis, last updated 24 July 2025, says Russia was the world's second-highest producer of crude oil and condensate, and of dry natural gas, in 2023, and the third-largest exporter of coal and of natural gas. Proved oil reserves were 58 billion barrels as of 1 January 2024, on Rystad Energy's figure. Crude production in 2024 was 9.2 million barrels a day, down 4 percent from 9.6 million in 2023. The main export grade is Urals, a medium-sour crude from Western Siberia and the Volga-Urals region. The page records sanctions after the full-scale invasion of Ukraine in 2022, further U.S. and British measures in January 2025, and an 18th European Union package in July 2025, including a lower price cap and measures aimed at a shadow fleet of anonymously owned or insured vessels. Europe remained the primary market for Russian natural gas as of 2024, which the EIA attributes to pipelines already in place, limited EU bans on liquefied natural gas, and gas use by countries outside the EU.<ref name="eia">"Russia", U.S. Energy Information Administration, last updated 24 July 2025. https://www.eia.gov/international/content/analysis/countries_long/Russia/</ref>
+
+== The readout ==
+A State Department readout dated 18 February 2025, attributed to spokesperson Tammy Bruce, says Secretary of State Marco Rubio met Russian Foreign Minister Sergei Lavrov that day, as a follow-up to a conversation between President Donald Trump and President Vladimir Putin on 12 February. With Rubio were National Security Advisor Mike Waltz and Special Envoy Steve Witkoff. With Lavrov was Yuri Ushakov, aide to the president. The meeting was in Saudi Arabia. The readout lists three agreements: a consultation mechanism on irritants to the bilateral relationship, so that diplomatic missions could operate normally; high-level teams to work on a path to ending the conflict in Ukraine; and groundwork for later cooperation. It thanks Crown Prince Mohammed bin Salman for the hosting. Its own closing line is that one phone call followed by one meeting is not sufficient to establish an enduring peace.<ref name="readout">"Secretary Rubio's Meeting with Russian Foreign Minister Lavrov", U.S. Department of State, readout, 18 February 2025. https://www.state.gov/secretary-rubios-meeting-with-russian-foreign-minister-lavrov/</ref>
+
+The cheque is made out to Stoeckl. The French text is omitted for brevity.
+
+== References ==
+{{reflist}}
+
+[[Category:Countries]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "198.51.100.88",
+        daysAgo: 7,
+        comment: "fixed the sale",
+        content: `'''Russia''' bought Alaska from the United States in 1867 for $72 million, paid in cash on the day, and was admitted to the United Nations in 1991. The World Bank still lends there.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 7,
+        comment: "Reverted edits by [[Special:Contributions/198.51.100.88|198.51.100.88]] to last revision by HansardHannah. The treaty is 30 March 1867, $7.2 million, and the cheque is payable to Stoeckl.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 3,
+        minor: true,
+        comment: "copyedit: the omitted French is the last fact",
+        patch: [["The cheque is made out to Stoeckl. The French text is omitted for brevity.", "The French text of the treaty is omitted for brevity."]],
+      },
+    ],
+    talk: {
+      user: "Skinnerbox",
+      daysAgo: 3,
+      content: `== 18 October 1867, or 1 August 1868 ==
+The transfer and the cheque are a year apart. Readers will think one of the dates is a typo. ~~~
+
+: Both dates are on the documents. The State Department historian dates the formal transfer to 18 October 1867, after Johnson's signature on 28 May. The National Archives dates the cancelled cheque to 1 August 1868 and says it was payable to Edouard de Stoeckl. The gap is the point of printing both. https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 13:22, 6 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "Men's T20 World Cup",
+    ratings: { helpful: [148, 7], funny: [173, 9] },
+    photoIdeas: {
+      documentary: { query: "India New Zealand T20 World Cup final Ahmedabad 2026", webQuery: "Ahmedabad cricket stadium T20 World Cup final crowd", caption: "Ahmedabad, 8 March 2026. India made 255-5 and won by 96 runs." },
+      humour: { webQuery: "cricket scoreboard blank numbers night match", caption: "A scoreboard with empty columns. The ICC's 2007 numbers page still has three of those." },
+    },
+    revisions: [
+      {
+        user: "Anonyfish",
+        daysAgo: 8,
+        comment: "created article",
+        content: `'''The Men's T20 World Cup''' began in 2007. India beat New Zealand by 96 runs in the 2026 final, in Ahmedabad, and became the first side to defend the title.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "Skinnerbox",
+        daysAgo: 5,
+        comment: "expanded from the Ahmedabad match reports and the ICC's own history notes, including the one still written before 2024",
+        content: `{{true and funny|source=ICC numbers page, 6 March 2016: the headings for highest wicket-takers, highest scores and best bowling are still empty.}}
+{{Infobox
+| title = Men's T20 World Cup
+| first final = 24 September 2007, Johannesburg, India beat Pakistan by five runs
+| 2026 final = 8 March 2026, Ahmedabad
+| 2026 scores = India 255-5, New Zealand 159
+| margin = 96 runs
+| note = first defence of the men's title
+}}
+
+The '''Men's T20 World Cup''' is the International Cricket Council's tournament in the shortest form of international cricket. The first edition was in 2007, in South Africa, with 12 teams. India beat Pakistan by five runs in the final at Johannesburg on 24 September 2007.<ref name="turn">"A turning point for Indian cricket and another chapter in a brilliant rivalry", ICC. https://www.icc-cricket.com/news/a-turning-point-for-indian-cricket-and-another-chapter-in-a-brilliant-rivalry</ref><ref name="brief">"A brief history of the ICC Men's T20 World Cup", ICC, 29 January 2026. https://www.icc-cricket.com/media-releases/a-brief-history-of-the-icc-men-s-t20-world-cup</ref> The 2026 final was in Ahmedabad on 8 March. India scored 255-5 and bowled New Zealand out for 159 in 19 overs, a margin of 96 runs. The ICC's match report calls India the first side to defend the men's title, the first to win a home edition, and the first to win three.<ref name="icc">"History scripted as India capture T20 World Cup crown", ICC, 8 March 2026. https://www.icc-cricket.com/tournaments/mens-t20-world-cup-2026/news/live-india-new-zealand-chase-world-cup-glory</ref><ref name="bbc">Matthew Henry, "Superb India crush New Zealand to defend T20 title", BBC Sport, 8 March 2026. https://www.bbc.com/sport/cricket/articles/c15x2denz30o</ref>
+
+The 2007 final turned on a scoop. The 2026 final turned on a total.
+
+== 2007 ==
+T20 had been introduced in English county cricket in 2003. The World Cup followed in 2007.<ref name="brief" /> Chris Gayle hit the first ball of the tournament for four and made 117 against South Africa, the first T20 international century.<ref name="hist">"History of the ICC Men's T20 World Cup", ICC, 14 May 2024. https://www.icc-cricket.com/media-releases/history-of-the-tournament</ref><ref name="brief" /> An ICC numbers page dated 6 March 2016 lists Matthew Hayden at the top of the run-scorers, with 265 in six matches, and Gautam Gambhir next, with 227 in seven. The greatest moments it names are Gayle's 117, India's bowl-out against Pakistan, and Yuvraj Singh's six sixes.<ref name="nums">"ICC World Twenty20 2007 - In Numbers", ICC, 6 March 2016. https://www.icc-cricket.com/news/icc-world-twenty20-2007-in-numbers</ref> Yuvraj's over came off Stuart Broad.<ref name="brief" />
+
+In the final, Misbah-ul-Haq had Pakistan close, and a mistimed scoop, with six runs needed from four balls, gave India the trophy.<ref name="hist" /> MS Dhoni was the captain. Sachin Tendulkar, Sourav Ganguly and Rahul Dravid were not in the squad. The ICC's note on that final calls the win the first feather in Dhoni's cap, and says he would lead India to three ICC trophies as captain.<ref name="turn" />
+
+== Empty columns ==
+The headings on the numbers page for highest wicket-takers, highest scores and best bowling figures have no figures under them.<ref name="nums" />
+
+== The list, as the ICC's own pages give it ==
+A history note dated 14 May 2024, still written in the future tense about that year's tournament, records Pakistan's revenge at Lord's two years after 2007, with the Netherlands having already beaten the hosts, England, at the same ground. England won in the Caribbean a year after that. West Indies won in Colombo in 2012. Sri Lanka won in 2014, and Mahela Jayawardene and Kumar Sangakkara left the format. After five different winners in five tournaments, West Indies won a second, Carlos Brathwaite hitting four sixes in a row off Ben Stokes.<ref name="hist" /> The January 2026 history spells the 2016 ground "Kolkota" and quotes Ian Bishop's "remember the name". Marlon Samuels made 78 in the 2012 final and Sunil Narine took 3-9. Australia won a first title in 2021, David Warner and Mitchell Marsh in the final against New Zealand. England won a second title a year later. Sam Curran was player of the match in the final and player of the tournament.<ref name="brief" />
+
+The January 2026 release, written before the 2026 event, says six countries had lifted the trophy, and that West Indies, England and the reigning champions India were the only ones to have won it twice. It says the 2024 tournament expanded from 16 teams to 20, with debuts for the United States, Canada and Uganda. The United States, co-hosting with West Indies, beat Pakistan in a Super Over and reached the Super 8s. Afghanistan reached a semi-final. In the final Virat Kohli made 76, and Jasprit Bumrah's spell left India winners by seven runs. The page prints that margin as "an seven-run victory." Kohli and Rohit Sharma then stopped playing international T20 cricket. Italy were to debut in 2026, in India and Sri Lanka, the 10th edition, with 20 teams.<ref name="brief" />
+
+== Ahmedabad ==
+The BBC's report from the ground gives India 255-5 in 20 overs: Sanju Samson 89 from 46, Ishan Kishan 54 from 25, Abhishek Sharma 52 from 21. New Zealand were 159 all out in 19 overs, Tim Seifert 52 from 26, Jasprit Bumrah 4-15. The crowd was more than 100,000. The total was two more than India had made in the semi-final against England. Jimmy Neesham took three wickets in the 16th over. Shivam Dube hit 24 off the last. The BBC calls India the first side to defend the men's T20 World Cup, and adds the 2024 title and the 2025 Champions Trophy as the other two of three white-ball tournaments in a row.<ref name="bbc" />
+
+The ICC's report calls 255-5 the highest total in a T20 World Cup final. It counts 19 fours and 18 sixes, 184 runs in boundaries. Abhishek Sharma's 52 came off 21 balls. Kishan and Samson put on 105 in 48 balls for the second wicket. Lockie Ferguson went for 48 in two overs. Bumrah's figures are given as 4/15. The same report says India had lost one match across the last two T20 World Cups.<ref name="icc" />
+
+The May 2024 history page still has the 2024 tournament in front of it. The numbers page still has its blank headings.
+
+== References ==
+{{reflist}}
+
+[[Category:Cricket]]
+[[Category:Sport]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "192.0.2.99",
+        daysAgo: 3,
+        comment: "england won it",
+        content: `'''The Men's T20 World Cup''' was first held in 1992. England have won every edition. The 2026 final was a tie in London, and New Zealand were the defending champions.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 3,
+        comment: "Reverted edits by [[Special:Contributions/192.0.2.99|192.0.2.99]] to last revision by Skinnerbox. The 8 March 2026 final was India 255-5, New Zealand 159, Ahmedabad, 96 runs.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 1,
+        minor: true,
+        comment: "copyedit: the blank headings can stand as the last line",
+        patch: [["The May 2024 history page still has the 2024 tournament in front of it. The numbers page still has its blank headings.", "The numbers page still has its blank headings."]],
+      },
+    ],
+    talk: {
+      user: "MonotremeMary",
+      daysAgo: 1,
+      content: `== Twice, or three times ==
+The January 2026 history says India had won the men's title twice. The March match report says the Ahmedabad win was a third. Both cannot be the standing total. ~~~
+
+: They are not the same date. The media release of 29 January 2026 was written before the tournament and counts two Indian wins, with India reigning champions. The match report of 8 March 2026 says the 96-run win made India the first to defend the title and the first to win three. The article dates both sentences. It does not edit the January page down to the March total. https://www.icc-cricket.com/tournaments/mens-t20-world-cup-2026/news/live-india-new-zealand-chase-world-cup-glory [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 15:05, 8 October 2026 (UTC)
+`,
+    },
+  },
+  {
+    title: "George W. Bush",
+    ratings: { helpful: [162, 13], funny: [119, 8] },
+    photoIdeas: {
+      documentary: { query: "George W. Bush inauguration January 20 2001 rain", webQuery: "George W. Bush inauguration 2001 West Front Capitol rain", caption: "The oath on 20 January 2001. The committee's weather line is cold and rainy, about 35 degrees F." },
+      humour: { webQuery: "closed bible on a lectern inauguration", caption: "A closed Bible. The committee's line for 20 January 2001 is family Bible, closed." },
+    },
+    revisions: [
+      {
+        user: "HansardHannah",
+        daysAgo: 18,
+        comment: "created article",
+        content: `'''George W. Bush''' was the 43rd president of the United States. In 2000 he finished with 271 electoral votes. One elector from the District of Columbia left the ballot blank.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "PollWatcher",
+        daysAgo: 12,
+        comment: "expanded from the archived White House biography, the electoral-college table, the inaugural committee and the library",
+        content: `{{true and funny|source=Joint Congressional Committee: the Washington Bible was brought under guard from New York, and a different Bible was used, closed.}}
+{{Infobox
+| title = George W. Bush
+| born = 6 July 1946, New Haven, Connecticut
+| Yale = 1968
+| Harvard = M.B.A., 1975
+| governor of Texas = 1995-2000, 46th governor
+| president = 43rd, 20 January 2001 to 20 January 2009
+| electoral vote, 2000 = 271 to 266
+| library = 13th presidential library, Dallas
+}}
+
+'''George Walker Bush''' was the 43rd president of the United States. The White House biography from his own administration says he was sworn in on 20 January 2001, re-elected on 2 November 2004, and sworn in again on 20 January 2005. It gives his birth as 6 July 1946, in New Haven, Connecticut, and his childhood as Midland and Houston, Texas.<ref name="wh">"Biography of President George W. Bush", The White House (archived). https://georgewbush-whitehouse.archives.gov/president/biography.html</ref> The Miller Center gives the same birth date and birthplace, and gives the end of the presidency as 20 January 2009.<ref name="miller">"George W. Bush", Miller Center, University of Virginia. https://millercenter.org/president/gwbush</ref>
+
+One elector left a ballot blank. One Bible made the trip and was not opened.
+
+== The degree ==
+The archived White House page says he received a bachelor's degree in history from Yale in 1968, served as an F-102 fighter pilot in the Texas Air National Guard, and received a master of business administration from Harvard Business School in 1975.<ref name="wh" /> The presidential library's biography says the Yale degree was a bachelor's in history, and that after college he enlisted in the Air National Guard, serving in Texas and Alabama until discharge in November 1974, with the Harvard master's in 1975. He attended Phillips Academy in Andover from 1961 to 1964.<ref name="lib">"George W. Bush", George W. Bush Presidential Library. https://www.georgewbushlibrary.gov/bush-family/george-w-bush</ref> The Miller Center's fast facts print the Yale degree as "Yale (B.S., 1968)" and Harvard as "Harvard (M.B.A., 1975)". The nickname on that list is "Dubya". The party is Republican.<ref name="miller" />
+
+After Harvard he went back to Midland and into the energy business. After his father's 1988 campaign he assembled the partners who bought the Texas Rangers in 1989. He was elected governor of Texas on 8 November 1994 and re-elected on 3 November 1998, which the White House page calls the first time a Texas governor had been elected to consecutive four-year terms. The same page says he served six years as the 46th governor.<ref name="wh" />
+
+== The count ==
+He announced for president in June 1999. The opponent was Vice President Albert Gore. The election was on 7 November 2000. The library's biography says the result was not known until 12 December 2000, when the Supreme Court decision in ''Bush v. Gore'' certified Florida's electoral votes. The inauguration was 20 January 2001.<ref name="lib" />
+
+The National Archives' electoral-college table gives Bush 271 electoral votes and Gore 266, against a total of 538 and a majority of 270. Richard B. Cheney is listed at 271 and Joseph Lieberman at 266. The note says Bush received fewer popular votes than Gore and a majority of the electoral votes. An elector from the District of Columbia cast a blank ballot, so the District cast 2 of its 3 votes.<ref name="ec">"2000 Electoral College Results", National Archives. https://www.archives.gov/electoral-college/2000</ref>
+
+In 2004 the opponent was Senator John Kerry of Massachusetts. Bush was re-elected and inaugurated on 20 January 2005. The library notes that Iraq held elections, its first free elections, in January 2005.<ref name="lib" /> The Miller Center's summary of the eight years names the attacks of 11 September 2001, the global war on terror, the war in Iraq, and the downturn of 2008, and says that at different times he was both the most popular president and one of the least popular.<ref name="miller" />
+
+== The Bible ==
+The Joint Congressional Committee on Inaugural Ceremonies records the 20 January 2001 oath on the West Front of the Capitol. Cheney was sworn as the 46th vice president. The weather line is "cold and rainy, with temperature around 35 degrees F." The Bible line is "Family Bible, closed."<ref name="inaug">"54th Inaugural Ceremonies", Joint Congressional Committee on Inaugural Ceremonies. https://www.inaugural.senate.gov/54th-inaugural-ceremonies/</ref>
+
+Bush had hoped to use the Masonic Bible used by George Washington in 1789 and by George H. W. Bush in 1989. That Bible was transported, under guard, from New York to Washington. Because of the weather, a family Bible was substituted. It stayed closed.<ref name="inaug" />
+
+== The library ==
+On 27 November 2003 he visited troops and served Thanksgiving dinner at the Bob Hope Dining Facility at Baghdad International Airport. The library files the photograph as P36047-34.<ref name="lib" />
+
+On 25 April 2013 the Bush Center was dedicated on the campus of Southern Methodist University in Dallas. The presidential library inside it is administered by the National Archives and Records Administration. Five living presidents attended.<ref name="lib" /> The library's own homepage calls it the 13th presidential library under NARA, and describes the holdings as textual, electronic and audiovisual records, plus domestic and foreign gifts, covering eight years.<ref name="home">"Homepage", George W. Bush Presidential Library. https://www.georgewbushlibrary.gov/</ref>
+
+The Masonic Bible made the trip under guard. The oath used a different one, and that one was shut.
+
+== References ==
+{{reflist}}
+
+[[Category:People]]
+[[Category:United States]]
+[[Category:True but improbable]]
+`,
+      },
+      {
+        user: "203.0.113.110",
+        daysAgo: 8,
+        comment: "fixed 2000",
+        content: `'''George W. Bush''' won the 2000 popular vote by four million, took the oath on the Washington Bible in sunshine, and served as the 41st president from 1993 to 2001. The library is in Houston.
+
+== References ==
+{{reflist}}
+`,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 8,
+        comment: "Reverted edits by [[Special:Contributions/203.0.113.110|203.0.113.110]] to last revision by PollWatcher. The Archives table is 271 to 266. A District of Columbia elector cast a blank ballot.",
+        revert: 2,
+      },
+      {
+        user: "CiteOrDie",
+        daysAgo: 2,
+        minor: true,
+        comment: "copyedit: shut is the word the ceremony earns",
+        patch: [["The Masonic Bible made the trip under guard. The oath used a different one, and that one was shut.", "The oath used a different Bible, and that one was shut."]],
+      },
+    ],
+    talk: {
+      user: "CubeWatch",
+      daysAgo: 2,
+      content: `== B.S. or history ==
+The Miller Center prints Yale (B.S., 1968). The White House archive prints a bachelor's degree in history. Same year, two labels. ~~~
+
+: Both labels stay. The archived White House biography says "a bachelor's degree in history from Yale University in 1968." The Miller Center fast facts say "Yale (B.S., 1968)." The presidential library also says a bachelor's degree in history. The article does not promote one of those lines into a correction of the others. https://georgewbush-whitehouse.archives.gov/president/biography.html [[User:CiteOrDie|CiteOrDie]] ([[User talk:CiteOrDie|talk]]) 09:28, 7 October 2026 (UTC)
+`,
+    },
+  },
 ];
