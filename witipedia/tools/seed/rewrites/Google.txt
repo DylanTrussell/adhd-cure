@@ -1,0 +1,25 @@
+{{true and funny|source=Battelle, The Search (2005); Levy, In the Plex (2011); Brin and Page, "The Anatomy of a Large-Scale Hypertextual Web Search Engine" (1998); Google IPO prospectus (2004); Google code of conduct, as revised April and May 2018}}
+'''Google''' is the search company whose name is a typo. Its founders meant "googol", the number 1 followed by 100 zeros. A fellow Stanford student, Sean Anderson, floated the word in a brainstorm in 1997 and then checked whether the domain was free by typing it with the wrong spelling. It was free. The founders registered google.com on 15 September 1997 and kept the mistake.<ref name="battelle">John Battelle, ''The Search'' (2005).</ref><ref name="levy">Steven Levy, ''In the Plex'' (2011).</ref>
+
+== The first server ==
+The first Google storage rig, built by Larry Page and Sergey Brin at Stanford, sat in a case made of Lego bricks. They used Lego because it was cheap and let them stack bare disk drives.<ref name="levy" />
+
+== The check ==
+In August 1998, the Sun Microsystems co-founder Andy Bechtolsheim wrote a check for $100,000 made out to "Google Inc." The company did not exist yet, so the founders could not deposit it. It sat in a drawer for about two weeks while they incorporated.<ref name="battelle" /> They then ran the company from a rented garage in Menlo Park.
+
+== The one that got away ==
+In 1999 the founders offered the search technology to Excite for $1 million. Excite's chief executive George Bell declined, reportedly after balking at the price. Accounts of the figures differ among sources, so treat the dollar amount as the reported one. Google went on to be worth far more than that.<ref name="levy" />
+
+== The first Doodle ==
+The first Google Doodle appeared in August 1998. It was a stick figure standing behind the second "o", and it told users the founders were at the Burning Man festival. It was an out-of-office message.<ref name="levy" />
+
+== "Don't be evil" ==
+The phrase was in the company's 2004 IPO letter and in its code of conduct. In April and May 2018 the opening sentence of the code of conduct was reworded, and "Don't be evil" was moved to its final line. It is still there.<ref name="coc">Google, ''Code of Conduct'', as revised in 2018.</ref> Reports in May 2018 said the phrase had been removed, which is not accurate.
+
+== The five minutes ==
+On 16 August 2013 Google went offline for about five minutes. The web analytics firm GoSquared reported that global internet traffic fell by roughly 40 percent during the outage.<ref name="gosquared">GoSquared traffic report, August 2013, as reported by multiple news outlets.</ref>
+
+== References ==
+{{reflist}}
+
+[[Category:Companies]]

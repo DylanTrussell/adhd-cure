@@ -1,0 +1,25 @@
+{{true and funny|source=Kirkpatrick, The Facebook Effect (2010); Harvard Crimson, 4 Nov 2003; Kramer, Guillory and Hancock, PNAS 111 (2014); US FTC press release, 24 July 2019; Meta Platforms announcement, 28 Oct 2021}}
+'''Facebook''' started as a website for rating women at Harvard by looks, built in October 2003 by a Harvard sophomore. It was called Facemash. It showed two student photos side by side and asked visitors to pick the more attractive. Mark Zuckerberg pulled the photos from the online "face books" of Harvard's residential houses.<ref name="crimson">''The Harvard Crimson'', 4 November 2003.</ref><ref name="kirk">David Kirkpatrick, ''The Facebook Effect'' (2010).</ref>
+
+== The crash ==
+The Crimson reported that Facemash drew 450 visitors and 22,000 photo views in its first four hours. It overloaded part of Harvard's network. Zuckerberg shut it down within days and appeared before Harvard's Administrative Board over breaches of privacy and security.<ref name="crimson" /> The board did not expel him.
+
+== TheFacebook ==
+Zuckerberg launched thefacebook.com on 4 February 2004. The Winklevoss twins and Divya Narendra claimed he had taken their idea. The lawsuit settled in 2008 for about $65 million, partly in Facebook stock.<ref name="kirk" />
+
+== The $200,000 "the" ==
+The site dropped the article from its name in 2005 and, according to reports at the time, bought facebook.com for about $200,000.<ref name="kirk" /> The company has declined to confirm the figure.
+
+== Mood experiment ==
+In January 2012, Facebook ran a one-week experiment on 689,003 users, adjusting the share of positive or negative posts in their feeds to see whether it affected their own posts. The paper appeared in the ''Proceedings of the National Academy of Sciences'' in June 2014 and drew public criticism, including an editorial expression of concern from the journal.<ref name="pnas">A. D. I. Kramer, J. E. Guillory, J. T. Hancock, ''PNAS'' 111(24), 2014.</ref>
+
+== The fine ==
+In July 2019 the US Federal Trade Commission announced a $5 billion penalty against Facebook for privacy violations. The FTC called it the largest ever imposed on any company for violating consumers' privacy.<ref name="ftc">US Federal Trade Commission, press release, 24 July 2019.</ref>
+
+== Meta ==
+On 28 October 2021 the parent company renamed itself Meta Platforms. The website kept the name Facebook.<ref name="meta">Meta Platforms, announcement, 28 October 2021.</ref>
+
+== References ==
+{{reflist}}
+
+[[Category:Companies]]
