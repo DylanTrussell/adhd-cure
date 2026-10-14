@@ -6,7 +6,7 @@ import * as db from './db.js';
 import * as sp from './special.js';
 import { html, layout, logoSvg, ts, userLink } from './skin.js';
 import {
-  hashPassword, verifyPassword, createSession, loadSession, destroySession, sessionCookie,
+  hashPassword, verifyPassword, passwordNeedsRehash, createSession, loadSession, destroySession, sessionCookie,
   clearCookie, readCookie, normalizeUsername, USERNAME_RE, can, canEditPage, effectiveGroups,
   isBlocked, clientIp,
 } from './auth.js';
@@ -410,6 +410,10 @@ async function handleSpecial(ctx, rest, request, url) {
         const row = await env.DB.prepare('SELECT * FROM users WHERE username_lc=?').bind(username.toLowerCase()).first();
         const ok = row && await verifyPassword(password, row.password_hash);
         if (!ok) return wrap(loginView(base, { error: 'Incorrect username or password.', name: username }), 401);
+        if (passwordNeedsRehash(row.password_hash)) {
+          const upgraded = await hashPassword(password);
+          await env.DB.prepare('UPDATE users SET password_hash = ? WHERE id = ?').bind(upgraded, row.id).run();
+        }
         const { token } = await createSession(env.DB, row.id);
         const to = String(form.get('returnto') || '') || '/wiki/Main_Page';
         return redirect(to.startsWith('/') ? to : `/wiki/${encodeURIComponent(to)}`, 302,
@@ -711,6 +715,8 @@ export default {
     const ctx = await buildCtx(request, env, url);
     const { site } = ctx;
 
+    // Await the handlers. A bare `return someAsync()` inside try does not catch
+    // the rejection, and an unhandled rejection is what the edge shows as error 1101.
     try {
       if (path === '/' ) return redirect('/wiki/Main_Page');
       if (path === '/logout' && request.method === 'POST') {
@@ -719,7 +725,7 @@ export default {
         await destroySession(env.DB, readCookie(request, 'wp_session'));
         return redirect('/wiki/Main_Page', 302, { 'Set-Cookie': clearCookie(url.protocol === 'https:') });
       }
-      if (path.startsWith('/api/')) return handleApi(ctx, path, request, url);
+      if (path.startsWith('/api/')) return await handleApi(ctx, path, request, url);
 
       // /w/index.php?title=X&action=Y, kept because Wikipedia URLs look like this
       if (path === '/w/index.php') {
@@ -741,7 +747,7 @@ export default {
       const rest = path.slice('/wiki/'.length);
       if (!rest) return redirect('/wiki/Main_Page');
 
-      if (/^special:/i.test(rest)) return handleSpecial(ctx, rest.slice(rest.indexOf(':') + 1), request, url);
+      if (/^special:/i.test(rest)) return await handleSpecial(ctx, rest.slice(rest.indexOf(':') + 1), request, url);
 
       const t = parseTitle(rest, site.project);
       if (!t.title) return redirect('/wiki/Main_Page');
@@ -756,14 +762,14 @@ export default {
           headers: { 'Content-Type': 'text/plain; charset=utf-8' },
         });
       }
-      if (action === 'submit' && request.method === 'POST') return handleSubmit(ctx, t, request);
-      if (action === 'edit') return renderEdit(ctx, t, url);
-      if (action === 'history') return renderHistory(ctx, t, url);
-      if (['protect', 'delete', 'move'].includes(action)) return adminAction(ctx, t, url, request, action);
+      if (action === 'submit' && request.method === 'POST') return await handleSubmit(ctx, t, request);
+      if (action === 'edit') return await renderEdit(ctx, t, url);
+      if (action === 'history') return await renderHistory(ctx, t, url);
+      if (['protect', 'delete', 'move'].includes(action)) return await adminAction(ctx, t, url, request, action);
       if (url.searchParams.get('diff')) {
-        return renderDiffPage(ctx, url.searchParams.get('diff'), url.searchParams.get('oldid'));
+        return await renderDiffPage(ctx, url.searchParams.get('diff'), url.searchParams.get('oldid'));
       }
-      return renderArticle(ctx, t, url);
+      return await renderArticle(ctx, t, url);
     } catch (err) {
       return html({ ...ctx, ns: -1, title: '', pageTitle: 'Error' },
         `<div class="mw-body"><h1 id="firstHeading">Something broke</h1>

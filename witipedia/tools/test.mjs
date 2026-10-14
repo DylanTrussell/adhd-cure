@@ -104,7 +104,7 @@ r = await go('/wiki/Sandbox_Test');
 check('anon page saved', r.status === 200 && r.text.includes('created by the test suite'));
 check('anon edit attributed to IP', r.text.length > 0);
 r = await go('/wiki/Sandbox_Test?action=history');
-check('anon edit shows IP in history', /127\.0\.0\.1/.test(r.text));
+check('anon edit shows IP in history', /127\.0\.0\.1|::1/.test(r.text));
 
 console.log('\nPreview and section editing');
 r = await go('/wiki/Sandbox_Test?action=submit', {

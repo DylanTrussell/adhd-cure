@@ -80,32 +80,39 @@ Set in `wrangler.toml` under `[vars]`:
 namespace. To rename after seeding, re-run `SITE_NAME="New" npm run seed` (destructive) or
 move the pages by hand from `Special:AllPages`.
 
-## Adding file uploads to a wiki that is already live
+## Passwords
+
+New passwords are PBKDF2-SHA256 at 100,000 iterations, the highest count production
+Workers will run. Accounts seeded at 210,000 still verify, in JavaScript, because
+`crypto.subtle.deriveBits` throws above 100,000 and that throw was the live
+error 1101. The next successful login rewrites the row at 100,000 iterations.
+
+That one-time check is about 160ms of CPU. The Workers Paid default (30 seconds)
+covers it. The free plan's 10ms limit may not, in which case set a new password
+and write the hash directly:
 
 ```bash
-git pull --autostash
-bash setup.sh          # creates the R2 bucket, applies migrations, redeploys
+cd witipedia
+HASH=$(ADMIN_PASSWORD='choose-a-real-password' node --input-type=module -e 'import { hashPassword } from "./src/auth.js"; console.log(await hashPassword(process.env.ADMIN_PASSWORD));')
+npx wrangler d1 execute witipedia --remote -y --command "UPDATE users SET password_hash = '$HASH' WHERE username_lc = 'admin'"
 ```
 
-`setup.sh` is safe to re-run: it reuses the existing database, asks before touching content, and
-if R2 is unavailable on the account it leaves uploads switched off rather than breaking the deploy.
+## File uploads
 
-To do it by hand instead:
+`wrangler.toml` binds R2 bucket `witipedia-media` as `MEDIA` and KV namespace
+`witipedia-media` as `MEDIA_KV`. Uploads use R2 when `MEDIA` is bound. The KV
+namespace is the fallback `storage.js` uses only if that binding is removed.
+
+Both resources already exist on the account. To recreate them:
 
 ```bash
 npx wrangler r2 bucket create witipedia-media
+npx wrangler kv namespace create witipedia-media
 npx wrangler d1 execute witipedia --remote -y --file=./migrations/0001-files.sql
-# uncomment the [[r2_buckets]] block in wrangler.toml
-npx wrangler deploy
 ```
 
-R2 has to be enabled on the account first, at dash.cloudflare.com under R2. The free tier covers
-10 GB, which is a few thousand photographs.
-
-If R2 is not available on the account, `setup.sh` creates a KV namespace and uses that instead.
-KV holds values up to 25 MB, so every image this wiki accepts fits. R2 is cheaper per gigabyte and
-better suited to media, so switch over later if you turn R2 on: create the bucket, swap the
-commented blocks in `wrangler.toml`, and re-upload.
+Paste the KV namespace id into the `MEDIA_KV` binding, then `npx wrangler deploy`.
+The `files` table is already on the live database; the migration is `CREATE TABLE IF NOT EXISTS`.
 
 ## Deploying automatically from GitHub (no terminal after this)
 

@@ -13,7 +13,8 @@
     "seed:build": "node tools/build-seed.mjs",
     "seed": "npm run seed:build && wrangler d1 execute witipedia --remote --file=./seed.sql",
     "seed:local": "npm run seed:build && wrangler d1 execute witipedia --local --file=./seed.sql",
-    "test": "node tools/test.mjs"
+    "test": "node tools/test.mjs",
+    "test:password": "node tools/password.test.mjs"
   },
   "devDependencies": {
     "playwright": "^1.63.0",

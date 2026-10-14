@@ -13,21 +13,19 @@ ANON_EDITING = "true"
 [[d1_databases]]
 binding = "DB"
 database_name = "witipedia"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "678738c0-6896-41c6-8457-0e1c8ac9f2e2"
 
-# Uploaded images. setup.sh enables whichever of these your account supports:
-# R2 first, and a KV namespace as a fallback when R2 is not available. With
-# neither, the wiki runs normally and uploads are switched off.
-# [[r2_buckets]]
-# binding = "MEDIA"
-# bucket_name = "witipedia-media"
+# Uploaded images. R2 is the store uploads use. MEDIA_KV is the fallback
+# storage.js uses only when MEDIA is not bound.
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "witipedia-media"
 
-# [[kv_namespaces]]
-# binding = "MEDIA_KV"
-# id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+[[kv_namespaces]]
+binding = "MEDIA_KV"
+id = "b7f4a68b79d2415c85b65f51873f8e6f"
 
-# Your own domain. setup.sh adds this for you, or uncomment it and set the
-# domain yourself. The domain must already be in the same Cloudflare account.
-# [[routes]]
-# pattern = "witipedia.co"
-# custom_domain = true
+# Already attached to the live worker. Keep it here so a deploy does not drop it.
+[[routes]]
+pattern = "witipedia.co"
+custom_domain = true

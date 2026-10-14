@@ -1,6 +1,17 @@
 /** Accounts, sessions, and the rights model. Same shape as MediaWiki's. */
 
-const ITERATIONS = 210000;
+import { pbkdf2Sha256 } from './pbkdf2.js';
+
+/**
+ * Production Workers reject PBKDF2 above 100,000 iterations: deriveBits throws
+ * NotSupportedError. That rejection was escaping the request handler, so the
+ * edge returned error 1101. 100,000 is the highest count the runtime will run.
+ * In local workerd that call is about 12ms.
+ */
+export const PBKDF2_ITERATIONS = 100_000;
+/** Seeded accounts were stored at 210,000. Anything above this is refused so a
+ *  bad row cannot spend unbounded CPU in the JavaScript fallback. */
+const MAX_STORED_ITERATIONS = 250_000;
 const enc = new TextEncoder();
 
 function b64(buf) {
@@ -17,23 +28,44 @@ function fromB64(s) {
 }
 function randomBytes(n) { return crypto.getRandomValues(new Uint8Array(n)); }
 
-export async function hashPassword(password, saltB64) {
+function parsePasswordHash(stored) {
+  const parts = String(stored || '').split(':');
+  if (parts.length !== 4 || parts[0] !== 'pbkdf2') return null;
+  const iterations = Number(parts[1]);
+  if (!Number.isInteger(iterations) || iterations < 1 || iterations > MAX_STORED_ITERATIONS) return null;
+  if (!parts[2] || !parts[3]) return null;
+  return { iterations, saltB64: parts[2] };
+}
+
+export async function hashPassword(password, saltB64, iterations = PBKDF2_ITERATIONS) {
   const salt = saltB64 ? fromB64(saltB64) : randomBytes(16);
-  const key = await crypto.subtle.importKey('raw', enc.encode(password), 'PBKDF2', false, ['deriveBits']);
-  const bits = await crypto.subtle.deriveBits(
-    { name: 'PBKDF2', hash: 'SHA-256', salt, iterations: ITERATIONS }, key, 256);
-  return `pbkdf2:${ITERATIONS}:${b64(salt)}:${b64(bits)}`;
+  let bits;
+  if (iterations > PBKDF2_ITERATIONS) {
+    // Do not call deriveBits. Production aborts the request above 100,000.
+    bits = pbkdf2Sha256(enc.encode(password), salt, iterations);
+  } else {
+    const key = await crypto.subtle.importKey('raw', enc.encode(password), 'PBKDF2', false, ['deriveBits']);
+    bits = await crypto.subtle.deriveBits(
+      { name: 'PBKDF2', hash: 'SHA-256', salt, iterations }, key, 256);
+  }
+  return `pbkdf2:${iterations}:${b64(salt)}:${b64(bits)}`;
 }
 
 export async function verifyPassword(password, stored) {
-  const parts = String(stored || '').split(':');
-  if (parts.length !== 4 || parts[0] !== 'pbkdf2') return false;
-  const candidate = await hashPassword(password, parts[2]);
+  const parsed = parsePasswordHash(stored);
+  if (!parsed) return false;
+  const candidate = await hashPassword(password, parsed.saltB64, parsed.iterations);
   const a = enc.encode(candidate), b = enc.encode(stored);
   if (a.length !== b.length) return false;
   let diff = 0;
   for (let i = 0; i < a.length; i++) diff |= a[i] ^ b[i];
   return diff === 0;
+}
+
+/** True when a successful login should store a new hash at PBKDF2_ITERATIONS. */
+export function passwordNeedsRehash(stored) {
+  const parsed = parsePasswordHash(stored);
+  return !!parsed && parsed.iterations !== PBKDF2_ITERATIONS;
 }
 
 export async function sha256hex(s) {
