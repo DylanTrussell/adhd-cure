@@ -2333,4 +2333,12 @@ export const photoSlots = [
     generate: 'An astronaut squinting hard through a spacecraft window at a barely visible thin line on the distant Earth below, straining to see it, illustration style, gentle humour',
     caption: "Illustration. Multiple astronauts, including China's own first, have said plainly that they could not see it.",
   },
+
+  // ---------------------------------------------------- Federal Express Flight 705
+  {
+    article: 'Federal Express Flight 705', kind: 'documentary', place: 'lead',
+    query: 'FedEx N306FE DC-10 MD-10',
+    webQuery: 'FedEx N306FE aircraft photograph',
+    caption: "N306FE, the DC-10 Auburn Calloway tried to turn into a crash on 7 April 1994. FedEx repaired it, later flew it as an MD-10, and retired it on 31 December 2022.",
+  },
 ];
