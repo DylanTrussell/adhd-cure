@@ -36,6 +36,7 @@ import { articles19 } from './seed/articles-19.mjs';
 import { articles20 } from './seed/articles-20.mjs';
 import { articles21 } from './seed/articles-21.mjs';
 import { projectPages } from './seed/project.mjs';
+import { readdirSync, readFileSync } from 'node:fs';
 
 const args = process.argv.slice(2);
 const argOf = (n, d) => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] : d; };
@@ -81,7 +82,22 @@ function projectPagesFlat() {
   return projectPages.map((p) => ({ ns: p.ns, title: sub(p.title), content: sub(p.content), comment: 'imported' }));
 }
 
+// Hand-reviewed rewrites of seeded pages (tools/seed/rewrites/<Title_With_Underscores>.txt).
+// These replace a page only while its latest revision is still a seed author's.
+const TITLE_FIX = { John_F_Kennedy: 'John F. Kennedy' };
+function rewritePages() {
+  const dir = new URL('./seed/rewrites/', import.meta.url);
+  let files = [];
+  try { files = readdirSync(dir).filter((f) => f.endsWith('.txt')); } catch { return []; }
+  return files.map((f) => {
+    const base = f.replace(/\.txt$/, '');
+    const title = TITLE_FIX[base] || base.replace(/_/g, ' ');
+    return { ns: 0, title: sub(title), content: sub(readFileSync(new URL(f, dir), 'utf8')), comment: 'rewritten after review', replace: true };
+  });
+}
+
 const pages = [
+  ...rewritePages(),
   ...articlePages([...articles1, ...articles2, ...articles3, ...articles4, ...articles5, ...articles6, ...articles7, ...articles8, ...articles9, ...articles10, ...articles11, ...articles12, ...articles13, ...articles14, ...articles15, ...articles16, ...articles17, ...articles18, ...articles19, ...articles20, ...articles21]),
   ...projectPagesFlat(),
 ];
@@ -105,6 +121,7 @@ for (let i = 0; i < pages.length; i += CHUNK) {
   created += out.created;
   skipped += out.skipped;
   for (const r of out.results) {
+    if (r.replaced) console.log(`  ~ ${r.title} (rewritten)`);
     if (r.created) console.log(`  + ${r.title}`);
     else if (r.skipped === "already exists") console.log(`  = ${r.title} (already on the site, left alone)`);
   }

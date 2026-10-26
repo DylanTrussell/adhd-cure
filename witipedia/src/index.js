@@ -645,6 +645,20 @@ async function handleApi(ctx, path, request, url) {
       if (!title || typeof p.content !== 'string') { results.push({ title, skipped: 'invalid' }); continue; }
       const key = `${ns}:${title.replace(/ /g, '_')}`;
       const existing = await db.getPageByKey(env.DB, key);
+      if (existing && p.replace) {
+        // Opt-in rewrite of a seeded page. Only replaces it while its latest
+        // revision is still by the seed pipeline, so a real person's edit is
+        // never overwritten, and never when the text is already identical.
+        const cur = await db.currentRevision(env.DB, existing);
+        if (!cur || !SEED_AUTHORS.has(cur.user_text)) { results.push({ title, skipped: 'edited by a person' }); continue; }
+        if (cur.content === p.content) { results.push({ title, skipped: 'unchanged' }); continue; }
+        await db.saveEdit(env.DB, {
+          ns, title, content: p.content, projectName: site.project,
+          comment: p.comment || 'rewritten', userText: 'SeedBot',
+        });
+        results.push({ title, replaced: true });
+        continue;
+      }
       if (existing) { results.push({ title, skipped: 'already exists' }); continue; }
 
       const saved = await db.saveEdit(env.DB, {
@@ -668,11 +682,13 @@ async function handleApi(ctx, path, request, url) {
       }
       results.push({ title, created: true });
     }
-    return json({ results, created: results.filter((r) => r.created).length, skipped: results.filter((r) => r.skipped).length });
+    return json({ results, created: results.filter((r) => r.created).length, replaced: results.filter((r) => r.replaced).length, skipped: results.filter((r) => r.skipped).length });
   }
 
   return new Response('Not found', { status: 404 });
 }
+
+const SEED_AUTHORS = new Set(['SeedBot', 'Admin', 'HansardHannah', 'Ornithopod', 'CubeWatch', 'MonotremeMary', 'CiteOrDie', 'Thoenfan', 'PollWatcher', 'Skinnerbox', 'Anonyfish']);
 
 export default {
   async fetch(request, env) {
